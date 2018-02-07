@@ -1,0 +1,2510 @@
+id: "Shanghai"
+variables {
+  name: "CharacterScaleAmount"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "CharacterScaleAmount"
+      typeName: "int"
+    }
+  }
+}
+description: "Matt sniffs butts."
+startScene: "TestMap"
+allowCharacterImport: true
+allowImportedEquipment: true
+allowCharacterGen: true
+resalePercent: 75
+upgradeToThreeApLevel: 117
+character_roster {
+  roster_entries {
+    reference_id: "berlinrunner_lv2_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv2_nixie"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv2_okano"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv2_pummelo"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_nixie"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_okano"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_pummelo"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_nixie"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_okano"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_pummelo"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_nixie"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_okano"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_pummelo"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_nixie"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_okano"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_pummelo"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_monika"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_river"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_blitz_withdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_river"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_blitz_withdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_river"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_blitz_withdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_river"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_blitz_withdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_river"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_apexdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_bartlett"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_blitz"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_blitz_withdrone"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_coyote"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_dietrich"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_eiger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_glory"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_paco"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_river"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_seamus"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_elf_technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_merc_troll_techmage"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl1_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_dwarf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_human_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_elf_technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_merc_troll_tech mage"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_troll_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl2_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_dwarf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_human_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_elf_technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_merc_troll_techmage"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_ork_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_troll_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl3_troll_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_dwarf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_dwarf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_elf_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_human_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_human_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_elf_technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_merc_troll_techmage"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_ork_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_ork_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_troll_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl4_troll_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_dwarf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_dwarf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_elf_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_elf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_human_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_human_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_human_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_elf-technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_merc_troll_techmage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_ork_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_ork_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_ork_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 145
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_troll_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl5_troll_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_dwarf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_dwarf_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_dwarf_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_dwarf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_dwarf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_elf_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_elf_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_elf_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_elf_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_elf_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_human_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_human_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_human_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_human_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_human_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_dwarf_combatdecker"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_dwarf_supportmage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_elf_technoshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_allmagic"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_assassin"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_burnedoutmage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_combatadept"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_combatrigger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_cyberwarrior"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_techmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_utilityman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_human_weaponmaster"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_ork_urbanshaman"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_troll_brute"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_merc_troll_techmage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_ork_adept"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_ork_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_ork_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_ork_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_troll_decker"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_troll_mage"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_troll_rigger"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_troll_samurai"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "lvl6_troll_shaman"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "persona_lv1_violet"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "story_dante"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "57084f7c6631365c1600767e"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv1_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv2_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv7_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 7
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "crew_lv7_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 7
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "crew_lv7_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 7
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "crew_lv7_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 7
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "crew_lv7_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 7
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_alnur"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_elduceplaguebearer"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv7_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "55e766536636619c20000bdc"
+  }
+}
+use_crew_advancement: true
+crew_advancement_variable: "CharacterScaleAmount"
+allowFinalSaveImport: false

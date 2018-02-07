@@ -1,0 +1,43 @@
+project_id: "5a7b6c68343831ac070037e7"
+project_name: "MercWars"
+project_version: "3"
+author_name: "Dave0fDeath"
+synopsis: "Shanghai"
+has_story: true
+preview_image: "preview"
+content_pack_dependencies {
+  package_id: "518d7671643431b03f0041a8"
+  package_version: "1"
+  package_name: "ShadowrunCore"
+  package_description: "Core Shadowrun Returns functionality"
+}
+content_pack_dependencies {
+  package_id: "57084f7c6631365c1600767e"
+  package_version: "r470"
+  package_name: "DMSVP"
+  package_description: "Dead Man Switch - Vox Populi"
+}
+content_pack_dependencies {
+  package_id: "54469bed32343784240005f9"
+  package_version: "1"
+  package_name: "HongKong"
+  package_description: "Shadowrun: Hong Kong"
+}
+content_pack_dependencies {
+  package_id: "55e766536636619c20000bdc"
+  package_version: "3"
+  package_name: "hk_coda"
+  package_description: "Shadows of Hong Kong (Bonus!)"
+}
+content_pack_dependencies {
+  package_id: "58e4f56b373361e412001edd"
+  package_version: "1"
+  package_name: "nuGeeked"
+  package_description: "mostly props no story"
+}
+content_pack_dependencies {
+  package_id: "5624d9e1373361fc15001ad5"
+  package_version: "3"
+  package_name: "Geeked HK"
+  package_description: "props & portraits and some test maps"
+}
