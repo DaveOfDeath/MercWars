@@ -606,10 +606,10 @@ triggers {
 regions {
   name: "Cam.Main"
   position {
-    x: -25
+    x: -29
     y: -59
-    width: 117
-    height: 124
+    width: 132
+    height: 168
   }
   enabledAtStart: true
   is_camera_region: true
@@ -646,14 +646,14 @@ regions {
   }
   ambience_template: "hubext-day"
   combat_music: ""
-  default_music: "HongKong-Hub-SafeHouse"
-  loop_combat_music: true
+  default_music: "HongKong-Hub-Exterior"
+  loop_combat_music: false
   loop_default_music: true
   no_fow_in_region: false
   combat_intense_music: ""
   combat_wrapup_music: ""
-  loop_combat_intense_music: true
-  loop_combat_wrapup_music: true
+  loop_combat_intense_music: false
+  loop_combat_wrapup_music: false
   combat_intense_threshold: 5
   combat_wrapup_threshold: 2
   combat_fade_interval: 2
@@ -780,10 +780,10 @@ regions {
 regions {
   name: "Cam.TempleMain"
   position {
-    x: -57
-    y: 4
-    width: -39
-    height: -45
+    x: -98
+    y: -44
+    width: 41
+    height: 48
   }
   enabledAtStart: true
   is_camera_region: true
@@ -951,6 +951,64 @@ regions {
   combat_outro_stinger: ""
   vfx_fill_prefab_name: ""
 }
+regions {
+  name: "vWater"
+  position {
+    x: -45
+    y: 62
+    width: 166
+    height: 99
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: true
+  idRef {
+    id: "5a7bbb79343831a00c00443c"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: "defaultWaterFill"
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
@@ -982,12 +1040,12 @@ worldMapLocation {
 }
 mapName: "HUB"
 parentStory: ""
-scene_title: "$(story.SRI_Hub_Name)"
+scene_title: "Shanghai Street Market"
 scene_subtitle: ""
-scene_synopsis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-scene_image: "sri_hk_loading2"
+scene_synopsis: "$(STORY.sHUBDescription)"
+scene_image: "sri_hk_loading"
 scene_continue_button_skip: false
-scene_restore_runner_health: false
+scene_restore_runner_health: true
 directional_light_dir {
   x: -0.5
   y: -1
@@ -1035,8 +1093,6 @@ team_affiliations {
 scene_dimensions {
   dimension_name: "Default"
 }
-character_roster {
-}
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
   prereq_description: ""
@@ -1056,4 +1112,4 @@ is_persistant: false
 is_persistant_has_value: false
 can_move_outside_camera_regions: false
 can_start_before_triggers: false
-can_use_team_advancement: false
+can_use_team_advancement: true

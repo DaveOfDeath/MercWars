@@ -11,6 +11,18 @@ variables {
     }
   }
 }
+variables {
+  name: "sHUBDescription"
+  typeName: "string"
+  defaultValue {
+    string_value: "The air around the market place pratically buzzes with the electricty coursing through the multitude of neon lights.  The smells of the fish market, mixed with the stenches of overcrowding are dampened, but not eliminated by the heavy rains."
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "sHUBDescription"
+      typeName: "string"
+    }
+  }
+}
 description: "Matt sniffs butts."
 startScene: "TestMap"
 allowCharacterImport: true
