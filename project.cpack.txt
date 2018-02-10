@@ -29,15 +29,3 @@ content_pack_dependencies {
   package_name: "hk_coda"
   package_description: "Shadows of Hong Kong (Bonus!)"
 }
-content_pack_dependencies {
-  package_id: "58e4f56b373361e412001edd"
-  package_version: "1"
-  package_name: "nuGeeked"
-  package_description: "mostly props no story"
-}
-content_pack_dependencies {
-  package_id: "5624d9e1373361fc15001ad5"
-  package_version: "3"
-  package_name: "Geeked HK"
-  package_description: "props & portraits and some test maps"
-}

@@ -50015,16 +50015,6 @@ props {
   lod: 0
 }
 props {
-  name: "bremerton_vehicle_boat"
-  gridPoint {
-    x: -8
-    y: 0
-    z: 96
-  }
-  orientation: ORIENTATION_N
-  lod: 0
-}
-props {
   name: "docks_floor_docksEdge01"
   gridPoint {
     x: -20
@@ -64377,19 +64367,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a7bbd143438318808001523"
-  }
-  lod: 0
-}
-props {
-  name: "bremerton_vehicle_boat"
-  gridPoint {
-    x: -8
-    y: 0
-    z: 75
-  }
-  orientation: ORIENTATION_N
-  idRef {
-    id: "5a7bbdbd3438318808001524"
   }
   lod: 0
 }

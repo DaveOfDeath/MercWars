@@ -1,0 +1,207 @@
+ui_name: "chicago basic tile"
+ui_description: ""
+ui_group: ""
+views {
+  orientation: ORIENTATION_E
+  texture {
+    filename: "chicago/chicago_ground_crossroad01_s.png"
+    flip_horizontal: true
+    uv_rect {
+      x: 2.1595115e-005
+      y: -0.00085024157
+      width: 0.99997842
+      height: 0.99864239
+    }
+  }
+  render {
+    bounds {
+      width: 8.5
+      height: 0.1
+      depth: 8.5
+    }
+    offset {
+    }
+  }
+  mesh {
+    bounds {
+      width: 8.5
+      height: 0.081649661
+      depth: 8.5
+    }
+    meshdata {
+      vbuf_pt0n: "\2504\204@\3607\'=\374V\006\300\223\001\346=\324\256\304>\000\000\000\000\000\000\200?\000\000\000\000Tn\201@\3607\'=\035\242\177\300\000\000\000\000\234\217\001?\000\000\000\000\000\000\200?\000\000\000\0006\256{\300\0008\'=\r\242\177\300\r\243\375>28\177?\000\000\000\000\000\000\200?\000\000\000\000\2554\204@\0008\'=\246\005\203@\264l\376>\014\316G;\000\000\000\000\000\000\200?\000\000\000\000\342\010\201@\0008\'=\214\233\204@L\223\001?\014\316\307;\000\000\000\000\000\000\200?\000\000\000\000\346\002\201\300\0008\'=Bv|\300y.\001?\000\000\200?\000\000\000\000\000\000\200?\000\000\000\000RMy\300\3607\'=\224\233\204@-\233\177?\310\340\374>\000\000\000\000\000\000\200?\000\000\000\000\341\002\201\300\3607\'=O\n\201@\000\000\200?jW\002?\000\000\000\000\000\000\200?\000\000\000\000-\317\203@\3607\'=\241\264w\3004\246I;\310\340\374>\000\000\000\000\000\000\200?\000\000\000\000"
+      ibuf16_triangles: "\000\000\001\000\002\000\003\000\000\000\002\000\004\000\003\000\002\000\004\000\002\000\005\000\004\000\005\000\006\000\006\000\005\000\007\000\000\000\010\000\001\000"
+    }
+  }
+  grid_data {
+    width: 8
+    depth: 8
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+  }
+  normals_preset: NORMALS_PRESET_FLOOR
+}
+views {
+  orientation: ORIENTATION_S
+  texture {
+    filename: "chicago/chicago_ground_crossroad01_s.png"
+    flip_horizontal: false
+    uv_rect {
+      x: 2.1595115e-005
+      y: -0.00085024157
+      width: 0.99997842
+      height: 0.99864239
+    }
+  }
+  render {
+    bounds {
+      width: 8.5
+      height: 0.1
+      depth: 8.5
+    }
+    offset {
+    }
+  }
+  mesh {
+    bounds {
+      width: 8.5
+      height: 0.081649661
+      depth: 8.5
+    }
+    meshdata {
+      vbuf_pt0n: "\221\233\204@\3407\'=K\230\034@4\246\311>\355J\324=\000\000\000\000\000\000\200?\000\000\000\000\316\244\200@\3607\'=n\235\200\300\000\000\000\000jW\002?\000\000\000\000\000\000\200?\000\000\000\000\000\234\200\300\0008\'=\016D}\300\246\311\000?\000\000\200?\000\000\000\000\000\000\200?\000\000\000\000\310o\201@\0008\'=\2464\204@y.\001?\014\316\307;\000\000\000\000\000\000\200?\000\000\000\000\374\233\200\300\3607\'=8r\305?\2678X?\251])?\000\000\000\000\000\000\200?\000\000\000\000\205\177x\300\3607\'=\2564\204@Z6\177?\310\340\374>\000\000\000\000\000\000\200?\000\000\000\000\2016\200\300\3607\'=\325\323\201@\000\000\200?\234\217\001?\000\000\000\000\000\000\200?\000\000\000\000\223\233\204@\0008\'=\300\236\202@\r\243\375>\014\316G;\000\000\000\000\000\000\200?\000\000\000\000\0246\204@\3607\'=m\202x\3004\246\311:\310\340\374>\000\000\000\000\000\000\200?\000\000\000\000"
+      ibuf16_triangles: "\000\000\001\000\002\000\003\000\000\000\002\000\004\000\003\000\002\000\005\000\003\000\004\000\006\000\005\000\004\000\007\000\000\000\003\000\000\000\010\000\001\000"
+    }
+  }
+  grid_data {
+    width: 8
+    depth: 8
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+    flagmap: 0
+  }
+  normals_preset: NORMALS_PRESET_FLOOR
+}
