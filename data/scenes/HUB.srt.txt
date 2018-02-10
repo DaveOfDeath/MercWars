@@ -25,48 +25,25 @@ triggers {
   }
   actions {
     ops {
-      functionName: "Apply Skill Status Effect to Actor"
+      functionName: "Set Variable (int)"
       args {
         call_value {
-          functionName: "Specific Actor"
+          functionName: "Get Variable (int)"
           args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
+            string_value: "iRain_Strength"
           }
         }
       }
       args {
-        int_value: 0
-      }
-      args {
         call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "ActorSkills"
-          }
+          functionName: "Random (int)"
           args {
             int_value: 0
           }
-        }
-      }
-      args {
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
           args {
-            string_value: "BuffDebuffType"
-          }
-          args {
-            int_value: 0
+            int_value: 75
           }
         }
-      }
-      args {
-        int_value: 0
       }
     }
   }
@@ -149,7 +126,7 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: "-- <MAP> --"
+  name: "-- <Weather / Location Label> --"
   events {
   }
   conditions {
@@ -232,7 +209,64 @@ triggers {
         string_value: "Location"
       }
       args {
-        string_value: "Temple Street Market"
+        string_value: "Location:\nShanghai Street Market"
+      }
+    }
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ambient_VicHarbor"
+          }
+          args {
+            string_value: "rain-loop"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Arithmetic (float)"
+          args {
+            call_value {
+              functionName: "Convert (int) to (float)"
+              args {
+                call_value {
+                  functionName: "Get Variable (int)"
+                  args {
+                    string_value: "iRain_Strength"
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "Arithmetic Ops"
+              }
+              args {
+                int_value: 3
+              }
+            }
+          }
+          args {
+            float_value: 100
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -245,39 +279,7 @@ triggers {
   is_oneshot: false
 }
 triggers {
-  name: " "
-  events {
-  }
-  conditions {
-  }
-  actions {
-  }
-  isActive: false
-  idRef {
-    id: "576077683938638416006402"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "-- <Locations> --"
-  events {
-  }
-  conditions {
-  }
-  actions {
-  }
-  isActive: false
-  idRef {
-    id: "576759ad393863ac25005ae3"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "On.ShingWong.Enter"
+  name: "On.Temple.Enter"
   events {
     ops {
       functionName: "On Region Enter"
@@ -322,12 +324,26 @@ triggers {
   }
   actions {
     ops {
+      functionName: "Stop Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ambient_VicHarbor"
+          }
+          args {
+            string_value: "rain-loop"
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Set Screen Label"
       args {
         string_value: "Location"
       }
       args {
-        string_value: "Shing Wong Temple"
+        string_value: "Location:\nShing Wong Temple"
       }
     }
     ops {
@@ -347,27 +363,42 @@ triggers {
         int_value: 0
       }
     }
-    ops {
-      functionName: "Set Environmental Effect Amount"
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "EnvironmentalEffects"
-          }
-          args {
-            int_value: 2
-          }
-        }
-      }
-      args {
-        int_value: 5000
-      }
-    }
   }
   isActive: true
   idRef {
     id: "57685e5a3938634c15006d70"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: " "
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "576077683938638416006402"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "-- <Locations> --"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "576759ad393863ac25005ae3"
   }
   elseActions {
   }
@@ -604,7 +635,7 @@ triggers {
   is_oneshot: false
 }
 regions {
-  name: "Cam.Main"
+  name: "cMain"
   position {
     x: -29
     y: -59
@@ -644,7 +675,7 @@ regions {
     b: 0.50196081
     a: 1
   }
-  ambience_template: "hubext-day"
+  ambience_template: "docks-day"
   combat_music: ""
   default_music: "HongKong-Hub-Exterior"
   loop_combat_music: false
@@ -778,12 +809,12 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "Cam.TempleMain"
+  name: "cTemple"
   position {
     x: -98
     y: -44
-    width: 41
-    height: 48
+    width: 43
+    height: 50
   }
   enabledAtStart: true
   is_camera_region: true
@@ -820,9 +851,9 @@ regions {
   }
   ambience_template: "darklab-quiet"
   combat_music: ""
-  default_music: ""
+  default_music: "HongKong-Hub-TeaHouse"
   loop_combat_music: true
-  loop_default_music: false
+  loop_default_music: true
   no_fow_in_region: false
   combat_intense_music: ""
   combat_wrapup_music: ""
@@ -956,8 +987,8 @@ regions {
   position {
     x: -45
     y: 62
-    width: 166
-    height: 99
+    width: 163
+    height: 79
   }
   enabledAtStart: true
   is_camera_region: false
@@ -1031,6 +1062,14 @@ characters {
     pc_spawn_number: 0
   }
 }
+variables {
+  int_value: 0
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "iRain_Strength"
+    typeName: "int"
+  }
+}
 worldMapLocation {
   filename: ""
   location {
@@ -1043,7 +1082,7 @@ parentStory: ""
 scene_title: "Shanghai Street Market"
 scene_subtitle: ""
 scene_synopsis: "$(STORY.sHUBDescription)"
-scene_image: "sri_hk_loading"
+scene_image: "sri_hk_loading2"
 scene_continue_button_skip: false
 scene_restore_runner_health: true
 directional_light_dir {
@@ -1092,8 +1131,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

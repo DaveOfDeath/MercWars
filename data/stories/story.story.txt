@@ -23,13 +23,17 @@ variables {
     }
   }
 }
-description: "Matt sniffs butts."
-startScene: "TestMap"
+description: "[BLERB]\n\nStuff about the mod?"
+startScene: "HUB"
 allowCharacterImport: true
 allowImportedEquipment: true
 allowCharacterGen: true
-resalePercent: 75
+storyKarmaLevel: 42
+resalePercent: 40
 upgradeToThreeApLevel: 117
+upgradeToFourApLevel: -1
+allow_killed_runners_on_hiring: true
+show_conversation_triggering_actor: true
 character_roster {
   roster_entries {
     reference_id: "berlinrunner_lv2_alnur"
