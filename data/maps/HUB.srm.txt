@@ -4324,16 +4324,6 @@ props {
   lod: 0
 }
 props {
-  name: "srihk_sign_hugerustysign01"
-  gridPoint {
-    x: 27
-    y: 7
-    z: 21
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
   name: "nightMarket_building_edge07"
   gridPoint {
     x: 27
@@ -4499,111 +4489,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5755e83a393863ac3d0048a9"
-  }
-  lod: 0
-}
-props {
-  name: "srihk_sign_hugerustysign01lightsOFF"
-  gridPoint {
-    x: 27.1
-    y: 7.1
-    z: 21.1
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
-  name: "srihk_sign_hugerustysign01lightsON"
-  gridPoint {
-    x: 27.1
-    y: 7.1
-    z: 21.1
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isNeon"
-  idRef {
-    id: "5755ee8a393863ac3d0048aa"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_lanternString_lights"
-  gridPoint {
-    x: 27
-    y: 4.2
-    z: 20
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "isNeon"
-  idRef {
-    id: "5755efd3393863ac3d0048ad"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_lanternString"
-  gridPoint {
-    x: 27
-    y: 4.2
-    z: 20
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5755efd3393863ac3d0048ae"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_verticalString_lights"
-  gridPoint {
-    x: 27
-    y: 3
-    z: 22.7
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isNeon"
-  idRef {
-    id: "5755efee393863ac3d0048af"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_verticalString"
-  gridPoint {
-    x: 27
-    y: 3
-    z: 22.7
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5755effa393863ac3d0048b1"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_verticalCylinders_lights"
-  gridPoint {
-    x: 27
-    y: 1.9
-    z: 23.1
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isNeon"
-  idRef {
-    id: "5755effe393863ac3d0048b2"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_lighting_verticalCylinders"
-  gridPoint {
-    x: 27
-    y: 1.9
-    z: 23.1
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5755f002393863ac3d0048b3"
   }
   lod: 0
 }
@@ -5019,7 +4904,7 @@ props {
 props {
   name: "nightMarket_buildingOrnament_Awning07"
   gridPoint {
-    x: 16
+    x: 15
     y: 3
     z: 17
   }
