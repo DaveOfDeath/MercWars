@@ -38,18 +38,18 @@ views {
   grid_data {
     width: 4
     depth: 3
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 3
-    flagmap: 11
-    flagmap: 11
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 13
+    flagmap: 9
+    flagmap: 9
+    flagmap: 1
+    flagmap: 9
+    flagmap: 9
   }
 }
 views {
@@ -87,17 +87,17 @@ views {
   grid_data {
     width: 3
     depth: 4
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
-    flagmap: 11
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
+    flagmap: 9
   }
 }
