@@ -23,6 +23,18 @@ variables {
     }
   }
 }
+variables {
+  name: "SPAWNPoint"
+  typeName: "string"
+  defaultValue {
+    string_value: "INITIAL"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "SPAWNPoint"
+      typeName: "string"
+    }
+  }
+}
 description: "[BLERB]\n\nStuff about the mod?"
 startScene: "HUB"
 allowCharacterImport: true
