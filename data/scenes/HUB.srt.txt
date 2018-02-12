@@ -6,13 +6,170 @@ triggers {
   }
   actions {
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "5a7fce52343831c00900665e"
   }
   elseActions {
   }
   is_oneshot: true
+}
+triggers {
+  name: "Map.Startup"
+  events {
+    ops {
+      functionName: "On Map Setup"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iRain_Strength"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (int)"
+          args {
+            int_value: 0
+          }
+          args {
+            int_value: 100
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iHarborBoat"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (int)"
+          args {
+            int_value: 1
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ambient_VicHarbor"
+          }
+          args {
+            string_value: "rain-loop"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Arithmetic (float)"
+          args {
+            call_value {
+              functionName: "Convert (int) to (float)"
+              args {
+                call_value {
+                  functionName: "Get Variable (int)"
+                  args {
+                    string_value: "iRain_Strength"
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "Arithmetic Ops"
+              }
+              args {
+                int_value: 3
+              }
+            }
+          }
+          args {
+            float_value: 100
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Delete Props by Tag"
+      args {
+        call_value {
+          functionName: "Tag From String"
+          args {
+            call_value {
+              functionName: "Append (string)"
+              args {
+                call_value {
+                  functionName: "Convert (int) to (string)"
+                  args {
+                    call_value {
+                      functionName: "Get Variable (int)"
+                      args {
+                        string_value: "iHarborBoat"
+                      }
+                    }
+                  }
+                }
+              }
+              args {
+                string_value: "isBoat"
+              }
+            }
+          }
+        }
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        call_value {
+          functionName: "Everywhere"
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a80865a34383114140054dd"
+  }
+  elseActions {
+  }
+  is_oneshot: false
 }
 regions {
   name: "cMain"
@@ -73,7 +230,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "Cam.SpawnPoint"
+  name: "cSpawnPoint"
   position {
     x: -22
     y: -57
@@ -131,7 +288,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "Cam.HoldingArea"
+  name: "cHoldingPen"
   position {
     x: -13
     y: -57
@@ -247,7 +404,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "ShingWongTemple.MainExit"
+  name: "rTempleExit"
   position {
     x: -12
     y: 16
@@ -305,7 +462,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "ShingWongTemple.MainEntrance"
+  name: "rTempleEnter"
   position {
     x: -70
     y: -1
@@ -420,14 +577,72 @@ regions {
   combat_outro_stinger: ""
   vfx_fill_prefab_name: "defaultWaterFill"
 }
+regions {
+  name: "cStreetClinic"
+  position {
+    x: -98
+    y: 8
+    width: 43
+    height: 31
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5a80937834383104160054e8"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.60784316
+    g: 0.90980393
+    b: 0.90980393
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 28
+    x: -27
     y: 0
-    z: 59
+    z: 66
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   idRef {
     id: "5a7b7ebf343831a80700187f"
   }
@@ -456,7 +671,7 @@ characters {
   lod: 0
   character_instance {
     prefab_name: "Seattle:Core/TrollMale"
-    character_sheet_id: "AGChemie_Cyberzombie_Lv1"
+    character_sheet_id: "BaseCivilian"
     character_mod {
       stats {
         body: 0
@@ -466,9 +681,11 @@ characters {
         intelligence: 0
         willpower: 0
         essence: 0
+        magic: 0
         hp: 0
         ap: 0
         armor: 0
+        force: 0
         morale: 0
         discipline: 0
         awareness: 0
@@ -483,14 +700,37 @@ characters {
       skills {
         ranged_combat: 0
         close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
         dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+        cyberware_affinity: 0
       }
       specializations {
+        pistol: 0
         rifle: 0
+        shotgun: 0
+        smg: 0
         edged: 0
         unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
       }
-      archetypeName: "Non-Combatant"
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
       vulnerabilities {
       }
     }
@@ -505,7 +745,7 @@ characters {
       filename: "NPC_TrollMale_CyberZombie"
     }
     portrait_code_override: "s5h5c6b8c6t11"
-    karma: 174
+    karma: 6
   }
 }
 variables {
@@ -513,6 +753,14 @@ variables {
   variableref_value {
     scope: TsVariableScope_Scene
     name: "iRain_Strength"
+    typeName: "int"
+  }
+}
+variables {
+  int_value: 0
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "iHarborBoat"
     typeName: "int"
   }
 }

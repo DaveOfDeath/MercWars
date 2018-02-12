@@ -1,0 +1,54 @@
+idRef {
+  id: "5a80db5e3438318c05007ba3"
+}
+ui_name: "INTRO-MissionComputer"
+nodes {
+  idRef {
+    id: "5a80dba83438318c05007bbb"
+  }
+  index: 0
+  text: "{{CC}}The terminal scans your ID card{{/CC}}\n\nWelcome, IATL $+(l.lastname)."
+  branches {
+    responseText: "{{CC}}PENDING{{/CC}} New Orders"
+    nextNodeIndex: 1
+    idRef {
+      id: "5a80db5e3438318c05007ba3:5a8127873438313018003e22"
+    }
+  }
+  branches {
+    responseText: "Log Out"
+    nextNodeIndex: -1
+    idRef {
+      id: "5a80db5e3438318c05007ba3:5a81278b3438313018003e24"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a8127a23438313018003e27"
+  }
+  index: 1
+  text: "ASSIGNMENT: BRAVO Team Leader\n\nDETAILS:\nRendezvous with ALPHA Early Irregular Assets Team.  Survey area, prep for arriving assault force designation CHARLIE.\n\nSPECIAL INSTRUCTIONS:\nSurveillance drones available.  On-Site Matrix grid detected, possibly secured by local population."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  actions {
+    ops {
+      functionName: "Clear Waypoint from Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5a80d1713438318c05007b4b"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5a80db5e3438318c05007ba3:5a80db5e3438318c05007ba7"
+  }
+  comment: "1st Time"
+}

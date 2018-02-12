@@ -1,0 +1,40 @@
+speakers {
+  description: "Computer Terminal (UNLOCKED)"
+  speaker_name: "$(STORY.sComputerName)"
+  speaker_portrait: "moregeeked_plainhack2"
+  race: Race_None
+  gender: Gender_None
+  first_name: ""
+  last_name: ""
+  id: "5a80c6ef343831e80b006089"
+}
+speakers {
+  description: "Computer Terminal (LOCKED)"
+  speaker_name: "$(story.sComputerName)"
+  speaker_portrait: "moregeeked_securityhack"
+  race: Race_None
+  gender: Gender_Female
+  first_name: ""
+  last_name: ""
+  id: "5a80c71d343831e80b00608a"
+}
+speakers {
+  description: "DEV - DaveOfDeath"
+  speaker_name: "DaveOfDeath"
+  speaker_portrait: "DaveOfDeath"
+  race: Race_None
+  gender: Gender_None
+  first_name: "David"
+  last_name: "Hendrickson"
+  id: "5a80c79b3438318c050079c5"
+}
+speakers {
+  description: "DEV - MattOfDeath"
+  speaker_name: "L0G41n"
+  speaker_portrait: "backerpc_elfmale_matthendrickson"
+  race: Race_None
+  gender: Gender_None
+  first_name: "Matthew"
+  last_name: "Hendrickson"
+  id: "5a80c7ca3438318c050079c6"
+}

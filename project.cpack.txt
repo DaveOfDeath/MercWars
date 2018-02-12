@@ -12,12 +12,6 @@ content_pack_dependencies {
   package_description: "Core Shadowrun Returns functionality"
 }
 content_pack_dependencies {
-  package_id: "57084f7c6631365c1600767e"
-  package_version: "r470"
-  package_name: "DMSVP"
-  package_description: "Dead Man Switch - Vox Populi"
-}
-content_pack_dependencies {
   package_id: "54469bed32343784240005f9"
   package_version: "1"
   package_name: "HongKong"

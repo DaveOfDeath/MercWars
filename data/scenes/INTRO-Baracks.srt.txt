@@ -1,0 +1,1385 @@
+triggers {
+  name: "--<[GENERAL]>--"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "5a80d4c43438318c05007b82"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "MAP.OnLoad"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Display Text In Popup"
+      args {
+        string_value: "{BLERB}\n\nSome sort of drop-in as to why you\'re a KE footsoldier instead of a shadowrunner anymore."
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PopupType"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "In media res"
+      }
+    }
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "MERCWARS-KE_ID"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "Tsang Disguise"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Actor Karma Level"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a80d4eb3438318c05007b83"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Bunk.ExitDoor"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5a80c94e3438318c05007a03"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Display Text over Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5a80d0e23438318c05007b49"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "$(l.lastname) report to the Commanders Office."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 9
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bOrdersAvailable"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Waypoint on Prop"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PrimaryOrSecondary"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5a80d1713438318c05007b4b"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "eEVALPC0Karma"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a80f1873438311411005e3a"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: " "
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "5a810fe6343831141100779b"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "--<[SCALING]>--"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "5a810ff0343831141100779c"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "SCALING.EvalPC0 [50]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 5
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a810f213438311411007742"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "SCALING.EvalPC0 [75]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 75
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 2
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 4
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 6
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a811060343831141100779d"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "SCALING.EvalPC0 [100]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 100
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 2
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 5
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 7
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a811063343831141100779e"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "SCALING.EvalPC0 [125]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 125
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 4
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 6
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 8
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a811063343831141100779f"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "SCALING.EvalPC0 [150]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 150
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 4
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 5
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 7
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 9
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a81106534383114110077a0"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "SCALING.EvalPC0 [175]"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 175
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "CharacterScaleAmount"
+          }
+        }
+      }
+      args {
+        int_value: 5
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_LOW"
+          }
+        }
+      }
+      args {
+        int_value: 6
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_MED"
+          }
+        }
+      }
+      args {
+        int_value: 8
+      }
+    }
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "5a7b6c68343831ac070037e7"
+          }
+          args {
+            string_value: "SKILL_HIGH"
+          }
+        }
+      }
+      args {
+        int_value: 10
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a81106534383114110077a1"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+regions {
+  name: "cBaracks"
+  position {
+    x: -27
+    y: -11
+    width: 32
+    height: 34
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5a80d7f93438318c05007ba2"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: "airport"
+  combat_music: ""
+  default_music: "HongKong-loudmusic"
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5a80cfe53438318c05007b43"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 0
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -12
+    y: 0.4
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  displayName: "KE_Quartermaster"
+  idRef {
+    id: "5a80d2df3438318c05007b77"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 4
+    conversationPoint {
+      conversationID: "5a80ded83438318c05007bfb"
+      turnToFace: true
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: "Talk to Quartermaster"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Security/OrkMaleSecurity"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+        cyberware_affinity: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "(Arm) Induction Datajack"
+    }
+    equipment {
+      prefab_name: "(Eyes) Eye Datajack"
+    }
+    equipment {
+      prefab_name: "(Head) Datajack"
+    }
+    team_id: "Civilians"
+    char_name: "Quartermaster"
+    pc_spawn_number: -1
+    portrait {
+      filename: "pc_orkmale_01a_soldier"
+    }
+    karma: 6
+    is_prop_character: true
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bMotorPool_Open"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bOrdersAvailable"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGearAvailable"
+    typeName: "bool"
+  }
+}
+variables {
+  int_value: 0
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "iPlayerKarma"
+    typeName: "int"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bTalkedToQuartermaster"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGot_Melee"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGot_Firearm"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGot_Magic"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGot_Tech"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bGot_Armor"
+    typeName: "bool"
+  }
+}
+mapEvents: "eEVALPC0Karma"
+worldMapLocation {
+  filename: ""
+  location {
+    x: 0
+    y: 0
+  }
+}
+mapName: "INTRO-Baracks"
+parentStory: ""
+scene_title: "Knight Errant - Bunker"
+scene_subtitle: ""
+scene_synopsis: "A few weeks back, there was a massive firefight in Hong Kong involving several high profile shadowrunners, and the local chapter of the Knight Errant.\n\nThe shadowrunners escaped capture, and left the local chapter descimated in the process.   Captain Greggory Hanson put together what he calls the \"irregular asset units\", basically fluffing his capabilities with hired shadowrunners.\n\nThat\'s where you come in, as one of these hired runners."
+scene_image: "loadingimage_intro_s1"
+scene_continue_button_skip: false
+scene_restore_runner_health: false
+directional_light_dir {
+  x: -0.5
+  y: -1
+  z: -0.75
+}
+directional_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+ambient_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+allow_drawn_weapons: false
+team_affiliations {
+  team_name: "Shadowrunners"
+  affiliation: 0
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Gangers"
+  affiliation: 1
+  affiliation: 0
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "LoneStar"
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Civilians"
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+}
+scene_dimensions {
+  dimension_name: "Default"
+}
+scene_dimensions {
+  dimension_name: "Matrix"
+  initial_alarm_state: 0
+  turns_per_round: 3
+  is_matrix: true
+  max_alarm_value: 125
+  heat_response_rating: 8
+}
+character_roster {
+}
+show_hiring_screen_on_scene_load: false
+scene_hiring_prerequisites {
+  prereq_description: ""
+  prereq_conditions {
+  }
+}
+hiring_slot_count: 0
+hiring_minimum_karma: 0
+hiring_maximum_karma: 0
+roster_overrides {
+}
+use_hiring_cost_warning: false
+hiring_average_cost: 0
+override_hiring_average_cost: false
+show_equip_screen_on_scene_load: false
+is_persistant: false
+is_persistant_has_value: false
+can_move_outside_camera_regions: false
+can_start_before_triggers: false
+can_use_team_advancement: false
