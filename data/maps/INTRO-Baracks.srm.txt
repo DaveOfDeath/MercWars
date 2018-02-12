@@ -1456,16 +1456,6 @@ props {
   lod: 0
 }
 props {
-  name: "secretLab_floor_4x4corridorIntersection"
-  gridPoint {
-    x: -16
-    y: 0
-    z: -1
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
   name: "secretLab_wall_connector01"
   gridPoint {
     x: -18
@@ -2011,7 +2001,7 @@ props {
     id: "5a80cbad3438318c05007a73"
   }
   interactionRoot {
-    isEnabled: true
+    isEnabled: false
     interactionRadius: 1
     interactionIcon: InteractionIcon_LockedDoor
     interaction_info_text: "Knock"
@@ -5596,6 +5586,58 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5a811cfe343831b0010041e2"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_floor_2x2panel01"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a812c783438313018003fee"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_floor_2x2panel01"
+  gridPoint {
+    x: -16
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a812c783438313018003fef"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_floor_2x2panel01"
+  gridPoint {
+    x: -14
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a812c783438313018003ff0"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_floor_2x2panel01"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a812c783438313018003ff1"
   }
   lod: 0
 }
