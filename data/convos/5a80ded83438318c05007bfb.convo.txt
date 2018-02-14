@@ -546,6 +546,54 @@ nodes {
       }
     }
     ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "DocWagonBasic"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Set Variable (bool)"
       args {
         call_value {
@@ -4069,14 +4117,9 @@ nodes {
         functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "Get Actor Karma Level"
+            functionName: "Get Variable (int)"
             args {
-              call_value {
-                functionName: "Get Map Item (Player)"
-                args {
-                  int_value: 0
-                }
-              }
+              string_value: "iPlayerKarma"
             }
           }
         }
@@ -4110,14 +4153,9 @@ nodes {
         functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "Get Actor Karma Level"
+            functionName: "Get Variable (int)"
             args {
-              call_value {
-                functionName: "Get Map Item (Player)"
-                args {
-                  int_value: 0
-                }
-              }
+              string_value: "iPlayerKarma"
             }
           }
         }
@@ -4207,7 +4245,7 @@ nodes {
           }
         }
         args {
-          int_value: 6
+          int_value: 5
         }
       }
     }
@@ -4230,7 +4268,7 @@ nodes {
           }
         }
         args {
-          int_value: 6
+          int_value: 5
         }
         args {
           call_value {
@@ -4299,7 +4337,7 @@ nodes {
           }
         }
         args {
-          int_value: 6
+          int_value: 5
         }
       }
     }
