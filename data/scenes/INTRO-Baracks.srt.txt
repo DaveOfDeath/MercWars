@@ -27,7 +27,7 @@ triggers {
     ops {
       functionName: "Display Text In Popup"
       args {
-        string_value: "{BLERB}\n\nSome sort of drop-in as to why you\'re a KE footsoldier instead of a shadowrunner anymore."
+        string_value: "Shadows are long and dark, but they ain\'t deep.\n\nIf you want deep pockets, you have to go to the corporations, the bigger the better. You managed to snag an ARES contract, somehow, and are now fast-tracked for security command."
       }
       args {
         call_value {
@@ -168,6 +168,137 @@ triggers {
   isActive: true
   idRef {
     id: "5a80d4eb3438318c05007b83"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Lastname.Placeholder"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (string)"
+      args {
+        call_value {
+          functionName: "Get Variable (string)"
+          args {
+            string_value: "sLastname"
+          }
+        }
+      }
+      args {
+        string_value: "$(l.lastname)"
+      }
+    }
+    ops {
+      functionName: "Trigger: Run Alternate Trigger"
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5a88c8a26131316c050001b1"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WaitOrNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: false
+  idRef {
+    id: "5a88c7466131316c050001b0"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Lastname.Set"
+  events {
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (string)"
+      args {
+        call_value {
+          functionName: "Get Variable (string)"
+          args {
+            string_value: "sLastname"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (string)"
+      args {
+        call_value {
+          functionName: "Get Variable (string)"
+          args {
+            string_value: "sLastname"
+          }
+        }
+      }
+      args {
+        string_value: "Smith"
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5a88c8a26131316c050001b1"
   }
   elseActions {
   }
@@ -1026,8 +1157,8 @@ triggers {
 regions {
   name: "cBaracks"
   position {
-    x: -27
-    y: -11
+    x: -30
+    y: -12
     width: 32
     height: 34
   }
@@ -1210,6 +1341,100 @@ characters {
     is_prop_character: true
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -23
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_W
+  displayName: "AAA_MFI"
+  idRef {
+    id: "5a88bfae613131e8300003be"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Business/ElfMaleBusinessMan"
+    character_sheet_id: "Errant_Lv2_Decker"
+    equipment_sheet_id: "Crew_Is0bel_Lv2_Gear"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 1
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 1
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 1
+        etiquette_street: 0
+        etiquette_academic: 0
+        cyberware_affinity: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "gumbo_Soldier"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "Mister Fix-It"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    portrait {
+      filename: "backer_elfmale_matthendrickson"
+    }
+    karma: 67
+    hiring_cost_override: 0
+    hiring_tag: "Elven decker with a mouth. Deserves it when he gets his ass kicked."
+    id: "AAA_MFI"
+    first_name: "Merlithos"
+    last_name: "Ingram"
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -1290,6 +1515,14 @@ variables {
     typeName: "bool"
   }
 }
+variables {
+  string_value: ""
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "sLastname"
+    typeName: "string"
+  }
+}
 mapEvents: "eEVALPC0Karma"
 worldMapLocation {
   filename: ""
@@ -1302,7 +1535,7 @@ mapName: "INTRO-Baracks"
 parentStory: ""
 scene_title: "Knight Errant - Bunker"
 scene_subtitle: ""
-scene_synopsis: "A few weeks back, there was a massive firefight in Hong Kong involving several high profile shadowrunners, and the local chapter of the Knight Errant.\n\nThe shadowrunners escaped capture, and left the local chapter descimated in the process.   Captain Greggory Hanson put together what he calls the \"irregular asset units\", basically fluffing his capabilities with hired shadowrunners.\n\nThat\'s where you come in, as one of these hired runners."
+scene_synopsis: "Report says that ten days ago, there was a massive operation at an undercover ARES facility in Hong Kong. Shadow operatives were involved, causing massive damage and property loss. \n\nThe operatives escaped capture, and left the local Knight Errant decimated in the process. Captain Greggory Hanson hired irregular assets to fill the ranks for the next big ARES operation, code name Cannonball. \n\nYou are part of this force, preparing for the massive ARES takeover of Hong Kong. You are awaiting orders to get moving."
 scene_image: "loadingimage_intro_s1"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -1360,8 +1593,6 @@ scene_dimensions {
   is_matrix: true
   max_alarm_value: 125
   heat_response_rating: 8
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

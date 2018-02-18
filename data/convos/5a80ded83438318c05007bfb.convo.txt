@@ -4,13 +4,29 @@ idRef {
 ui_name: "INTRO-Quartermaster"
 nodes {
   idRef {
-    id: "5a80def93438318c05007c05"
+    id: "5a80f74a3438311411005eb7"
   }
   index: 0
-  text: "Hey $(l.lastname).\n\nJust got the green light to let you get some field gear.\n\nWhatcha looking for?"
+  text: "{{GM}}The ork behind the counter gives you a brief salute as you approach.{{/GM}}\n\n$+(l.lastname).\n\nYou have your orders and gear. Was there anything else you needed from me?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a80f76c3438311411005eb9"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a80def93438318c05007c05"
+  }
+  index: 1
+  text: "{{GM}}The ork quartermaster nods at your approach.{{/GM}}\n\nHey $+(l.lastname).\n\nDigital release on your orders just came through. You\'ve got a green light to assign field gear for you and your squad.\n\nWhatcha looking for?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f8723438311411005ef2"
     }
@@ -21,7 +37,7 @@ nodes {
   idRef {
     id: "5a80f8723438311411005ef5"
   }
-  index: 1
+  index: 2
   text: ""
   branches {
     responseText: "Armor."
@@ -60,7 +76,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f79d3438311411005ebe"
@@ -103,14 +119,14 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 3
+    nextNodeIndex: 5
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f79d3438311411005ec0"
     }
   }
   branches {
-    responseText: "Melee\'s my style."
+    responseText: "Melee is my style."
     conditions {
       ops {
         functionName: "Comparison (bool)"
@@ -146,7 +162,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f79d3438311411005ec2"
@@ -189,7 +205,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 16
+    nextNodeIndex: 19
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f7a03438311411005ec4"
@@ -232,7 +248,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 21
+    nextNodeIndex: 24
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9233438311411005f35"
@@ -240,7 +256,7 @@ nodes {
   }
   branches {
     responseText: "Gimme a minute."
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5a80ded83438318c05007bfb:5a8107283438311411006b7c"
     }
@@ -435,7 +451,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 29
+    nextNodeIndex: 32
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a81073d3438311411006b81"
@@ -448,15 +464,14 @@ nodes {
   idRef {
     id: "5a80f7ac3438311411005ec7"
   }
-  index: 2
-  text: "Well, your paygrade says you should get the standard stuff.\n\nBoth fortunately and unfortunately for you, the powers that be whom are doing all this {{GM}}he makes air quotes{{/GM}} irregular asset teams hiring, have depleted our stock. \n\nI\'ll have to give you the poor weather gear.  It\'s hotter than hell, and a twice as heavy, but it\'s far more bullet resistant.\n\nWhat else can I getcha?"
+  index: 3
+  text: "{{GM}}The ork checks your orders and whistles.{{/GM}}\n\nSorry about this. I would normally get you the upgraded armor, but with the crazy hiring of all these {{GM}}he makes air quotes{{/GM}} irregular asset teams.\nwell, you have to bribe a shadowrunner to do a job a normal squaddie would do without blinking, and that means most of my specialized gear is already tagged for them.\n\nWell, your orders say you should get the standard stuff. Both fortunately and unfortunately for you, all these runners have depleted our stock. \nI\'ll have to give you the poor weather gear.  It\'s hotter than hell, and a twice as heavy, but it\'s far more bullet resistant."
   branches {
-    responseText: ""
-    nextNodeIndex: 1
+    responseText: "Thanks"
+    nextNodeIndex: 4
     idRef {
-      id: "5a80ded83438318c05007bfb:5a80f8633438311411005eea"
+      id: "5a80ded83438318c05007bfb:5a88cf726131316c05000767"
     }
-    auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -619,10 +634,26 @@ nodes {
 }
 nodes {
   idRef {
+    id: "5a88cf726131316c0500076a"
+  }
+  index: 4
+  text: "Before you thank me, remember this stuff is heavy and hot. You can thank me be hosing it out before you turn it in so I don\'t have a room full of crusted BDUs and soldier ballsweat killing me.\n\nWhat else do you need, $+(l.lastname)?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a80f8633438311411005eea"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
     id: "5a80f92f3438311411005f38"
   }
-  index: 3
-  text: "{{GM}}He smiles broadly.{{/GM}}\n\nWe can probably dig something up.   What\'s your poison?"
+  index: 5
+  text: "{{GM}}The ork quartermaster gives you a broad snaggle-toothed smile.{{/GM}}\n\nWe can definitely find you armament in your particular flavor. What\'s your poison?"
   branches {
     responseText: "Rifle"
     actions {
@@ -697,7 +728,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 4
+    nextNodeIndex: 6
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9513438311411005f3a"
     }
@@ -776,7 +807,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 5
+    nextNodeIndex: 7
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9513438311411005f3c"
     }
@@ -855,7 +886,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 6
+    nextNodeIndex: 8
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f97d3438311411005f40"
     }
@@ -934,14 +965,14 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 7
+    nextNodeIndex: 9
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9553438311411005f3e"
     }
   }
   branches {
     responseText: "{{CC}}How about something else.{{/CC}}"
-    nextNodeIndex: 8
+    nextNodeIndex: 10
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9873438311411005f42"
     }
@@ -952,11 +983,11 @@ nodes {
   idRef {
     id: "5a80fec934383114110062d0"
   }
-  index: 4
-  text: "Hard to go wrong with a lead-hose.\n\nAnything else?"
+  index: 6
+  text: "{{GM}}The ork nods, moving a Sempoval v88 into your gear pile.{{/GM}}\n\nHard to go wrong with a lead-hose. I\'ll pack you a bunch of extra mags, too, so you don\'t run out of ammunition.\n\nAnything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fee334383114110062d2"
     }
@@ -968,11 +999,11 @@ nodes {
   idRef {
     id: "5a80fef63438311411006339"
   }
-  index: 5
-  text: "$(l.man) after my own heart.\n\nI got just the thing.\n\nAnything else?"
+  index: 7
+  text: "{{GM}}The ork grins.{{/GM}}\n\n$+(l.man) after my own heart. I got just the boomstick, a Benellli with a slick action.\n\nAnything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80ff883438311411006342"
     }
@@ -984,11 +1015,11 @@ nodes {
   idRef {
     id: "5a80ff66343831141100633c"
   }
-  index: 6
-  text: "A popular choice.\n\nAnything else?"
+  index: 8
+  text: "{{GM}}The ork raises an eyebrow, but adds the Beretta to the pile.{{/GM}}\n\nSpray and pray is a popular choice, let\'s give you a step up on those gutterpunks with Uzis.\n\nAnything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80ff81343831141100633e"
     }
@@ -1000,11 +1031,11 @@ nodes {
   idRef {
     id: "5a80ffeb3438311411006347"
   }
-  index: 7
-  text: "You got it.\n\nAnything else?"
+  index: 9
+  text: "{{GM}}The quartermaster shakes his head.{{/GM}}\n\nI wish I had our ARES Predators with the smartlink for you, but those were in the gear that was stolen. I assume the Triads are selling them for 100\302\245 a pop in the city, if you get a chance to do any shopping with street vendors. In their place, we got some of those Black Scorpions.\n\nAnything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fff53438311411006349"
     }
@@ -1016,11 +1047,11 @@ nodes {
   idRef {
     id: "5a80f9923438311411005f45"
   }
-  index: 8
-  text: "You got it.   Whatcha thinking?"
+  index: 10
+  text: "{{GM}}The ork nods.{{/GM}}\n\nYou got it. What do you need?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f99d3438311411005f47"
     }
@@ -1032,8 +1063,8 @@ nodes {
   idRef {
     id: "5a80fa233438311411005fd7"
   }
-  index: 9
-  text: "Options are more limited there, but I\'ll see what we\'ve got."
+  index: 11
+  text: "{{GM}}The ork quartermaster shakes his head.{{/GM}}\n\nAgain, I can\'t apologize enough, but most of the gear for Operation Cannonball was sent ahead before the troops, which is the warehouse those runners hit. \nOur options are limited, but I\'ll see what I can do for you."
   branches {
     responseText: "Throwing Knives"
     actions {
@@ -1108,7 +1139,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 10
+    nextNodeIndex: 12
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fa383438311411005fd9"
     }
@@ -1187,7 +1218,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 11
+    nextNodeIndex: 13
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fa383438311411005fdb"
     }
@@ -1243,7 +1274,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 12
+    nextNodeIndex: 14
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -1252,21 +1283,21 @@ nodes {
   }
   branches {
     responseText: "Machete"
-    nextNodeIndex: 13
+    nextNodeIndex: 15
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fb073438311411006025"
     }
   }
   branches {
     responseText: "Bat"
-    nextNodeIndex: 14
+    nextNodeIndex: 17
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fb073438311411006027"
     }
   }
   branches {
     responseText: "{{CC}}Something else, I guess.{{/CC}}"
-    nextNodeIndex: 15
+    nextNodeIndex: 18
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fb26343831141100602b"
     }
@@ -1277,11 +1308,11 @@ nodes {
   idRef {
     id: "5a80fab13438311411005fe0"
   }
-  index: 10
-  text: "That I can do.\n\nAnything else?"
+  index: 12
+  text: "Throwing knives I can do. I wish I had some of the dikoted ones for you.\n\nAnything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fabd3438311411005fe2"
     }
@@ -1293,11 +1324,11 @@ nodes {
   idRef {
     id: "5a80fad33438311411006020"
   }
-  index: 11
-  text: "Fancy yourself a ninja or something?\n\nNot my business, but I prefer some good old fashion lead slingers.\n\nAnything else?"
+  index: 13
+  text: "{{GM}}The quarter master gives you a sly grin.{{/GM}}\n\nSomeone has been watching \'A Night of a Million Bajillion Ninjas\' sims. \nI prefer a good ol\' fashion lead slinger, but it\'s not my business to judge."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a8112ad3438315815002cd3"
     }
@@ -1309,11 +1340,11 @@ nodes {
   idRef {
     id: "5a80fb91343831141100607e"
   }
-  index: 12
-  text: "Expecting to find log monsters?\n\nI think I actually do have one... And now you  do.\n\nAnything else?"
+  index: 14
+  text: "{{GM}}The quartermaster raises an eyebrow. {{/GM}}\n\nExpecting to do some lumberjacking in town? From what I hear, Hong Kong is short on log monsters.\nActually, I think I have one for a fire rescue unit that was assigned to us by mistake.\n\nNow their mistake is your gain. Anything else?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fc1534383114110060c1"
     }
@@ -1397,15 +1428,14 @@ nodes {
   idRef {
     id: "5a80fc213438311411006113"
   }
-  index: 13
-  text: "They did mention this is an urban action, right?   Now some third world jungle?\n\nTo each their own.\n\nAnything else?"
+  index: 15
+  text: "{{GM}}The quartermaster raises an eyebrow at you.{{/GM}}\n\nYour orders did mention this is an urban action, right? Bang bang?\nNot some third-world jungle?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 16
     idRef {
-      id: "5a80ded83438318c05007bfb:5a80fc403438311411006115"
+      id: "5a80ded83438318c05007bfb:5a88d3d46131316c05000801"
     }
-    auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -1483,13 +1513,29 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5a80fccf34383114110061a6"
+    id: "5a88d3d46131316c05000804"
   }
-  index: 14
-  text: "Ok.\n\nMake sure to get the matching glove for the big game...\n\nAnything else?"
+  index: 16
+  text: "{{GM}}He shrugs.{{/GM}}\n\nLucky for you, our katanas were in the equipment that was stolen, so here is a machete. Chop to your heart\'s content."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a80fc403438311411006115"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a80fccf34383114110061a6"
+  }
+  index: 17
+  text: "{{GM}}The quartermaster shrugs.{{/GM}}\n\nOk, A-Rod, we\'ll get you a bat. Make sure to get a matching glove, and oil it before the big game..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fcee34383114110061a8"
     }
@@ -1573,11 +1619,11 @@ nodes {
   idRef {
     id: "5a80fb41343831141100602e"
   }
-  index: 15
-  text: "You got it.\n\nWhatcha thinking?"
+  index: 18
+  text: "We\'ve got plenty of \'something else\'.\n\nWhat do you need?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a80fb4d3438311411006030"
     }
@@ -1589,8 +1635,8 @@ nodes {
   idRef {
     id: "5a80f9d03438311411005f9a"
   }
-  index: 16
-  text: "Got a paticular devotion?"
+  index: 19
+  text: "We have a store of hermetic spells and shamanic supplies. \n\nI need a designation for the paperwork. Which devotion do you need?"
   branches {
     responseText: "Shaman"
     conditions {
@@ -1898,7 +1944,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 17
+    nextNodeIndex: 20
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9e23438311411005f9e"
@@ -2211,7 +2257,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 18
+    nextNodeIndex: 21
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9e13438311411005f9c"
@@ -2524,7 +2570,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 19
+    nextNodeIndex: 22
     hideIfUnavailable: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9e23438311411005fa0"
@@ -2532,7 +2578,7 @@ nodes {
   }
   branches {
     responseText: "Something else..."
-    nextNodeIndex: 20
+    nextNodeIndex: 23
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f9f43438311411005fa2"
     }
@@ -2543,11 +2589,11 @@ nodes {
   idRef {
     id: "5a81025434383114110065ad"
   }
-  index: 17
-  text: "Now don\'t go summoning these things here... \n\nAnything else?"
+  index: 20
+  text: "{{GM}}The quartermaster adds some leather strips, feathers, and fetishes to your gear.{{/GM}}\n\nNow don\'t go summoning these things here, they\'ll wreck the damned place. Do that shit outside."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a81026434383114110065af"
     }
@@ -2559,11 +2605,11 @@ nodes {
   idRef {
     id: "5a8100e63438311411006477"
   }
-  index: 18
-  text: "Now we ain\'t got much in the way of recruit magic, but I\'ll set you up with what I can."
+  index: 21
+  text: "{{GM}}The quartermaster checks the orders and shakes his head.{{/GM}}\n\nI\'m sorry, but they\'ve only got you cleared for the low-level stuff. I wish our ritual supplies hadn\'t been stolen by those fraggers. \nI\'ll set you up with what little I do have access to."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a8101ce343831141100652b"
     }
@@ -2575,11 +2621,11 @@ nodes {
   idRef {
     id: "5a8102ed3438311411006637"
   }
-  index: 19
-  text: "{{GM}}He nods{{/GM}}\n\nCan do.  Anything else?"
+  index: 22
+  text: "{{GM}}The quartermaster nods.{{/GM}}\n\nI don\'t have much in the way of Mister Punchy magic, but what I do have you\'ve got."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a810b113438311411006fc3"
     }
@@ -2591,11 +2637,11 @@ nodes {
   idRef {
     id: "5a8100ce34383114110063f8"
   }
-  index: 20
-  text: "No problem.\n\nWhatcha looking for?"
+  index: 23
+  text: "We\'ve got plenty of \'something else\'.\n\nWhat do you need?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a8100d934383114110063fa"
     }
@@ -2607,11 +2653,11 @@ nodes {
   idRef {
     id: "5a81031d3438311411006699"
   }
-  index: 21
-  text: "Decker or Rigger?"
+  index: 24
+  text: "{{GM}}The quartermaster nods. {{/GM}}\n\nYou have a tech designation assigned to your squad. Do you want the Decker or Rigger loadout?\nYou\'ll probably need a datajack, too."
   branches {
     responseText: ""
-    nextNodeIndex: 22
+    nextNodeIndex: 25
     idRef {
       id: "5a80ded83438318c05007bfb:5a810b3334383114110070ab"
     }
@@ -2622,10 +2668,137 @@ nodes {
   idRef {
     id: "5a810b3334383114110070ae"
   }
-  index: 22
+  index: 25
   text: ""
   branches {
     responseText: "A datajack?"
+    conditions {
+      ops {
+        functionName: "OR"
+        args {
+          call_value {
+            functionName: "Evaluate If Actor Has Item"
+            args {
+              call_value {
+                functionName: "Specific Actor"
+                args {
+                  call_value {
+                    functionName: "Get Map Item (Player)"
+                    args {
+                      int_value: 0
+                    }
+                  }
+                }
+                args {
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "HasOrHasNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Map Item (Item)"
+                args {
+                  string_value: "(Head) Datajack"
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "OR"
+            args {
+              call_value {
+                functionName: "Evaluate If Actor Has Item"
+                args {
+                  call_value {
+                    functionName: "Specific Actor"
+                    args {
+                      call_value {
+                        functionName: "Get Map Item (Player)"
+                        args {
+                          int_value: 0
+                        }
+                      }
+                    }
+                    args {
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Preset Value (int)"
+                    args {
+                      string_value: "HasOrHasNot"
+                    }
+                    args {
+                      int_value: 0
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Map Item (Item)"
+                    args {
+                      string_value: "(Eyes) Eye Datajack"
+                    }
+                  }
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Evaluate If Actor Has Item"
+                args {
+                  call_value {
+                    functionName: "Specific Actor"
+                    args {
+                      call_value {
+                        functionName: "Get Map Item (Player)"
+                        args {
+                          int_value: 0
+                        }
+                      }
+                    }
+                    args {
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Preset Value (int)"
+                    args {
+                      string_value: "HasOrHasNot"
+                    }
+                    args {
+                      int_value: 0
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Map Item (Item)"
+                    args {
+                      string_value: "(Arm) Induction Datajack"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     actions {
       ops {
         functionName: "Add Nuyen"
@@ -2634,13 +2807,15 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 23
+    nextNodeIndex: 26
+    hideIfUnavailable: true
+    onlyOnce: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a81035e343831141100673b"
     }
   }
   branches {
-    responseText: "Decker"
+    responseText: "Decker loadout"
     conditions {
       ops {
         functionName: "AND"
@@ -2994,13 +3169,13 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 25
+    nextNodeIndex: 28
     idRef {
       id: "5a80ded83438318c05007bfb:5a810336343831141100669d"
     }
   }
   branches {
-    responseText: "Rigger"
+    responseText: "Rigger loadout"
     conditions {
       ops {
         functionName: "AND"
@@ -3306,14 +3481,14 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 26
+    nextNodeIndex: 29
     idRef {
       id: "5a80ded83438318c05007bfb:5a810336343831141100669b"
     }
   }
   branches {
     responseText: "Maybe something else."
-    nextNodeIndex: 27
+    nextNodeIndex: 30
     idRef {
       id: "5a80ded83438318c05007bfb:5a810338343831141100669f"
     }
@@ -3325,8 +3500,8 @@ nodes {
   idRef {
     id: "5a810d42343831141100731f"
   }
-  index: 23
-  text: "I can put that through.  \n\nAny more extensive cyberware I\'m afraid I can\'t help you with.  Most of the soldiers get chromed during R&R."
+  index: 26
+  text: "{{GM}}The quartermaster pushes a few keys.{{/GM}}\n\nDatajack I can do. We\'ll get you set up with the autodoc right here.\n\nAny more extensive cyberware I\'m afraid I can\'t help you with. Our CO requires that KE personnel get chromed on their own time and own dime."
   branches {
     responseText: ""
     actions {
@@ -3342,7 +3517,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 24
+    nextNodeIndex: 27
     idRef {
       id: "5a80ded83438318c05007bfb:5a810d633438311411007321"
     }
@@ -3353,11 +3528,11 @@ nodes {
   idRef {
     id: "5a810d6a3438311411007324"
   }
-  index: 24
-  text: "All good?  Anything else you need?"
+  index: 27
+  text: "All good? Any dizzyness or blurred vision? No?\n\nGood. Anything else you need?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 25
     idRef {
       id: "5a80ded83438318c05007bfb:5a810d7d3438311411007404"
     }
@@ -3377,11 +3552,11 @@ nodes {
   idRef {
     id: "5a8106173438311411006950"
   }
-  index: 25
-  text: "Never understand why they put a keyboard jockey in charge of a squad.\n\nAnything else I can getcha?"
+  index: 28
+  text: "{{GM}}The ork gives you a snort of derision.{{/GM}}\n\nFor the life of me, I\'ll never understand why they want a cyberdeck jockey in charge of soldiers. \n\nNo offense.\n"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a8106483438311411006952"
     }
@@ -3393,11 +3568,11 @@ nodes {
   idRef {
     id: "5a8106fc3438311411006a62"
   }
-  index: 26
-  text: "Cute little toys.  Some of those big ones are down right nasty though.\n\nAnything else?"
+  index: 29
+  text: "{{GM}}The quartermaster nods.{{/GM}}\n\nThose little drones are cute. Our big ones got nicked, and those big ones are downright nasty."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a8107133438311411006a64"
     }
@@ -3409,11 +3584,11 @@ nodes {
   idRef {
     id: "5a81034334383114110066a2"
   }
-  index: 27
+  index: 30
   text: "Such as?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a80ded83438318c05007bfb:5a81034934383114110066a4"
     }
@@ -3425,19 +3600,19 @@ nodes {
   idRef {
     id: "5a8107323438311411006b7f"
   }
-  index: 28
-  text: "Sure thing."
+  index: 31
+  text: "Sure thing, take all the time you need."
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
     id: "5a8107b03438311411006bf6"
   }
-  index: 29
-  text: "Fair enough.\n\nOne last thing... Interested in a support pack?   Or an assault pack?"
+  index: 32
+  text: "Fair enough.\n\nOkay, your orders have a pack assigned to you. Do you want a support pack? Or would you prefer the assault pack?"
   branches {
     responseText: ""
-    nextNodeIndex: 30
+    nextNodeIndex: 33
     idRef {
       id: "5a80ded83438318c05007bfb:5a8107df3438311411006c01"
     }
@@ -3448,11 +3623,11 @@ nodes {
   idRef {
     id: "5a8107df3438311411006c04"
   }
-  index: 30
+  index: 33
   text: ""
   branches {
-    responseText: "Whats in them?"
-    nextNodeIndex: 31
+    responseText: "What\'s in the packs?"
+    nextNodeIndex: 34
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -3655,7 +3830,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 32
+    nextNodeIndex: 35
     idRef {
       id: "5a80ded83438318c05007bfb:5a8107d13438311411006bfa"
     }
@@ -3856,14 +4031,15 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 33
+    nextNodeIndex: 36
     idRef {
       id: "5a80ded83438318c05007bfb:5a8107d33438311411006bfc"
     }
   }
   branches {
     responseText: "Pass, but thanks."
-    nextNodeIndex: 34
+    nextNodeIndex: 37
+    onlyOnce: true
     idRef {
       id: "5a80ded83438318c05007bfb:5a8108033438311411006c81"
     }
@@ -3875,11 +4051,11 @@ nodes {
   idRef {
     id: "5a8108783438311411006d06"
   }
-  index: 31
-  text: "Assault pack is some grenades, and some combat stims.\n\nSupport pack is a couple of medpacks, and some voodoo salve stuff.\n\nWhich\'ll it be?"
+  index: 34
+  text: "{{GM}}The quartermaster weighs imaginary weights in two hands.{{/GM}}\n\nOne the one hand, the assault pack is grenades, and combat stims. Useful to have in a short fight.\n\nOn the other hand, the support pack has medical supplies, and some of that voodoo salve stuff.\n\nWhich do you want?"
   branches {
     responseText: ""
-    nextNodeIndex: 30
+    nextNodeIndex: 33
     idRef {
       id: "5a80ded83438318c05007bfb:5a810a1b3438311411006e31"
     }
@@ -3891,8 +4067,8 @@ nodes {
   idRef {
     id: "5a8108b13438311411006d09"
   }
-  index: 32
-  text: "You got it.\n\nLooks like you\'re good to go.   They should be waiting for you in the motorpool."
+  index: 35
+  text: "{{GM}}The quartermaster puts a green bundle on the pile. It has a frag grenade, a smoke grenade, and some patches.{{/GM}}\n\nYou\'ve got it all here, you are good to go.\nReport to the motorpool with your gear, grab your squad and get moving."
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -3945,8 +4121,8 @@ nodes {
   idRef {
     id: "5a8109df3438311411006e08"
   }
-  index: 33
-  text: "Always a battlefield favorite. \n\nAlright, looks like you\'re all set.   They\'re waiting for you in the motorpool."
+  index: 36
+  text: "{{GM}}The quartermaster puts a green bundle with a red cross on the pile.{{/GM}}\n\nYou\'ve got it all here, and you are good to go.\nReport to the motorpool with your gear, grab your squad and get moving.\n"
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -3999,8 +4175,22 @@ nodes {
   idRef {
     id: "5a8108113438311411006c84"
   }
-  index: 34
-  text: "{{GM}}He looks a bit shocked, but shrugs nonchalantly.{{/GM}}\n\nI forget you shadow types don\'t work with military gear often.   Alright.  Good luck out there, $(l.lastname).\n\nI think they\'re waiting for you in the motorpool."
+  index: 37
+  text: "{{GM}}The quartermaster raises an eyebrow.{{/GM}}\n\nI forget that you shadow-types don\'t work with military gear often. Are you sure?"
+  branches {
+    responseText: "Yes."
+    nextNodeIndex: 38
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a88d6dc6131316c050009c1"
+    }
+  }
+  branches {
+    responseText: "On second thought..."
+    nextNodeIndex: 39
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a88d7136131316c050009c6"
+    }
+  }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -4051,15 +4241,23 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5a80f74a3438311411005eb7"
+    id: "5a88d6dc6131316c050009c4"
   }
-  index: 35
-  text: "Welcome back, $(l.lastname).\n\nChange your mind on some of the gear options?"
+  index: 38
+  text: "{{GM}}He looks a bit shocked, but shrugs nonchalantly.{{/GM}}\n\nI forget you shadow types don\'t work with military gear often. \n\nThe KE squaddies are waiting in the motorpool. Good luck out there, $+(l.lastname)."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a88d7176131316c050009c9"
+  }
+  index: 39
+  text: "{{GM}}The quartermaster nods.{{/GM}}\n\nDiscretion is the better part of valor, and all that. Which do you want?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 33
     idRef {
-      id: "5a80ded83438318c05007bfb:5a80f76c3438311411005eb9"
+      id: "5a80ded83438318c05007bfb:5a88d7386131316c050009cb"
     }
     auxiliaryLink: true
   }
@@ -4069,11 +4267,11 @@ nodes {
   idRef {
     id: "5a80ee37343831a81b005e1f"
   }
-  index: 36
-  text: "Hey, $(l.lastname).\n\nYou shipping out soon?"
+  index: 40
+  text: "{{GM}}The ork behind the desk looks weathered and surly, but snaps a crisp salute and greets you with a smile.{{/GM}}\n\nHey, $+(l.lastname). We didn\'t get to meet when you came in. I\'m Sergeant Oblando, the quartermaster.\n\nDo you have your orders? What can I get for you?"
   branches {
     responseText: ""
-    nextNodeIndex: 37
+    nextNodeIndex: 41
     idRef {
       id: "5a80ded83438318c05007bfb:5a80ee77343831a81b005e2c"
     }
@@ -4108,8 +4306,15 @@ nodes {
   idRef {
     id: "5a80ee77343831a81b005e2f"
   }
-  index: 37
+  index: 41
   text: ""
+  branches {
+    responseText: "I need orders."
+    nextNodeIndex: 42
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a88cc896131316c05000354"
+    }
+  }
   branches {
     responseText: "Can I get my gear back?"
     conditions {
@@ -4139,7 +4344,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 38
+    nextNodeIndex: 43
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -4175,7 +4380,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 40
+    nextNodeIndex: 45
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -4184,7 +4389,7 @@ nodes {
   }
   branches {
     responseText: "Talk to you later."
-    nextNodeIndex: 41
+    nextNodeIndex: 46
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f6943438311411005e88"
     }
@@ -4194,10 +4399,26 @@ nodes {
 }
 nodes {
   idRef {
+    id: "5a88cc9a6131316c05000357"
+  }
+  index: 42
+  text: "The quartermaster nods to the north.\n\nYou\'ll want to head up to the CO\'s office. Captain Hanson isn\'t meeting with team leads, but if I understood the squawk-box, they\'re passing out assignments."
+  branches {
+    responseText: ""
+    nextNodeIndex: 41
+    idRef {
+      id: "5a80ded83438318c05007bfb:5a88cd026131316c05000359"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
     id: "5a80f5da3438311411005e77"
   }
-  index: 38
-  text: "{{GM}}He shakes his head.{{/GM}}\n\nNo, sorry.   The guys who dragged you in from that last battle decided that you\'re meat-bag was more important than your gear."
+  index: 43
+  text: "{{GM}}The quartermaster shakes his head.{{/GM}}\n\nSorry, $(l.lastname). The soldiers who dragged you in from that last firefight had to decide between your gear and your life.\nLucky for you, I guess, they decided that your meat-bag was more important than your goodies."
   branches {
     responseText: "Damn.   I guess I\'m gonna owe someone some birthday cards."
     conditions {
@@ -4283,7 +4504,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 39
+    nextNodeIndex: 44
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -4341,7 +4562,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 39
+    nextNodeIndex: 44
     idRef {
       id: "5a80ded83438318c05007bfb:5a81290a3438313018003f41"
     }
@@ -4353,11 +4574,11 @@ nodes {
   idRef {
     id: "5a80f6993438311411005e8b"
   }
-  index: 39
+  index: 44
   text: "{{GM}}He chuckles.{{/GM}}\n\nYeah, I guess so."
   branches {
     responseText: ""
-    nextNodeIndex: 37
+    nextNodeIndex: 41
     idRef {
       id: "5a80ded83438318c05007bfb:5a8129e53438313018003f61"
     }
@@ -4369,27 +4590,27 @@ nodes {
   idRef {
     id: "5a80f6d23438311411005e92"
   }
-  index: 40
-  text: "Sure.\n\nOnce HQ has cleared you for action, they\'ll release the gear for you."
+  index: 45
+  text: "The quartermaster shrugs.\n\nSure.\n\nOnce you have orders, I\'ll be able to release gear packages from storage for you and your squad."
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
     id: "5a80f6fa3438311411005e95"
   }
-  index: 41
-  text: "{{GM}}He nods.{{/GM}}\n\nSure thing, $(l.lastname)."
+  index: 46
+  text: "{{GM}}The quartermaster nods, turning his head so his eyepatch blocks the view of you.{{/GM}}\n\nSure thing, $+(l.lastname), I\'ll be here."
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
     id: "5a80f72b3438311411005e98"
   }
-  index: 42
-  text: "You\'re back?     You get orders or something?"
+  index: 47
+  text: "{{GM}}The ork behind the counter looks surprised at your return.{{/GM}}\n\nYou\'re back quick. Did you get your orders figured out?"
   branches {
     responseText: ""
-    nextNodeIndex: 37
+    nextNodeIndex: 41
     idRef {
       id: "5a80ded83438318c05007bfb:5a80f7393438311411005e9a"
     }
@@ -4398,6 +4619,7 @@ nodes {
   nodeType: ConversationNodeType_Simple
 }
 roots {
+  responseText: ""
   conditions {
     ops {
       functionName: "Comparison (bool)"
@@ -4427,11 +4649,66 @@ roots {
             string_value: "bool"
           }
           args {
-            int_value: 0
+            int_value: 1
           }
         }
       }
     }
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bGearAvailable"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Clear Waypoint from Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5a80d2df3438318c05007b77"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5a80ded83438318c05007bfb:5a80df1a3438318c05007c0a"
+  }
+  comment: "Gear Available (Return)"
+}
+roots {
+  conditions {
     ops {
       functionName: "Comparison (bool)"
       args {
@@ -4501,7 +4778,7 @@ roots {
       }
     }
   }
-  nextNodeIndex: 0
+  nextNodeIndex: 1
   idRef {
     id: "5a80ded83438318c05007bfb:5a80ded83438318c05007bff"
   }
@@ -4516,95 +4793,6 @@ roots {
         call_value {
           functionName: "Get Variable (bool)"
           args {
-            string_value: "bTalkedToQuartermaster"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Comparison (bool)"
-      args {
-        call_value {
-          functionName: "Get Variable (bool)"
-          args {
-            string_value: "bGearAvailable"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Clear Waypoint from Actor"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "5a80d2df3438318c05007b77"
-          }
-        }
-      }
-    }
-  }
-  nextNodeIndex: 35
-  idRef {
-    id: "5a80ded83438318c05007bfb:5a80df1a3438318c05007c0a"
-  }
-  comment: "Gear Available (Return)"
-}
-roots {
-  responseText: ""
-  conditions {
-    ops {
-      functionName: "Comparison (bool)"
-      args {
-        call_value {
-          functionName: "Get Variable (bool)"
-          args {
             string_value: "bGearAvailable"
           }
         }
@@ -4666,7 +4854,7 @@ roots {
       }
     }
   }
-  nextNodeIndex: 36
+  nextNodeIndex: 40
   idRef {
     id: "5a80ded83438318c05007bfb:5a80dee93438318c05007c02"
   }
@@ -4742,7 +4930,7 @@ roots {
       }
     }
   }
-  nextNodeIndex: 42
+  nextNodeIndex: 47
   idRef {
     id: "5a80ded83438318c05007bfb:5a80df1a3438318c05007c0c"
   }

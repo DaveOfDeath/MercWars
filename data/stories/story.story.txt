@@ -654,6 +654,13 @@ character_roster {
     content_pack_source: "55e766536636619c20000bdc"
   }
   roster_entries {
+    reference_id: "AAA_MFI"
+    hiring_conditions {
+    }
+    hiring_cost: 67
+    content_pack_source: "5a7b6c68343831ac070037e7"
+  }
+  roster_entries {
     reference_id: "KE_lv1_Decker"
     hiring_conditions {
     }
