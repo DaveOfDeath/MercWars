@@ -630,6 +630,25 @@ nodes {
         }
       }
     }
+    ops {
+      functionName: "Delete Props by Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "heavyarmor"
+          }
+        }
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        call_value {
+          functionName: "Everywhere"
+        }
+      }
+    }
   }
 }
 nodes {
@@ -4052,7 +4071,7 @@ nodes {
     id: "5a8108783438311411006d06"
   }
   index: 34
-  text: "{{GM}}The quartermaster weighs imaginary weights in two hands.{{/GM}}\n\nOne the one hand, the assault pack is grenades, and combat stims. Useful to have in a short fight.\n\nOn the other hand, the support pack has medical supplies, and some of that voodoo salve stuff.\n\nWhich do you want?"
+  text: "{{GM}}The quartermaster weighs imaginary weights in two hands.{{/GM}}\n\nOne the one hand, the assault pack is grenades, and combat stims. Useful to have in a short fight.\n\nOn the other hand, the support pack has medical supplies, and some of that voodoo salve stuff. Handy for longer engagements.\n\nWhich do you want?"
   branches {
     responseText: ""
     nextNodeIndex: 33
@@ -4122,7 +4141,7 @@ nodes {
     id: "5a8109df3438311411006e08"
   }
   index: 36
-  text: "{{GM}}The quartermaster puts a green bundle with a red cross on the pile.{{/GM}}\n\nYou\'ve got it all here, and you are good to go.\nReport to the motorpool with your gear, grab your squad and get moving.\n"
+  text: "{{GM}}The quartermaster puts a green bundle with a red cross on the pile.{{/GM}}\n\nYou\'ve got it all here, and you are good to go.\nReport to the motorpool with your gear, grab your squad and get moving."
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -4402,7 +4421,7 @@ nodes {
     id: "5a88cc9a6131316c05000357"
   }
   index: 42
-  text: "The quartermaster nods to the north.\n\nYou\'ll want to head up to the CO\'s office. Captain Hanson isn\'t meeting with team leads, but if I understood the squawk-box, they\'re passing out assignments."
+  text: "{{GM}}The quartermaster nods to the north.{{/GM}}\n\nYou\'ll want to head up to the CO\'s office. Captain Hanson isn\'t meeting with team leads, but if I understood the squawk-box, they\'re passing out assignments."
   branches {
     responseText: ""
     nextNodeIndex: 41
@@ -4418,7 +4437,7 @@ nodes {
     id: "5a80f5da3438311411005e77"
   }
   index: 43
-  text: "{{GM}}The quartermaster shakes his head.{{/GM}}\n\nSorry, $(l.lastname). The soldiers who dragged you in from that last firefight had to decide between your gear and your life.\nLucky for you, I guess, they decided that your meat-bag was more important than your goodies."
+  text: "{{GM}}The quartermaster shakes his head.{{/GM}}\n\nSorry, $(l.lastname). The soldiers who dragged you in from that last firefight had to decide between your gear and your life.\nLucky for you, I guess, they decided that your meat-bag was more important than your goodies.\n\nA week in the bio-vat, and you\'re good as new. Fragged whatever cyber you had, though."
   branches {
     responseText: "Damn.   I guess I\'m gonna owe someone some birthday cards."
     conditions {
@@ -4591,7 +4610,7 @@ nodes {
     id: "5a80f6d23438311411005e92"
   }
   index: 45
-  text: "The quartermaster shrugs.\n\nSure.\n\nOnce you have orders, I\'ll be able to release gear packages from storage for you and your squad."
+  text: "{{GM}}The quartermaster shrugs.{{/GM}}\n\nSure.\n\nOnce you have orders, I\'ll be able to release gear packages from storage for you and your squad."
   nodeType: ConversationNodeType_Simple
 }
 nodes {
