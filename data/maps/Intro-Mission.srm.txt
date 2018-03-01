@@ -1,6 +1,6 @@
-minX: -2
+minX: -52
 minZ: -61
-numX: 219
+numX: 269
 numZ: 271
 props {
   name: "bikerBar_clutter_rubble01"
@@ -753,19 +753,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a848b91396630ec090020bb"
-  }
-  lod: 0
-}
-props {
-  name: "hub_building_02edge03"
-  gridPoint {
-    x: 167
-    y: 6
-    z: 25
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a848b91396630ec090020bc"
   }
   lod: 0
 }
@@ -12742,9 +12729,9 @@ props {
 props {
   name: "hub_building_02edgeEnd01"
   gridPoint {
-    x: 158
-    y: 3
-    z: 33.9
+    x: 168.6
+    y: 0
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -15128,9 +15115,9 @@ props {
 props {
   name: "hub_building_02edge04"
   gridPoint {
-    x: 167
-    y: 6
-    z: 28
+    x: 177.8
+    y: 3
+    z: 94.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -30316,9 +30303,9 @@ props {
 props {
   name: "barrens_ground_sidewalk01"
   gridPoint {
-    x: 151
-    y: 0
-    z: 26
+    x: 160
+    y: -6
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -31057,9 +31044,9 @@ props {
 props {
   name: "hub_building_02edge04"
   gridPoint {
-    x: 161
-    y: 3
-    z: 33.9
+    x: 174.6
+    y: 0
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -35871,9 +35858,9 @@ props {
 props {
   name: "hub_building_02edge03"
   gridPoint {
-    x: 164
-    y: 3
-    z: 33.9
+    x: 171.6
+    y: 0
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -36626,9 +36613,9 @@ props {
 props {
   name: "barrens_wall_alleyFence01"
   gridPoint {
-    x: 151
-    y: -0.1
-    z: 20.800003
+    x: 160
+    y: -6.1
+    z: 85.8
   }
   orientation: ORIENTATION_W
   idRef {
@@ -40897,19 +40884,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a848b9b396630ec09002cfa"
-  }
-  lod: 0
-}
-props {
-  name: "trawler_storage_crate03"
-  gridPoint {
-    x: 151
-    y: 0
-    z: 27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a848b9b396630ec09002cfb"
   }
   lod: 0
 }
@@ -46830,9 +46804,9 @@ props {
 props {
   name: "nightMarket_building_roofBackCorner01"
   gridPoint {
-    x: 158
-    y: 9
-    z: 25
+    x: 168.6
+    y: 6
+    z: 91.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -47350,9 +47324,9 @@ props {
 props {
   name: "nightMarket_building_roofSideCorner02"
   gridPoint {
-    x: 164
-    y: 9
-    z: 25
+    x: 174.6
+    y: 6
+    z: 91.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -47532,9 +47506,9 @@ props {
 props {
   name: "nightMarket_building_roofEdge01"
   gridPoint {
-    x: 164
-    y: 9
-    z: 28
+    x: 174.6
+    y: 6
+    z: 94.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -47675,9 +47649,9 @@ props {
 props {
   name: "nightMarket_building_roofSideCorner02"
   gridPoint {
-    x: 158
-    y: 9
-    z: 30.900002
+    x: 168.6
+    y: 6
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -47753,9 +47727,9 @@ props {
 props {
   name: "hub_building_02edgeEnd01"
   gridPoint {
-    x: 158
-    y: 6
-    z: 33.9
+    x: 168.6
+    y: 3
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -47883,9 +47857,9 @@ props {
 props {
   name: "hub_building_02edge03"
   gridPoint {
-    x: 164
-    y: 6
-    z: 33.9
+    x: 174.6
+    y: 3
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -47896,9 +47870,9 @@ props {
 props {
   name: "nightMarket_building_roofBackEdge01"
   gridPoint {
-    x: 158
-    y: 9
-    z: 28
+    x: 168.6
+    y: 6
+    z: 94.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -48039,9 +48013,9 @@ props {
 props {
   name: "nightMarket_building_roofEdge01"
   gridPoint {
-    x: 161
-    y: 9
-    z: 31
+    x: 171.6
+    y: 6
+    z: 97.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -48208,9 +48182,9 @@ props {
 props {
   name: "hub_building_02edge04"
   gridPoint {
-    x: 161
-    y: 6
-    z: 33.9
+    x: 171.6
+    y: 3
+    z: 100
   }
   orientation: ORIENTATION_E
   idRef {
@@ -48442,9 +48416,9 @@ props {
 props {
   name: "barrens_buildingOrnament_vent06"
   gridPoint {
-    x: 159
-    y: 9
-    z: 32
+    x: 169.6
+    y: 6
+    z: 98.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -48481,9 +48455,9 @@ props {
 props {
   name: "nightMarket_building_roofCenter01"
   gridPoint {
-    x: 161
-    y: 9
-    z: 28
+    x: 171.6
+    y: 6
+    z: 94.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -48585,9 +48559,9 @@ props {
 props {
   name: "nightMarket_building_roofBackEdge01"
   gridPoint {
-    x: 161
-    y: 9
-    z: 25
+    x: 171.6
+    y: 6
+    z: 91.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -48806,9 +48780,9 @@ props {
 props {
   name: "barrens_buildingOrnament_vent06"
   gridPoint {
-    x: 165
-    y: 9
-    z: 32
+    x: 175.6
+    y: 6
+    z: 98.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -48949,9 +48923,9 @@ props {
 props {
   name: "hub_building_02edge04"
   gridPoint {
-    x: 167
-    y: 6
-    z: 31
+    x: 177.8
+    y: 3
+    z: 97.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49213,9 +49187,9 @@ props {
 props {
   name: "nightMarket_building_roofFrontCorner01"
   gridPoint {
-    x: 164
-    y: 9
-    z: 31
+    x: 174.6
+    y: 6
+    z: 97.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49551,9 +49525,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49590,9 +49564,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 150.1
+    x: -20.899994
     y: 1
-    z: 73.2
+    z: 76.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -49616,9 +49590,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 85.2
+    z: 88.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -49642,9 +49616,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49707,9 +49681,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49733,9 +49707,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 77.4
+    z: 80.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -49772,9 +49746,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49837,9 +49811,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 81.9
+    z: 84.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -49863,9 +49837,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_W
   idRef {
@@ -49928,9 +49902,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -49954,9 +49928,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_W
   idRef {
@@ -49974,19 +49948,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c1396630f025001349"
-  }
-  lod: 0
-}
-props {
-  name: "whampoa_tech_antenna05"
-  gridPoint {
-    x: 174
-    y: 4
-    z: 154
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c1396630f02500134b"
   }
   lod: 0
 }
@@ -50123,9 +50084,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50240,9 +50201,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_N
   idRef {
@@ -50344,9 +50305,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_E
   idRef {
@@ -50370,9 +50331,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50448,9 +50409,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50461,9 +50422,9 @@ props {
 props {
   name: "docks_vehicle_containerHaulerBed"
   gridPoint {
-    x: 148
+    x: -23
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50552,9 +50513,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50578,9 +50539,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_N
   idRef {
@@ -50591,9 +50552,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50643,9 +50604,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_E
   idRef {
@@ -50747,9 +50708,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50890,9 +50851,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 139
+    x: -32
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50983,7 +50944,7 @@ props {
   gridPoint {
     x: 174
     y: 4
-    z: 141
+    z: 143.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -50994,9 +50955,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51007,9 +50968,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -51046,9 +51007,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51059,9 +51020,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 79.3
+    z: 82.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -51163,9 +51124,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 57.8
+    z: 60.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -51371,9 +51332,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 144
+    x: -27
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51384,9 +51345,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_N
   idRef {
@@ -51449,9 +51410,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 87.1
+    z: 90.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -51495,19 +51456,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c2396630f0250013fa"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_building_baseCorner"
-  gridPoint {
-    x: 154
-    y: 0
-    z: 148
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c2396630f0250013fb"
   }
   lod: 0
 }
@@ -51644,9 +51592,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51722,9 +51670,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51865,9 +51813,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_E
   idRef {
@@ -51930,9 +51878,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51956,9 +51904,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51995,9 +51943,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 65.7
+    z: 68.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -52008,9 +51956,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -52281,9 +52229,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -52372,9 +52320,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_N
   idRef {
@@ -52580,9 +52528,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -52619,9 +52567,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_W
   idRef {
@@ -52632,9 +52580,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -52671,9 +52619,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 83.2
+    z: 86.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -52814,9 +52762,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -52925,9 +52873,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53029,9 +52977,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53120,9 +53068,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53146,9 +53094,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53276,9 +53224,9 @@ props {
 props {
   name: "system_invisible_medCover"
   gridPoint {
-    x: 128
+    x: -43
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53296,19 +53244,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5a8492c3396630f0250014da"
-  }
-  lod: 0
-}
-props {
-  name: "mitte_wall_pillar01"
-  gridPoint {
-    x: 170
-    y: 6
-    z: 144
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c3396630f0250014db"
   }
   lod: 0
 }
@@ -53380,9 +53315,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53478,19 +53413,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c3396630f0250014f6"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_building_baseEdge03"
-  gridPoint {
-    x: 156
-    y: 0
-    z: 145
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c3396630f0250014f7"
   }
   lod: 0
 }
@@ -53627,9 +53549,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53692,9 +53614,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53705,9 +53627,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53731,9 +53653,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 83.2
+    z: 86.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -53744,9 +53666,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53835,9 +53757,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53874,11 +53796,12 @@ props {
 props {
   name: "system_invisible_medCover"
   gridPoint {
-    x: 159
+    x: 158
     y: 0
     z: 144
   }
   orientation: ORIENTATION_S
+  displayName: "SubwayExit"
   idRef {
     id: "5a8492c3396630f025001527"
   }
@@ -53913,9 +53836,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -53926,9 +53849,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_E
   idRef {
@@ -53939,9 +53862,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 150
+    x: -21
     y: 1
-    z: 74.8
+    z: 77.8
   }
   orientation: ORIENTATION_S
   idRef {
@@ -53965,9 +53888,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54030,9 +53953,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 150.1
+    x: -20.899994
     y: 0
-    z: 71.7
+    z: 74.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54095,9 +54018,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54160,9 +54083,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_W
   idRef {
@@ -54199,9 +54122,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 65.7
+    z: 68.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54212,9 +54135,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54238,9 +54161,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54316,9 +54239,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 81.3
+    z: 84.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54407,9 +54330,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_N
   idRef {
@@ -54472,9 +54395,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_W
   idRef {
@@ -54498,9 +54421,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54550,9 +54473,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 167
+    x: 166
     y: 0
-    z: 100
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54641,9 +54564,9 @@ props {
 props {
   name: "hive_clutter_dockWagonLocker01"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54654,9 +54577,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54680,9 +54603,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 69.6
+    z: 72.6
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54719,9 +54642,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -54888,9 +54811,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 68.6
+    z: 71.6
   }
   orientation: ORIENTATION_E
   idRef {
@@ -54914,9 +54837,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55005,9 +54928,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55213,9 +55136,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55252,9 +55175,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_E
   idRef {
@@ -55330,9 +55253,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55486,9 +55409,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55551,9 +55474,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55668,9 +55591,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55746,9 +55669,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 71.5
+    z: 74.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -55759,9 +55682,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55811,9 +55734,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 138
+    x: -33
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55863,9 +55786,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 73.5
+    z: 76.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -55902,9 +55825,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -55980,9 +55903,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 63.7
+    z: 66.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -56045,9 +55968,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56071,9 +55994,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 139
+    x: -32
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56124,9 +56047,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_N
   idRef {
@@ -56306,9 +56229,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56345,9 +56268,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56501,9 +56424,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56514,9 +56437,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 87.1
+    z: 90.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -56540,9 +56463,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 148
+    x: -23
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56566,9 +56489,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56670,9 +56593,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56722,9 +56645,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -56813,9 +56736,9 @@ props {
 props {
   name: "system_invisible_medCover"
   gridPoint {
-    x: 152
+    x: -19
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -56878,9 +56801,9 @@ props {
 props {
   name: "docks_clutter_container04"
   gridPoint {
-    x: 136.8
+    x: -34.199997
     y: 0
-    z: 63.2
+    z: 66.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -56930,9 +56853,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -57008,9 +56931,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57021,9 +56944,9 @@ props {
 props {
   name: "docks_vehicle_containerHaulerCab"
   gridPoint {
-    x: 153.6
+    x: -17.399994
     y: 0
-    z: 90.1
+    z: 93.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57060,9 +56983,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57112,26 +57035,13 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c6396630f0250016c7"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_medCover"
-  gridPoint {
-    x: 159
-    y: 0
-    z: 146
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c6396630f0250016c8"
   }
   lod: 0
 }
@@ -57164,9 +57074,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57333,9 +57243,9 @@ props {
 props {
   name: "warehouse_wall_interiorDoor01Back"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -57372,9 +57282,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 152
+    x: -19
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57398,9 +57308,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57424,9 +57334,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 69.6
+    z: 72.6
   }
   orientation: ORIENTATION_E
   idRef {
@@ -57450,9 +57360,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57515,9 +57425,9 @@ props {
 props {
   name: "warehouse_wall_doorWide02Front"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -57593,9 +57503,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 71.5
+    z: 74.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -57619,9 +57529,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_E
   idRef {
@@ -57775,9 +57685,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_N
   idRef {
@@ -57814,9 +57724,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 153
+    x: -18
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58009,9 +57919,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58048,9 +57958,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58087,9 +57997,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58113,9 +58023,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58139,9 +58049,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 155
+    x: -16
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58165,9 +58075,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_W
   idRef {
@@ -58191,9 +58101,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58269,9 +58179,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58282,9 +58192,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58321,9 +58231,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58360,9 +58270,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58416,9 +58326,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58455,9 +58365,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58559,9 +58469,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_E
   idRef {
@@ -58637,9 +58547,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58650,9 +58560,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58728,9 +58638,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58780,9 +58690,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58832,9 +58742,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_E
   idRef {
@@ -58897,9 +58807,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -58949,9 +58859,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59178,9 +59088,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59282,9 +59192,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 153
+    x: -18
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59321,9 +59231,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59386,9 +59296,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 137
+    x: -34
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59464,9 +59374,9 @@ props {
 props {
   name: "impoundLot_groundDecor_skidMarks03"
   gridPoint {
-    x: 152
+    x: -19
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_E
   idRef {
@@ -59542,9 +59452,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59555,9 +59465,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -59685,9 +59595,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_N
   idRef {
@@ -59750,9 +59660,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 75.4
+    z: 78.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -59883,7 +59793,7 @@ props {
   gridPoint {
     x: 155
     y: 5
-    z: 143
+    z: 143.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -59972,9 +59882,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60076,9 +59986,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60141,9 +60051,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_W
   idRef {
@@ -60245,9 +60155,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60284,9 +60194,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_W
   idRef {
@@ -60427,9 +60337,9 @@ props {
 props {
   name: "barrens_street_lightpoleTop03"
   gridPoint {
-    x: 151
+    x: -20
     y: 8
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_W
   GeneralTags: "isStreetLight"
@@ -60454,9 +60364,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60506,9 +60416,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_N
   idRef {
@@ -60532,9 +60442,9 @@ props {
 props {
   name: "nightMarket_building_roofCenter01"
   gridPoint {
-    x: 169
+    x: -2
     y: 17
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60623,9 +60533,9 @@ props {
 props {
   name: "system_invisible_medCover"
   gridPoint {
-    x: 137
+    x: -34
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60675,9 +60585,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60701,9 +60611,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60714,9 +60624,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60766,9 +60676,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_E
   idRef {
@@ -60792,9 +60702,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60805,9 +60715,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60896,9 +60806,9 @@ props {
 props {
   name: "factory_tech_bridgeDown"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 67
+    z: 70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -60974,9 +60884,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61013,9 +60923,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 141.2
+    x: -29.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61026,9 +60936,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61052,9 +60962,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 77.4
+    z: 80.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61078,9 +60988,9 @@ props {
 props {
   name: "warehouse_wall_interiorDoor01Back"
   gridPoint {
-    x: 132
+    x: -39
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61104,9 +61014,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61195,9 +61105,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_W
   idRef {
@@ -61234,9 +61144,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 150
+    x: -21
     y: 0
-    z: 74.8
+    z: 77.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61312,9 +61222,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61325,9 +61235,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61442,9 +61352,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_N
   idRef {
@@ -61637,9 +61547,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61663,9 +61573,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61741,9 +61651,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61819,9 +61729,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -61832,9 +61742,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 77.4
+    z: 80.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61858,9 +61768,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61884,9 +61794,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 141.2
+    x: -29.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -61975,9 +61885,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_W
   idRef {
@@ -61988,9 +61898,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62014,9 +61924,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_E
   idRef {
@@ -62079,9 +61989,9 @@ props {
 props {
   name: "docks_clutter_container01"
   gridPoint {
-    x: 138.8
+    x: -32.199997
     y: -0.29999995
-    z: 63.1
+    z: 66.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -62131,9 +62041,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62274,9 +62184,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62508,9 +62418,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 138
+    x: -33
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62521,9 +62431,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62573,9 +62483,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62651,9 +62561,9 @@ props {
 props {
   name: "warehouse_wall_doorWide02Front"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62664,9 +62574,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62742,9 +62652,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_W
   idRef {
@@ -62781,9 +62691,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 150
+    x: -21
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -62898,9 +62808,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_E
   idRef {
@@ -62924,9 +62834,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_W
   idRef {
@@ -62976,9 +62886,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_W
   idRef {
@@ -62989,9 +62899,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63002,9 +62912,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_W
   idRef {
@@ -63132,9 +63042,9 @@ props {
 props {
   name: "barrens_street_lightpole02"
   gridPoint {
-    x: 128
+    x: -43
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_W
   idRef {
@@ -63171,9 +63081,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_N
   idRef {
@@ -63184,9 +63094,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63262,9 +63172,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63470,9 +63380,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 130
+    x: -41
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63522,9 +63432,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63574,9 +63484,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_W
   idRef {
@@ -63600,9 +63510,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63613,9 +63523,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 144
+    x: -27
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63738,9 +63648,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -63790,9 +63700,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 63.7
+    z: 66.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -63859,9 +63769,9 @@ props {
 props {
   name: "barrens_ground_twoLaneEnd"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_N
   idRef {
@@ -63989,9 +63899,9 @@ props {
 props {
   name: "mitte_wall_pillar01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64028,9 +63938,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64106,9 +64016,9 @@ props {
 props {
   name: "warehouse_wall_interiorEdge01"
   gridPoint {
-    x: 129
+    x: -42
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64145,9 +64055,9 @@ props {
 props {
   name: "kowloon_wallDecor_streetPosters04"
   gridPoint {
-    x: 157
+    x: 162
     y: 1.4
-    z: 142
+    z: 136
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64171,9 +64081,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 100
+    z: 103
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64249,9 +64159,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64288,9 +64198,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64314,9 +64224,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64340,9 +64250,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64353,9 +64263,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64509,9 +64419,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64535,9 +64445,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 61.8
+    z: 64.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64561,9 +64471,9 @@ props {
 props {
   name: "warehouse_wall_doorWide02Front"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64587,9 +64497,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64691,9 +64601,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64743,9 +64653,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_W
   idRef {
@@ -64756,9 +64666,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_E
   idRef {
@@ -64795,9 +64705,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -64847,9 +64757,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_N
   idRef {
@@ -65050,9 +64960,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -65145,9 +65055,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65171,9 +65081,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_E
   idRef {
@@ -65210,9 +65120,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65314,9 +65224,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65379,9 +65289,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65487,9 +65397,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65513,9 +65423,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_W
   idRef {
@@ -65656,9 +65566,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_N
   idRef {
@@ -65669,9 +65579,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65734,9 +65644,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65799,9 +65709,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65838,9 +65748,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65903,9 +65813,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -65968,9 +65878,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66098,9 +66008,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66111,9 +66021,9 @@ props {
 props {
   name: "warehouse_wall_interiorConnector01"
   gridPoint {
-    x: 122.05
+    x: -48.949997
     y: 0
-    z: 62.05
+    z: 65.05
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66124,9 +66034,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66137,9 +66047,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 145.2
+    x: -25.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66189,9 +66099,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66280,9 +66190,9 @@ props {
 props {
   name: "warehouse_wall_interiorDoor01Back"
   gridPoint {
-    x: 123
+    x: -48
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66306,9 +66216,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 89.1
+    z: 92.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66332,9 +66242,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66384,9 +66294,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66635,9 +66545,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 57.8
+    z: 60.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -66869,9 +66779,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66882,9 +66792,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66934,9 +66844,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -66960,9 +66870,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67090,9 +67000,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 87.1
+    z: 90.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67116,9 +67026,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 145.2
+    x: -25.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67207,9 +67117,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67246,9 +67156,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67272,9 +67182,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 68.7
+    z: 71.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67350,9 +67260,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_W
   idRef {
@@ -67402,9 +67312,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -67467,9 +67377,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67627,9 +67537,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67640,9 +67550,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67666,9 +67576,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_W
   idRef {
@@ -67731,9 +67641,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67874,9 +67784,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67948,9 +67858,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -67974,9 +67884,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 73.5
+    z: 76.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68039,9 +67949,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 141.2
+    x: -29.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68091,9 +68001,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68104,9 +68014,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 129
+    x: -42
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68143,9 +68053,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68195,9 +68105,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68234,9 +68144,9 @@ props {
 props {
   name: "barrens_street_lightpoleTop03"
   gridPoint {
-    x: 137
+    x: -34
     y: 8
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_W
   GeneralTags: "isStreetLight"
@@ -68261,9 +68171,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68352,9 +68262,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68365,9 +68275,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 128
+    x: -43
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68564,9 +68474,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -68655,9 +68565,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68746,9 +68656,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68772,9 +68682,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 79.3
+    z: 82.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68798,9 +68708,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 145.2
+    x: -25.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68941,9 +68851,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -68993,9 +68903,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0.7
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69045,9 +68955,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 130
+    x: -41
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69071,9 +68981,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69110,9 +69020,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 144
+    x: -27
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69149,9 +69059,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69162,9 +69072,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -69344,9 +69254,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69526,9 +69436,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_W
   idRef {
@@ -69565,9 +69475,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69630,9 +69540,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69656,9 +69566,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69669,9 +69579,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_W
   idRef {
@@ -69695,9 +69605,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 148
+    x: -23
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -69708,9 +69618,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -69754,19 +69664,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492d0396630f025001cd4"
-  }
-  lod: 0
-}
-props {
-  name: "haven_vehicle_ladas02"
-  gridPoint {
-    x: 141
-    y: 0
-    z: 151
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492d0396630f025001cd5"
   }
   lod: 0
 }
@@ -69916,9 +69813,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_W
   idRef {
@@ -70046,9 +69943,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129.7
+    x: -41.300003
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70072,9 +69969,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70085,9 +69982,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70111,9 +70008,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_E
   idRef {
@@ -70124,9 +70021,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70137,9 +70034,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70267,9 +70164,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70345,9 +70242,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_W
   idRef {
@@ -70384,9 +70281,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70410,9 +70307,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 75.4
+    z: 78.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -70462,9 +70359,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 136.2
+    x: -34.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -70566,9 +70463,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70618,9 +70515,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_W
   idRef {
@@ -70762,9 +70659,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70814,9 +70711,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -70983,9 +70880,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71022,9 +70919,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71061,9 +70958,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71143,9 +71040,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71169,9 +71066,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71329,9 +71226,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71342,9 +71239,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_W
   idRef {
@@ -71368,9 +71265,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71381,9 +71278,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 136.2
+    x: -34.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71550,9 +71447,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71576,9 +71473,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71589,9 +71486,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 61.8
+    z: 64.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71615,9 +71512,9 @@ props {
 props {
   name: "warehouse_vehicle_forklift01"
   gridPoint {
-    x: 138
+    x: -33
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71628,9 +71525,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71667,9 +71564,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71719,9 +71616,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71745,9 +71642,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -71771,9 +71668,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -71784,9 +71681,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_W
   idRef {
@@ -71953,9 +71850,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72005,9 +71902,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72031,9 +71928,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72044,9 +71941,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72161,9 +72058,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 126
+    x: -45
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72174,9 +72071,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 132.2
+    x: -38.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -72291,9 +72188,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72304,9 +72201,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72330,9 +72227,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_W
   idRef {
@@ -72356,9 +72253,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 129
+    x: -42
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72499,9 +72396,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: 148
+    x: -23
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   displayName: "TrainYardMedPack_1"
@@ -72535,9 +72432,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 126
+    x: -45
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72561,9 +72458,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_E
   idRef {
@@ -72705,9 +72602,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72745,9 +72642,9 @@ props {
 props {
   name: "docks_decor_shippingCrates02"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72875,9 +72772,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 123
+    x: -48
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72914,9 +72811,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -72927,9 +72824,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -72953,9 +72850,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 127.2
+    x: -43.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -73005,9 +72902,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73109,9 +73006,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73122,9 +73019,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -73161,9 +73058,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73321,9 +73218,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -73351,9 +73248,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 57.8
+    z: 60.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -73390,9 +73287,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73520,9 +73417,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_W
   idRef {
@@ -73559,9 +73456,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73611,9 +73508,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73663,9 +73560,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_W
   idRef {
@@ -73806,9 +73703,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   displayName: "TrainYardMedPack_2"
@@ -73855,9 +73752,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 123.2
+    x: -47.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -73881,9 +73778,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 126
+    x: -45
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73946,9 +73843,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -73972,9 +73869,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_W
   idRef {
@@ -74024,9 +73921,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_W
   idRef {
@@ -74037,9 +73934,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 146
+    x: -25
     y: 0.7
-    z: 94.6
+    z: 97.6
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74050,9 +73947,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 121
+    x: -50
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74353,9 +74250,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74366,9 +74263,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74392,9 +74289,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74431,9 +74328,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74535,9 +74432,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -74613,9 +74510,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 63.7
+    z: 66.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74639,9 +74536,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 123.2
+    x: -47.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74769,9 +74666,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74808,9 +74705,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 148.6
+    x: -22.399994
     y: 0.7
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74964,9 +74861,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 83.2
+    z: 86.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -74990,9 +74887,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -75016,9 +74913,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75068,9 +74965,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75133,9 +75030,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75159,9 +75056,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75228,9 +75125,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75241,9 +75138,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75410,9 +75307,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 85.2
+    z: 88.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -75449,9 +75346,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 127.2
+    x: -43.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -75553,9 +75450,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -75605,9 +75502,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75618,9 +75515,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_W
   idRef {
@@ -75644,9 +75541,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_E
   idRef {
@@ -75696,9 +75593,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75748,9 +75645,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -75787,9 +75684,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_W
   idRef {
@@ -75956,9 +75853,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76008,9 +75905,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76034,9 +75931,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76060,9 +75957,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76099,9 +75996,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76151,9 +76048,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -76164,9 +76061,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -76203,9 +76100,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76268,9 +76165,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76294,9 +76191,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76346,9 +76243,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76463,9 +76360,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 132
+    x: -39
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76528,9 +76425,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 123
+    x: -48
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76762,9 +76659,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76788,9 +76685,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76827,9 +76724,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -76957,9 +76854,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77048,9 +76945,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77061,9 +76958,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77126,9 +77023,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77178,9 +77075,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77243,9 +77140,9 @@ props {
 props {
   name: "docks_clutter_industrialDumpster"
   gridPoint {
-    x: 183
+    x: 169
     y: 0
-    z: 122
+    z: 109
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77308,9 +77205,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_W
   idRef {
@@ -77360,9 +77257,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77477,9 +77374,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77739,9 +77636,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77778,9 +77675,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 81.3
+    z: 84.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77791,9 +77688,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77804,9 +77701,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 79.3
+    z: 82.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77843,9 +77740,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 81.3
+    z: 84.3
   }
   orientation: ORIENTATION_E
   idRef {
@@ -77856,9 +77753,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77921,9 +77818,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 150
+    x: -21
     y: 0.7
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -77934,9 +77831,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_W
   idRef {
@@ -77973,9 +77870,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78051,9 +77948,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_N
   idRef {
@@ -78064,9 +77961,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -78168,9 +78065,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -78337,9 +78234,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78363,9 +78260,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 135
+    x: -36
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78441,9 +78338,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_E
   idRef {
@@ -78559,9 +78456,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78572,9 +78469,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78728,9 +78625,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 146.8
+    x: -24.199997
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78819,9 +78716,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -78832,9 +78729,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 59.8
+    z: 62.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -79038,19 +78935,6 @@ props {
   lod: 0
 }
 props {
-  name: "hub_street_phonebooth01"
-  gridPoint {
-    x: 159
-    y: 0
-    z: 143
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492d8396630f02500210a"
-  }
-  lod: 0
-}
-props {
   name: "system_invisible_solidProp"
   gridPoint {
     x: 140
@@ -79118,9 +79002,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_W
   idRef {
@@ -79209,9 +79093,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -79248,9 +79132,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_E
   idRef {
@@ -79261,9 +79145,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_W
   idRef {
@@ -79300,9 +79184,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 93.1
+    z: 96.1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -79352,9 +79236,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -79482,9 +79366,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_E
   idRef {
@@ -79508,9 +79392,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 59.8
+    z: 62.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -79521,9 +79405,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 137
+    x: -34
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -79690,9 +79574,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -79798,9 +79682,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_W
   idRef {
@@ -79915,9 +79799,9 @@ props {
 props {
   name: "barrens_street_lightpole02"
   gridPoint {
-    x: 137
+    x: -34
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_W
   idRef {
@@ -79952,24 +79836,11 @@ props {
   lod: 0
 }
 props {
-  name: "barrens_street_parkingMeter"
-  gridPoint {
-    x: 159
-    y: 0
-    z: 146
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492d9396630f025002173"
-  }
-  lod: 0
-}
-props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80045,9 +79916,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 138
+    x: -33
     y: 2.1
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -80305,9 +80176,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_W
   idRef {
@@ -80318,9 +80189,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80500,9 +80371,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 75.4
+    z: 78.4
   }
   orientation: ORIENTATION_E
   idRef {
@@ -80539,9 +80410,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80604,9 +80475,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80617,9 +80488,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -80695,9 +80566,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80721,9 +80592,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_E
   idRef {
@@ -80760,9 +80631,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -80773,9 +80644,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_W
   idRef {
@@ -81031,19 +80902,6 @@ props {
   lod: 0
 }
 props {
-  name: "docks_appliance_powerSupply"
-  gridPoint {
-    x: 188
-    y: 0
-    z: 118
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492da396630f0250021fa"
-  }
-  lod: 0
-}
-props {
   name: "nightMarket_building_roofBackEdge02"
   gridPoint {
     x: 120
@@ -81085,9 +80943,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 128
+    x: -43
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81124,9 +80982,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81150,9 +81008,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81176,9 +81034,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 151.9
+    x: -19.100006
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81189,9 +81047,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81293,9 +81151,9 @@ props {
 props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
-    x: 120
+    x: -51
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81436,9 +81294,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81488,9 +81346,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81553,9 +81411,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -81592,9 +81450,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_W
   idRef {
@@ -81683,9 +81541,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81696,9 +81554,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 132.2
+    x: -38.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81709,9 +81567,9 @@ props {
 props {
   name: "barrens_street_lightpole02"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_W
   idRef {
@@ -81735,9 +81593,9 @@ props {
 props {
   name: "docks_clutter_boardingStair"
   gridPoint {
-    x: 187
+    x: 183.8
     y: 0
-    z: 119
+    z: 114.8
   }
   orientation: ORIENTATION_W
   idRef {
@@ -81787,9 +81645,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81800,9 +81658,9 @@ props {
 props {
   name: "warehouse_vehicle_forklift02"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_E
   idRef {
@@ -81930,9 +81788,9 @@ props {
 props {
   name: "taiPo_building_edge12"
   gridPoint {
-    x: 168
+    x: -3
     y: 13
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82060,9 +81918,9 @@ props {
 props {
   name: "warehouse_vehicle_forklift02"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 97
+    z: 100
   }
   orientation: ORIENTATION_W
   idRef {
@@ -82164,9 +82022,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82216,9 +82074,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 132.2
+    x: -38.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82294,9 +82152,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82333,9 +82191,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_W
   idRef {
@@ -82359,9 +82217,9 @@ props {
 props {
   name: "warehouse_vehicle_forklift01"
   gridPoint {
-    x: 138
+    x: -33
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82372,9 +82230,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 94.8
+    z: 97.8
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82398,9 +82256,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82450,9 +82308,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_W
   idRef {
@@ -82554,9 +82412,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82658,9 +82516,9 @@ props {
 props {
   name: "trawler_storage_dolly01"
   gridPoint {
-    x: 130
+    x: -41
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82866,9 +82724,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 89.1
+    z: 92.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82879,9 +82737,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82905,9 +82763,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 118.7
+    x: -52.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -82944,9 +82802,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -82996,9 +82854,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83061,9 +82919,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 59.8
+    z: 62.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -83321,9 +83179,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 71.5
+    z: 74.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -83399,9 +83257,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_E
   idRef {
@@ -83425,9 +83283,9 @@ props {
 props {
   name: "docks_clutter_shippingCrate03"
   gridPoint {
-    x: 152
+    x: -19
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83438,9 +83296,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 123
+    x: -48
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83542,9 +83400,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_W
   idRef {
@@ -83568,9 +83426,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83594,9 +83452,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83685,9 +83543,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83880,9 +83738,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 136.2
+    x: -34.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -83906,9 +83764,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83971,9 +83829,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -83997,9 +83855,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84023,9 +83881,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_E
   idRef {
@@ -84140,9 +83998,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 127.7
+    x: -43.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_E
   idRef {
@@ -84166,9 +84024,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84309,9 +84167,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84387,9 +84245,9 @@ props {
 props {
   name: "pikePlace_street_ghostToursBoard"
   gridPoint {
-    x: 158.4
+    x: 157.5
     y: 0
-    z: 145.8
+    z: 148.40001
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84452,9 +84310,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 123.2
+    x: -47.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -84478,9 +84336,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 138
+    x: -33
     y: 0.7
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -84530,9 +84388,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84647,9 +84505,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84673,9 +84531,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 68.6
+    z: 71.6
   }
   orientation: ORIENTATION_E
   idRef {
@@ -84712,9 +84570,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: 127.1
+    x: -43.9
     y: 1.2
-    z: 74.1
+    z: 77.1
   }
   orientation: ORIENTATION_S
   displayName: "Interact_ControlCodePickUp"
@@ -84840,9 +84698,9 @@ props {
 props {
   name: "factory_tech_bridgeDown"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 67
+    z: 70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -84996,9 +84854,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85022,9 +84880,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85035,9 +84893,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_N
   idRef {
@@ -85061,9 +84919,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 93.8
+    z: 96.8
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85113,9 +84971,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85165,9 +85023,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85217,9 +85075,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 65.7
+    z: 68.7
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85230,9 +85088,9 @@ props {
 props {
   name: "barrens_street_lightpole02"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 105
+    z: 108
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85347,9 +85205,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147.7
+    x: -23.300003
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85438,9 +85296,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85464,9 +85322,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85529,9 +85387,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 148.8
+    x: -22.199997
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85646,9 +85504,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85685,9 +85543,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 141.2
+    x: -29.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85867,9 +85725,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85880,9 +85738,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 123.2
+    x: -47.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85893,9 +85751,9 @@ props {
 props {
   name: "factory_tech_bridgeDown"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 67
+    z: 70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -85945,9 +85803,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -85984,9 +85842,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86101,9 +85959,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_W
   idRef {
@@ -86335,9 +86193,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86361,9 +86219,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86478,9 +86336,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 138
+    x: -33
     y: 1.4
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -86608,9 +86466,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_W
   idRef {
@@ -86634,9 +86492,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 145.7
+    x: -25.300003
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_E
   idRef {
@@ -86647,9 +86505,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_W
   idRef {
@@ -86764,9 +86622,9 @@ props {
 props {
   name: "chars_scaleRef_human"
   gridPoint {
-    x: 146
+    x: -25
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86777,9 +86635,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 135
+    x: -36
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86803,9 +86661,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86907,9 +86765,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 123.9
+    x: -47.1
     y: -1
-    z: 70.9
+    z: 73.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -86933,9 +86791,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 127.2
+    x: -43.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -86985,9 +86843,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_W
   idRef {
@@ -87024,9 +86882,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87063,9 +86921,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87245,9 +87103,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87284,9 +87142,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 125
+    x: -46
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -87297,9 +87155,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87440,9 +87298,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87466,9 +87324,9 @@ props {
 props {
   name: "barrens_street_lightpoleTop03"
   gridPoint {
-    x: 128
+    x: -43
     y: 8
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_W
   GeneralTags: "isStreetLight"
@@ -87519,9 +87377,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_W
   idRef {
@@ -87558,9 +87416,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate01"
   gridPoint {
-    x: 138
+    x: -33
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -87649,9 +87507,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_E
   idRef {
@@ -87714,9 +87572,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87753,9 +87611,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -87939,9 +87797,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88030,9 +87888,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88121,9 +87979,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88212,9 +88070,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 141.9
+    x: -29.100006
     y: -1
-    z: 88.9
+    z: 91.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88394,9 +88252,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88420,9 +88278,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88446,9 +88304,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88459,9 +88317,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -88550,9 +88408,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88602,9 +88460,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_E
   idRef {
@@ -88615,9 +88473,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 145.2
+    x: -25.800003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_E
   idRef {
@@ -88797,9 +88655,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88862,9 +88720,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -88901,9 +88759,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 141.9
+    x: -29.100006
     y: -1
-    z: 62.9
+    z: 65.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89022,9 +88880,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89048,9 +88906,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89087,9 +88945,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_E
   idRef {
@@ -89126,9 +88984,9 @@ props {
 props {
   name: "taiPo_storage_weaponCrate02"
   gridPoint {
-    x: 150
+    x: -21
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89201,9 +89059,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89268,7 +89126,7 @@ props {
   gridPoint {
     x: 159
     y: 0
-    z: 144
+    z: 142
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89331,9 +89189,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 141
+    x: -30
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -89344,9 +89202,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89422,9 +89280,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89435,9 +89293,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 132.9
+    x: -38.100006
     y: -1
-    z: 88.9
+    z: 91.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89461,9 +89319,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_N
   idRef {
@@ -89474,9 +89332,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 127.2
+    x: -43.800003
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_E
   idRef {
@@ -89552,9 +89410,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89565,9 +89423,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_W
   idRef {
@@ -89643,9 +89501,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89773,9 +89631,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89799,9 +89657,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 122
+    x: -49
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_W
   idRef {
@@ -89877,9 +89735,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_N
   idRef {
@@ -89955,9 +89813,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89968,9 +89826,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 135
+    x: -36
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -89994,9 +89852,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 136.2
+    x: -34.800003
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -90046,9 +89904,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90124,9 +89982,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_W
   idRef {
@@ -90202,9 +90060,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90228,9 +90086,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90397,9 +90255,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90410,9 +90268,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90436,9 +90294,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90540,9 +90398,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 132.9
+    x: -38.100006
     y: -1
-    z: 79.9
+    z: 82.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90605,9 +90463,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90657,9 +90515,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 73.5
+    z: 76.5
   }
   orientation: ORIENTATION_E
   idRef {
@@ -90735,9 +90593,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90761,9 +90619,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -90930,9 +90788,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91060,9 +90918,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91086,9 +90944,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 71
+    z: 74
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91294,9 +91152,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 93
+    z: 96
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91398,9 +91256,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91424,9 +91282,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91463,9 +91321,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91567,9 +91425,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91606,9 +91464,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 120.7
+    x: -50.300003
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91658,9 +91516,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 135
+    x: -36
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -91788,9 +91646,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_E
   idRef {
@@ -92022,9 +91880,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 123.9
+    x: -47.1
     y: -1
-    z: 62.9
+    z: 65.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92048,9 +91906,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92149,9 +92007,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92188,9 +92046,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92266,9 +92124,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92331,9 +92189,9 @@ props {
 props {
   name: "barrens_street_lightpoleTop01"
   gridPoint {
-    x: 145
+    x: -26
     y: 8
-    z: 105
+    z: 108
   }
   orientation: ORIENTATION_W
   idRef {
@@ -92387,9 +92245,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 139
+    x: -32
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -92491,9 +92349,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92504,9 +92362,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 139
+    x: -32
     y: 0
-    z: 96
+    z: 99
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92530,9 +92388,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92699,9 +92557,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92751,9 +92609,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailPillar"
   gridPoint {
-    x: 132.2
+    x: -38.800003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_E
   idRef {
@@ -92764,9 +92622,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92933,9 +92791,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -92972,9 +92830,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93102,9 +92960,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 79
+    z: 82
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93115,9 +92973,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93154,9 +93012,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93259,9 +93117,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 126
+    x: -45
     y: 0
-    z: 95
+    z: 98
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93350,9 +93208,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 85
+    z: 88
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93389,9 +93247,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93545,9 +93403,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 123
+    x: -48
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93571,9 +93429,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_W
   idRef {
@@ -93610,9 +93468,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93636,9 +93494,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93649,9 +93507,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93662,9 +93520,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93727,9 +93585,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 69.6
+    z: 72.6
   }
   orientation: ORIENTATION_E
   idRef {
@@ -93818,9 +93676,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -93844,9 +93702,9 @@ props {
 props {
   name: "haven_floor_subwayTrack02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 91
+    z: 94
   }
   orientation: ORIENTATION_E
   idRef {
@@ -93896,9 +93754,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94156,9 +94014,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_E
   idRef {
@@ -94208,9 +94066,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94299,9 +94157,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 78
+    z: 81
   }
   orientation: ORIENTATION_W
   idRef {
@@ -94531,9 +94389,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 68
+    z: 71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94544,11 +94402,11 @@ props {
 props {
   name: "kowloon_wallDecor_streetPosters02"
   gridPoint {
-    x: 157
-    y: 0
-    z: 143
+    x: 150.7
+    y: 0.3
+    z: 151
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
   idRef {
     id: "5a8492e9396630f025002833"
   }
@@ -94648,9 +94506,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 73
+    z: 76
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94765,9 +94623,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94778,9 +94636,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_W
   idRef {
@@ -94856,9 +94714,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 141.9
+    x: -29.100006
     y: -1
-    z: 79.9
+    z: 82.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94919,9 +94777,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 89
+    z: 92
   }
   orientation: ORIENTATION_S
   idRef {
@@ -94932,9 +94790,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -95057,9 +94915,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95083,9 +94941,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95135,9 +94993,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95227,9 +95085,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 142
+    x: -29
     y: -1
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95318,9 +95176,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 121
+    x: -50
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95344,9 +95202,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_N
   idRef {
@@ -95435,9 +95293,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95448,9 +95306,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 94
+    z: 97
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95487,9 +95345,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 75
+    z: 78
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95513,9 +95371,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95539,9 +95397,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95565,9 +95423,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 83
+    z: 86
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95591,9 +95449,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_W
   idRef {
@@ -95630,9 +95488,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 147
+    x: -24
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -95656,9 +95514,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 136.7
+    x: -34.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_E
   idRef {
@@ -95708,9 +95566,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 132.9
+    x: -38.100006
     y: -1
-    z: 70.9
+    z: 73.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95721,9 +95579,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95786,9 +95644,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95799,9 +95657,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 61.8
+    z: 64.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -95890,9 +95748,9 @@ props {
 props {
   name: "mtr_floor_mtrPlatformEdge01"
   gridPoint {
-    x: 149
+    x: -22
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_N
   idRef {
@@ -95903,9 +95761,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95968,9 +95826,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 141.9
+    x: -29.100006
     y: -1
-    z: 70.9
+    z: 73.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96020,9 +95878,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 137
+    x: -34
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96111,9 +95969,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96306,9 +96164,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 132.9
+    x: -38.100006
     y: -1
-    z: 62.9
+    z: 65.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96319,9 +96177,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 89.1
+    z: 92.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -96332,9 +96190,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96371,9 +96229,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 87
+    z: 90
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96462,9 +96320,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96501,9 +96359,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 66
+    z: 69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96618,9 +96476,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 133
+    x: -38
     y: -1
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96670,9 +96528,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_W
   idRef {
@@ -96787,9 +96645,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 77
+    z: 80
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96813,9 +96671,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96865,9 +96723,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -96982,9 +96840,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 67
+    z: 70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97034,9 +96892,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 131
+    x: -40
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -97086,9 +96944,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 92
+    z: 95
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97099,9 +96957,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 81
+    z: 84
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97112,9 +96970,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 67
+    z: 70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97203,9 +97061,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97268,9 +97126,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 70
+    z: 73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97294,9 +97152,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 129
+    x: -42
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97541,9 +97399,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97684,9 +97542,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 90
+    z: 93
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97866,9 +97724,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackArch01"
   gridPoint {
-    x: 123.9
+    x: -47.1
     y: -1
-    z: 79.9
+    z: 82.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97939,9 +97797,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97991,9 +97849,9 @@ props {
 props {
   name: "haven_floor_subwayTrack01"
   gridPoint {
-    x: 134
+    x: -37
     y: 0
-    z: 85.2
+    z: 88.2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -98004,9 +97862,9 @@ props {
 props {
   name: "pikePlace_vehicle_monorailTrackConnector01"
   gridPoint {
-    x: 124
+    x: -47
     y: -1
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98121,9 +97979,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 63
+    z: 66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98303,9 +98161,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 145
+    x: -26
     y: 0
-    z: 64
+    z: 67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98316,9 +98174,9 @@ props {
 props {
   name: "haven_floor_subwayTiles03"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98446,9 +98304,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_W
   idRef {
@@ -98511,9 +98369,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 59
+    z: 62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98680,9 +98538,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 124
+    x: -47
     y: 0
-    z: 69
+    z: 72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98719,9 +98577,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_W
   idRef {
@@ -98797,9 +98655,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 74
+    z: 77
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98810,9 +98668,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98953,9 +98811,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 65
+    z: 68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -98966,9 +98824,9 @@ props {
 props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
-    x: 150.1
+    x: -20.899994
     y: 0
-    z: 73.2
+    z: 76.2
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99039,9 +98897,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 143
+    x: -28
     y: 0
-    z: 98
+    z: 101
   }
   orientation: ORIENTATION_E
   idRef {
@@ -99117,9 +98975,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_W
   idRef {
@@ -99169,9 +99027,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 61
+    z: 64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99312,9 +99170,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 136
+    x: -35
     y: 0
-    z: 58
+    z: 61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99429,9 +99287,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99481,9 +99339,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 142
+    x: -29
     y: 0
-    z: 88
+    z: 91
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99533,9 +99391,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 86
+    z: 89
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99598,9 +99456,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 76
+    z: 79
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99689,9 +99547,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 133
+    x: -38
     y: 0
-    z: 60
+    z: 63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99741,9 +99599,9 @@ props {
 props {
   name: "system_invisible_blockMove"
   gridPoint {
-    x: 127
+    x: -44
     y: 0
-    z: 82
+    z: 85
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99767,9 +99625,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 84
+    z: 87
   }
   orientation: ORIENTATION_W
   idRef {
@@ -99845,9 +99703,9 @@ props {
 props {
   name: "haven_floor_subwayTiles02"
   gridPoint {
-    x: 138.7
+    x: -32.300003
     y: 0
-    z: 72
+    z: 75
   }
   orientation: ORIENTATION_S
   idRef {
@@ -99871,9 +99729,9 @@ props {
 props {
   name: "haven_floor_subwayTiles01"
   gridPoint {
-    x: 140
+    x: -31
     y: 0
-    z: 80
+    z: 83
   }
   orientation: ORIENTATION_W
   idRef {
@@ -99949,9 +99807,9 @@ props {
 props {
   name: "trains_puce_tunnelwall01"
   gridPoint {
-    x: 108
+    x: -14
     y: 0
-    z: 61
+    z: 113
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -99959,9 +99817,9 @@ props {
 props {
   name: "trains_puce_tunnelwall02"
   gridPoint {
-    x: 107
+    x: -15
     y: 0
-    z: 64
+    z: 116
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -99969,9 +99827,9 @@ props {
 props {
   name: "trains_puce_tunnelwall03"
   gridPoint {
-    x: 107
+    x: -15
     y: 0
-    z: 70
+    z: 122
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -99979,9 +99837,9 @@ props {
 props {
   name: "trains_puce_tunnelwall04"
   gridPoint {
-    x: 106
+    x: -16
     y: 0
-    z: 73
+    z: 125
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -99989,9 +99847,9 @@ props {
 props {
   name: "trains_puce_tunnelwall05"
   gridPoint {
-    x: 106
+    x: -16
     y: 0
-    z: 77
+    z: 129
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -99999,9 +99857,9 @@ props {
 props {
   name: "trains_puce_tunnelwall06"
   gridPoint {
-    x: 105
+    x: -17
     y: 0
-    z: 79
+    z: 131
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -100009,9 +99867,9 @@ props {
 props {
   name: "trains_puce_tunnelwall07"
   gridPoint {
-    x: 110
+    x: -12
     y: 0
-    z: 79
+    z: 131
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -100019,9 +99877,9 @@ props {
 props {
   name: "trains_puce_wall04"
   gridPoint {
-    x: 97
+    x: -25
     y: 0
-    z: 76
+    z: 128
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -100029,9 +99887,9 @@ props {
 props {
   name: "trains_puce_wall05"
   gridPoint {
-    x: 97
+    x: -25
     y: 0
-    z: 72
+    z: 124
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -100039,9 +99897,9 @@ props {
 props {
   name: "trains_puce_wall06"
   gridPoint {
-    x: 95
+    x: -27
     y: 0
-    z: 66
+    z: 118
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -100049,9 +99907,9 @@ props {
 props {
   name: "trains_puce_walltop01"
   gridPoint {
-    x: 98
+    x: -24
     y: 0
-    z: 62
+    z: 114
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -100059,9 +99917,9 @@ props {
 props {
   name: "trains_vehicles_oldcar01"
   gridPoint {
-    x: 83
+    x: -39
     y: 0
-    z: 59
+    z: 111
   }
   orientation: ORIENTATION_W
   lod: 0
@@ -100069,9 +99927,9 @@ props {
 props {
   name: "trains_vehicles_oldcar01lights"
   gridPoint {
-    x: 77.8
+    x: -44.199997
     y: 0.7
-    z: 57.9
+    z: 109.9
   }
   orientation: ORIENTATION_W
   lod: 0
@@ -100089,9 +99947,9 @@ props {
 props {
   name: "trawler_boatDecoration_scaffoldMid01"
   gridPoint {
-    x: 202
+    x: 204
     y: 0
-    z: 114
+    z: 94
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -102618,9 +102476,9 @@ props {
 props {
   name: "barrens_ground_twoLaneSingleEdge"
   gridPoint {
-    x: 151
+    x: -20
     y: 0
-    z: 62
+    z: 65
   }
   orientation: ORIENTATION_W
   idRef {
@@ -102631,9 +102489,9 @@ props {
 props {
   name: "trains_vehicles_oldcar01"
   gridPoint {
-    x: 125.8
+    x: -45.199997
     y: 0.4
-    z: 79.2
+    z: 82.2
   }
   orientation: ORIENTATION_W
   idRef {
@@ -102644,9 +102502,9 @@ props {
 props {
   name: "trains_vehicles_oldcar01"
   gridPoint {
-    x: 125.8
+    x: -45.199997
     y: 0.4
-    z: 68.1
+    z: 71.1
   }
   orientation: ORIENTATION_W
   idRef {
@@ -102657,9 +102515,9 @@ props {
 props {
   name: "trains_vehicles_oldcar01"
   gridPoint {
-    x: 125.8
+    x: -45.199997
     y: 0.4
-    z: 55.199997
+    z: 58.199997
   }
   orientation: ORIENTATION_W
   idRef {
@@ -102677,6 +102535,215 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5a95ba106131312829002e66"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_concreteEdge01"
+  gridPoint {
+    x: 166
+    y: 0
+    z: 99
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5a9861ac6131314838003bf7"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02edge03"
+  gridPoint {
+    x: 177.6
+    y: 0
+    z: 96.8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9862c16131314838003bf8"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02edgeEnd01"
+  gridPoint {
+    x: 177.6
+    y: -0.1
+    z: 91.200005
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9862d16131314838003bf9"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02edgeEnd01"
+  gridPoint {
+    x: 177.6
+    y: 2.9
+    z: 91.200005
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9862d96131314838003bfa"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02edge04"
+  gridPoint {
+    x: 177.6
+    y: 0
+    z: 94
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a98633c6131314838003bfb"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_decor_graffitiTotem01"
+  gridPoint {
+    x: 170.8
+    y: 3.4
+    z: 101.4
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "docks_tech_fuelingStation"
+  gridPoint {
+    x: 181.6
+    y: 0
+    z: 47
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "policeStation_floorDecoration_chargeCable01"
+  gridPoint {
+    x: 185.3
+    y: 0.1
+    z: 51
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "policeStation_vehicle_speedBoat01"
+  gridPoint {
+    x: 191.9
+    y: 0
+    z: 109.4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_decor_cleat02"
+  gridPoint {
+    x: 192
+    y: 0
+    z: 112
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5a98662c6131314838003bfd"
+  }
+  lod: 0
+}
+props {
+  name: "hub_street_mtrEntrance01"
+  gridPoint {
+    x: 154
+    y: 0
+    z: 142.2
+  }
+  orientation: ORIENTATION_E
+  displayName: "obj_SubwayEnter_OLD"
+  idRef {
+    id: "5a9866bb6131314838003bfe"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_building_roofEdge02"
+  gridPoint {
+    x: 155
+    y: 5
+    z: 142.9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5a9867016131314838003c00"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_building_baseCorner"
+  gridPoint {
+    x: 154
+    y: 0
+    z: 148
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a98670b6131314838003c01"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wallDecor_PlainnewsTicker01"
+  gridPoint {
+    x: 157.2
+    y: 0.4
+    z: 142.4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "vfx_fx_newsTicker"
+  gridPoint {
+    x: 157.9
+    y: 2.8
+    z: 143
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "NewsTicker"
+  }
+  properties {
+    property_id: "NewsTickerText"
+    string_value: "Breaking News! Unauthorized corp action in Kowloon Bay puts city under Martial Law. All citizens are required to stay in their homes."
+  }
+  lod: 0
+}
+props {
+  name: "bikerBar_signs_neonSign01"
+  gridPoint {
+    x: 151.8
+    y: 3
+    z: 150.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "nightMarket_buildingOrnament_skyPanel"
+  gridPoint {
+    x: 171.4
+    y: 7.2
+    z: 94.299988
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a98692d6131314838003c02"
   }
   lod: 0
 }

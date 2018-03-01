@@ -523,8 +523,8 @@ regions {
 regions {
   name: "DetectRegion_TrainGuardsGoHostile"
   position {
-    x: 152
-    y: 83
+    x: -19
+    y: 86
     width: 4
     height: 8
   }
