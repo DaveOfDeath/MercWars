@@ -1,0 +1,129 @@
+idRef {
+  id: "5a9a0c22396630f4100030a4"
+}
+ui_name: "Intro-Boomer"
+nodes {
+  idRef {
+    id: "5a9a0c38396630f4100030ac"
+  }
+  index: 0
+  text: "The troll woman in the Knight-Errant"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5a9a0d0f396630f4100030b6"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a9a0d0f396630f4100030b9"
+  }
+  index: 1
+  text: ""
+  nodeType: ConversationNodeType_Simple
+  comment: "Boomer loop"
+}
+nodes {
+  idRef {
+    id: "5a9a0d2b396630f4100030bc"
+  }
+  index: 2
+  text: "{{GM}}Boomer looks up from checking her ordinance.{{/GM}}\n\nDo you need anything else, Chief?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5a9a0dd1396630f4100030be"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bTalkedtoBoomer"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5a9a0c22396630f4100030a4:5a9a0c22396630f4100030a8"
+  }
+  comment: "Talked-False"
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bTalkedtoBoomer"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 2
+  idRef {
+    id: "5a9a0c22396630f4100030a4:5a9a0c6a396630f4100030ae"
+  }
+  comment: "Talked-True"
+}

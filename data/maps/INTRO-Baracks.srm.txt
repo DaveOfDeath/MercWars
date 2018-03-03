@@ -9025,7 +9025,7 @@ props {
 props {
   name: "medicalLab_furniture_operatingTable"
   gridPoint {
-    x: -0.4
+    x: -4.8
     y: 0
     z: -5.9
   }
@@ -9053,29 +9053,9 @@ props {
   lod: 0
 }
 props {
-  name: "whampoa_furniture_shelf01"
-  gridPoint {
-    x: -2
-    y: 0
-    z: -5
-  }
-  orientation: ORIENTATION_E
-  lod: 0
-}
-props {
-  name: "whampoa_furniture_shelf01_lights"
-  gridPoint {
-    x: -2
-    y: 0
-    z: -5
-  }
-  orientation: ORIENTATION_E
-  lod: 0
-}
-props {
   name: "taiPo_furniture_gunRack02"
   gridPoint {
-    x: -4.7
+    x: 0.30000019
     y: 0
     z: -5.9
   }
@@ -9765,7 +9745,7 @@ props {
 props {
   name: "seaLab_floor_glassFloor"
   gridPoint {
-    x: -6
+    x: -5
     y: 0
     z: 13
   }
@@ -11308,4 +11288,102 @@ props {
     id: "5a98764f6131314838003c64"
   }
   lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 0.16862746
+      g: 0.66666669
+      b: 1
+      a: 1
+    }
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9a05ae396630f4100030a0"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 0.16862746
+      g: 0.66666669
+      b: 1
+      a: 1
+    }
+  }
+}
+props {
+  name: "taiPo_furniture_gunRack02"
+  gridPoint {
+    x: -1.6999998
+    y: 0
+    z: -5.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9a05c2396630f4100030a1"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9a0969396630f4100030a2"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 0.1254902
+      a: 1
+    }
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -26
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5a9a09c1396630f4100030a3"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 0.1254902
+      a: 1
+    }
+  }
 }
