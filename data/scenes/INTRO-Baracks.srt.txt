@@ -25,26 +25,6 @@ triggers {
   }
   actions {
     ops {
-      functionName: "Display Text In Popup"
-      args {
-        string_value: "Shadows are long and dark, but they ain\'t deep.\n\nIf you want deep pockets, you have to go to the corporations, the bigger the better. You managed to snag an ARES contract, somehow, and are now fast-tracked for security command."
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "PopupType"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        string_value: "In media res"
-      }
-    }
-    ops {
       functionName: "Add Item to Actor"
       args {
         call_value {
@@ -160,6 +140,17 @@ triggers {
                 int_value: 0
               }
             }
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "eEVALPC0Karma"
           }
         }
       }
@@ -412,13 +403,77 @@ triggers {
         }
       }
     }
+  }
+  isActive: true
+  idRef {
+    id: "5a80f1873438311411005e3a"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "NPC.ExitDoor"
+  events {
     ops {
-      functionName: "Send Event"
+      functionName: "On Item Interaction"
       args {
         call_value {
-          functionName: "Get Map Item (Event)"
+          functionName: "Get Map Item (InteractableObject)"
           args {
-            string_value: "eEVALPC0Karma"
+            string_value: "5aa047666131311c340037da"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
           }
         }
       }
@@ -426,7 +481,64 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "5a80f1873438311411005e3a"
+    id: "5aa054a76131311022005993"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "RunnerConvo"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5a88a08e613131e830000263"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "560030b9306364541f000190"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5aa0572a6131311022005994"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5aa059856131317c1b0015a2"
   }
   elseActions {
   }
@@ -459,6 +571,84 @@ triggers {
   isActive: false
   idRef {
     id: "5a810ff0343831141100779c"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "MAP.OnImport"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eEVALPC0Karma"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iPlayerKarma"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        int_value: 75
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Display Text In Popup"
+      args {
+        string_value: "Shadows are long and dark, but they ain\'t deep. You know that, you\'re not new to the life. Chummers like you skip the intro, don\'t they Omae?\n\nHow you got there matters less than it does for people new to the story."
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PopupType"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "In Medias Res"
+      }
+    }
+    ops {
+      functionName: "Open Scene"
+      args {
+        call_value {
+          functionName: "Get Map Item (Scene)"
+          args {
+            string_value: "HUB"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5aa048c66131311c34003801"
   }
   elseActions {
   }
@@ -1554,9 +1744,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -6
+    x: -8.5
     y: 0
-    z: 17
+    z: 14
   }
   orientation: ORIENTATION_S
   idRef {
@@ -1660,6 +1850,17 @@ characters {
   idRef {
     id: "5a99fe59396630f410003001"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5a9a0c22396630f4100030a4"
+      turnToFace: true
+      default_speaker_id: "5a99fe59396630f410003001"
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: "Talk to Boomer?"
+  }
   lod: 0
   character_instance {
     prefab_name: "Berlin:KnightErrants/TrollFemaleKnightErrant"
@@ -1750,13 +1951,24 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -1.8
+    x: -1.0999999
     y: 0
-    z: 14.7
+    z: 15.2
   }
   orientation: ORIENTATION_N
   idRef {
     id: "5a99fe5c396630f410003002"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5aa029366131311c34003212"
+      turnToFace: true
+      default_speaker_id: "5a99fe5c396630f410003002"
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: "Talk to Merlin"
   }
   lod: 0
   character_instance {
@@ -1848,11 +2060,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -8
+    x: -7.3
     y: 0
-    z: 16
+    z: 16.8
   }
-  orientation: ORIENTATION_W
+  orientation: ORIENTATION_E
   idRef {
     id: "5a99fe9a396630f410003003"
   }
@@ -1955,6 +2167,17 @@ characters {
   idRef {
     id: "5a99fea8396630f410003004"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5aa023a26131311c34002ff2"
+      turnToFace: false
+      default_speaker_id: "5a99fea8396630f410003004"
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: "Talk to Shiva"
+  }
   lod: 0
   character_instance {
     prefab_name: "Berlin:KnightErrants/ElfFemaleKnightErrantShaman"
@@ -2045,9 +2268,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -6
+    x: -5.9
     y: 0
-    z: 15
+    z: 14.2
   }
   orientation: ORIENTATION_N
   idRef {
@@ -2143,13 +2366,24 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -4.4
+    x: -3.2
     y: 0
-    z: 14.8
+    z: 15.3
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5a99fec2396630f410003006"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5aa034d46131311c34003485"
+      turnToFace: true
+      default_speaker_id: "5a99fec2396630f410003006"
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: "Talk to Ace"
   }
   lod: 0
   character_instance {
@@ -2236,6 +2470,669 @@ characters {
     id: "KE_Lv1_Soldier"
     first_name: "Zack"
     last_name: "Franklin"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -23.4
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "2ndTeam"
+  displayName: "OptiSpawner"
+  idRef {
+    id: "5aa0572a6131311022005994"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/HumanMale"
+    character_sheet_id: "Errant_Lv1_Elf_Shaman"
+    equipment_sheet_id: "Errant_Lv1_Shaman"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 2
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 2
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 1
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 2
+        spirit_summoning: 1
+        drone_control: 0
+        biotech: 1
+        dodge: 2
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 2
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 1
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "gumbo_Mage"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "Spell Armor 1"
+    }
+    equipment {
+      prefab_name: "Pi 1 Taser"
+    }
+    equipment {
+      prefab_name: "NPC_HK_Magic_MageArcane"
+    }
+    team_id: "Storage"
+    char_name: "Opti"
+    GeneralTags: "2ndTeam"
+    pc_spawn_number: -1
+    portrait {
+      filename: "Backer_HumanMale_Opti"
+    }
+    portrait_code_override: "s5h5c7b5c7t0"
+    karma: 91
+    is_prop_character: true
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -21.4
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "2ndTeam"
+  displayName: "BullSpawner"
+  idRef {
+    id: "5aa0572a6131311022005995"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/OrkMale"
+    character_sheet_id: "Errant_Lv1_Human_Pistol"
+    equipment_sheet_id: "Errant_Lv1_Pistol"
+    character_mod {
+      stats {
+        body: 2
+        quickness: 2
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 20
+        ap: 0
+        armor: 3
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 2
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 2
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 3
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "gumbo_Soldier"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "CyberdeckKraftwerk1"
+    }
+    equipment {
+      prefab_name: "NPC_HK_Tech_DeckerBaggy"
+    }
+    team_id: "Storage"
+    char_name: "Bull"
+    GeneralTags: "2ndTeam"
+    pc_spawn_number: -1
+    portrait {
+      filename: "Backer_OrkMale_StevenRatkovich"
+    }
+    portrait_code_override: "s3h11c4b5c11t0"
+    karma: 77
+    is_prop_character: true
+    scale_character_sheet: true
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -26
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "isMeetingRunner"
+  idRef {
+    id: "5aa05a786131317c1b0015a4"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/ElfMale"
+    character_sheet_id: "Crew_Is0bel_Lv1"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 3
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 4
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "Pi 2 Cavalier Deputy"
+    }
+    equipment {
+      prefab_name: "SamuraiBunnyMaskless"
+    }
+    team_id: "Civilians"
+    char_name: "Smirking Elf"
+    GeneralTags: "isMeetingRunner"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    cyberware_jack: "Datajack"
+    portrait {
+      filename: ""
+    }
+    description_bio: "Words words words."
+    portrait_code_override: "s5h10c4b0"
+    karma: 2
+    hiring_cost_override: 300
+    hiring_tag: "Mercenary: Decker"
+    is_prop_character: true
+    persistent_body: true
+    id: "Crew_Lv1_Is0bel"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -25
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "isMeetingRunner"
+  idRef {
+    id: "5aa05a786131317c1b0015a5"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "hasMetNightjar"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: ""
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/TrollMale"
+    character_sheet_id: "Crew_Is0bel_Lv1"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 1
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "AR 1 AK98"
+    }
+    equipment {
+      prefab_name: "Player_HK_Tech_3_Trench"
+    }
+    team_id: "Civilians"
+    char_name: "Husky Troll"
+    GeneralTags: "isMeetingRunner"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    cyberware_jack: "Datajack"
+    cyberware_left_arm: "(Arm) HP Cyberarm"
+    cyberware_right_arm: "(Arm) HP Cyberarm"
+    portrait {
+      filename: "NPC_TrollMale_Docks_Nightjar"
+    }
+    description_bio: ""
+    portrait_code_override: "s4h4c4b8c4t10"
+    karma: 2
+    hiring_cost_override: 300
+    hiring_tag: "Mercenary: Decker"
+    is_prop_character: true
+    persistent_body: true
+    id: "Crew_Lv1_Is0bel"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -22.1
+    y: 0
+    z: 10.8
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "Speaker"
+  displayName: "CIV5ZippyDecker"
+  idRef {
+    id: "5aa06b6c6131314c290054e3"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5525b2503063644415002055"
+      turnToFace: true
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: ""
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/OrkMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "NPC_HK_Combat_SecureTrench"
+    }
+    team_id: "Civilians"
+    char_name: "Zippy"
+    GeneralTags: "Speaker"
+    pc_spawn_number: -1
+    portrait {
+      filename: "Backer_OrkMale_SteveMitton"
+    }
+    portrait_code_override: "s4h8c4b4c4t"
+    karma: 6
+    is_prop_character: true
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -22.9
+    y: 0
+    z: 9.1
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "Speaker"
+  displayName: "WHAM2-RainbowSamurai"
+  idRef {
+    id: "5aa06b6c6131314c290054e4"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "5525b4a530636400170026bd"
+      turnToFace: false
+    }
+    interactionIcon: InteractionIcon_Conversation
+    interaction_info_text: ""
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/ElfFemale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "NPC_HK_Combat_SecureTrench"
+    }
+    team_id: "Civilians"
+    char_name: "Rainbow"
+    GeneralTags: "Speaker"
+    pc_spawn_number: -1
+    portrait {
+      filename: "Backer_ElfFemale_ChristinaMitton"
+    }
+    portrait_code_override: "s5h2c12"
+    karma: 6
+    is_prop_character: true
   }
 }
 variables {
@@ -2334,6 +3231,30 @@ variables {
     typeName: "bool"
   }
 }
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bTalkedtoShiva"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bTalkedtoMerlin"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "bTalkedtoAce"
+    typeName: "bool"
+  }
+}
 mapEvents: "eEVALPC0Karma"
 worldMapLocation {
   filename: ""
@@ -2345,9 +3266,9 @@ worldMapLocation {
 mapName: "INTRO-Baracks"
 parentStory: ""
 scene_title: "Knight Errant - Bunker"
-scene_subtitle: ""
-scene_synopsis: "Report says that ten days ago, there was a massive operation at an undercover ARES facility in Hong Kong. Shadow operatives were involved, causing massive damage and property loss. \n\nThe operatives escaped capture, and left the local Knight Errant decimated in the process. Captain Greggory Hanson hired irregular assets to fill the ranks for the next big ARES operation, code name Cannonball. \n\nYou are part of this force, preparing for the massive ARES takeover of Hong Kong. You are awaiting orders to get moving."
-scene_image: "loadingimage_intro_s1"
+scene_subtitle: "Start"
+scene_synopsis: "Reports says that ten days ago, there was a massive incident at an undercover ARES facility in Hong Kong. Shadowrunner operatives were involved, causing massive damage and property loss. What wasn\'t stolen was destroyed.\n\nThe operatives escaped capture, and left the local Knight Errant gutted in the process. \nCaptain Greggory Hanson, your CO, hired irregular assets to fill the ranks for the next big ARES operation, code name Kong-Sang. \n\nYou are preparing for the massive ARES takeover of Hong Kong. \nYou are awaiting orders to get moving."
+scene_image: "sri_hk_loading2"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {

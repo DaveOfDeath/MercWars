@@ -985,64 +985,6 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "TripWireRegion_QALightning"
-  position {
-    x: 173
-    y: 106
-    width: 2
-    height: 9
-  }
-  enabledAtStart: true
-  is_camera_region: false
-  is_matrix_node: false
-  is_vfx_fill_region: false
-  idRef {
-    id: "5a8492e2396630f02500252a"
-  }
-  highlight_color {
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  }
-  visible_at_start: false
-  is_closet: false
-  is_teleporter_region: false
-  directional_light_dir {
-    x: -0.5
-    y: -1
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambience_template: ""
-  combat_music: ""
-  default_music: ""
-  loop_combat_music: true
-  loop_default_music: false
-  no_fow_in_region: false
-  combat_intense_music: ""
-  combat_wrapup_music: ""
-  loop_combat_intense_music: true
-  loop_combat_wrapup_music: true
-  combat_intense_threshold: 5
-  combat_wrapup_threshold: 2
-  combat_fade_interval: 2
-  combat_intro_stinger: ""
-  combat_outro_stinger: ""
-  vfx_fill_prefab_name: ""
-}
-regions {
   name: "MoveTarget_OfficeIC_Black_1"
   position {
     x: 27
@@ -1762,12 +1704,12 @@ worldMapLocation {
 }
 mapName: "Intro-Mission"
 parentStory: ""
-scene_title: "INTRO-OperationSnake"
-scene_subtitle: "HK Insertion to Operation Snake to take Hong Kong"
-scene_synopsis: "That\'s it. With a new set of orders, soldiers, you set out with your XO and a bunch of irregulars you don\'t know that you can trust. You don\'t know anything about the operation outside the scope of your mission, but that\'s what soldiers do."
-scene_image: ""
+scene_title: "Operation Kong-Sang"
+scene_subtitle: "HK Insertion for Operation Kong-Sang"
+scene_synopsis: "That\'s it. With a new set of orders, soldiers, and weapons, you set out with your XO and a bunch of irregulars you don\'t know that you can trust. \n\nThat\'s what soldiers do, they set out to do their operation with incomplete information. "
+scene_image: "loadingimage_taipo_s1"
 scene_continue_button_skip: false
-scene_restore_runner_health: false
+scene_restore_runner_health: true
 directional_light_dir {
   x: -0.5
   y: -1
@@ -1814,8 +1756,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

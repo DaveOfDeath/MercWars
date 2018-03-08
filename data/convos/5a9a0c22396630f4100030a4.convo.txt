@@ -4,13 +4,21 @@ idRef {
 ui_name: "Intro-Boomer"
 nodes {
   idRef {
-    id: "5a9a0c38396630f4100030ac"
+    id: "5aa029366131311c34003212:5aa02a166131311c3400328c"
   }
   index: 0
-  text: "The troll woman in the Knight-Errant"
+  text: "{{GM}}Boomer shoots you an eager salute.{{/GM}}\n\n$+(l.sir), we\'ve got our orders to disperse to the motor pool for our assignments. See you out there."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a9a0c38396630f4100030ac"
+  }
+  index: 1
+  text: "{{GM}}The troll woman in the Knight-Errant uniform nods at your approach.{{/GM}}\n\n$+(l.sir), pleasure. I\'m Boomer, can I do something for you?"
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     idRef {
       id: "5a9a0c22396630f4100030a4:5a9a0d0f396630f4100030b6"
     }
@@ -21,26 +29,349 @@ nodes {
   idRef {
     id: "5a9a0d0f396630f4100030b9"
   }
-  index: 1
+  index: 2
   text: ""
+  branches {
+    responseText: "Boomer?"
+    nextNodeIndex: 3
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0151a6131311c34002e4d"
+    }
+  }
+  branches {
+    responseText: "What\'s your real name?"
+    nextNodeIndex: 4
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0159d6131311c34002e70"
+    }
+  }
+  branches {
+    responseText: "What do you do?"
+    nextNodeIndex: 8
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0151a6131311c34002e4f"
+    }
+  }
+  branches {
+    responseText: "Where are you from?"
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0151a6131311c34002e51"
+    }
+  }
+  branches {
+    responseText: "What do you know about our assignment?"
+    nextNodeIndex: 12
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0151a6131311c34002e53"
+    }
+  }
+  branches {
+    responseText: "Talk to you later. {{CC}}Leave{{/CC}}"
+    nextNodeIndex: 13
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0151b6131311c34002e55"
+    }
+  }
   nodeType: ConversationNodeType_Simple
   comment: "Boomer loop"
 }
 nodes {
   idRef {
-    id: "5a9a0d2b396630f4100030bc"
+    id: "5aa015296131311c34002e58"
   }
-  index: 2
-  text: "{{GM}}Boomer looks up from checking her ordinance.{{/GM}}\n\nDo you need anything else, Chief?"
+  index: 3
+  text: "{{GM}}Boomer nods.{{/GM}}\n\nYes, $(l.sir). My callsign is Boomer. I\'m in destructive ordinance. Explosives, mortars, and grenade launchers.\nLove my job, $(l.sir)."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa015696131311c34002e5a"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa015af6131311c34002e73"
+  }
+  index: 4
+  text: "{{GM}}Boomer shakes her head, and then pauses.{{/GM}}\n\nCommand assigned callsign-only communication. We\'re not supposed to get attached to the irregulars before the action, because it can compromise operational security. No offense intended, $(l.sir)."
+  branches {
+    responseText: "Am I irregular?"
+    nextNodeIndex: 5
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa015cb6131311c34002e75"
+    }
+  }
+  branches {
+    responseText: "I ain\'t no irregular."
+    nextNodeIndex: 6
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa016316131311c34002e7e"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Etiquette: Corporate{{/CC}} I\'m not irregular, just new to the department."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 13
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 2
+            }
+          }
+        }
+        args {
+          int_value: 0
+        }
+      }
+    }
+    nextNodeIndex: 7
+    hideIfUnavailable: true
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0163c6131311c34002e80"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa016966131311c34002e83"
+  }
+  index: 5
+  text: "{{GM}}Boomer cocks her head, while still looking at you.{{/GM}}\n\nNot from where I\'m standing, $(l.sir), but I\'m under orders."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa016cb6131311c34002e85"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa016d96131311c34002e8d"
+  }
+  index: 6
+  text: "{{GM}}Boomer stiffens.{{/GM}}\n\nMy apologies, $(l.sir), I meant no offense. I just meant that you\'re assigned part of the irregular activities unit of our operation."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa017566131311c34002e94"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa016dc6131311c34002e90"
+  }
+  index: 7
+  text: "{{GM}}Boomer nods, and relaxes a fraction.{{/GM}}\n\nI apologize, $(l.sir), I heard that one of the irregs was a transfer, but I didn\'t know it was you. I\'m Mary."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa0175c6131311c34002e97"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa015986131311c34002e6e"
+  }
+  index: 8
+  text: "{{GM}}Boomer stands up straight, ready for inspection and towering over two meters.{{/GM}}\n\nMunitions, $+(l.sir). I carry a grenade launcher and an SMG for cover fire. Proud to be assigned to this detail, $+(l.sir)!"
+  branches {
+    responseText: "Doesn\'t that hurt your ears?"
+    nextNodeIndex: 9
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa018596131311c34002ec6"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa0188f6131311c34002f00"
+  }
+  index: 9
+  text: "{{GM}}Boomer nods.{{/GM}}\n\nWould if I still had them, $(l.sir). Mine are replaced with cyberears, with dampeners to compensate for gunfire and explosions. \nSome of the boys are jealous."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa018d66131311c34002f02"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa0177e6131311c34002ebe"
+  }
+  index: 10
+  text: "{{GM}}Boomer nods.{{/GM}}\n\n$+(l.sir), my group is based out of Singapore. Not much for small talk, I didn\'t step outside the ARES compound there."
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa019eb6131311c34002f05"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa019eb6131311c34002f08"
+  }
+  index: 11
+  text: "{{GM}}Boomer pauses for a moment, hesitating.{{/GM}}\n\nI\'m not supposed to say anything, but I\'m originally from PCC, a little city called Henderson."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa01a4a6131311c34002f0a"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa017816131311c34002ec1"
+  }
+  index: 12
+  text: "{{GM}}Boomer shakes her head.{{/GM}}\n\nI wasn\'t assigned lead, so I don\'t have any details, $(l.sir). I know Operation Kong Sang is already underway, but I don\'t have specifics."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5a9a0c22396630f4100030a4:5aa01a876131311c34002f0e"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa01a906131311c34002f13"
+  }
+  index: 13
+  text: "{{GM}}Boomer nods.{{/GM}}\n\n$+(l.sir)."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5a9a0d2b396630f4100030bc"
+  }
+  index: 14
+  text: "{{GM}}Boomer looks up from checking her ordinance.{{/GM}}\n\nDid you need anything else, $+(l.sir)?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
     idRef {
       id: "5a9a0c22396630f4100030a4:5a9a0dd1396630f4100030be"
     }
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bMotorPool_Open"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5aa029366131311c34003212:5aa02a166131311c3400328a"
+  }
+  comment: "Rollout"
 }
 roots {
   conditions {
@@ -78,7 +409,7 @@ roots {
       }
     }
   }
-  nextNodeIndex: 0
+  nextNodeIndex: 1
   idRef {
     id: "5a9a0c22396630f4100030a4:5a9a0c22396630f4100030a8"
   }
@@ -121,7 +452,7 @@ roots {
       }
     }
   }
-  nextNodeIndex: 2
+  nextNodeIndex: 14
   idRef {
     id: "5a9a0c22396630f4100030a4:5a9a0c6a396630f4100030ae"
   }

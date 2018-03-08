@@ -1,0 +1,481 @@
+idRef {
+  id: "5aa034d46131311c34003485"
+}
+ui_name: "Intro-Ace"
+nodes {
+  idRef {
+    id: "5aa029366131311c34003212:5aa034e46131311c340034b7"
+  }
+  index: 0
+  text: "{{GM}}Ace snaps a crisp salute.{{/GM}}\n\nOrders came through, we\'re to move to the motorpool for assignments."
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Delete Props by Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "ace"
+          }
+        }
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        call_value {
+          functionName: "Everywhere"
+        }
+      }
+    }
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5a99fec2396630f410003006"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Move To (Prop)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5a99fec2396630f410003006"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5aa047666131311c340037da"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Interact with Object"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5a99fec2396630f410003006"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5aa047666131311c340037da"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5aa034d46131311c34003485:5aa0357b6131311c34003692"
+  }
+  index: 1
+  text: "{{GM}}Ace regards you with a nod.{{/GM}}\n\nYou need anything else, $(l.sir)?"
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+    idRef {
+      id: "5aa034d46131311c34003485:5aa0357b6131311c34003694"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c34003626"
+  }
+  index: 2
+  text: "{{GM}}The tall ork is as armored as he is formidable, and is checking gear in preparation for the upcoming mission.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003628"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Play Animation From Manifest"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5a99fec2396630f410003006"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Animation)"
+          args {
+            string_value: "HongKong:General/decking_idle"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400362a"
+  }
+  index: 3
+  text: "{{GM}}The big ork looks at you through the thick armored faceplate.{{/GM}}\n\nYou must be our fire team leader, $(l..name). I\'m Ace."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c3400362c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400362e"
+  }
+  index: 4
+  text: ""
+  branches {
+    responseText: "How\'d you get the callsign Ace?"
+    nextNodeIndex: 5
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003630"
+    }
+  }
+  branches {
+    responseText: "Where are you from, Ace?"
+    nextNodeIndex: 6
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003638"
+    }
+  }
+  branches {
+    responseText: "What is your role in the squad?"
+    nextNodeIndex: 7
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003648"
+    }
+  }
+  branches {
+    responseText: "What do you know about our assignment?"
+    nextNodeIndex: 8
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003658"
+    }
+  }
+  branches {
+    responseText: "What\'s with the \'irregular\' assets?"
+    nextNodeIndex: 9
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003660"
+    }
+  }
+  branches {
+    responseText: "Talk to you later. {{CC}}Leave{{/CC}}"
+    nextNodeIndex: 11
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003668"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "Ace Loop"
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c34003632"
+  }
+  index: 5
+  text: "{{GM}}The ork shrugs.{{/GM}}\n\nSemi-random assignment by the CO when we\'re assigned. It could be a lot worse. I\'m just glad that I\'m not still Blackie like I was at my last squad."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003634"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400363a"
+  }
+  index: 6
+  text: "{{GM}}Ace shrugs.{{/GM}}\n\nI\'m a second-generation corp kid. I grew up at Ares Cupertino. My dad did security work for them, and now I do, too."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c3400363c"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400364a"
+  }
+  index: 7
+  text: "Most of the rest of these KE troops will sell you on whatever their specialty is. They\'re good with computers, or drones, or spirits, or magic. \n\nI\'m a soldier. I\'ve fought all over the world, and I know how to support an offensive."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa034d46131311c34003485:5aa041d16131311c34003701"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400365a"
+  }
+  index: 8
+  text: "{{GM}}Ace looks up from his prep to consider you.{{/GM}}\n\nIf you haven\'t already gotten your orders, you should. What I know is that we\'re getting ready to roll out, $+(l.sir). "
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c3400365c"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c34003662"
+  }
+  index: 9
+  text: "{{GM}}Ace shrugs, checking the sight on his sidearm.{{/GM}}\n\nTechnically, we\'re all members of the irregular assets unit. If you mean the runners in the other room, they\'re a special case."
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5aa034d46131311c34003485:5aa0426f6131311c34003732"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa0426f6131311c34003735"
+  }
+  index: 10
+  text: "When they need extra bodies for an operation, or a specialized need, or disposable soldiers who don\'t matter to the success of the campaign, they hire a bunch of irregulars. Pay them more than we make in a year, and they\'re just as likely to cut and run as they are betray the mission for their own greed.\n\nI don\'t rely on them, I rely on my squad and team lead."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5aa023a26131311c34002ff2:5aa035606131311c34003664"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c3400366a"
+  }
+  index: 11
+  text: "{{GM}}Ace nods, continuing his prep.{{/GM}}\n\n$+(l.sir)."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bMotorPool_Open"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5aa029366131311c34003212:5aa034e46131311c340034b5"
+  }
+  comment: "Rollout"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bTalkedtoAce"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 1
+  idRef {
+    id: "5aa034d46131311c34003485:5aa0357b6131311c34003690"
+  }
+  comment: "Talked-True"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bTalkedtoAce"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 2
+  idRef {
+    id: "5aa023a26131311c34002ff2:5aa035606131311c34003624"
+  }
+  comment: "Talked-False"
+}

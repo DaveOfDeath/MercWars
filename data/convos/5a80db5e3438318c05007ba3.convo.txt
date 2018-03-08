@@ -176,7 +176,22 @@ nodes {
     id: "5a88ece4613131441e007062"
   }
   index: 2
-  text: "{{CC}}FURTHER ORDERS:{{/CC}}\nRendezvous with Irregular Assets Landing Team (ALPHA), led by CO Captain Greggory Hanson. Support operations and flanking assignment.\n\nPrep area for arriving assault force (CHARLIE). Support Operation CANNONBALL landing with intelligence, as directed by CO Hanson.\nAbsorbed by ALPHA upon completion of mission.\n\n{{CC}}SPECIAL INSTRUCTIONS:{{/CC}}\nSurveillance drones available. Hermetic library available. Shamanic lodge available. Matrix infiltration tools available.\nOn-Site Matrix grid detected, possibly secured by local population or HK Military."
+  text: "{{CC}}FURTHER ORDERS:{{/CC}}\nRendezvous with Irregular Assets Landing Team (ALPHA), led by CO Captain Greggory Hanson. Support operations and flanking assignment.\n\nPrep area for arriving assault force (CHARLIE). Support Operation CANNONBALL landing with intelligence, as directed by CO Hanson.\nAbsorbed by ALPHA upon completion of mission."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5a80db5e3438318c05007ba3:5aa077f06131314c290055ed"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5aa077f06131314c290055f0"
+  }
+  index: 3
+  text: "{{CC}}SPECIAL INSTRUCTIONS:{{/CC}}\nSurveillance drones available. Hermetic library available. Shamanic lodge available. \nMatrix infiltration tools available. Rigger drone available.\nAssault or support pack available upon request.\n\nOn-Site Matrix grid detected, possibly secured by local population or HK Military."
   nodeType: ConversationNodeType_Simple
 }
 roots {

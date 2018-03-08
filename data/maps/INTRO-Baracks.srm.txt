@@ -1292,8 +1292,8 @@ props {
       }
     }
     transitionPoint {
-      scene_name: "TestMap"
-      confirmation_text: "Enter the motorpool?"
+      scene_name: "Intro-Mission"
+      confirmation_text: "Enter the motorpool and pick your squad?"
     }
     interaction_info_text: "Enter The Motorpool"
   }
@@ -2962,7 +2962,7 @@ props {
 props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
-    x: -14
+    x: -15
     y: 0
     z: 24
   }
@@ -2988,7 +2988,7 @@ props {
 props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
-    x: -10
+    x: -11
     y: 0
     z: 24
   }
@@ -3395,19 +3395,6 @@ props {
   lod: 0
 }
 props {
-  name: "office_furniture_janitorLocker"
-  gridPoint {
-    x: -9
-    y: 0
-    z: 19.5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cec93438318c05007aff"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_furniture_lockerClosed"
   gridPoint {
     x: -9
@@ -3450,7 +3437,7 @@ props {
   gridPoint {
     x: -9
     y: 0
-    z: 18.9
+    z: 19.5
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3835,19 +3822,9 @@ props {
 props {
   name: "bikerBar_furniture_boothTable02"
   gridPoint {
-    x: -3
+    x: -2.3
     y: 0
-    z: 12
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_boothTable02"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 15
+    z: 15.5
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3858,22 +3835,9 @@ props {
 props {
   name: "bikerBar_furniture_boothTable02"
   gridPoint {
-    x: 0
+    x: -1
     y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf523438318c05007b20"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_boothTable02"
-  gridPoint {
-    x: 0
-    y: 0
-    z: 14
+    z: 13
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3884,58 +3848,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -3.6
-    y: 0
-    z: 12
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
     x: -2.3
     y: 0
-    z: 12
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf683438318c05007b22"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 12.6
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf6d3438318c05007b23"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 11.400001
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf743438318c05007b24"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 14.400001
+    z: 14.900001
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3946,22 +3861,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -3.6
+    x: -2
     y: 0
-    z: 15
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf7d3438318c05007b26"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 15.6
+    z: 16.300001
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3972,9 +3874,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -2.3
+    x: -1.5999999
     y: 0
-    z: 15
+    z: 15.5
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3987,24 +3889,11 @@ props {
   gridPoint {
     x: 0
     y: 0
-    z: 16.400002
+    z: 13.400002
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5a80cf7e3438318c05007b29"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -0.5999999
-    y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf7e3438318c05007b2a"
   }
   lod: 0
 }
@@ -4024,22 +3913,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: 0.70000005
+    x: -1
     y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf7e3438318c05007b2c"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: 0
-    y: 0
-    z: 13.400002
+    z: 12.400002
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4050,9 +3926,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -0.5999999
+    x: -1.5999999
     y: 0
-    z: 14
+    z: 13
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4063,26 +3939,13 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: 0
+    x: -1
     y: 0
-    z: 14.6
+    z: 13.6
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5a80cf803438318c05007b2f"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: 0.70000005
-    y: 0
-    z: 14
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a80cf803438318c05007b30"
   }
   lod: 0
 }
@@ -5569,19 +5432,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_boothTable02"
-  gridPoint {
-    x: -20
-    y: 0
-    z: 10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e8300001f9"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_floor_2x2panel01"
   gridPoint {
     x: -24
@@ -5673,19 +5523,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -20.6
-    y: 0
-    z: 10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000206"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_floor_gutterIntersection01"
   gridPoint {
     x: -32
@@ -5701,9 +5538,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -26
+    x: -25
     y: 0
-    z: 10.6
+    z: 7.6000004
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5740,9 +5577,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -26.6
+    x: -25.6
     y: 0
-    z: 10
+    z: 7
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5948,9 +5785,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -25.3
+    x: -24.3
     y: 0
-    z: 10
+    z: 7
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5974,26 +5811,13 @@ props {
 props {
   name: "bikerBar_furniture_boothTable02"
   gridPoint {
-    x: -26
-    y: 0
-    z: 10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e83000022d"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -24.3
+    x: -25
     y: 0
     z: 7
   }
   orientation: ORIENTATION_S
   idRef {
-    id: "5a88a08e613131e830000230"
+    id: "5a88a08e613131e83000022d"
   }
   lod: 0
 }
@@ -6085,19 +5909,6 @@ props {
   orientation: ORIENTATION_W
   idRef {
     id: "5a88a08e613131e830000238"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -25
-    y: 0
-    z: 6.4000015
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000239"
   }
   lod: 0
 }
@@ -6323,19 +6134,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -23
-    y: 0
-    z: 7.4000006
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000255"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_floor_2x2panel01"
   gridPoint {
     x: -26
@@ -6466,19 +6264,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -25.6
-    y: 0
-    z: 7
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000262"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_wall_doorWide01Mid"
   gridPoint {
     x: -18
@@ -6526,19 +6311,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a88a08e613131e830000266"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_boothTable02"
-  gridPoint {
-    x: -25
-    y: 0
-    z: 7
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000267"
   }
   lod: 0
 }
@@ -6608,32 +6380,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -22.3
-    y: 0
-    z: 8
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e83000026d"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -19.3
-    y: 0
-    z: 10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000272"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_floor_doorFrame01"
   gridPoint {
     x: -32
@@ -6682,19 +6428,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5a88a08e613131e830000278"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -23.6
-    y: 0
-    z: 8
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e83000027a"
   }
   lod: 0
 }
@@ -6933,19 +6666,6 @@ props {
   lod: 0
 }
 props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -20
-    y: 0
-    z: 9.4000006
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000296"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_floor_gutterIntersection01"
   gridPoint {
     x: -32
@@ -6955,19 +6675,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a88a08e613131e830000298"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_boothTable02"
-  gridPoint {
-    x: -23
-    y: 0
-    z: 8
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e830000299"
   }
   lod: 0
 }
@@ -7093,50 +6800,11 @@ props {
   gridPoint {
     x: -25
     y: 0
-    z: 7.6000004
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e8300002a9"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -23
-    y: 0
-    z: 8.6
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e8300002aa"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -26
-    y: 0
-    z: 9.4000015
+    z: 6.4000015
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5a88a08e613131e8300002ab"
-  }
-  lod: 0
-}
-props {
-  name: "bikerBar_furniture_barStool01"
-  gridPoint {
-    x: -20
-    y: 0
-    z: 10.6
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a88a08e613131e8300002ac"
   }
   lod: 0
 }
@@ -7638,9 +7306,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -23
+    x: -22
     y: 0
-    z: 10.400002
+    z: 9.4000015
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7651,9 +7319,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -23.599998
+    x: -22.999998
     y: 0
-    z: 11
+    z: 10
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7664,9 +7332,9 @@ props {
 props {
   name: "bikerBar_furniture_boothTable02"
   gridPoint {
-    x: -23
+    x: -22.4
     y: 0
-    z: 11
+    z: 10
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7677,9 +7345,9 @@ props {
 props {
   name: "bikerBar_furniture_barStool01"
   gridPoint {
-    x: -23
+    x: -22.699999
     y: 0
-    z: 11.6
+    z: 10.6
   }
   orientation: ORIENTATION_S
   idRef {
@@ -8850,7 +8518,7 @@ props {
 props {
   name: "brotherhood_furniture_circularChairs"
   gridPoint {
-    x: -29
+    x: -28.7
     y: 0
     z: 10
   }
@@ -9015,9 +8683,9 @@ props {
 props {
   name: "haven_furniture_barStool01"
   gridPoint {
-    x: -21.8
+    x: -20.699999
     y: 0
-    z: 11.1
+    z: 10.1
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -11373,6 +11041,7 @@ props {
     z: -1
   }
   orientation: ORIENTATION_S
+  GeneralTags: "missonlights"
   idRef {
     id: "5a9a09c1396630f4100030a3"
   }
@@ -11386,4 +11055,80 @@ props {
       a: 1
     }
   }
+}
+props {
+  name: "gunshop_clutter_rifle"
+  gridPoint {
+    x: -2.2
+    y: 0.8
+    z: 15.2
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "ace"
+  idRef {
+    id: "5aa0465b6131311c3400378b"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -14
+    y: 0
+    z: 21
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "NPC_Exit"
+  displayName: "obj_npc_Exit"
+  idRef {
+    id: "5aa047666131311c340037da"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Actor is Player Controlled"
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    interactionIcon: InteractionIcon_Explosion
+    interaction_info_text: "This shouldn\'t show up anywhere"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_furniture_lockerClosed"
+  gridPoint {
+    x: -9
+    y: 0
+    z: 18.900002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5aa079e16131314c290057d9"
+  }
+  lod: 0
 }
