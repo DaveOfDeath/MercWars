@@ -1695,6 +1695,94 @@ patrolRoutes {
   rail_draw_segments: true
   rail_draw_nodes: true
 }
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: 158
+    y: 0
+    z: 155
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5aa1a5f4613131b80b003bf8"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 0
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: 160
+    y: 0
+    z: 154
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5aa1a60b613131b80b003bf9"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 1
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: 160
+    y: 0
+    z: 155
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5aa1a613613131b80b003bfa"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 2
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: 160
+    y: 0
+    z: 156
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5aa1a615613131b80b003bfb"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 3
+  }
+}
 worldMapLocation {
   filename: ""
   location {
@@ -1756,6 +1844,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

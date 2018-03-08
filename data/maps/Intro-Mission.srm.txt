@@ -49536,19 +49536,6 @@ props {
   lod: 0
 }
 props {
-  name: "docks_appliance_fuelContainer02"
-  gridPoint {
-    x: 171
-    y: 6
-    z: 168
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492c1396630f025001320"
-  }
-  lod: 0
-}
-props {
   name: "taiPo_furniture_missileCrate01"
   gridPoint {
     x: -20.899994
@@ -49636,19 +49623,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c1396630f02500132a"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_building_roofRoundBackCorner"
-  gridPoint {
-    x: 175
-    y: 11
-    z: 167
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c1396630f02500132e"
   }
   lod: 0
 }
@@ -59294,19 +59268,6 @@ props {
   lod: 0
 }
 props {
-  name: "pikePlace_building_02baseRoofCorner02"
-  gridPoint {
-    x: 170
-    y: 6
-    z: 163.2
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c7396630f0250017e7"
-  }
-  lod: 0
-}
-props {
   name: "vicHarbor_groundDecoration_docksCorner01"
   gridPoint {
     x: 201
@@ -59524,19 +59485,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492c8396630f025001802"
-  }
-  lod: 0
-}
-props {
-  name: "pikePlace_building_02baseRoofBack"
-  gridPoint {
-    x: 170
-    y: 6
-    z: 166.1
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492c8396630f025001803"
   }
   lod: 0
 }
@@ -61584,19 +61532,6 @@ props {
   lod: 0
 }
 props {
-  name: "pikePlace_building_02baseRoofEdge"
-  gridPoint {
-    x: 170
-    y: 6
-    z: 169
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492c9396630f025001908"
-  }
-  lod: 0
-}
-props {
   name: "mitte_wall_concreteEdge01"
   gridPoint {
     x: 166
@@ -62035,19 +61970,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492ca396630f02500193f"
-  }
-  lod: 0
-}
-props {
-  name: "pikePlace_building_02baseRoofEdge"
-  gridPoint {
-    x: 173
-    y: 6
-    z: 169
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492ca396630f025001941"
   }
   lod: 0
 }
@@ -62932,19 +62854,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492ca396630f0250019aa"
-  }
-  lod: 0
-}
-props {
-  name: "pikePlace_building_02baseRoofEdge"
-  gridPoint {
-    x: 176
-    y: 6
-    z: 166
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492ca396630f0250019ad"
   }
   lod: 0
 }
@@ -63975,19 +63884,6 @@ props {
   lod: 0
 }
 props {
-  name: "pikePlace_street_displayTech01"
-  gridPoint {
-    x: 153
-    y: 0
-    z: 112
-  }
-  orientation: ORIENTATION_N
-  idRef {
-    id: "5a8492cb396630f025001a2f"
-  }
-  lod: 0
-}
-props {
   name: "barrens_ground_sidewalk01"
   gridPoint {
     x: 151
@@ -64854,19 +64750,6 @@ props {
   lod: 0
 }
 props {
-  name: "pikePlace_building_02baseRoofCorner03"
-  gridPoint {
-    x: 175
-    y: 5
-    z: 168
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492cc396630f025001a96"
-  }
-  lod: 0
-}
-props {
   name: "hub_ground_crosswalkCornerSide01"
   gridPoint {
     x: 157
@@ -65707,19 +65590,6 @@ props {
   lod: 0
 }
 props {
-  name: "pikePlace_building_02roofDarkCenter01"
-  gridPoint {
-    x: 173
-    y: 6
-    z: 166
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492cd396630f025001b01"
-  }
-  lod: 0
-}
-props {
   name: "barrens_ground_sidewalk01"
   gridPoint {
     x: 77
@@ -65963,19 +65833,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492cd396630f025001b1a"
-  }
-  lod: 0
-}
-props {
-  name: "pikePlace_building_02baseRoofBack"
-  gridPoint {
-    x: 173
-    y: 6
-    z: 163
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492cd396630f025001b1b"
   }
   lod: 0
 }
@@ -67479,19 +67336,6 @@ props {
   }
   idRef {
     id: "5a8492ce396630f025001bd5"
-  }
-  lod: 0
-}
-props {
-  name: "pikePlace_building_02baseRoofCorner"
-  gridPoint {
-    x: 176
-    y: 6
-    z: 163
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492ce396630f025001bd6"
   }
   lod: 0
 }
@@ -77127,9 +76971,9 @@ props {
 props {
   name: "docks_clutter_industrialDumpster"
   gridPoint {
-    x: 169
+    x: 149
     y: 0
-    z: 109
+    z: 112
   }
   orientation: ORIENTATION_S
   idRef {
@@ -97951,19 +97795,6 @@ props {
   lod: 0
 }
 props {
-  name: "nightMarket_building_roofBackEdge02"
-  gridPoint {
-    x: 175
-    y: 11
-    z: 170
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5a8492ed396630f0250029e1"
-  }
-  lod: 0
-}
-props {
   name: "taiPo_buildingDecoration_awning11"
   gridPoint {
     x: 110
@@ -98441,19 +98272,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5a8492ee396630f025002a21"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_building_roofBackEdge02"
-  gridPoint {
-    x: 178
-    y: 11
-    z: 167
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5a8492ee396630f025002a22"
   }
   lod: 0
 }
@@ -102926,5 +102744,217 @@ props {
     z: 93
   }
   orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "taiPo_building_edge01"
+  gridPoint {
+    x: 167
+    y: 2
+    z: 172
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5aa1a65c613131b80b003bfc"
+  }
+  lod: 0
+}
+props {
+  name: "taiPo_building_edge15"
+  gridPoint {
+    x: 167
+    y: -1
+    z: 172
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5aa1a665613131b80b003bfd"
+  }
+  lod: 0
+}
+props {
+  name: "hub_vehicle_droneNewsCamera"
+  gridPoint {
+    x: 185
+    y: 0
+    z: 164
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "nightMarket_vehicle_dingDingTram"
+  gridPoint {
+    x: 143
+    y: 0
+    z: 158
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "trawler_vehicle_safeBoat01"
+  gridPoint {
+    x: 194
+    y: 0
+    z: 55
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taiPo_vehicle_artillary01"
+  gridPoint {
+    x: 175
+    y: 0
+    z: 169
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taiPo_vehicle_armoredVehicle01"
+  gridPoint {
+    x: 181
+    y: 0
+    z: 164
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cz_vehicle_KEvan"
+  gridPoint {
+    x: 184
+    y: 0
+    z: 169
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_apc02"
+  gridPoint {
+    x: 192
+    y: 0
+    z: 165
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_apclights01"
+  gridPoint {
+    x: 191.6
+    y: 0
+    z: 170.5
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_door01"
+  gridPoint {
+    x: 201
+    y: 0
+    z: 161
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_door02"
+  gridPoint {
+    x: 205
+    y: 0
+    z: 164
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_policecar01"
+  gridPoint {
+    x: 185
+    y: 0
+    z: 160
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_turretgrey01"
+  gridPoint {
+    x: 193.7
+    y: 3
+    z: 168.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_turretgrey02"
+  gridPoint {
+    x: 200.7
+    y: 3
+    z: 163.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_wreck04"
+  gridPoint {
+    x: 187
+    y: 0
+    z: 154
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_wreck05"
+  gridPoint {
+    x: 193
+    y: 0
+    z: 151
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_wreck01"
+  gridPoint {
+    x: 199
+    y: 0
+    z: 159
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_door02"
+  gridPoint {
+    x: 193.8
+    y: 0
+    z: 167
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5aa1a88e613131b80b003bfe"
+  }
+  lod: 0
+}
+props {
+  name: "taipo_vehicle_turretgrey02"
+  gridPoint {
+    x: 193.59999
+    y: 3
+    z: 169
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5aa1a893613131b80b003bff"
+  }
   lod: 0
 }
