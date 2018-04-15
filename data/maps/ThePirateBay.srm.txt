@@ -1,0 +1,1923 @@
+minX: -27
+minZ: -40
+numX: 50
+numZ: 59
+props {
+  name: "cargoShip_ground_floor01"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -40
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor03"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor04"
+  gridPoint {
+    x: -11
+    y: 0
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor05"
+  gridPoint {
+    x: -11
+    y: 0
+    z: -34
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor01"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28ded6631362412004347"
+  }
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor03"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28df46631362412004348"
+  }
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor03"
+  gridPoint {
+    x: -11
+    y: 0
+    z: -40
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28df66631362412004349"
+  }
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor05"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -36
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e01663136241200434a"
+  }
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor05"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -40
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e04663136241200434b"
+  }
+  lod: 0
+}
+props {
+  name: "cargoShip_ground_floor05"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -34
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e08663136241200434d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -9
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e43663136241200434e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -9
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e43663136241200434f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -9
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e586631362412004350"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e5a6631362412004351"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e636631362412004352"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -21
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e636631362412004353"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e636631362412004354"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e636631362412004355"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e636631362412004356"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e636631362412004357"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -9
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e656631362412004358"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -9
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e656631362412004359"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e65663136241200435a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e65663136241200435b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e65663136241200435c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e65663136241200435d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e68663136241200435e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e686631362412004360"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e686631362412004361"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28e686631362412004362"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad28e686631362412004363"
+  }
+  lod: 0
+}
+props {
+  name: "docks_clutter_container01"
+  gridPoint {
+    x: -5
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_clutter_container02"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_clutter_container03"
+  gridPoint {
+    x: -17.7
+    y: 0
+    z: -15.8
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_clutter_container04"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "sinkingShip_ground_container01"
+  gridPoint {
+    x: 6.9
+    y: 0
+    z: -21.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_ground_container02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -24.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_ground_container03"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_ground_container04"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -21.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_ground_container05"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -19.5
+    y: 0
+    z: -4.6
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container04"
+  gridPoint {
+    x: -12
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container05"
+  gridPoint {
+    x: -20
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "bremerton_docks_container01"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -21
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "bremerton_docks_container02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "docks_clutter_container05"
+  gridPoint {
+    x: -15.1
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28f466631362412004364"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wall_saloonDoor01"
+  gridPoint {
+    x: -15.6
+    y: 0
+    z: -20.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad28f8c6631362412004365"
+  }
+  lod: 0
+}
+props {
+  name: "pirateBarge_prop_antiAirGun03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pirateBarge_prop_antiAirGun"
+  gridPoint {
+    x: -5
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "gunshop_decor_camoroof1"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -19
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290c36631362412004366"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -20
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290ce6631362412004367"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -20
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290d26631362412004368"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 3
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290e36631362412004369"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -17
+    y: 3
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290e3663136241200436a"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -20
+    y: 3
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290e3663136241200436b"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -20
+    y: 3
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290e3663136241200436c"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container05"
+  gridPoint {
+    x: -20
+    y: 3
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad290e3663136241200436d"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container05"
+  gridPoint {
+    x: -20
+    y: 6
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29107663136241200436e"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 6
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29107663136241200436f"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -20
+    y: 6
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad291076631362412004370"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -20
+    y: 6
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad291076631362412004371"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wallDecor_scaffolding02"
+  gridPoint {
+    x: -12
+    y: 4
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wallDecor_scaffolding01"
+  gridPoint {
+    x: -12
+    y: 6
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wallDecor_scaffolding02"
+  gridPoint {
+    x: -12
+    y: 1
+    z: 14
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad291356631362412004373"
+  }
+  lod: 0
+}
+props {
+  name: "CZ_walldecoration_yourenext"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_genericGrafitti06"
+  gridPoint {
+    x: -12
+    y: -1
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_genericGrafitti04"
+  gridPoint {
+    x: -12
+    y: 2
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_graffiti19"
+  gridPoint {
+    x: -12.3
+    y: 1
+    z: 8.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_graffiti17"
+  gridPoint {
+    x: -12.7
+    y: 6
+    z: 5.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "trawler_deck_Ladder"
+  gridPoint {
+    x: -7.3
+    y: 0.1
+    z: 16.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "barrens_building_03roofBackCorner02"
+  gridPoint {
+    x: -18.9
+    y: 10
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "barrens_building_03roofBackSide01"
+  gridPoint {
+    x: -18.9
+    y: 10
+    z: 9.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "barrens_building_06longwallporch01"
+  gridPoint {
+    x: -23
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad293156631362412004377"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_06longwallporch01"
+  gridPoint {
+    x: -22
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad293246631362412004378"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_06longwallporch01"
+  gridPoint {
+    x: -22
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad293296631362412004379"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_06roof04"
+  gridPoint {
+    x: -16.7
+    y: 9
+    z: 4.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "barrens_building_03roofcorner02"
+  gridPoint {
+    x: -14.599999
+    y: 9.6
+    z: 8.4000006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29350663136241200437a"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_03roofcenter02"
+  gridPoint {
+    x: -17.4
+    y: 9.2
+    z: 8.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29353663136241200437b"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_03roofcenter02"
+  gridPoint {
+    x: -18.3
+    y: 9
+    z: 6.9999995
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad2935a663136241200437c"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29396663136241200437d"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad293a3663136241200437e"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wallDecor_slimDoor01"
+  gridPoint {
+    x: -17.6
+    y: 0.2
+    z: -3.6
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "factory_wall_warehouseExtDoor01Damaged"
+  gridPoint {
+    x: -22
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -27
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad2945b6631362412004381"
+  }
+  lod: 0
+}
+props {
+  name: "docks_clutter_container04"
+  gridPoint {
+    x: -5.8
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad2947d6631362412004382"
+  }
+  lod: 0
+}
+props {
+  name: "haven_street_cellarDoor03"
+  gridPoint {
+    x: -20
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "haven_street_cellarDoor01"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "haven_street_cellarDoor02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad294bd6631362412004384"
+  }
+  lod: 0
+}
+props {
+  name: "hub_buildingDecoration_01door01"
+  gridPoint {
+    x: -2.9
+    y: 0
+    z: -12.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "kowloon_wall_slumGate01"
+  gridPoint {
+    x: -22
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "kowloon_wall_slumGate02"
+  gridPoint {
+    x: -22
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "museum_wall_grateDoor01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -31
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_blueContainerDoor01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_greyContainerDoor01"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -28
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_greyContainerDoorEdge01"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_redContainerDoor01"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -31
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_tealContainerDoor01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "sinkingShip_wall_whiteContainerDoor01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -27
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: -22
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_door02Front"
+  gridPoint {
+    x: -22.2
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_door02Back02"
+  gridPoint {
+    x: -22.2
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "trawler_wall_door01"
+  gridPoint {
+    x: -1.6
+    y: -0.8
+    z: -8.2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "docks_clutter_container04"
+  gridPoint {
+    x: -5.1
+    y: 0
+    z: -6.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad296186631362412004385"
+  }
+  lod: 0
+}
+props {
+  name: "warehouse_wall_exteriorDoor03"
+  gridPoint {
+    x: -23
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_wall_saloonDoor01"
+  gridPoint {
+    x: -6.7000003
+    y: 0
+    z: -24.3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad2969d6631362412004386"
+  }
+  lod: 0
+}
+props {
+  name: "subOrbital_wall_door01"
+  gridPoint {
+    x: -6.5
+    y: 0.9
+    z: -23.8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad2969d6631362412004387"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -10.1
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad296d56631362412004388"
+  }
+  lod: 0
+}
+props {
+  name: "bremerton_ship_door01"
+  gridPoint {
+    x: -12
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "bremerton_ship_door02"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "bremerton_ship_door03"
+  gridPoint {
+    x: -12
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "bremerton_ship_door04"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "bremerton_ship_door03"
+  gridPoint {
+    x: -1.9
+    y: 0
+    z: -5.6
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5ad297736631362412004389"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel02"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad297bf663136241200438a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_clutter_container01"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad297df663136241200438b"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_building_03edge01"
+  gridPoint {
+    x: -15.2
+    y: 5.7
+    z: 10
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container01"
+  gridPoint {
+    x: -17
+    y: 6
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad2988d663136241200438c"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_decor_graffiti04"
+  gridPoint {
+    x: -12.4
+    y: 1.7
+    z: 7.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "trawler_groundDecoration_stairs01"
+  gridPoint {
+    x: -12
+    y: 0.6
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_wallDecor_slimDoor01"
+  gridPoint {
+    x: -12.200001
+    y: 0.2
+    z: 5.5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad2998a663136241200438d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_closet03Storeroom"
+  gridPoint {
+    x: -12
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "office_wall_janitorialCloset"
+  gridPoint {
+    x: -10
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -14
+    y: 3
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -18
+    y: 0
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -14.8
+    y: 0
+    z: -21.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29a30663136241200438e"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: -9
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29a45663136241200438f"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container04"
+  gridPoint {
+    x: -12
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29a506631362412004391"
+  }
+  lod: 0
+}
+props {
+  name: "docks_clutter_container03"
+  gridPoint {
+    x: -17.7
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29aa06631362412004392"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -24
+    y: 0
+    z: -40
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: -20
+    y: 0
+    z: -33
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "hub_walls_topWallFill01"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "trawler_wall_door01"
+  gridPoint {
+    x: 13.9
+    y: -0.20000002
+    z: 2.5000002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad29b766631362412004393"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_tech_alarmOff"
+  gridPoint {
+    x: -1.9
+    y: 0
+    z: -12.9
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "office_tech_alarmOff"
+  gridPoint {
+    x: -10.9
+    y: 1
+    z: 1.6
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "haven_wallDecoration_graffiti24"
+  gridPoint {
+    x: -7.5
+    y: 0
+    z: -2.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_genericGrafitti05"
+  gridPoint {
+    x: -7.6
+    y: -1.4
+    z: -1.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "haven_graffiti_triagePointer"
+  gridPoint {
+    x: -18
+    y: 1.6
+    z: -1.7
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "haven_wallDecoration_graffiti09"
+  gridPoint {
+    x: -21
+    y: 1
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_genericGrafitti04"
+  gridPoint {
+    x: -2.3
+    y: -1.5
+    z: -14.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -20
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad29ccc6631362412004394"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -9
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29cd56631362412004395"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_6x6panel01"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ad29cdf6631362412004396"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -10.1
+    y: 3
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d046631362412004397"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -15
+    y: 3
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d046631362412004398"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container02"
+  gridPoint {
+    x: -17
+    y: 3
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d046631362412004399"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -15
+    y: 3
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d13663136241200439a"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 3
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d16663136241200439b"
+  }
+  lod: 0
+}
+props {
+  name: "sinkingShip_walls_container03"
+  gridPoint {
+    x: -17
+    y: 3
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d18663136241200439c"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d1d663136241200439d"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -14.7
+    y: 3
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d3f663136241200439e"
+  }
+  lod: 0
+}
+props {
+  name: "pirateBarge_prop_antiAirGun03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d59663136241200439f"
+  }
+  lod: 0
+}
+props {
+  name: "pirateBarge_prop_antiAirGun03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d5e66313624120043a0"
+  }
+  lod: 0
+}
+props {
+  name: "pirateBarge_prop_antiAirGun03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29d6166313624120043a1"
+  }
+  lod: 0
+}
+props {
+  name: "docks_decor_buoy02"
+  gridPoint {
+    x: 16
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_decor_buoy03"
+  gridPoint {
+    x: 20
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_craneLadder01"
+  gridPoint {
+    x: 12.2
+    y: 1
+    z: 6.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_craneLadder03"
+  gridPoint {
+    x: 12.2
+    y: 1
+    z: 6.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_craneLadder02"
+  gridPoint {
+    x: 11.2
+    y: 1
+    z: 6.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_wall_saloonDoor01"
+  gridPoint {
+    x: 0.29999971
+    y: 0
+    z: -24.3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29ecc66313624120043a3"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wallDecoration_bedsheet06"
+  gridPoint {
+    x: 0.3
+    y: 0
+    z: -23.4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_decor_bedsheet"
+  gridPoint {
+    x: -2.6
+    y: 0
+    z: -21.6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_wall_saloonDoor01"
+  gridPoint {
+    x: -1.7000003
+    y: 0
+    z: -22.3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ad29f1466313624120043a4"
+  }
+  lod: 0
+}
