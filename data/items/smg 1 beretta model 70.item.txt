@@ -1,0 +1,95 @@
+id: "SMG 1 Beretta Model 70"
+
+type: ItemType_SMG
+
+uirep {
+
+  icon: "icon_gun_berettamodel70"
+
+  name: "Beretta Model 70"
+
+  description: "SMG: A small submachine gun with big damage potential."
+
+}
+
+equipPrefabName: "IngramSMG"
+
+anim_type: AnimType_SMG
+
+coreAttribute: Attribute_Quickness
+
+coreSkill: Skill_RangedCombat
+
+coreSpecialization: Specialization_RC_Smg
+
+apCost: 1
+
+maxAmmo: 30
+
+baseHPDamage: 5
+
+baseAPDamage: 0
+
+rangeModTable: 8
+
+rangeModTable: 6
+
+rangeModTable: 4
+
+rangeModTable: 2
+
+rangeModTable: 0
+
+rangeModTable: -2
+
+rangeModTable: -4
+
+rangeModTable: -6
+
+rangeModTable: -8
+
+rangeModTable: -10
+
+rangeModTable: -12
+
+rangeModTable: -14
+
+rangeModTable: -16
+
+rangeModTable: -18
+
+rangeModTable: -20
+
+rangeModTable: -22
+
+rangeModTable: -24
+
+rangeModTable: -26
+
+rangeModTable: -28
+
+rangeModTable: -30
+
+rangeModTable: -32
+
+rangeModTable: -34
+
+rangeModTable: -36
+
+rangeModTable: -38
+
+noiseLevel: 9
+
+noiseRounds: 1
+
+ammoReloadAPCost: 1
+
+abilityModes: "DC Burst (SMG)"
+
+affectsEnemy: true
+
+canTargetActor: true
+
+store_cost: 350
+
+sorting_group: "Unique"
