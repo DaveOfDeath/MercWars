@@ -5,7 +5,7 @@ uirep {
 
 	name: "Power Shot"
 
-	description: "Power Shot. A more powerful, but less accurate version of the spell."
+	description: "Fire in the hole! (A more powerful, but less accurate version of the spell.)"
 
 }
 

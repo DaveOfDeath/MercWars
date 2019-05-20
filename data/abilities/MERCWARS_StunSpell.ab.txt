@@ -5,8 +5,7 @@ uirep {
 
 	name: "Stagering Shot"
 
-	description: "A psychic blast designed to knock an opponent senseless, and out of cover."
-
+	description: "Gut Punch. (A psychic blast designed to knock an opponent out of cover.)"
 }
 
 prereqStrings: "Item.CORE_SKILL >= 5"
