@@ -1,5 +1,5 @@
 triggers {
-  name: "NewTrigger"
+  name: "DEBUGGER.MagicTest"
   events {
     ops {
       functionName: "On Curtains Up"
@@ -14,7 +14,55 @@ triggers {
         call_value {
           functionName: "Get Map Item (Item)"
           args {
-            string_value: "FuckYou"
+            string_value: "MERCWARS_PowerBolt_1"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "MERCWARS_SpiritBolt_1"
           }
         }
       }
@@ -106,9 +154,9 @@ regions {
     b: 0.50196081
     a: 1
   }
-  ambience_template: ""
+  ambience_template: "city"
   combat_music: ""
-  default_music: ""
+  default_music: "HongKong-Hub-Club88-MainRoom"
   loop_combat_music: true
   loop_default_music: false
   no_fow_in_region: false
@@ -158,7 +206,24 @@ characters {
   }
   lod: 0
   character_instance {
-    team_id: "Shadowrunners"
+    character_mod {
+      stats {
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Gangers"
     char_name: "New Actor"
     pc_spawn_number: -1
   }
@@ -177,7 +242,7 @@ characters {
   lod: 0
   character_instance {
     character_mod {
-      archetypeName: "Non-Combatant"
+      archetypeName: "Guard - Protect"
     }
     team_id: "Gangers"
     char_name: "New Actor"
