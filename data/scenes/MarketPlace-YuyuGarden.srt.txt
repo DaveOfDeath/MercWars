@@ -1,9 +1,125 @@
+regions {
+  name: "r_vfx_Water"
+  position {
+    x: -147
+    y: 220
+    width: 96
+    height: 79
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: true
+  idRef {
+    id: "5ce203b1663136080800422e"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: "DefaultWaterFill"
+}
+regions {
+  name: "c_Main"
+  position {
+    x: -170
+    y: 195
+    width: 119
+    height: 105
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5ce20449663136080800422f"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.85490197
+    g: 0.85490197
+    b: 0.42352942
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.4627451
+    g: 0.4627451
+    b: 0.4627451
+    a: 1
+  }
+  ambience_template: "docks-day"
+  combat_music: ""
+  default_music: "HongKong-Hub-Exterior"
+  loop_combat_music: true
+  loop_default_music: true
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -65
+    x: -99
     y: 0
-    z: 280
+    z: 257
   }
   orientation: ORIENTATION_W
   idRef {
@@ -29,10 +145,10 @@ worldMapLocation {
 }
 mapName: "MarketPlace-YuyuGarden"
 parentStory: ""
-scene_title: "New Scene"
+scene_title: "Market Place - Yuyu Gardens"
 scene_subtitle: ""
 scene_synopsis: ""
-scene_image: ""
+scene_image: "loadingimage_epilogue_s1"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
@@ -92,7 +208,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 25
+hiring_maximum_karma: 0
 roster_overrides {
 }
 use_hiring_cost_warning: false
@@ -101,6 +217,6 @@ override_hiring_average_cost: false
 show_equip_screen_on_scene_load: false
 is_persistant: false
 is_persistant_has_value: false
-can_move_outside_camera_regions: true
+can_move_outside_camera_regions: false
 can_start_before_triggers: true
 can_use_team_advancement: false
