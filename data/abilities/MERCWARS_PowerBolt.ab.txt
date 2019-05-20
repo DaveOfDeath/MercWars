@@ -5,7 +5,7 @@ uirep {
 
 	name: "Cast Bolt"
 
-	description: "The basic form of dog's attack spell"
+	description: "The most basic form of the attack spell"
 
 }
 
