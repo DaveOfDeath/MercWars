@@ -1,0 +1,91 @@
+{{1E90FF}}-- Project Lead --{{-}}
+{{FFFAFA}}David A. Hendrickson{{-}}
+
+
+
+{{1E90FF}}-- Level Design and Mapping --{{-}}
+{{FFFAFA}}Ryan Swank{{-}}
+{{FFFAFA}}David A. Hendrickson{{-}}
+{{FFFAFA}}Matt Hendrickson{{-}}
+
+
+
+{{1E90FF}}-- Scripting --{{-}}
+{{FFFAFA}}David A. Hendrickson{{-}}
+{{FFFAFA}}Ryan Swank{{-}}
+{{FFFAFA}}Matt Hendrickson{{-}}
+
+
+
+{{1E90FF}}-- Writing --{{-}}
+{{FFFAFA}}Original Game by HareBrained Schemes{{-}}
+
+{{1E90FF}}-- Additional Writing, Dialogue, and Characters --{{-}}
+{{FFFAFA}}Matt Hendrickson{{-}}
+{{FFFAFA}}Ryan Swank{{-}}
+{{FFFAFA}}David A. Hendrickson{{-}}
+
+
+
+{{1E90FF}}-- Custom Portraits --{{-}}
+{{FFFAFA}}Thomas "Geeked" Smart{{-}}
+{{FFFAFA}}Matt Hendrickson{{-}}
+
+
+
+{{1E90FF}}-- Steam Playtesters --{{-}}
+{{FFFAFA}}StarBuck{{-}}
+{{FFFAFA}}Desorto{{-}}
+{{FFFAFA}}SnugSnug{{-}}
+
+
+{{FFFAFA}}[Your name could be here!]{{-}}
+{{FFFAFA}}[Ask HOW in the Bug List Thread]{{-}}
+
+
+
+{{1E90FF}}-- Special Thanks --{{-}}
+{{FFFAFA}}The folks at HareBrained Schemes for their engine, editor, {{-}}
+{{FFFAFA}}patience, and permission to build this revamped version of {{-}}
+{{FFFAFA}}their first game.{{-}}
+
+
+
+{{7CFC00}}And last, but certainly not least... To all of our Players.{{-}}
+{{7CFC00}}Without all of you, this is just a pile of 1's and 0's.{{-}} 
+
+{{7CFC00}}From all of us... Thank You{{-}}
+{{7CFC00}}For taking the time to play our mod.{{-}}
+
+
+
+{{EE82EE}}-- FELLOW MODDERS --{{-}}
+{{EE82EE}}For those of you interested,{{-}}
+{{EE82EE}}Might we suggest turning on the Audio Commmentary setting{{-}}
+{{EE82EE}}We used that condition to add our own comments throughout{{-}}
+{{EE82EE}}this Mod.{{-}}
+
+{{EE82EE}}A special thanks to our friend Cirion for the idea.{{-}}
+{{EE82EE}}Loved his comments throughout Caldecott Caper{{-}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
