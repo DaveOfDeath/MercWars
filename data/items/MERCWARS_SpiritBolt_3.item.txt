@@ -52,7 +52,7 @@ gear_covers_arms: false
 gear_covers_face: false
 gear_covers_hair: false
 gear_prefab: ""
-id: "MERCWARS_ToxicBolt_3"
+id: "MERCWARS_SpiritBolt_3"
 instantAction: false
 intended_user: IntendedUser_Player
 is_consumable: false

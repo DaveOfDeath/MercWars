@@ -10,7 +10,7 @@ anim_group_override: ItemType_None
 anim_type: AnimType_Spell
 apCost: 1
 baseAPDamage: 0
-baseHPDamage: 6
+baseHPDamage: 18
 canTargetActor: true
 canTargetOccupiedGridPoint: false
 canTargetSelf: false
@@ -52,7 +52,7 @@ gear_covers_arms: false
 gear_covers_face: false
 gear_covers_hair: false
 gear_prefab: ""
-id: "MERCWARS_ToxicBolt_1"
+id: "MERCWARS_SpiritBolt_4"
 instantAction: false
 intended_user: IntendedUser_Player
 is_consumable: false
@@ -68,7 +68,7 @@ modelessAbilities: "MERCWARS_SpiritPower"
 noiseLevel: 4
 noiseRounds: 1
 outfit_texture: ""
-prereqStrings: "Player.SKILL.Skill_Conjuring >= 1"
+prereqStrings: "Player.SKILL.Skill_Conjuring >= 7"
 rangeModTable: 8
 rangeModTable: 8
 rangeModTable: 8
@@ -98,13 +98,13 @@ reactions_per_use: 0
 reloadInteraction: ""
 sorting_group: "MERCWARS"
 spreadAngle: 0
-store_cost: 200
+store_cost: 1750
 team_as_melee: false
 type: ItemType_AttackSpell
 uirep: {
   description: "A powerful shaman attack spell."
-  icon: "icon_acidbolt1"
-  name: "Spirit Bolt 1"
+  icon: "icon_acidbolt4"
+  name: "Spirit Bolt 4"
   thumbnail: ""
 }
 use_on_damage: false
