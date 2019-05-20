@@ -3,9 +3,9 @@ id: "MERCWARS_PowerSpell"
 uirep {
 	icon: "icon_manapunch"
 
-	name: "Power Shot"
+	name: "Fire in the Hole!"
 
-	description: "Fire in the hole! (A more powerful, but less accurate version of the spell.)"
+	description: "A far more powerful, but less accurate version of the spell."
 
 }
 

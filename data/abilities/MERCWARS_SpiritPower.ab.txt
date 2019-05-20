@@ -3,9 +3,9 @@ id: "MERCWARS_SpiritPower"
 uirep {
 	icon: "icon_acidburst"
 
-	name: "Forceful Shot"
+	name: "Battering Ram"
 
-	description: "Battering Ram! (A focused less accurate version of the spell.)"
+	description: "A focused but less accurate version of the spell."
 
 }
 

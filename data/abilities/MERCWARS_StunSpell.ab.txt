@@ -3,9 +3,9 @@ id: "MERCWARS_StunSpell"
 uirep {
 	icon: "icon_guard"
 
-	name: "Stagering Shot"
+	name: "Gut Punch"
 
-	description: "Gut Punch. (A psychic blast designed to knock an opponent out of cover.)"
+	description: "A calibrated blast designed to knock an opponent senseless, as well as out of cover."
 }
 
 prereqStrings: "Item.CORE_SKILL >= 5"

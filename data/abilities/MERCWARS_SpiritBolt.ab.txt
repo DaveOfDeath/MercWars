@@ -2,7 +2,7 @@ id: "MERCWARS_Spiritbolt"
 
 uirep {
   icon: "icon_acidbolt"
-  name: "Cast Spirit Bolt"
+  name: "Spirit Bolt"
   description: "The most basic form of the attack spell"
 
 }

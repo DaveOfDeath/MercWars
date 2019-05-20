@@ -3,7 +3,7 @@ id: "MERCWARS_Powerbolt"
 uirep {
 	icon: "icon_powerbolt"
 
-	name: "Cast Bolt"
+	name: "Power Bolt"
 
 	description: "The most basic form of the attack spell"
 

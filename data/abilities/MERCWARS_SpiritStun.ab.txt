@@ -5,7 +5,7 @@ uirep {
 
 	name: "Stagering Shot"
 
-	description: "Staggering Shot. (A psychic blast designed to knock an opponent out of cover.)"
+	description: "A psychic blast designed to knock an opponent sensless, and out of cover."
 
 }
 

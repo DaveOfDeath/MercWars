@@ -4,9 +4,9 @@ uirep {
 
   icon: "icon_deckertargeting"
 
-  name: "Aimed Fire"
+  name: "Take Your Time..."
 
-  description: "Take your time... Accuracy matters... (Increases accuracy by 15%.)"
+  description: "Accuracy matters. (Increases accuracy by 15%.)"
 
 }
 

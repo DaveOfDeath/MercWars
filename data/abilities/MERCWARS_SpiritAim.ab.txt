@@ -3,9 +3,9 @@ id: "MERCWARS_SpiritAim"
 uirep {
 
   icon: "icon_deadeye"
-  name: "Aimed Bolt"
+  name: "Hold it steady..."
 
-  description: "Hold it steady... (Increases accuracy by 15%.)"
+  description: "Increases accuracy by 15%."
 
 }
 
