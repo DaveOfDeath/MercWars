@@ -1,3 +1,82 @@
+triggers {
+  name: "--GENERAL TRIGGERS--"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "5ce2fac16631367415006082"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "General.Weather(Rain)"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iRain_Strength"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (int)"
+          args {
+            int_value: 50
+          }
+          args {
+            int_value: 175
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iRain_Strength"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5ce2facd6631367415006083"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
 regions {
   name: "r_vfx_Water"
   position {
@@ -86,18 +165,18 @@ regions {
     z: -0.75
   }
   directional_light_color {
-    r: 0.85490197
-    g: 0.85490197
-    b: 0.42352942
+    r: 0.75686276
+    g: 0.75686276
+    b: 0.37254903
     a: 1
   }
   ambient_light_color {
-    r: 0.4627451
-    g: 0.4627451
-    b: 0.4627451
+    r: 0.027450981
+    g: 0.6156863
+    b: 0.93333334
     a: 1
   }
-  ambience_template: "docks-day"
+  ambience_template: "mitte-day"
   combat_music: ""
   default_music: "HongKong-Hub-Exterior"
   loop_combat_music: true
@@ -134,6 +213,14 @@ characters {
     char_name: "New Actor"
     enabled_at_start: true
     pc_spawn_number: 0
+  }
+}
+variables {
+  int_value: 0
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "iRain_Strength"
+    typeName: "int"
   }
 }
 worldMapLocation {
