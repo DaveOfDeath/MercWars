@@ -11985,32 +11985,6 @@ props {
   lod: 0
 }
 props {
-  name: "nightMarket_building_roofRoundSideCorner"
-  gridPoint {
-    x: -167.6
-    y: 7.2
-    z: 196.9
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5c78237a3666322805002a81"
-  }
-  lod: 0
-}
-props {
-  name: "nightMarket_building_roofRoundSideCorner"
-  gridPoint {
-    x: -166.3
-    y: 7.2
-    z: 195.5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5c78237a3666322805002a82"
-  }
-  lod: 0
-}
-props {
   name: "nightMarket_building_roofRoundFrontCorner"
   gridPoint {
     x: -158.2
@@ -35817,32 +35791,6 @@ props {
   gridPoint {
     x: -157
     y: 0
-    z: 241
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5ce0c6eb3666326c15005f42"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_blockMove"
-  gridPoint {
-    x: -157
-    y: 0
-    z: 242
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5ce0c6ed3666326c15005f43"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_blockMove"
-  gridPoint {
-    x: -157
-    y: 0
     z: 249
   }
   orientation: ORIENTATION_S
@@ -39045,9 +38993,9 @@ props {
 props {
   name: "greenwar_shack_stall"
   gridPoint {
-    x: -157
+    x: -157.6
     y: 0
-    z: 241
+    z: 240.4
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -39055,7 +39003,7 @@ props {
 props {
   name: "nightMarket_building_roofCenter01"
   gridPoint {
-    x: -167.1
+    x: -166.1
     y: 7.7
     z: 196.1
   }
@@ -39065,9 +39013,9 @@ props {
 props {
   name: "cargoShip_prop_cameraPole"
   gridPoint {
-    x: -164.1
+    x: -163.70001
     y: 8.6
-    z: 199
+    z: 199.4
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -39801,6 +39749,32 @@ props {
   properties {
     property_id: "fxScript"
     string_value: "SparksEnvironment"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_building_roofEdge02"
+  gridPoint {
+    x: -167.6
+    y: 7.2
+    z: 198.9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5ce2ff0f663136741500608b"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_building_roofEdge02"
+  gridPoint {
+    x: -164.2
+    y: 7.2
+    z: 195.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5ce2ff10663136741500608c"
   }
   lod: 0
 }

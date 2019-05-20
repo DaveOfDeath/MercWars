@@ -77,6 +77,44 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "General.AmbientActorAnimations"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Play Animation From Manifest"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5ce3003a663136741500608d"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Animation)"
+          args {
+            string_value: "HongKong:General/standing_idle_talking"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5ce300ed663136a80e00104a"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "r_vfx_Water"
   position {
@@ -213,6 +251,67 @@ characters {
     char_name: "New Actor"
     enabled_at_start: true
     pc_spawn_number: 0
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -156.6
+    y: 0
+    z: 241.5
+  }
+  orientation: ORIENTATION_S
+  displayName: "GreenWars"
+  idRef {
+    id: "5ce3003a663136741500608d"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Wealthy/HumanMalePlumPony"
+    character_sheet_id: "Adept_Lv1_HtH"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        close_combat: 0
+        dodge: 0
+        chi_casting: 0
+      }
+      specializations {
+        unarmed: 0
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "Steve"
+    pc_spawn_number: -1
+    portrait {
+      filename: "npc_dwarfmale_shadows_peng"
+    }
+    karma: 72
+    is_prop_character: true
   }
 }
 variables {
