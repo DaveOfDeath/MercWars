@@ -5,7 +5,7 @@ worldMapLocation {
     y: 0
   }
 }
-mapName: "TrainingRoom"
+mapName: "UTILITIES-PROPS-TrainingRoom"
 parentStory: ""
 scene_title: "New Scene"
 scene_subtitle: ""

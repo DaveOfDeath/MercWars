@@ -1,8 +1,0 @@
-id: "MERCWARS-KE_ID"
-type: ItemType_QuestItem
-uirep {
-  name: "Knight Errant ID"
-  description: "A metallic card, laser etched with your picture and serial number."
-}
-credentials: 0
-sorting_group: "Quest"

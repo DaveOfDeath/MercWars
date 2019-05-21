@@ -16034,7 +16034,7 @@ worldMapLocation {
     y: 0
   }
 }
-mapName: "SEATTLE-Port_IMPORT"
+mapName: "UTILITIES-MAPS-IceKnightPort"
 parentStory: ""
 scene_title: "New Scene"
 scene_subtitle: ""
