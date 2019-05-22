@@ -39624,7 +39624,7 @@ props {
     min_volume: 0
     max_volume: 0.6
     min_radius: 1
-    max_radius: 11
+    max_radius: 35
     crossfade_in_time: 1
     crossfade_out_time: 1
     music_fade_volume: 1
