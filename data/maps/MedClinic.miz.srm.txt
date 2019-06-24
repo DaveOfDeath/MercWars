@@ -2436,7 +2436,7 @@ props {
 props {
   name: "hub_wall_walledCity02"
   gridPoint {
-    x: 17
+    x: 19
     y: 0
     z: -15
   }
@@ -2487,8 +2487,8 @@ props {
   name: "hub_wall_walledCity08"
   gridPoint {
     x: 14
-    y: 0
-    z: -14.9
+    y: 3
+    z: -14.7
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -3074,16 +3074,6 @@ props {
   lod: 0
 }
 props {
-  name: "syndicate_building_fortressDoor01"
-  gridPoint {
-    x: 20.1
-    y: 1.9
-    z: -11.8
-  }
-  orientation: ORIENTATION_N
-  lod: 0
-}
-props {
   name: "bremerton_ship_walllight01"
   gridPoint {
     x: 18
@@ -3091,26 +3081,6 @@ props {
     z: -19
   }
   orientation: ORIENTATION_N
-  lod: 0
-}
-props {
-  name: "bremerton_ship_walllight01"
-  gridPoint {
-    x: 21
-    y: 6
-    z: -11
-  }
-  orientation: ORIENTATION_W
-  lod: 0
-}
-props {
-  name: "bremerton_ship_walllight03"
-  gridPoint {
-    x: 21.5
-    y: 6.6
-    z: -10.4
-  }
-  orientation: ORIENTATION_W
   lod: 0
 }
 props {
@@ -3144,9 +3114,9 @@ props {
 props {
   name: "vfx_fx_dustDevil"
   gridPoint {
-    x: 25
+    x: 21
     y: 0
-    z: -10.4
+    z: -11.4
   }
   orientation: ORIENTATION_S
   properties {
@@ -3203,28 +3173,11 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_flicker"
-  gridPoint {
-    x: 16.6
-    y: 3.3
-    z: -9.6
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "fxScript"
-    string_value: "FlickeringLightEnvironment"
-  }
-  idRef {
-    id: "5ce62048643366a40f0066f7"
-  }
-  lod: 0
-}
-props {
   name: "diveBar_storage_cardboardBoxes"
   gridPoint {
-    x: 17
+    x: 14.3
     y: 0
-    z: -13.2
+    z: -13.599999
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -3232,9 +3185,9 @@ props {
 props {
   name: "diveBar_storage_cardboardBoxes"
   gridPoint {
-    x: 14.7
+    x: 13.9
     y: 0
-    z: -13.4
+    z: -10.5
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3367,7 +3320,7 @@ props {
 props {
   name: "tenements_clutter_trashpile04"
   gridPoint {
-    x: 25.4
+    x: 26.4
     y: 0
     z: -13.9
   }
@@ -3540,7 +3493,7 @@ props {
 props {
   name: "barrens_street_junkPile06"
   gridPoint {
-    x: 24.9
+    x: 26.9
     y: 0
     z: -12.1
   }
@@ -4323,16 +4276,6 @@ props {
     z: -11
   }
   orientation: ORIENTATION_S
-  lod: 0
-}
-props {
-  name: "pikePlace_sign_apartmentSign01"
-  gridPoint {
-    x: 20
-    y: 0
-    z: -13
-  }
-  orientation: ORIENTATION_E
   lod: 0
 }
 props {
@@ -11210,78 +11153,49 @@ props {
       b: 1
       a: 1
     }
-    intensity: 5
+    intensity: 3.25
   }
 }
 props {
   name: "factory_wall_angledDoor01Mid"
   gridPoint {
-    x: 36
+    x: 16.3
     y: 0
-    z: -34
+    z: -15
   }
   orientation: ORIENTATION_E
+  displayName: "obj_MedClinicDoor"
+  idRef {
+    id: "5d1159486631364c0d003677"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Warp
+    interaction_info_text: "Enter the Clinic"
+  }
   lod: 0
 }
 props {
   name: "factory_wall_angledDoor02Back"
   gridPoint {
-    x: 35
+    x: 15.3
     y: 0
-    z: -34
+    z: -15
   }
   orientation: ORIENTATION_E
-  lod: 0
-}
-props {
-  name: "secretLab_clutter_wallConsole02"
-  gridPoint {
-    x: 41
-    y: 0
-    z: -33
-  }
-  orientation: ORIENTATION_E
-  lod: 0
-}
-props {
-  name: "secretLab_clutter_wallConsole02_lights"
-  gridPoint {
-    x: 41.3
-    y: -0.1
-    z: -33
-  }
-  orientation: ORIENTATION_E
-  lod: 0
-}
-props {
-  name: "secretLab_clutter_wallConsole02"
-  gridPoint {
-    x: 42
-    y: 0
-    z: -33
-  }
-  orientation: ORIENTATION_E
+  GeneralTags: "isMedClinicLocked"
   idRef {
-    id: "5cf312ac66313638060028ed"
+    id: "5d1150d16631364c0d00366d"
   }
-  lod: 0
-}
-props {
-  name: "policeStation_tech_cardReader01"
-  gridPoint {
-    x: 42
-    y: 0
-    z: -34
-  }
-  orientation: ORIENTATION_E
   lod: 0
 }
 props {
   name: "factory_wall_angledDoor01Front"
   gridPoint {
-    x: 37
+    x: 17.3
     y: 0
-    z: -34
+    z: -15
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -11289,19 +11203,23 @@ props {
 props {
   name: "factory_wall_angledDoor01Back"
   gridPoint {
-    x: 33
+    x: 15.3
     y: 0
-    z: -34
+    z: -15
   }
   orientation: ORIENTATION_E
+  GeneralTags: "isMedClinicUnlocked"
+  idRef {
+    id: "5d1150e16631364c0d00366e"
+  }
   lod: 0
 }
 props {
   name: "cz_signage_bodytech"
   gridPoint {
-    x: 18
-    y: 5.3
-    z: -11.8
+    x: 14.1
+    y: 2.3000002
+    z: -13.2
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -11309,9 +11227,9 @@ props {
 props {
   name: "cz_signage_blanksign01"
   gridPoint {
-    x: 17.7
-    y: 5
-    z: -12.1
+    x: 13.800001
+    y: 2
+    z: -13.5
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -11342,4 +11260,152 @@ props {
     }
     intensity: 5
   }
+}
+props {
+  name: "hub_wall_walledCity06"
+  gridPoint {
+    x: 12.2
+    y: -1.8
+    z: -16.8
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "undergroundBase_groundDecoration_decal05"
+  gridPoint {
+    x: 16
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "haven_graffiti_triagePointer"
+  gridPoint {
+    x: 14
+    y: 0.7
+    z: -12.6
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "warehouse_wall_exteriorDoor02"
+  gridPoint {
+    x: 22
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "hub_wall_walledCity08"
+  gridPoint {
+    x: 24.1
+    y: 5.9
+    z: -13.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d1152686631364c0d003670"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: 27
+    y: 11
+    z: -12.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d11527d6631364c0d003671"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: 24
+    y: 11
+    z: -12.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d11527d6631364c0d003672"
+  }
+  lod: 0
+}
+props {
+  name: "warehouse_floorDecoration_loadingArea"
+  gridPoint {
+    x: 23
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "snes_signs_streetdoc1"
+  gridPoint {
+    x: 23.1
+    y: 5.9
+    z: -13.3
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "system_invisible_blockMove"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "system_invisible_blockMove"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d1159156631364c0d003673"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_blockMove"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d1159166631364c0d003674"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_blockMove"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d1159176631364c0d003675"
+  }
+  lod: 0
 }
