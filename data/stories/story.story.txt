@@ -96,8 +96,8 @@ variables {
   }
 }
 description: "[BLERB]\n\nStuff about the mod?"
-startScene: "INTRO-Baracks"
-allowCharacterImport: true
+startScene: "MarketPlace-YuyuGarden"
+allowCharacterImport: false
 allowImportedEquipment: false
 allowCharacterGen: true
 storyKarmaLevel: 50
