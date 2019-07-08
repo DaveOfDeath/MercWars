@@ -490,7 +490,7 @@ worldMapLocation {
     y: 0
   }
 }
-mapName: "MedClinic.miz"
+mapName: "MedClinic"
 parentStory: ""
 scene_title: "Med Clinic"
 scene_subtitle: ""
