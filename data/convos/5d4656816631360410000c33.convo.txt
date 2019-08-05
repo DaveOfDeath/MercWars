@@ -1,0 +1,63 @@
+idRef {
+  id: "5d4656816631360410000c33"
+}
+ui_name: "INTRO-BigTime_BelowDecks"
+nodes {
+  idRef {
+    id: "5d4656996631360410000c3b"
+  }
+  index: 0
+  text: "Whazzup, motha fucka!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5d4656816631360410000c33:5d4656bb6631360410000c42"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d4656bb6631360410000c45"
+  }
+  index: 1
+  text: "{{GM}}Whisper is a petite human girl, in her early 20s.   Rarely ever does she raise her voice above a whisper.{{/GM}}\n\nNice of you to join us, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+roots {
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bConvoComplete"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5d4656816631360410000c33:5d4656816631360410000c37"
+  }
+}

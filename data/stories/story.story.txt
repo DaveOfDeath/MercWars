@@ -12,6 +12,18 @@ variables {
   }
 }
 variables {
+  name: "DEBUGGER"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "DEBUGGER"
+      typeName: "bool"
+    }
+  }
+}
+variables {
   name: "GLOBAL_KE_Hireable"
   typeName: "bool"
   defaultValue {
