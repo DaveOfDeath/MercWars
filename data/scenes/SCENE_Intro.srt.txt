@@ -2633,11 +2633,11 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 8
+    x: -52
     y: 0
-    z: -70
+    z: -11
   }
-  orientation: ORIENTATION_N
+  orientation: ORIENTATION_W
   idRef {
     id: "54cab29a306364848c001af2"
   }
@@ -2660,7 +2660,7 @@ characters {
     z: -16
   }
   orientation: ORIENTATION_E
-  displayName: "NPC"
+  displayName: "Big Time"
   idRef {
     id: "5d3e80a666313608040028d4"
   }
@@ -2731,10 +2731,10 @@ characters {
       }
     }
     team_id: "Civilians"
-    char_name: "Big Time"
+    char_name: "$(scene.BigTimeName)"
     pc_spawn_number: -1
     portrait {
-      filename: "pc_orkmale_10_blue"
+      filename: "backer_orkmale_bradleymiller_kiluminatialabrad"
     }
     karma: 6
     first_name: "Tommy"
@@ -2744,17 +2744,18 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -52
+    x: -53
     y: 0
-    z: -11
+    z: -14
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
+  displayName: "Erika"
   idRef {
     id: "5d3e81b066313608040028d5"
   }
   lod: 0
   character_instance {
-    prefab_name: "Berlin:HavenCivilians/ElfFemaleHavenHooded_2"
+    prefab_name: "Seattle:Standard/HumanFemaleMage"
     character_sheet_id: "BaseCivilian"
     character_mod {
       stats {
@@ -2818,15 +2819,19 @@ characters {
       vulnerabilities {
       }
     }
+    equipment {
+      prefab_name: "CyberdeckVirtuaX"
+    }
     team_id: "Civilians"
-    char_name: "Whisper"
+    char_name: "Erika"
     pc_spawn_number: -1
     portrait {
       filename: "Akimi2"
     }
     karma: 6
-    first_name: "Sandra"
-    last_name: "McMullen"
+    first_name: "Erika"
+    last_name: "Cunningham"
+    cyberware_head: "(Head) Datajack"
   }
 }
 characters {
@@ -4390,6 +4395,67 @@ characters {
     hiring_set_randomizer: "hk_civilian"
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -53
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  displayName: "Jean-Paul"
+  idRef {
+    id: "5d69dae5643333c418001204"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Standard/DwarfMaleBiker"
+    character_sheet_id: "Adept_Lv1_HtH"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
+      }
+      skills {
+        close_combat: 0
+        dodge: 0
+        chi_casting: 0
+      }
+      specializations {
+        unarmed: 0
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Shadowrunners"
+    char_name: "Jean-Paul"
+    pc_spawn_number: -1
+    portrait {
+      filename: "backer_humanmale_randynickel_snick"
+    }
+    karma: 72
+    first_name: "Jean-Paul"
+    last_name: "Cunningham"
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -4435,6 +4501,14 @@ variables {
   variableref_value {
     scope: TsVariableScope_Scene
     name: "sEnd"
+    typeName: "string"
+  }
+}
+variables {
+  string_value: "Gangly Orc"
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "sBigTimeName"
     typeName: "string"
   }
 }
