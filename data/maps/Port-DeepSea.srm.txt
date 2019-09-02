@@ -1,7 +1,7 @@
 minX: -60
-minZ: -48
+minZ: -95
 numX: 117
-numZ: 110
+numZ: 157
 props {
   name: "docks_floor_3x3panel"
   gridPoint {
@@ -35057,6 +35057,734 @@ props {
   orientation: ORIENTATION_W
   idRef {
     id: "5d6a166c656135e81a006c9c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam01"
+  gridPoint {
+    x: -21.899994
+    y: 0
+    z: -72.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005844"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam02"
+  gridPoint {
+    x: -19.799988
+    y: 0
+    z: -92.299988
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005845"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -35.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005846"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneobliquepillar"
+  gridPoint {
+    x: -20.899994
+    y: 9
+    z: -79.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005847"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -32.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005848"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01end"
+  gridPoint {
+    x: -21.699997
+    y: 17.1
+    z: -80.199989
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005849"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillarx"
+  gridPoint {
+    x: -20.5
+    y: 7.1
+    z: -79.3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500584a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneMechanicalRoom"
+  gridPoint {
+    x: -21.899994
+    y: 0
+    z: -75.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500584b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranefoot"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -80.2
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5d6c8352663136ec1500584c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -26.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500584d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneMiddleBeam01"
+  gridPoint {
+    x: -16.899994
+    y: 0
+    z: -79.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500584e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -20.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500584f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: -20.799988
+    y: 12.4
+    z: -80.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005850"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel07"
+  gridPoint {
+    x: -14.899994
+    y: 0
+    z: -75.97
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005851"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranefoot"
+  gridPoint {
+    x: -21.899994
+    y: 0
+    z: -75.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005852"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01end"
+  gridPoint {
+    x: -17.600006
+    y: 16
+    z: -80.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005853"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam04"
+  gridPoint {
+    x: -20.899994
+    y: 0
+    z: -73.000008
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005854"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillarend02"
+  gridPoint {
+    x: -21.299988
+    y: 4.4
+    z: -81.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005855"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillarconner1"
+  gridPoint {
+    x: -20.799988
+    y: 0
+    z: -80.300011
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d6c8352663136ec15005856"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -35.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005857"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillarconner1"
+  gridPoint {
+    x: -16.799988
+    y: 0
+    z: -77.4
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d6c8352663136ec15005858"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01end"
+  gridPoint {
+    x: -17.699997
+    y: 16.5
+    z: -80.8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005859"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam05"
+  gridPoint {
+    x: -16.099991
+    y: 5.5
+    z: -83.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500585a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01end"
+  gridPoint {
+    x: -21.699997
+    y: 16.6
+    z: -80.199989
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500585b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -20.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500585c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -29.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500585d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranefoot"
+  gridPoint {
+    x: -16.899994
+    y: 0
+    z: -75.4
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5d6c8352663136ec1500585e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranefoot"
+  gridPoint {
+    x: -22
+    y: 0
+    z: -80.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500585f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar02"
+  gridPoint {
+    x: -21.099991
+    y: 4.1
+    z: -80.70002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005860"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: -19.799988
+    y: 0
+    z: -83.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005861"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel07"
+  gridPoint {
+    x: -14.899994
+    y: 0
+    z: -80.97
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005862"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillarconner1"
+  gridPoint {
+    x: -20.799988
+    y: 0
+    z: -77.500008
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d6c8352663136ec15005863"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam02"
+  gridPoint {
+    x: -20.099991
+    y: 0
+    z: -76.500008
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005864"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01"
+  gridPoint {
+    x: -17.299988
+    y: 4
+    z: -80.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005865"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -23.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005866"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -80.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005867"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam"
+  gridPoint {
+    x: -18.899994
+    y: 0
+    z: -83.4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d6c8352663136ec15005868"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -17.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005869"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -17.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam04"
+  gridPoint {
+    x: -19.899994
+    y: 0
+    z: -95.399994
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -29.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -32.899994
+    y: 0
+    z: -81
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -26.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: -19.799988
+    y: 0
+    z: -87.399994
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500586f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillarconner1"
+  gridPoint {
+    x: -16.799988
+    y: 0
+    z: -80.2
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d6c8352663136ec15005870"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneobliquepillar"
+  gridPoint {
+    x: -15.899994
+    y: 9
+    z: -79.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005871"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillarend"
+  gridPoint {
+    x: -19.899994
+    y: 4.4
+    z: -81.3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005872"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: -17
+    y: 0
+    z: -80.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005873"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam"
+  gridPoint {
+    x: -14.899994
+    y: 0
+    z: -83.4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d6c8352663136ec15005874"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel09"
+  gridPoint {
+    x: -23.899994
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005875"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: -19.799988
+    y: 0
+    z: -95.399994
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005876"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: -19.799988
+    y: 0
+    z: -79.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005877"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar02"
+  gridPoint {
+    x: -16.899994
+    y: 0
+    z: -75.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005878"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneHighPillar01"
+  gridPoint {
+    x: -21.199982
+    y: 4.7
+    z: -80.000008
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec15005879"
+  }
+  lod: 0
+}
+props {
+  name: "docks_floor_3x3panel"
+  gridPoint {
+    x: -18
+    y: 0
+    z: -78
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500587a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar02"
+  gridPoint {
+    x: -20.899994
+    y: 0
+    z: -75.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d6c8352663136ec1500587b"
   }
   lod: 0
 }
