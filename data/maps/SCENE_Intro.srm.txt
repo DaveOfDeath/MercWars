@@ -29237,27 +29237,6 @@ props {
   lod: 0
 }
 props {
-  name: "ikonTower_tech_fuchiSensorimatRat_lights"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -82
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_RatPartyLight"
-  idRef {
-    id: "5d47c207663136fc10004907"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-}
-props {
   name: "museum_furniture_fountainBenchEdge"
   gridPoint {
     x: -88
@@ -35334,27 +35313,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -66
-    y: 0
-    z: -94
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_RatSpawner"
-  idRef {
-    id: "5d47c207663136fc10004ad6"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-}
-props {
   name: "tsang_floor_black01"
   gridPoint {
     x: -44
@@ -35970,89 +35928,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc10004b05"
-  }
-  lod: 0
-}
-props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -73
-    y: 0.7
-    z: -91
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "LightScript"
-    string_value: "\nloop; hard:0.1:f807ea; hard:0.1:37e65c; hard:0.1:dc441b"
-  }
-  GeneralTags: "isRatLight"
-  displayName: "plaza_RatLight5"
-  idRef {
-    id: "5d47c207663136fc10004b06"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-  light {
-    range: 8
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 3.25
-  }
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -82
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_EntertainmentSystem"
-  idRef {
-    id: "5d47c207663136fc10004b07"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Evaluate Turn Mode in Dimension"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "TurnBasedOrFreeMove"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (SceneDimension)"
-            args {
-              string_value: "Default"
-            }
-          }
-        }
-      }
-    }
-    conversationPoint {
-      conversationID: "563be87a3063647015005eeb"
-      turnToFace: false
-    }
-    interactionIcon: InteractionIcon_Generic
-    interaction_info_text: "Odd Machine"
   }
   lod: 0
 }
@@ -37201,41 +37076,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -73
-    y: 0.7
-    z: -77
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "LightScript"
-    string_value: "\nloop; hard:0.1:f807ea; hard:0.1:37e65c; hard:0.1:dc441b"
-  }
-  GeneralTags: "isRatLight"
-  displayName: "plaza_RatLight5"
-  idRef {
-    id: "5d47c207663136fc10004b5e"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-  light {
-    range: 8
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 3.25
-  }
-}
-props {
   name: "mall_wall_boutiqueEdge01"
   gridPoint {
     x: -84
@@ -37260,41 +37100,6 @@ props {
     id: "5d47c207663136fc10004b60"
   }
   lod: 0
-}
-props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -60
-    y: 0.7
-    z: -77
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "LightScript"
-    string_value: "\nloop; hard:0.1:f807ea; hard:0.1:37e65c; hard:0.1:dc441b"
-  }
-  GeneralTags: "isRatLight"
-  displayName: "plaza_RatLight5"
-  idRef {
-    id: "5d47c207663136fc10004b61"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-  light {
-    range: 8
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 3.25
-  }
 }
 props {
   name: "haven_street_cafeTable01"
@@ -40489,27 +40294,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -62
-    y: 0
-    z: -69
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_GuardCamFocus"
-  idRef {
-    id: "5d47c208663136fc10004c57"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-}
-props {
   name: "whampoa_clutter_clothesRack03"
   gridPoint {
     x: -89
@@ -40786,7 +40570,7 @@ props {
     sound_file: "HongKong:props:fountainloop"
     attenuation_type: 0
     min_volume: 0
-    max_volume: 0.6
+    max_volume: 0.4
     min_radius: 1
     max_radius: 9
     crossfade_in_time: 1
@@ -43914,41 +43698,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -60
-    y: 0.7
-    z: -91
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "LightScript"
-    string_value: "\nloop; hard:0.1:f807ea; hard:0.1:37e65c; hard:0.1:dc441b"
-  }
-  GeneralTags: "isRatLight"
-  displayName: "plaza_RatLight5"
-  idRef {
-    id: "5d47c208663136fc10004d53"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-  light {
-    range: 8
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 3.25
-  }
-}
-props {
   name: "tsang_tech_pillar01"
   gridPoint {
     x: -48.1
@@ -44701,27 +44450,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -64
-    y: 0
-    z: -74
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004d8d"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_wall_fill"
   gridPoint {
     x: -34
@@ -44962,53 +44690,6 @@ props {
   orientation: ORIENTATION_W
   idRef {
     id: "5d47c208663136fc10004d9f"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -62
-    y: 0
-    z: -56
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_ExitToStreet"
-  idRef {
-    id: "5d47c208663136fc10004da0"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Evaluate Turn Mode in Dimension"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "TurnBasedOrFreeMove"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (SceneDimension)"
-            args {
-              string_value: "Default"
-            }
-          }
-        }
-      }
-    }
-    transitionPoint {
-      scene_name: "MC_a2_Kidnapping_s2"
-      confirmation_text: "You are about to exit Ikon Tower. Proceed?"
-    }
-    interaction_info_text: "Exit"
   }
   lod: 0
 }
@@ -45669,8 +45350,16 @@ props {
     z: -85
   }
   orientation: ORIENTATION_W
+  displayName: "obj_Target_JeanPaul"
   idRef {
     id: "5d47c208663136fc10004dd2"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
   }
   lod: 0
 }
@@ -45775,27 +45464,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c208663136fc10004dda"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -62
-    y: 0
-    z: -74
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004ddb"
   }
   lod: 0
 }
@@ -46906,19 +46574,6 @@ props {
   lod: 0
 }
 props {
-  name: "deckCon_prop_fushiBanner01"
-  gridPoint {
-    x: -80.2
-    y: 0.4
-    z: -89
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004e2f"
-  }
-  lod: 0
-}
-props {
   name: "leylines_dragonline_light"
   gridPoint {
     x: -63
@@ -47557,19 +47212,6 @@ props {
   lod: 0
 }
 props {
-  name: "ikonTower_tech_fuchiSensorimat"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -82
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004e5e"
-  }
-  lod: 0
-}
-props {
   name: "mall_wall_arcadeEdge01"
   gridPoint {
     x: -67
@@ -47709,19 +47351,6 @@ props {
   orientation: ORIENTATION_W
   idRef {
     id: "5d47c208663136fc10004e69"
-  }
-  lod: 0
-}
-props {
-  name: "whampoa_signs_clearanceSign03"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -97
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5d47c208663136fc10004e6a"
   }
   lod: 0
 }
@@ -49030,8 +48659,16 @@ props {
     z: -84
   }
   orientation: ORIENTATION_E
+  displayName: "obj_Target_Erika"
   idRef {
     id: "5d47c208663136fc10004ecd"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
   }
   lod: 0
 }
@@ -49523,27 +49160,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c208663136fc10004ef3"
-  }
-  lod: 0
-}
-props {
-  name: "ikonTower_tech_fuchiSensorimatStar_lights"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -82
-  }
-  orientation: ORIENTATION_S
-  displayName: "plaza_FuchiLight"
-  idRef {
-    id: "5d47c208663136fc10004ef4"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
   }
   lod: 0
 }

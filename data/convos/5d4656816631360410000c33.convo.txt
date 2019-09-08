@@ -251,6 +251,7 @@ nodes {
     responseText: "Who exactly was your contact for this \"big time\" run?"
     nextNodeIndex: 11
     hideIfUnavailable: true
+    onlyOnce: true
     idRef {
       id: "5d4656816631360410000c33:5d69efc7643333782c00498c"
     }
@@ -666,6 +667,30 @@ nodes {
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
     id: "5d3e80a666313608040028d4"
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "bConvoComplete"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
   }
 }
 nodes {
