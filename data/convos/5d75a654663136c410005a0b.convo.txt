@@ -1,0 +1,313 @@
+idRef {
+  id: "5d75a654663136c410005a0b"
+}
+ui_name: "INTRO_ShadyContact"
+nodes {
+  idRef {
+    id: "5d75a65d663136c410005a13"
+  }
+  index: 0
+  text: "{{GM}}His suit is emmaculate, not a wrinkle or crease out of place.{{/GM}}\n\nMr. Jackson, I presume?\n\n{{GM}}He holds out a hand.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75a713663136c410005a17"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75a713663136c410005a1a"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: "No.  Actually I\'m $(s.name).   Big Time is running perimeter security."
+    nextNodeIndex: 2
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75a715663136c410005a1c"
+    }
+  }
+  branches {
+    responseText: "Yeah.  That\'s me.  But I go by \"Big Time.\""
+    nextNodeIndex: 3
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75a718663136c410005a1e"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Shake his hand.{{/CC}}"
+    nextNodeIndex: 4
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75a719663136c410005a20"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75a761663136c410005a37"
+  }
+  index: 2
+  text: "{{GM}}He raises an eyebrow, but only momentarily.{{/GM}}\n\nVery well.  The data stick please?\n\n{{GM}}He looks down pointedly at his outstretched hand{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75b662663136c410005c9f"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75abbe663136c410005a45"
+  }
+  index: 3
+  text: "{{GM}}The slightest tick shows his annoyance at the chosen street name.{{/GM}}\n\nVery well, $+(l.honorific). Time.   May I have the data stick now?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75b670663136c410005cb8"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75abfc663136c410005a48"
+  }
+  index: 4
+  text: "{{GM}}He recoils, once he feels the handshake.{{/GM}}\n\nI do not fraternize with the help.   I just want the drive."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75ac2d663136c410005a4c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75ac2d663136c410005a4f"
+  }
+  index: 5
+  text: ""
+  branches {
+    responseText: "{{CC}}Hand him the drive.{{/CC}}"
+    actions {
+      ops {
+        functionName: "Remove Item from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (Item)"
+            args {
+              string_value: "INTRO-DataStick"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 6
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75aca3663136c410005a51"
+    }
+  }
+  branches {
+    responseText: "Let\'s see the cred-stick first."
+    nextNodeIndex: 9
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75aca4663136c410005a53"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "GiveDriveLoop"
+}
+nodes {
+  idRef {
+    id: "5d75ad01663136c410005a66"
+  }
+  index: 6
+  text: "Thank you.  \n\n{{GM}}He hands you the credstick from his other hand, and plugs the drive into a small nearly featureless box. After a moment, a single LED glows green.{{/GM}}\n\nData is complete, and intact.   Well done."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75ad62663136c410005a68"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "No Effect"
+    }
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "INTRO-CertifiedCredStick"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Add Nuyen"
+      args {
+        int_value: 1250
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5d75ad62663136c410005a6b"
+  }
+  index: 7
+  text: "{{GM}}He gestures to the credstick in your hand.{{/GM}}\n\nYour contact point for all future communications are on the credstick.\n\nThank you."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75b582663136c410005c68"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75b582663136c410005c6b"
+  }
+  index: 8
+  text: "{{GM}}He pockets the drive.{{/GM}}\n\nNow, if you will excuse me... I have business elsewhere.  Good Day."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d75acbe663136c410005a56"
+  }
+  index: 9
+  text: "{{GM}}He rolls his eyes, and opens his other hand, revealing a certified credstick.{{/GM}}\n\nHow predictable.  Now... My drive, if you please?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75acf6663136c410005a58"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  actions {
+    ops {
+      functionName: "Clear Waypoint from Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5d759124663136a80c0048d8"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5d759124663136a80c0048d8"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5d75a654663136c410005a0b:5d75a654663136c410005a0f"
+  }
+}

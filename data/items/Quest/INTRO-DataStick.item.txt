@@ -1,0 +1,8 @@
+id: "INTRO-DataStick"
+type: ItemType_QuestItem
+uirep {
+  name: "Data Stick"
+  description: "The data stick from the run.  A little clammy from \"Big Time\'s\" sweaty palms."
+}
+credentials: 0
+sorting_group: "Quest"

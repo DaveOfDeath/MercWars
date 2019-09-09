@@ -29176,41 +29176,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -66
-    y: 0.7
-    z: -84
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "LightScript"
-    string_value: "\nloop; hard:0.1:f807ea; hard:0.1:37e65c; hard:0.1:dc441b"
-  }
-  GeneralTags: "isRatLight"
-  displayName: "plaza_RatLight5"
-  idRef {
-    id: "5d47c207663136fc10004903"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
-  }
-  lod: 0
-  light {
-    range: 8
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 3.25
-  }
-}
-props {
   name: "sleekOffice_floor_geo01"
   gridPoint {
     x: -75
@@ -30372,39 +30337,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -61
-    y: 0
-    z: -74
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c207663136fc10004961"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
-}
-props {
   name: "diveBar_lighting_flourescentLight01"
   gridPoint {
     x: -79.700012
@@ -30912,40 +30844,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_heavy"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineLrg"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineClose"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineLrgOff"
-  }
-  idRef {
-    id: "5d47c207663136fc1000498b"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 2
-    spell_bounce_list: "BounceTwice_Dragonline"
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.12
-    uirep {
-      description: "Dragon Line (Heavy)"
-    }
-  }
-}
-props {
   name: "secretLab_wall_fill"
   gridPoint {
     x: -74
@@ -31176,19 +31074,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc1000499e"
-  }
-  lod: 0
-}
-props {
-  name: "sleekOffice_floor_geo01"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c207663136fc1000499f"
   }
   lod: 0
 }
@@ -32104,27 +31989,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -66
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c207663136fc100049e6"
-  }
-  lod: 0
-}
-props {
   name: "mall_wall_arcadeEdge01"
   gridPoint {
     x: -73
@@ -32342,19 +32206,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5d47c207663136fc100049f7"
-  }
-  lod: 0
-}
-props {
-  name: "ikonTower_floor_holoFuchiPanel_lights"
-  gridPoint {
-    x: -57
-    y: 0
-    z: -64
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5d47c207663136fc100049f8"
   }
   lod: 0
 }
@@ -32707,6 +32558,17 @@ props {
   idRef {
     id: "5d47c207663136fc10004a14"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: true
+      doorSound: "Whoosh7-Open"
+      doorSoundBundle: "HongKong:ui"
+    }
+    interaction_info_text: ""
+  }
   lod: 0
 }
 props {
@@ -32874,19 +32736,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc10004a20"
-  }
-  lod: 0
-}
-props {
-  name: "ikonTower_floor_holoFuchiPanel_lights"
-  gridPoint {
-    x: -68
-    y: 0
-    z: -64
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5d47c207663136fc10004a21"
   }
   lod: 0
 }
@@ -33757,27 +33606,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc10004a63"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -64
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c207663136fc10004a64"
   }
   lod: 0
 }
@@ -35083,41 +34911,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_mediumap"
-  gridPoint {
-    x: -69
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineMed"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineMed"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineMedOff"
-  }
-  idRef {
-    id: "5d47c207663136fc10004ac6"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 1
-    spell_bounce_list: "BounceOnce_Dragonline"
-    spell_ap_damage_mod: 1
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.08
-    uirep {
-      description: "Dragon Line (Medium)"
-    }
-  }
-}
-props {
   name: "mtr_floor_floorHologramSign01"
   gridPoint {
     x: -54.600006
@@ -36036,41 +35829,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_mediumap"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineMed"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineMed"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineMedOff"
-  }
-  idRef {
-    id: "5d47c207663136fc10004b10"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 1
-    spell_bounce_list: "BounceOnce_Dragonline"
-    spell_ap_damage_mod: 1
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.08
-    uirep {
-      description: "Dragon Line (Medium)"
-    }
-  }
-}
-props {
   name: "mtr_floor_floorHologramSign01"
   gridPoint {
     x: -57.600006
@@ -36825,41 +36583,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_medium"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -95
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineMed"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineMed"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineMedOff"
-  }
-  idRef {
-    id: "5d47c207663136fc10004b4d"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 1
-    spell_bounce_list: "BounceOnce_Dragonline"
-    spell_hp_damage_mod: 3
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.08
-    uirep {
-      description: "Dragon Line (Medium)"
-    }
-  }
-}
-props {
   name: "telestrianEstate_floor_tile02"
   gridPoint {
     x: -68
@@ -36973,27 +36696,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc10004b56"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -68
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c207663136fc10004b57"
   }
   lod: 0
 }
@@ -37696,27 +37398,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c207663136fc10004b8f"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_dragonlineConnectorV"
-  gridPoint {
-    x: -70
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonlineConnectorV"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c207663136fc10004b90"
   }
   lod: 0
 }
@@ -39503,41 +39184,6 @@ props {
     id: "5d47c207663136fc10004c18"
   }
   lod: 0
-}
-props {
-  name: "leylines_dragonline_medium"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -91
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineMed"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineMed"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineMedOff"
-  }
-  idRef {
-    id: "5d47c207663136fc10004c19"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 1
-    spell_bounce_list: "BounceOnce_Dragonline"
-    spell_hp_damage_mod: 3
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.08
-    uirep {
-      description: "Dragon Line (Medium)"
-    }
-  }
 }
 props {
   name: "fivePhases_decor_altarHangingFlowers"
@@ -41933,31 +41579,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_audio"
-  gridPoint {
-    x: -79
-    y: 0
-    z: -77
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004cd2"
-  }
-  lod: 0
-  ambientNode {
-    override_camera_ambient: false
-    sound_file: "HongKong:props:fountainsmall"
-    attenuation_type: 1
-    min_volume: 0
-    max_volume: 0.5
-    min_radius: 1
-    max_radius: 8
-    crossfade_in_time: 1
-    crossfade_out_time: 1
-    music_fade_volume: 1
-  }
-}
-props {
   name: "mall_wall_boutiqueEdge01"
   gridPoint {
     x: -96
@@ -42359,41 +41980,6 @@ props {
     id: "5d47c208663136fc10004cf1"
   }
   lod: 0
-}
-props {
-  name: "leylines_dragonline_medium"
-  gridPoint {
-    x: -63
-    y: 0
-    z: -74
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineMed"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineMed"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineMedOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004cf2"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 1
-    spell_bounce_list: "BounceOnce_Dragonline"
-    spell_hp_damage_mod: 3
-    spell_cooldown_mod: -1
-    spell_accuracy_mod: 0.08
-    uirep {
-      description: "Dragon Line (Medium)"
-    }
-  }
 }
 props {
   name: "mall_wall_blackTileEdge02"
@@ -44386,31 +43972,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_audio"
-  gridPoint {
-    x: -69
-    y: 0
-    z: -84
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004d89"
-  }
-  lod: 0
-  ambientNode {
-    override_camera_ambient: false
-    sound_file: "HongKong:ambient_grendel:crowdloop"
-    attenuation_type: 0
-    min_volume: 0
-    max_volume: 0.3
-    min_radius: 1
-    max_radius: 15
-    crossfade_in_time: 1
-    crossfade_out_time: 1
-    music_fade_volume: 1
-  }
-}
-props {
   name: "sleekOffice_floor_geo01"
   gridPoint {
     x: -59
@@ -44785,19 +44346,6 @@ props {
   lod: 0
 }
 props {
-  name: "sleekOffice_floor_gutterCorner03"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -97
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004da8"
-  }
-  lod: 0
-}
-props {
   name: "mtr_floor_floorHologramSign01"
   gridPoint {
     x: -68.600006
@@ -45162,31 +44710,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_audio"
-  gridPoint {
-    x: -68
-    y: 0
-    z: -83
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004dc5"
-  }
-  lod: 0
-  ambientNode {
-    override_camera_ambient: false
-    sound_file: "HongKong:ambient_conference:conferencefloorloop"
-    attenuation_type: 0
-    min_volume: 0
-    max_volume: 0.3
-    min_radius: 1
-    max_radius: 15
-    crossfade_in_time: 1
-    crossfade_out_time: 1
-    music_fade_volume: 1
-  }
-}
-props {
   name: "office_floor_marbleTile02"
   gridPoint {
     x: -44
@@ -45353,13 +44876,6 @@ props {
   displayName: "obj_Target_JeanPaul"
   idRef {
     id: "5d47c208663136fc10004dd2"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
   }
   lod: 0
 }
@@ -45713,39 +45229,6 @@ props {
     id: "5d47c208663136fc10004dee"
   }
   lod: 0
-}
-props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -71
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004def"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
 }
 props {
   name: "sleekOffice_floor_gutterCorner03"
@@ -46324,39 +45807,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -89
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004e1e"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
-}
-props {
   name: "sleekOffice_floor_gutterCorner03"
   gridPoint {
     x: -39
@@ -46471,31 +45921,6 @@ props {
   lod: 0
 }
 props {
-  name: "system_gizmo_audio"
-  gridPoint {
-    x: -88
-    y: 0
-    z: -96
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5d47c208663136fc10004e28"
-  }
-  lod: 0
-  ambientNode {
-    override_camera_ambient: false
-    sound_file: "HongKong:ambient_shangrila:diningambience"
-    attenuation_type: 0
-    min_volume: 0
-    max_volume: 1
-    min_radius: 1
-    max_radius: 9
-    crossfade_in_time: 1
-    crossfade_out_time: 1
-    music_fade_volume: 1
-  }
-}
-props {
   name: "secretLab_wall_fill"
   gridPoint {
     x: -58
@@ -46572,39 +45997,6 @@ props {
     id: "5d47c208663136fc10004e2e"
   }
   lod: 0
-}
-props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -63
-    y: 0
-    z: -93
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004e30"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
 }
 props {
   name: "mahjongParlor_lighting_squareWallLight01"
@@ -46748,39 +46140,6 @@ props {
     id: "5d47c208663136fc10004e3b"
   }
   lod: 0
-}
-props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -65
-    y: 0
-    z: -74
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004e3c"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
 }
 props {
   name: "sleekOffice_floor_geo01"
@@ -47459,39 +46818,6 @@ props {
   lod: 0
 }
 props {
-  name: "leylines_dragonline_light"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -97
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "HongKong:EnvironmentLoopDragonLineSm"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineFar"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineSmOff"
-  }
-  idRef {
-    id: "5d47c208663136fc10004e73"
-  }
-  lod: 0
-  leyLine {
-    leyline_level: 0
-    spell_accuracy_mod: 0.05
-    onhit_caster_effects: "BuffCaster_LightDragonline_Heal"
-    uirep {
-      description: "Dragon Line (Light)"
-    }
-  }
-}
-props {
   name: "telestrianEstate_floor_carpet01"
   gridPoint {
     x: -67
@@ -48051,27 +47377,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dragonlineConnectorH"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -92
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineConnectorH"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004ea0"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
     x: -39
@@ -48605,27 +47910,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dragonlineConnectorH"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -94
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineConnectorH"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004eca"
-  }
-  lod: 0
-}
-props {
   name: "mahjongParlor_lighting_squareWallLight01"
   gridPoint {
     x: -82
@@ -48662,13 +47946,6 @@ props {
   displayName: "obj_Target_Erika"
   idRef {
     id: "5d47c208663136fc10004ecd"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    dummyInteraciton {
-    }
-    interaction_info_text: ""
   }
   lod: 0
 }
@@ -48708,6 +47985,17 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5d47c208663136fc10004ed0"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: true
+      doorSound: "Whoosh7-Open"
+      doorSoundBundle: "HongKong:ui"
+    }
+    interaction_info_text: ""
   }
   lod: 0
 }
@@ -49268,27 +48556,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dragonlineConnectorH"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -90
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineConnectorH"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004efd"
-  }
-  lod: 0
-}
-props {
   name: "telestrianEstate_floor_carpet01"
   gridPoint {
     x: -53
@@ -49711,27 +48978,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c208663136fc10004f22"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_dragonlineConnectorH"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -96
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "HongKong:EnvironmentLoopDragonLineConnectorH"
-  }
-  properties {
-    property_id: "leyline"
-    bool_value: true
-  }
-  idRef {
-    id: "5d47c208663136fc10004f23"
   }
   lod: 0
 }
@@ -54737,6 +53983,386 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5d47c256663136fc100050a7"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wall_barEdge01"
+  gridPoint {
+    x: -44
+    y: 0
+    z: -99
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d75a121663136c410005992"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wall_barEdge01"
+  gridPoint {
+    x: -81
+    y: 0
+    z: -92
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75a127663136c410005993"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wall_barEdge01"
+  gridPoint {
+    x: -81
+    y: 0
+    z: -78
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75a12e663136c410005994"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wall_barEdge01"
+  gridPoint {
+    x: -81
+    y: 0
+    z: -68
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75a132663136c410005995"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_smokeyFire"
+  gridPoint {
+    x: -65
+    y: 0
+    z: -77
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "Berlin:EnvironmentSmokeyFire"
+  }
+  GeneralTags: "isDeckerDowned"
+  displayName: "vfx_Fire"
+  idRef {
+    id: "5d75a228663136c410005999"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -85
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_JeanPaul_Target"
+  idRef {
+    id: "5d75a27a663136c41000599d"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -66
+    y: 0
+    z: -78
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_Erika_Target"
+  idRef {
+    id: "5d75a24c663136c41000599a"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_geo01"
+  gridPoint {
+    x: -67
+    y: 0
+    z: -93
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75b847663136c410005cdb"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -67
+    y: 0
+    z: -97
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75b858663136c410005cdc"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -76
+    y: 0
+    z: -102
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75b874663136c410005cdd"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -76
+    y: 0
+    z: -100
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d75b874663136c410005cde"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -78
+    y: 0
+    z: -100
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5d75b874663136c410005cdf"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -78
+    y: 0
+    z: -102
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d75b874663136c410005ce0"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -74
+    y: 0
+    z: -100
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75b87b663136c410005ce1"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -77
+    y: 0
+    z: -100
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75b87e663136c410005ce2"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -56
+    y: 0
+    z: -103
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d75ba096631368016005996"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -58
+    y: 0
+    z: -103
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5d75ba096631368016005997"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -56
+    y: 0
+    z: -101
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5d75ba096631368016005998"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_floor_gutterCorner03"
+  gridPoint {
+    x: -58
+    y: 0
+    z: -101
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5d75ba096631368016005999"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -58
+    y: 0
+    z: -89
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_DroneTarget"
+  idRef {
+    id: "5d75bade663136801600599c"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -64
+    y: 0
+    z: -88
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_CaptainTarget"
+  idRef {
+    id: "5d75bae4663136801600599d"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -68
+    y: 0
+    z: -86
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_SoldierTarget"
+  idRef {
+    id: "5d75bae8663136801600599e"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -67
+    y: 0
+    z: -89
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_GunnerTarget"
+  idRef {
+    id: "5d75baee663136801600599f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: -61
+    y: 0
+    z: -56
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_Exit"
+  idRef {
+    id: "5d75c25c6631368016005a6e"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_SceneTransition
+    interaction_info_text: "Exit the Mall"
   }
   lod: 0
 }

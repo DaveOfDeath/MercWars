@@ -1,0 +1,290 @@
+idRef {
+  id: "5d75a328663136c41000599e"
+}
+ui_name: "INTRO_BigTimeDuckOut"
+nodes {
+  idRef {
+    id: "5d75a334663136c4100059a6"
+  }
+  index: 0
+  text: "{{GM}}Big Time\'s complexion is unusually green, and his looks like he\'s on the verge of wearing his lunch.{{/GM}}\n\nOh, $(l.name)... I don\'t feel too good...\n\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a376663136c4100059a8"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d75a376663136c4100059ab"
+  }
+  index: 1
+  text: "I...\n\nI... don\'t think I can do this.   Can you take this meet?  All you gotta do is give the contact by the fountain this thumbdrive.  Easy peasy... and we\'re out of here."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a3b8663136c4100059af"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d75a3b8663136c4100059b2"
+  }
+  index: 2
+  text: ""
+  branches {
+    responseText: "What are you talking about?  This whole thing was your idea!  Now you\'re getting cold feet?"
+    nextNodeIndex: 3
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a3ba663136c4100059b4"
+    }
+  }
+  branches {
+    responseText: "Are you kidding me?   We already did the hard part.  Sack up and get this thing done!"
+    nextNodeIndex: 4
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a3f1663136c4100059b8"
+    }
+  }
+  branches {
+    responseText: "Null Sheen.   Hang back and watch my six."
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "b_BigTimeDuckedOut"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 5
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a3c5663136c4100059b6"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Roll your eyes.{{/CC}} Still getting your land-legs back, right?   Sure.   Why don\'t you go find the kiddie play area, while I handle this."
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "b_BigTimeDuckedOut"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Add Item to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (Item)"
+            args {
+              string_value: "INTRO-DataStick"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 6
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a3fc663136c4100059bd"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+  comment: "BigTimeChat"
+}
+nodes {
+  idRef {
+    id: "5d75a43f663136c4100059c0"
+  }
+  index: 3
+  text: "It\'s... It\'s.... It\'s not nerves, $(l.name).  \n\nI dunno... I was fine on the boat, and now I\'m feeling sea sick."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a47c663136c4100059c2"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d75a486663136c4100059d4"
+  }
+  index: 4
+  text: "Fuck you, $(l.name)!\n\nA good leader delegates responsibilities! \n\n...And...\n\n...Uh...  that\'s what I\'m doing.\n\nDo your job, $(l.man)!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d75a328663136c41000599e:5d75a4fc663136c4100059d9"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d75a4f9663136c4100059d7"
+  }
+  index: 5
+  text: "I gotchoo.\n\nYou and me... We\'re gonna go far, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+  actions {
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "INTRO-DataStick"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5d75a527663136c4100059de"
+  }
+  index: 6
+  text: "Go fuck yourself, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5d75a328663136c41000599e:5d75a328663136c4100059a2"
+  }
+}

@@ -1,0 +1,8 @@
+id: "INTRO-CertifiedCredStick"
+type: ItemType_QuestItem
+uirep {
+  name: "Certified Cred Stick"
+  description: "The one time use certified credstick containing the details of your contact, a \"Mr. Fix It\", and the payout for the data run."
+}
+credentials: 0
+sorting_group: "Quest"

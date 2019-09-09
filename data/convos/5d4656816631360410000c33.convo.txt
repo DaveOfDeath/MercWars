@@ -1,7 +1,7 @@
 idRef {
   id: "5d4656816631360410000c33"
 }
-ui_name: "INTRO-BigTime_BelowDecks-v1"
+ui_name: "INTRO_BigTimeBelowDecksv1"
 nodes {
   idRef {
     id: "5d69df72643333c418001225"
