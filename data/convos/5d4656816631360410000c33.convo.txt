@@ -7,7 +7,7 @@ nodes {
     id: "5d69df72643333c418001225"
   }
   index: 0
-  text: "The boat creaks and lists slightly as it carves through the waves.\n\nA human is hunched over a cyberdeck, her machine gun tapping at its keys slowed to a mere trickle, almost drowned out by the sound of the tall, thin orc and the decker\'s brother, a bearded dwarf, arguing nearby."
+  text: "The boat creaks and lists slightly as it carves through the waves.\n\nErika is hunched over a cyberdeck, her machine gun fingers tapping at its keys, almost drowned out by the sound of the tall, thin orc and the decker\'s brother, a bearded dwarf, arguing nearby.\n\nShe\'s not novahot, not going to win any awards, but she grew up around computers, and can slip around enough IC to muck with basic security."
   branches {
     responseText: ""
     nextNodeIndex: 1
@@ -27,7 +27,7 @@ nodes {
     responseText: ""
     nextNodeIndex: 2
     idRef {
-      id: "5d4656816631360410000c33:5d69df53643333c41800121d"
+      id: "5d4656816631360410000c33:5d8abf55643333640b006bbb"
     }
   }
   nodeType: ConversationNodeType_Simple
@@ -37,15 +37,30 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5d69df54643333c418001220"
+    id: "5d8abf55643333640b006bbe"
   }
   index: 2
-  text: "Man, you know who you\'re talkin\' to? There ain\'t no chance anything turns up on those scanners! We were silent, man, I\'m talkin\' Friday the 13th ghosts here. I mean we left nothing for them to chase! And you can\'t chase nothin\'!\n\nThis run couldn\'t have gone better if it were run by, like, real shadowrunners!"
+  text: "Jean-Paul. Erika\'s brother, and the \"worried mom\" of the group.\n\nSomething of a weapons specialist, but mostly a door-kicker, for when Erika\'s decking can\'t get you through someplace."
   branches {
     responseText: ""
     nextNodeIndex: 3
     idRef {
-      id: "5d4656816631360410000c33:5d69e37a643333c41800122f"
+      id: "5d4656816631360410000c33:5d69df53643333c41800121d"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5d69df54643333c418001220"
+  }
+  index: 3
+  text: "Man, there ain\'t no chance! We were silent, man! I\'m talkin\' ghosts! Call us Friday the 13th! We left I mean nothing for them to chase! And can you chase nothin\'? Nope!\n\nI\'m telling you, this run couldn\'t have gone better if it were run by, like, shadowrunners!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d4656816631360410000c33:5d8ac185643333640b006cd7"
     }
   }
   nodeType: ConversationNodeType_Simple
@@ -55,20 +70,35 @@ nodes {
 }
 nodes {
   idRef {
+    id: "5d8ac185643333640b006cda"
+  }
+  index: 4
+  text: "Tommy, the group\'s face. Social media aficionado, anarchist advocate, big-time dreamer.\n\nAnd if his mouth was any bigger, he would eat ramen noodles by the 16-pack."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d4656816631360410000c33:5d69e37a643333c41800122f"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
     id: "5d69e399643333c418001232"
   }
-  index: 3
-  text: "That\'s the kinda criminals we are, right? Real profesh! Hardened-type, y\'know? Like, I\'m so hardened right now, you could call me \'Diamonds\'!\n\nOnly, maybe don\'t call me that. Cuz like, \'Diamond\' ain\'t a good name. For me, I mean. It\'s an okay name, but--"
+  index: 5
+  text: "That\'s the kinda criminals we are, right? Real profesh! Hardened-type, y\'know? Like, I\'m so hardened right now, you could call me \'Diamond\'!\n\nOnly, maybe don\'t call me that. Cuz like, \'Diamond\' ain\'t a good name. For me, I mean. It\'s an okay name, but--"
   branches {
-    responseText: "Relax, guys. I\'m sure we weren\'t followed."
-    nextNodeIndex: 4
+    responseText: "Relax. I\'m sure we weren\'t followed. Right, Erika?"
+    nextNodeIndex: 6
     idRef {
       id: "5d4656816631360410000c33:5d69e491643333c418001234"
     }
   }
   branches {
-    responseText: "Actually, I hope we *were* followed. It\'d be nice to actually see some action this run."
-    nextNodeIndex: 24
+    responseText: "Actually, I hope we *were* followed. I\'m falling asleep here. It\'d be nice to actually see some action for a change."
+    nextNodeIndex: 26
     idRef {
       id: "5d4656816631360410000c33:5d69e4cd643333c41800123b"
     }
@@ -124,7 +154,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 25
+    nextNodeIndex: 27
     hideIfUnavailable: true
     idRef {
       id: "5d4656816631360410000c33:5d69e4ca643333c418001239"
@@ -139,11 +169,11 @@ nodes {
   idRef {
     id: "5d69e6f3643333c41800126c"
   }
-  index: 4
+  index: 6
   text: "That\'s all well and good, but I\'ll believe it when I see it on the scopes.\n\nErika and I...this is all we\'ve got. I didn\'t want her to be a part of this mess in the first place."
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 7
     idRef {
       id: "5d4656816631360410000c33:5d69e802643333c418001274"
     }
@@ -157,11 +187,11 @@ nodes {
   idRef {
     id: "5d69e804643333c418001277"
   }
-  index: 5
-  text: "{{GM}}Suddenly, the woman at the cyberdeck perks up, her eyes snapping open, like one startled from a dream.{{/GM}}\n\nScopes are clear, and no comm chatter either. I think we\'re good as gone!"
+  index: 7
+  text: "{{GM}}Suddenly, Erika perks up, her eyes snapping open, like someone startled from a dream.{{/GM}}\n\nScopes are clear...and no comm chatter either. I think we\'re good as gone!"
   branches {
     responseText: ""
-    nextNodeIndex: 6
+    nextNodeIndex: 8
     idRef {
       id: "5d4656816631360410000c33:5d69e894643333c418001282"
     }
@@ -172,11 +202,11 @@ nodes {
   idRef {
     id: "5d69e89a643333c418001285"
   }
-  index: 6
+  index: 8
   text: "Say what you will about extraterritoriality. We\'re free men--and ladies! Pile of paydata, voila, watch as it becomes our ticket to paradise!"
   branches {
     responseText: ""
-    nextNodeIndex: 7
+    nextNodeIndex: 9
     idRef {
       id: "5d4656816631360410000c33:5d69e940643333c418001287"
     }
@@ -190,18 +220,18 @@ nodes {
   idRef {
     id: "5d69e96b643333c41800128e"
   }
-  index: 7
+  index: 9
   text: "{{GM}}He holds up the little data stick to the light, as if inspecting it for the first time.{{/GM}}\n\nI been keepin\' it quiet, but boys and girls, this wasn\'t just a job.\n\n...It was an audtition."
   branches {
     responseText: "I take it we passed?"
-    nextNodeIndex: 8
+    nextNodeIndex: 10
     idRef {
       id: "5d4656816631360410000c33:5d69e98e643333c418001290"
     }
   }
   branches {
     responseText: "Who are we auditioning for?"
-    nextNodeIndex: 8
+    nextNodeIndex: 10
     idRef {
       id: "5d4656816631360410000c33:5d69e98f643333c418001292"
     }
@@ -209,7 +239,7 @@ nodes {
   }
   branches {
     responseText: "Well, drek. If I\'d\'ve known that, I would\'ve worn my sequin jacket!"
-    nextNodeIndex: 8
+    nextNodeIndex: 10
     idRef {
       id: "5d4656816631360410000c33:5d69e98f643333c418001294"
     }
@@ -221,11 +251,11 @@ nodes {
   idRef {
     id: "5d69ea31643333c418001297"
   }
-  index: 8
+  index: 10
   text: "This, my friends, means we\342\200\231re headed for the BIG TIME now! I\'m talkn\' bigcorp smash n\342\200\231 grabs. I\'m talkin\' a real fixer. Shady-type! Johnsons n\342\200\231 drek! I\342\200\231m talkin\342\200\231 meetings in the back rooms of the club! I\342\200\231m talkin\342\200\231 *top shelf*! I\342\200\231m talkin\342\200\231 the Wuqing List, know what I mean?"
   branches {
     responseText: ""
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     idRef {
       id: "5d4656816631360410000c33:5d69eacf643333c41800129e"
     }
@@ -236,11 +266,11 @@ nodes {
   idRef {
     id: "5d69eae8643333c4180012a7"
   }
-  index: 9
+  index: 11
   text: ""
   branches {
     responseText: "Why didn\'t you tell us this before the run?"
-    nextNodeIndex: 10
+    nextNodeIndex: 12
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -249,7 +279,7 @@ nodes {
   }
   branches {
     responseText: "Who exactly was your contact for this \"big time\" run?"
-    nextNodeIndex: 11
+    nextNodeIndex: 13
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -258,7 +288,7 @@ nodes {
   }
   branches {
     responseText: "Wait a minute--the Wuqing List?"
-    nextNodeIndex: 12
+    nextNodeIndex: 14
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -283,7 +313,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 16
+    nextNodeIndex: 18
     idRef {
       id: "5d4656816631360410000c33:5d69f2ba643333782c004a01"
     }
@@ -296,11 +326,11 @@ nodes {
   idRef {
     id: "5d69ec58643333c4180012b0"
   }
-  index: 10
+  index: 12
   text: "I didn\'t want performance anxiety to get ya.\n\nBesides, the pay is the pay for the run. This stuff, it\'s all extra."
   branches {
     responseText: ""
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     idRef {
       id: "5d4656816631360410000c33:5d69ef25643333782c004989"
     }
@@ -315,11 +345,11 @@ nodes {
   idRef {
     id: "5d69efd4643333782c00498f"
   }
-  index: 11
+  index: 13
   text: "Aw, now, I can\'t be giving away all my secrets! All you gotta know is that this guy\'s got the hookup for ya."
   branches {
     responseText: ""
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     idRef {
       id: "5d4656816631360410000c33:5d69f030643333782c004991"
     }
@@ -334,7 +364,7 @@ nodes {
   idRef {
     id: "5d69ecb1643333c4180012b3"
   }
-  index: 12
+  index: 14
   text: "The 50 most wanted people in Shanghai.\n\n...At least, that\'s what I heard."
   branches {
     responseText: "Huh. Never heard of it."
@@ -387,7 +417,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 15
+    nextNodeIndex: 17
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -447,7 +477,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 13
+    nextNodeIndex: 15
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -456,7 +486,7 @@ nodes {
   }
   branches {
     responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 15
+    nextNodeIndex: 17
     idRef {
       id: "5d4656816631360410000c33:5d69ee21643333c4180012b7"
     }
@@ -471,11 +501,11 @@ nodes {
   idRef {
     id: "5d69f05c643333782c0049b9"
   }
-  index: 13
+  index: 15
   text: "Sounds like a buncha drek we don\'t need to be a part of."
   branches {
     responseText: ""
-    nextNodeIndex: 14
+    nextNodeIndex: 16
     idRef {
       id: "5d4656816631360410000c33:5d69f079643333782c0049bb"
     }
@@ -489,11 +519,11 @@ nodes {
   idRef {
     id: "5d69f07b643333782c0049be"
   }
-  index: 14
+  index: 16
   text: "I find it all very exciting!"
   branches {
     responseText: ""
-    nextNodeIndex: 15
+    nextNodeIndex: 17
     idRef {
       id: "5d4656816631360410000c33:5d69f099643333782c0049c0"
     }
@@ -507,11 +537,11 @@ nodes {
   idRef {
     id: "5d69f09b643333782c0049c3"
   }
-  index: 15
+  index: 17
   text: "Shanghai...it runs different. People, I mean like, wageslaves, even they get involved a bit. Excited even.\n\nThat\'s why the corps never really took off there. Not like Seattle or NYC."
   branches {
     responseText: ""
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     idRef {
       id: "5d4656816631360410000c33:5d69f314643333782c004a3f"
     }
@@ -526,11 +556,11 @@ nodes {
   idRef {
     id: "5d69f2cd643333782c004a04"
   }
-  index: 16
+  index: 18
   text: "{{GM}}The orc blanches.{{/GM}}\n\nOh no. That\'s...that\'s not gonna stick, is it?"
   branches {
     responseText: ""
-    nextNodeIndex: 17
+    nextNodeIndex: 19
     idRef {
       id: "5d4656816631360410000c33:5d69f369643333782c004aac"
     }
@@ -544,11 +574,11 @@ nodes {
   idRef {
     id: "5d69f36d643333782c004aaf"
   }
-  index: 17
+  index: 19
   text: "Well, if we\'re gonna be shadowrunners, we need street names, right?\n\nWould you prefer \'Diamonds\'? Because that\'s the other option."
   branches {
     responseText: ""
-    nextNodeIndex: 18
+    nextNodeIndex: 20
     idRef {
       id: "5d4656816631360410000c33:5d69f39e643333782c004ab1"
     }
@@ -562,11 +592,11 @@ nodes {
   idRef {
     id: "5d69f3a0643333782c004ab4"
   }
-  index: 18
+  index: 20
   text: "{{GM}}\"Big Time\'s\" head sinks.{{/GM}}\n\nOh man..."
   branches {
     responseText: "Eh. It\'s not the worst street name."
-    nextNodeIndex: 19
+    nextNodeIndex: 21
     idRef {
       id: "5d4656816631360410000c33:5d69f3c6643333782c004ab6"
     }
@@ -574,14 +604,14 @@ nodes {
   }
   branches {
     responseText: "Pleased to meet ya, Big Time!"
-    nextNodeIndex: 19
+    nextNodeIndex: 21
     idRef {
       id: "5d4656816631360410000c33:5d69f3c7643333782c004ab8"
     }
   }
   branches {
     responseText: "Pay. When."
-    nextNodeIndex: 20
+    nextNodeIndex: 22
     idRef {
       id: "5d4656816631360410000c33:5d69f3c7643333782c004aba"
     }
@@ -592,11 +622,11 @@ nodes {
   idRef {
     id: "5d69f469643333782c004b0a"
   }
-  index: 19
+  index: 21
   text: "{{GM}}Erika claps her hands together.{{/GM}}\n\nI love it! I wonder what mine will be..."
   branches {
     responseText: ""
-    nextNodeIndex: 20
+    nextNodeIndex: 22
     idRef {
       id: "5d4656816631360410000c33:5d69f48d643333782c004b0c"
     }
@@ -611,11 +641,11 @@ nodes {
   idRef {
     id: "5d69f3f9643333782c004abd"
   }
-  index: 20
+  index: 22
   text: "When we get to the docks, got a guy waiting there for this.\n\n{{GM}}Big Time holds up the data stick.{{/GM}}\n\nWe give him this, he gives us the creds, and his fixer\'s contact info."
   branches {
     responseText: ""
-    nextNodeIndex: 21
+    nextNodeIndex: 23
     idRef {
       id: "5d4656816631360410000c33:5d69f43d643333782c004abf"
     }
@@ -629,11 +659,11 @@ nodes {
   idRef {
     id: "5d69f43f643333782c004ac2"
   }
-  index: 21
+  index: 23
   text: "Then, we get some real, I\'m talkin\' b-...\n\nWe get work."
   branches {
     responseText: ""
-    nextNodeIndex: 22
+    nextNodeIndex: 24
     idRef {
       id: "5d4656816631360410000c33:5d69f4af643333782c004b1c"
     }
@@ -647,11 +677,11 @@ nodes {
   idRef {
     id: "5d69f4b1643333782c004b1f"
   }
-  index: 22
+  index: 24
   text: "Just then, the ship\'s horn sounds, and a voice announces in Mandarin, then English, that the ship is on final approach to the docks, and if everyone would please prepare to disembark in a calm and orderly fashion."
   branches {
     responseText: ""
-    nextNodeIndex: 23
+    nextNodeIndex: 25
     idRef {
       id: "5d4656816631360410000c33:5d69f56c643333782c004b21"
     }
@@ -662,7 +692,7 @@ nodes {
   idRef {
     id: "5d69f56f643333782c004b24"
   }
-  index: 23
+  index: 25
   text: "That\'s us.\n\nGrab your stuff and meet me in the lobby."
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
@@ -697,11 +727,11 @@ nodes {
   idRef {
     id: "5d69e729643333c41800126f"
   }
-  index: 24
-  text: "Well some of us would like to avoid corp prisons and early graves.\n\n{{GM}}He looks over at the human over the cyberdeck.{{/GM}}\n\nI never wanted to get her involved in this business anyways."
+  index: 26
+  text: "Well some of us would like to avoid corp prisons and early graves.\n\n{{GM}}He looks over at his sister.{{/GM}}\n\nI never wanted to get her involved in this business anyways."
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 7
     idRef {
       id: "5d4656816631360410000c33:5d69e880643333c41800127b"
     }
@@ -716,11 +746,11 @@ nodes {
   idRef {
     id: "5d69e775643333c418001272"
   }
-  index: 25
-  text: "You let the sounds of the arguing pair become as distant as the waves, focused intently on the data scrolling by along the bright blue screen of the woman\'s cyberdeck."
+  index: 27
+  text: "You let the sounds of the arguing pair become as distant as the waves, focused intently on the data scrolling by along the bright blue screen of Erika\'s cyberdeck."
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 7
     idRef {
       id: "5d4656816631360410000c33:5d69e886643333c41800127e"
     }

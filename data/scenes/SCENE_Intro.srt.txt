@@ -114,6 +114,55 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "All Actors on Team"
+          args {
+            call_value {
+              functionName: "Get Preset Value (string)"
+              args {
+                string_value: "FactionList"
+              }
+              args {
+                int_value: 3
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Map Item (SceneDimension)"
+              args {
+                string_value: "Default"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -753,13 +802,176 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: " Convo.BigTimeNotices"
+  name: "CurtainUp"
   events {
     ops {
-      functionName: "On Map Start"
+      functionName: "On Curtains Up"
+    }
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "eBigTimeReposition"
+      }
     }
   }
   conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "eBigTimeReposition"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Display Text over Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5d3e80a666313608040028d4"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "Come on. This way!"
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 255
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 128
+      }
+      args {
+        float_value: 8
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Trigger: Wait Until Triggered Again"
+    }
+    ops {
+      functionName: "Order Actor to Move To (Region)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5d3e80a666313608040028d4"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5d8adde2643333640b007422"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 7
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "No Effect"
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5d8addac643333640b007421"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: " Convo.BigTimeNotices"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5d3e807a66313608040028d3"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
   }
   actions {
     ops {
@@ -2659,10 +2871,10 @@ regions {
 regions {
   name: "Camera_Belowdecks"
   position {
-    x: -57
-    y: -21
-    width: 17
-    height: 36
+    x: -102
+    y: 19
+    width: 19
+    height: 21
   }
   enabledAtStart: true
   is_camera_region: true
@@ -2775,10 +2987,10 @@ regions {
 regions {
   name: "rCabin"
   position {
-    x: -51
-    y: -14
-    width: 2
-    height: 2
+    x: -94
+    y: 23
+    width: 11
+    height: 4
   }
   enabledAtStart: true
   is_camera_region: false
@@ -3410,14 +3622,72 @@ regions {
   combat_outro_stinger: ""
   vfx_fill_prefab_name: ""
 }
+regions {
+  name: "MoveTarget_BelowDecks_BigTimeRunTo"
+  position {
+    x: -92
+    y: 25
+    width: 1
+    height: 1
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5d8adde2643333640b007422"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -52
+    x: -100
     y: 0
-    z: -12
+    z: 25
   }
-  orientation: ORIENTATION_W
+  orientation: ORIENTATION_N
   idRef {
     id: "54cab29a306364848c001af2"
   }
@@ -3435,11 +3705,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -52
+    x: -99
     y: 0
-    z: -15
+    z: 27
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_W
   displayName: "Big Time"
   idRef {
     id: "5d3e80a666313608040028d4"
@@ -3513,6 +3783,7 @@ characters {
     team_id: "Civilians"
     char_name: "$(scene.sBigTimeName)"
     pc_spawn_number: -1
+    allow_enemy_free_move_interaction: true
     portrait {
       filename: "backer_orkmale_bradleymiller_kiluminatialabrad"
     }
@@ -3524,9 +3795,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -53
+    x: -92
     y: 0
-    z: -14
+    z: 22
   }
   orientation: ORIENTATION_N
   displayName: "Erika"
@@ -3617,11 +3888,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -53
+    x: -88
     y: 0
-    z: -13
+    z: 23
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   displayName: "Jean-Paul"
   idRef {
     id: "5d69dae5643333c418001204"
@@ -4297,6 +4568,7 @@ mapEvents: "eTravelBelow"
 mapEvents: "eDisplayTime"
 mapEvents: "eWarpToMall"
 mapEvents: "eAmbush"
+mapEvents: "eBigTimeReposition"
 goals {
   name: "Escape"
   type: GoalType_Primary
@@ -4312,9 +4584,9 @@ worldMapLocation {
 }
 mapName: "SCENE_Intro"
 parentStory: ""
-scene_title: "In Media Res"
-scene_subtitle: ""
-scene_synopsis: "...?\n\nStuff that the writer team will undoubtably fill out."
+scene_title: "A Court Full of Jesters"
+scene_subtitle: "aka The Intro Scene!"
+scene_synopsis: "These punks you\'ve fallen in with; they\'re not shadowrunners. They\'re joyriders, thrillseekers, more interested in chasing highs and loud music, giving a middle finger to The Man and rattling the halls with the echoes of their laughter late into the night.\n\nAnd now you\'re on a boat with them, headed towards Shanghai. The jitters of trespassing on extraterritorial turf have begun to wear off, and all you\'re left with is the numbness of sea transit and the rumble of the cargo ship\'s engines humming through the wall. By now, the corp you \"hit\" sent up their IT guy to fix the mess your Decker, Erika, made of their billboard. Harmless fun, right?\n\nIt doesn\'t pay much; a handful of anonymous chits left out by wageslaves at workstations, but hey, if it wasn\'t fun, why would you be on a boat headed towards one of the slinkiest cities in the shadows with a bunch of criminals?"
 scene_image: "loadingImage_whistleblower_s1"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
