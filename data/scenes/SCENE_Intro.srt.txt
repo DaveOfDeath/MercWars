@@ -1149,7 +1149,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Conversation)"
           args {
-            string_value: "5d4656816631360410000c33"
+            string_value: "5d9b644f64333344290036f5"
           }
         }
       }
@@ -1255,6 +1255,28 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5d46565c6631360410000c32"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -1262,7 +1284,7 @@ triggers {
   }
   elseActions {
   }
-  is_oneshot: true
+  is_oneshot: false
 }
 triggers {
   name: "Convo.UnlockDoor"
@@ -3625,7 +3647,7 @@ regions {
 regions {
   name: "MoveTarget_BelowDecks_BigTimeRunTo"
   position {
-    x: -92
+    x: -89
     y: 25
     width: 1
     height: 1
@@ -3890,7 +3912,7 @@ characters {
   gridPoint {
     x: -88
     y: 0
-    z: 23
+    z: 22
   }
   orientation: ORIENTATION_N
   displayName: "Jean-Paul"
