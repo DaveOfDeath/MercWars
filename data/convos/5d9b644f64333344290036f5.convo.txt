@@ -268,7 +268,7 @@ nodes {
     id: "5d9b73fb643333442900373f"
   }
   index: 4
-  text: "I\'m talking Big. Time!\n\nSee, this wasn\'t just a joyride like Hong Kong. While Erika was mucking around in their Matrix systems and mucking up the digital billboard, I had her download a file or two."
+  text: "I\'m talking Big...TIME!\n\nSee, this wasn\'t just a joyride like Hong Kong. While Erika was mucking around in their Matrix systems and mucking up the digital billboard, I had her download a file or two."
   branches {
     responseText: ""
     nextNodeIndex: 5
@@ -304,7 +304,7 @@ nodes {
     id: "5d9b74a66433334429003746"
   }
   index: 6
-  text: "Don\'t know. Didn\'t ask.\n\nCheck this: guy saw our Hong Kong blast on the Matrix, and he contacted me; said we do this for him, he\'d get us in with the real shadows of Shanghai.\n\nI\'m talkin\' meetings at the club, back room. I\'m talkin\' top shelf. I\'m talkin\' Wuqing List. I\'m talkin\' Big. Time. Fixer. And big time pay! Real work! Profesh, know what I\'m saying?"
+  text: "Don\'t know. Didn\'t ask.\n\nCheck this: guy saw our Hong Kong blast on the Matrix, and he contacted me; said we do this for him, he\'d get us in with the real shadows of Shanghai.\n\nI\'m talkin\' meetings at the club, back room. I\'m talkin\' top shelf. I\'m talkin\' Wuqing List. I\'m talkin\' Big. TIME! Fixer. And big time pay! Real work! Profesh, know what I\'m saying?"
   branches {
     responseText: "About time! Fun runs don\'t feed the belly."
     nextNodeIndex: 7

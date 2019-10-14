@@ -25,7 +25,7 @@ nodes {
     id: "5da325db64333304180079ad"
   }
   index: 1
-  text: "...OR DON\'T.\n\nIT\'S MORE FUN THAT WAY."
+  text: "OR DON\'T.\n\n...IT\'S MORE FUN THAT WAY."
   branches {
     responseText: ""
     nextNodeIndex: 2

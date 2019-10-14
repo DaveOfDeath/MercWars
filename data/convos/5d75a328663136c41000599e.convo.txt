@@ -47,7 +47,7 @@ nodes {
   }
   branches {
     responseText: "You can\'t be serious. Except you\'re serious, aren\'t you?"
-    nextNodeIndex: 4
+    nextNodeIndex: 3
     idRef {
       id: "5d75a328663136c41000599e:5da2a7966433336025008f89"
     }
@@ -347,9 +347,26 @@ nodes {
   text: "Yeah. Yeah, sure. Just..\n\n..Just get the stuff."
   nodeType: ConversationNodeType_Simple
 }
+nodes {
+  idRef {
+    id: "5da3ec056433337c2e009d55"
+  }
+  index: 10
+  text: "Thanks again for doing this.\n\nWe\'re gonna go far, you and me...just you wait and see!"
+  nodeType: ConversationNodeType_Simple
+}
 roots {
   nextNodeIndex: 0
+  hideIfUnavailable: true
+  onlyOnce: true
   idRef {
     id: "5d75a328663136c41000599e:5d75a328663136c4100059a2"
+  }
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 10
+  idRef {
+    id: "5d75a328663136c41000599e:5da3ebc96433337c2e009d52"
   }
 }
