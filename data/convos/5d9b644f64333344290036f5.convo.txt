@@ -1,0 +1,1368 @@
+idRef {
+  id: "5d9b644f64333344290036f5"
+}
+ui_name: "INTRO_CrewBelowDecksV2"
+nodes {
+  idRef {
+    id: "5d9b645e64333344290036fd"
+  }
+  index: 0
+  text: "The cargo ship creaks softly, accustomed to the gentle waves of the East China Sea. Erika is tapping away at the keys of her cyberdeck, lost in a virtual reality world only she can see."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b692864333344290036ff"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5d9b69286433334429003702"
+  }
+  index: 1
+  text: "{{GM}}Jean-Paul, the dwarven doorkicker of the team, pants heavily.{{/GM}}\n\nJust one thing: never again. No more fraggin\' tower jobs. Ground floor only from here on out.\n\nI\'m gonna kill the man who invented stairs."
+  branches {
+    responseText: "Tell me about it! That was the worst!"
+    nextNodeIndex: 2
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b69d46433334429003704"
+    }
+  }
+  branches {
+    responseText: "We all saw the security layout. Elevators would\'ve gotten us pinched."
+    nextNodeIndex: 34
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b69f96433334429003709"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Body{{/CC}} I\'m doing just fine. Hell, let\'s go back, I think I left something behind!"
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Race"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Race"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 36
+    hideIfUnavailable: true
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b70316433334429003717"
+    }
+    comment: "Body >= 4, NOT Dwarf"
+  }
+  branches {
+    responseText: "{{CC}}Dwarf{{/CC}} Sounds like you need to get in shape! You don\'t see me complaining!"
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Compare Actor Race"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Race"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 34
+    hideIfUnavailable: true
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b69fb643333442900370b"
+    }
+    auxiliaryLink: true
+    comment: "Dwarf AND Body >=4"
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b73016433334429003731"
+  }
+  index: 2
+  text: "{{GM}}The tall, lanky ork grins, his eyes wild and manic. Possibly still on an adrenaline high. Maybe Cram. Maybe both.{{/GM}}\n\nYou\'re both gonna have to shape up if you wanna keep doing this. Because it only goes up from here."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b73d26433334429003737"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b73d2643333442900373a"
+  }
+  index: 3
+  text: "Up? You mean...more stairs?!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b73fb643333442900373c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b73fb643333442900373f"
+  }
+  index: 4
+  text: "I\'m talking Big. Time!\n\nSee, this wasn\'t just a joyride like Hong Kong. While Erika was mucking around in their Matrix systems and mucking up the digital billboard, I had her download a file or two."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b768d6433334429003754"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b768d6433334429003757"
+  }
+  index: 5
+  text: "And what exactly was on those files?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b74916433334429003741"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b74a66433334429003746"
+  }
+  index: 6
+  text: "Don\'t know. Didn\'t ask.\n\nCheck this: guy saw our Hong Kong blast on the Matrix, and he contacted me; said we do this for him, he\'d get us in with the real shadows of Shanghai.\n\nI\'m talkin\' meetings at the club, back room. I\'m talkin\' top shelf. I\'m talkin\' Wuqing List. I\'m talkin\' Big. Time. Fixer. And big time pay! Real work! Profesh, know what I\'m saying?"
+  branches {
+    responseText: "About time! Fun runs don\'t feed the belly."
+    nextNodeIndex: 7
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b76416433334429003748"
+    }
+  }
+  branches {
+    responseText: "I don\'t think we\'re ready for this."
+    nextNodeIndex: 8
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b7642643333442900374a"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Wait. How do you know this guy\'s going to follow through?"
+    nextNodeIndex: 8
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b7642643333442900374c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b86a964333344290037b4"
+  }
+  index: 7
+  text: "You guys are both wrecked. Some \"guy\" hits you up on the Matrix, and sends you up SIXTY-FIVE flights of fraggin\' stairs to steal data from a double-A sub off their isolated grid, and you don\'t ask any questions?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b86fe64333344290037c9"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b76e76433334429003762"
+  }
+  index: 8
+  text: "Yeah. Some \"guy\" hits you up on the Matrix, and sends you up SIXTY-FIVE flights of fraggin\' stairs to steal data from a double-A sub off their isolated grid, and you don\'t ask any questions?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32c086433330418007b81"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5da32c086433330418007b84"
+  }
+  index: 9
+  text: "Well, the iso grid, we coulda hit from anywhere in the complex."
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32d636433330418007f37"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+  comment: "defork"
+}
+nodes {
+  idRef {
+    id: "5da32d636433330418007f3a"
+  }
+  index: 10
+  text: "The billboard was for kicks, and the footage! Think of all that novahot screentime we just racked up!\n\nAND we\'re getting paid!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b86ec64333344290037b9"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b86ec64333344290037bc"
+  }
+  index: 11
+  text: "This! This is the kind of drek that gets the H-Ts called on you!\n\n{{GM}}He shakes his head.{{/GM}}\n\nOh, this run was a mistake."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32cc86433330418007db1"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5da32cc86433330418007db4"
+  }
+  index: 12
+  text: ""
+  branches {
+    responseText: "H-Ts?"
+    nextNodeIndex: 13
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b77646433334429003764"
+    }
+  }
+  branches {
+    responseText: "So just who is this mystery guy anyways? Can we trust him?"
+    nextNodeIndex: 15
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b8fdc6433334429003855"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "loopback"
+}
+nodes {
+  idRef {
+    id: "5d9b776a6433334429003769"
+  }
+  index: 13
+  text: "High-Threat Response Teams."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32c7c6433330418007cc5"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5da32c7c6433330418007cc8"
+  }
+  index: 14
+  text: "Corporate-contracted \"security\" meant to protect assets from things like, oh, Shadowrunners and such!\n\nPeople who shoot first and ask questions *never*."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32cd66433330418007e42"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b90086433334429003858"
+  }
+  index: 15
+  text: "{{GM}}Tommy fidgets on his feet.{{/GM}}\n\nYeah...we can trust him! He\'s got the hookup, says he knows folks on the Wuqing List, even done some work for \'em. Personally!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 16
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b90cb643333442900385a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b90cb643333442900385d"
+  }
+  index: 16
+  text: "You said that earlier, the \"Wuqing List.\" What is that?"
+  branches {
+    responseText: "You mean like the megacorp?"
+    nextNodeIndex: 17
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b90e3643333442900385f"
+    }
+  }
+  branches {
+    responseText: "Never heard of it."
+    nextNodeIndex: 18
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b90e86433334429003861"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{CC}}Shadowrunner{{/CC}} It\'s a ranked list of the top 50 shadowrunners, fixers, and such in Shanghai. A who\'s-who of the shadows with a side of secret society."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 17
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 21
+    hideIfUnavailable: true
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b90e96433334429003863"
+    }
+    auxiliaryLink: true
+    comment: "Shadowrunner Etiquette"
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b91bc6433334429003866"
+  }
+  index: 17
+  text: "You\'re thinking of Woo-CHING, this is Woo-TSEENG. Totally different thing."
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+    idRef {
+      id: "5d9b644f64333344290036f5:5da332ed6433330418008879"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5da332ed643333041800887c"
+  }
+  index: 18
+  text: "{{GM}}Erika looks up from her cyberdeck.{{/GM}}\n\nIt\'s a ranked list. The 50 baddest of the bad--runners, deckers, fixers... Celebrities of the shadows."
+  branches {
+    responseText: ""
+    nextNodeIndex: 19
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b925e6433334429003868"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b925e643333442900386b"
+  }
+  index: 19
+  text: "Jean-Paul stares blankly at his sister."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9272643333442900386d"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Speaker_Voice
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b92726433334429003870"
+  }
+  index: 20
+  text: "What? I spend a lot of time on the Matrix! It\'s a big thing in Shanghai!\n\nEvery year, the Wuqing List gets its update, and in the weeks leading up to it there\'s all kinds of speculation about who\'s going to move up, who\'s going to get knocked off..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 21
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b92d56433334429003872"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b92d56433334429003875"
+  }
+  index: 21
+  text: "The Wuqing List is everything in Shanghai. If you\'re on it, you\'re solid. You\'re legit. You\'re big time! The real deal!\n\nYou get the best jobs, work with the best people--even the normies, they know who you are!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b997664333344290039a3"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b997664333344290039a6"
+  }
+  index: 22
+  text: "You\'re the lion and Shanghai is the Serengeti!\n\n{{GM}}He does his impression of what may appear to be a big cat pouncing on its prey.{{/GM}} Rrow!"
+  branches {
+    responseText: "Run the shadows *and* be a celebrity? That sounds like my kinda gig."
+    nextNodeIndex: 23
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b965f6433334429003877"
+    }
+  }
+  branches {
+    responseText: "I highly prefer my anonymity. It\'s good for basic things like, y\'know, survival."
+    nextNodeIndex: 29
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b96886433334429003879"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Academic{{/CC}} Lions haven\'t been seen in the Serengeti in about 30 years."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Triggering Actor"
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 18
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 30
+    hideIfUnavailable: true
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9689643333442900387b"
+    }
+    comment: "Academic"
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9dab6433334429003aa5"
+  }
+  index: 23
+  text: "Now that\'s what I\'m talking about!\n\nBig! Time!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 24
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9dae6433334429003aa7"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9ace6433334429003a37"
+  }
+  index: 24
+  text: "{{GM}}Erika\'s eyes light up.{{/GM}}\n\nDoes that mean we\'d need to get, like, street names? I wanna be...Blitz! Or, no, that\'s a stupid name.\n\nMaybe...Snow. With a zero instead of the \"o\"."
+  branches {
+    responseText: ""
+    nextNodeIndex: 25
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9cc56433334429003a8a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9cc56433334429003a8d"
+  }
+  index: 25
+  text: "I haven\'t said yes to this yet!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 26
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9cd76433334429003a8f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9cd76433334429003a92"
+  }
+  index: 26
+  text: "Oh come on! This is what you\'ve always wanted! A way to really hit the corps--and actually leave a mark!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 27
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9efc6433334429003b6a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9efc6433334429003b6d"
+  }
+  index: 27
+  text: "If this was a hit like \"Big Time\" here is saying, then you need to get back on those scopes and make sure we\'re not being tailed. We have no idea what was on that drive--and who it might\'ve pissed off."
+  branches {
+    responseText: ""
+    nextNodeIndex: 28
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9f626433334429003b6f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9f626433334429003b72"
+  }
+  index: 28
+  text: "\"Big Time\"...I like it!\n\n{{GM}}She grins at Tommy the Ork before realizing her brother is glaring at her.{{/GM}}\n\nScopes. Right. On it!"
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e81b066313608040028d5"
+  }
+  actions {
+    ops {
+      functionName: "Assign Conversation to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "5d8ac409643333640b006d70"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5d3e81b066313608040028d5"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Assign Conversation to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "5d9bc5856433334429003d96"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5d69dae5643333c418001204"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Assign Conversation to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "5d9b644f64333344290036f5"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5d3e80a666313608040028d4"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (string)"
+      args {
+        call_value {
+          functionName: "Get Variable (string)"
+          args {
+            string_value: "sBigTimeName"
+          }
+        }
+      }
+      args {
+        string_value: "Big Time"
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9dd76433334429003aaf"
+  }
+  index: 29
+  text: "Aw c\'mon. Think about it! This is how the game works! This is where we want to be!\n\nBig! Time!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 24
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9e016433334429003ab1"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9b96ae643333442900387e"
+  }
+  index: 30
+  text: ""
+  branches {
+    responseText: ""
+    conditions {
+      ops {
+        functionName: "Compare Actor Gender"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Gender"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 31
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9b4e6433334429003a39"
+    }
+    comment: "PC0 is Male"
+  }
+  branches {
+    responseText: ""
+    conditions {
+      ops {
+        functionName: "Compare Actor Gender"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Gender"
+            }
+            args {
+              int_value: 2
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 33
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9b5f6433334429003a3e"
+    }
+    comment: "PC0 is Female"
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+  comment: "gender fork"
+}
+nodes {
+  idRef {
+    id: "5d9b9b526433334429003a3c"
+  }
+  index: 31
+  text: "It\'s a metaphor, man, cut me some slack."
+  branches {
+    responseText: ""
+    nextNodeIndex: 32
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9e3c6433334429003b0d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b9e476433334429003b10"
+  }
+  index: 32
+  text: "This is everything. This is how the game is played. This is where we want to be.\n\nBig. Time!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 24
+    idRef {
+      id: "5d9b644f64333344290036f5:5da32f38643333041800828a"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+  comment: "defork"
+}
+nodes {
+  idRef {
+    id: "5d9b644f64333344290036f5:5d9b9c206433334429003a40"
+  }
+  index: 33
+  text: "It\'s a metaphor, girl, cut me some slack."
+  branches {
+    responseText: ""
+    nextNodeIndex: 32
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b9e836433334429003b12"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d3e80a666313608040028d4"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b71676433334429003720"
+  }
+  index: 34
+  text: "Sixty-five floors!\n\nSixty. Five. Floors we just hiked up and down, for some footage that\'s just gonna be seen by people floating around the Matrix."
+  branches {
+    responseText: "You always said you\'d walk to the ends of the earth to give a middle finger to the megas."
+    nextNodeIndex: 35
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b97a86433334429003882"
+    }
+  }
+  branches {
+    responseText: "But I\'m sure it\'s great footage. Erika\'s a beast with that camera drone."
+    nextNodeIndex: 2
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b97f86433334429003889"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Come on. Admit it, you had fun."
+    nextNodeIndex: 2
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b984d643333442900388b"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b97a86433334429003885"
+  }
+  index: 35
+  text: "When I said that, I assumed most of that journey would be flat!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b8ed864333344290037cf"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d9b7100643333442900371a"
+  }
+  index: 36
+  text: "{{GM}}The dwarf glares at you.{{/GM}}\n\nCan it, longlegs. These knees weren\'t made for 65 flights!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d9b644f64333344290036f5:5d9b989b64333344290038de"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d69dae5643333c418001204"
+  }
+}
+nodes {
+  idRef {
+    id: "5d4656816631360410000c33:5da33200643333041800862e"
+  }
+  index: 37
+  text: "All right. You ready to head out and make some nuyen?"
+  branches {
+    responseText: "Just a second. I want to talk to the others."
+    nextNodeIndex: 38
+    idRef {
+      id: "5d4656816631360410000c33:5da332006433330418008630"
+    }
+  }
+  branches {
+    responseText: "Let\'s do this."
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "bConvoComplete"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 39
+    idRef {
+      id: "5d4656816631360410000c33:5da332006433330418008634"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d4656816631360410000c33:5da332006433330418008632"
+  }
+  index: 38
+  text: "All right, but make it quick. Night\'s burning."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d4656816631360410000c33:5da332006433330418008636"
+  }
+  index: 39
+  text: "The ship\'s PA system announces the completion of the docking procedures in English and Mandarin Chinese, and if you would please depart in an orderly fashion, and have a nice day."
+  branches {
+    responseText: ""
+    nextNodeIndex: 40
+    idRef {
+      id: "5d4656816631360410000c33:5da332006433330418008638"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  actions {
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ambient_subway"
+          }
+          args {
+            string_value: "SubwayArrive"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5d4656816631360410000c33:5da33200643333041800863a"
+  }
+  index: 40
+  text: "Ah man, here we go!\n\nThis is gonna be the start of something great, my friend! I can feel it."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  hideIfUnavailable: true
+  onlyOnce: true
+  idRef {
+    id: "5d9b644f64333344290036f5:5d9b644f64333344290036f9"
+  }
+  comment: "intro dialogue"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 37
+  idRef {
+    id: "5d4656816631360410000c33:5da33200643333041800862c"
+  }
+  comment: "BigTime Below Decks -- leave belowship"
+}

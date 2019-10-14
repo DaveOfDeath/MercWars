@@ -1,0 +1,1838 @@
+idRef {
+  id: "5d8ac409643333640b006d70"
+}
+ui_name: "INTRO_ErikaV1"
+nodes {
+  idRef {
+    id: "5d8ac433643333640b006d7b"
+  }
+  index: 0
+  text: ""
+  branches {
+    nextNodeIndex: 1
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5d8ac409643333640b006d74"
+    }
+    comment: "available once"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9ba95c6433334429003c34"
+    }
+    comment: "comeback"
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5d9ba9ad6433334429003c4f"
+  }
+  index: 1
+  text: "A blue glow from the cyberdeck lights up Erika\'s face. She\'s not the most novahot decker in the East, but she knows her way around the Matrix. She also flies a camera drone on these little runs, collecting footage which Tommy then works into a montage of all the group\'s exploits; an amalgam of urban exploration and corporate trespassing.\n\nAnd now shadowrunning, apparently."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9baa5b6433334429003c51"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  comment: "GM voice"
+}
+nodes {
+  idRef {
+    id: "5d9baa5e6433334429003c54"
+  }
+  index: 2
+  text: "Sorry about my brother. He can be a little \'hot\' sometimes, especially on the tail ends of these things.\n\n{{GM}}She doesn\'t look up from the cyberdeck\'s display screen.{{/GM}}\n\nAnd he hates surprises."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9baad26433334429003c61"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9baad26433334429003c64"
+  }
+  index: 3
+  text: "So what\'s up?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bab826433334429003c7a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bab826433334429003c7d"
+  }
+  index: 4
+  text: ""
+  branches {
+    responseText: "So how are the scopes looking, anyways?"
+    nextNodeIndex: 5
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9baadc6433334429003c66"
+    }
+  }
+  branches {
+    responseText: "Remind me: how did you fall in with this group?"
+    nextNodeIndex: 7
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9baadc6433334429003c68"
+    }
+  }
+  branches {
+    responseText: "You\'re busy, so I\'ll leave you alone."
+    nextNodeIndex: 8
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9baadd6433334429003c6a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub"
+}
+nodes {
+  idRef {
+    id: "5d9baaea6433334429003c6d"
+  }
+  index: 5
+  text: "I\'m jacked into the ship\'s grid and riding her sensor network. And I\'ll tell you, right now it\'s boring as hell.\n\nIf someone\'s tracking us, they\'re being super quiet about it. No comm chatter, no drones on IR."
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bab6c6433334429003c6f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bab6c6433334429003c72"
+  }
+  index: 6
+  text: "Far as I can tell for right now, we\'re ghosts."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bab896433334429003c85"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9babb46433334429003c99"
+  }
+  index: 7
+  text: "Can\'t talk about it right now. Ask me again when we\'re on land, but right now I\'ve gotta keep my eye on this stuff."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9babdf6433334429003c9b"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9babf56433334429003ca0"
+  }
+  index: 8
+  text: "{{GM}}She nods.{{/GM}}\n\nYep. I\'ll be here."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bac156433334429003ca3"
+  }
+  index: 9
+  text: "{{GM}}Erika stares at the screen in front of her, every now and then tapping out a staccato command.{{/GM}}\n\nYeah?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bacce6433334429003cc1"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bad046433334429003d01"
+  }
+  index: 10
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bad176433334429003d03"
+    }
+    comment: "available once"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 83
+    idRef {
+      id: "5d8ac409643333640b006d70:5d9bad186433334429003d05"
+    }
+    comment: "comeback"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bad356433334429003d29"
+  }
+  index: 11
+  text: "{{GM}}Erika looks up at you through a pair of blue AR goggles, through which she can see the Matrix.{{/GM}}\n\nYeah? What\'s up?"
+  branches {
+    responseText: "Got a second to talk? I\'d like to ask you something."
+    nextNodeIndex: 12
+    idRef {
+      id: "5d8ac409643333640b006d70:5da285ab64333360250079a8"
+    }
+  }
+  branches {
+    responseText: "Ah, nevermind. I gotta get going."
+    nextNodeIndex: 82
+    idRef {
+      id: "5d8ac409643333640b006d70:5da285ac64333360250079aa"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2865764333360250079b2"
+  }
+  index: 12
+  text: "Sure. Gimme a sec...\n\n{{GM}}Erika presses and holds a button on the side of her headset and the blue glow on her headset dies.{{/GM}}\n\nThere we go. What do you need?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da288c26433336025007a29"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da288c26433336025007a2c"
+  }
+  index: 13
+  text: ""
+  branches {
+    responseText: "How did you and JP get wrapped up in this mess?"
+    nextNodeIndex: 14
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da286a364333360250079b9"
+    }
+  }
+  branches {
+    responseText: "What do you think about Tommy?"
+    nextNodeIndex: 47
+    idRef {
+      id: "5d8ac409643333640b006d70:5da286a364333360250079bb"
+    }
+  }
+  branches {
+    responseText: "What do you know about the Wuqing List?"
+    nextNodeIndex: 49
+    idRef {
+      id: "5d8ac409643333640b006d70:5da286a464333360250079bd"
+    }
+  }
+  branches {
+    responseText: "I should get going."
+    nextNodeIndex: 81
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29c8364333360250083c8"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub"
+}
+nodes {
+  idRef {
+    id: "5da286f064333360250079c0"
+  }
+  index: 14
+  text: "Ohhh. Deep, dark story time, huh? You want the tortured narrative, the dead parents, the tale of bloody revenge?"
+  branches {
+    responseText: "If that\'s what it is to you, sure. Regale me."
+    nextNodeIndex: 16
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2873364333360250079c2"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I want the truth, that\'s all."
+    nextNodeIndex: 15
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2873364333360250079c4"
+    }
+  }
+  branches {
+    responseText: "I really don\'t, and I\'m sorry I asked. Let\'s talk about something else instead."
+    nextNodeIndex: 46
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2878f64333360250079cd"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2874b64333360250079c7"
+  }
+  index: 15
+  text: "Oh, the truth!\n\n{{GM}}She laughs softly to herself.{{/GM}}\n\nNo one wants the truth. There\'s not enough time or interest for it."
+  branches {
+    responseText: "Maybe I do. Try me."
+    nextNodeIndex: 16
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2878c64333360250079c9"
+    }
+  }
+  branches {
+    responseText: "Yeah, you\'re right. If you\'re gonna be dodgy about it, forget I asked."
+    nextNodeIndex: 46
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2878d64333360250079cb"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da287c464333360250079d2"
+  }
+  index: 16
+  text: "Let me ask you then: why do you care?"
+  branches {
+    responseText: "Well, if Big Time is right, we\'re going to be doing a lot of running together. I want to know my future partners."
+    nextNodeIndex: 18
+    idRef {
+      id: "5d8ac409643333640b006d70:5da287ce64333360250079d4"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{CC}}Charisma{{/CC}} Maybe I just like you."
+    conditions {
+      ops {
+        functionName: "Compare Actor Attribute"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorAttributes"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          int_value: 3
+        }
+      }
+    }
+    nextNodeIndex: 17
+    hideIfUnavailable: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da287cf64333360250079d6"
+    }
+    comment: "Charisma 3+"
+  }
+  branches {
+    responseText: "Maybe I just want to get to know you better."
+    nextNodeIndex: 43
+    idRef {
+      id: "5d8ac409643333640b006d70:5da287fc64333360250079d8"
+    }
+  }
+  branches {
+    responseText: "Maybe I like your brother."
+    nextNodeIndex: 44
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2880764333360250079da"
+    }
+  }
+  branches {
+    responseText: "I don\'t. I\'m killing time."
+    nextNodeIndex: 18
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2881d64333360250079dc"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "You know, just forget I asked; let\'s go back to something else."
+    nextNodeIndex: 45
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2889964333360250079de"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2891c6433336025007ab4"
+  }
+  index: 17
+  text: "Well, that\'s a new one on me! I, uh...wow!\n\nI don\'t know if you\'re being serious or not, but..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28bdd6433336025007abb"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28bdd6433336025007abe"
+  }
+  index: 18
+  text: "Okay then! The truth!\n\n{{GM}}Her head tilts slightly to the side.{{/GM}}\n\nYou\'ve been with us long enough. Why do you think someone like me, and someone like JP, would turn to a hard life of crime?"
+  branches {
+    responseText: "Money. No one goes into this for the fun of it."
+    nextNodeIndex: 19
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28c2f6433336025007ac0"
+    }
+  }
+  branches {
+    responseText: "The thrill. You guys are adrenaline junkies."
+    nextNodeIndex: 41
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28c2f6433336025007ac2"
+    }
+  }
+  branches {
+    responseText: "JP clearly has anger management issues, and wants to take it out on the corps."
+    nextNodeIndex: 42
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28c2f6433336025007ac4"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28ca26433336025007ac7"
+  }
+  index: 19
+  text: "It\'s not about the money. It\'s never been about money. If there is one thing JP and I will never hunger for, it\'s nuyen."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3cec26433337c2e007c6d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3cec26433337c2e007c70"
+  }
+  index: 20
+  text: "JP and I actually have corp SINs. We\'re running on burners right now.\n\nHis name isn\'t Jean-Paul, and mine isn\'t Erika, though we are brother and sister--that much a simple DNA test would pick up, so we had to work a little harder on our faux personas."
+  branches {
+    responseText: "Wait a minute. You\'re corp?"
+    nextNodeIndex: 21
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28d1c6433336025007ac9"
+    }
+  }
+  branches {
+    responseText: "Go on."
+    nextNodeIndex: 21
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28d1d6433336025007acb"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "defork"
+}
+nodes {
+  idRef {
+    id: "5da28d526433336025007ace"
+  }
+  index: 21
+  text: "{{GM}}Erika--or the woman you\'ve been calling Erika--nods.{{/GM}}\n\nOur parents are...well off. AA subsidiary. Not Tier 1 executive, but they\'re in the room when the suits from our parent mega call on conference."
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d0216433337c2e008179"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d0216433337c2e00817c"
+  }
+  index: 22
+  text: "JP is my brother now, but someday, it\'s expected that he\'s going to be my boss\'s boss."
+  branches {
+    responseText: ""
+    nextNodeIndex: 23
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3cf056433337c2e007df8"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3cf056433337c2e007dfb"
+  }
+  index: 23
+  text: "Don\'t ask. I\'m not telling you which...No matter how much I do like you.\n\nIt\'s just...it\'s safer for everyone that way."
+  branches {
+    responseText: ""
+    nextNodeIndex: 24
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28e0e6433336025007ad0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28e0e6433336025007ad3"
+  }
+  index: 24
+  text: "We could go back to our corp SINs whenever we wanted. As soon as tomorrow, even. But JP, he\'s just...so full of anger. He knows he\'d be terrible in a board room.\n\nGod, could you imagine him in a suit and tie? Dealing with other executives? Ordering some poor intern to go get the desk stretcher and a soykaf?"
+  branches {
+    responseText: "Eh. I\'ve seen stranger."
+    nextNodeIndex: 25
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28eb76433336025007ad5"
+    }
+  }
+  branches {
+    responseText: "I believe \'a bull in a china shop\' would apply here."
+    nextNodeIndex: 25
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28ebc6433336025007ada"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Not the desk stretcher!"
+    nextNodeIndex: 25
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d0796433337c2e008271"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{GM}}Just listen.{{/GM}}"
+    nextNodeIndex: 25
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28ed66433336025007adc"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28ef56433336025007adf"
+  }
+  index: 25
+  text: "He once told me that, when father told him to call people \342\200\230clients\342\200\231, it sent him over. \342\200\230People are dehumanized enough\342\200\231, he said.\n\nI don\342\200\231t always agree with the way he goes about it, but I respect his passion...for people."
+  branches {
+    responseText: ""
+    nextNodeIndex: 26
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28f5c6433336025007ae1"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28f5c6433336025007ae4"
+  }
+  index: 26
+  text: "As for me, I don\342\200\231t want to hurt anyone. But I\342\200\231ll massacre programs left and right. I\342\200\231ll \'scorched earth\' a server hub of IC.\n\nAnd I know that there\342\200\231s people behind all that; believe me, our parents are among them. But what we\342\200\231ve been doing here are little runs. Harmless. Not even a hundredth of a percentile point on a top-level subsidiary. They aren\342\200\231t realistically going to get anyone laid off."
+  branches {
+    responseText: ""
+    nextNodeIndex: 27
+    idRef {
+      id: "5d8ac409643333640b006d70:5da28f986433336025007ae6"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da28f986433336025007ae9"
+  }
+  index: 27
+  text: "If we ever got that big...I think I\342\200\231d try to get JP to stop."
+  branches {
+    responseText: "And your parents have no idea what you\'re doing?"
+    nextNodeIndex: 28
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2901c6433336025007c86"
+    }
+  }
+  branches {
+    responseText: "Can we get to the point? I got places to be."
+    nextNodeIndex: 28
+    idRef {
+      id: "5d8ac409643333640b006d70:5da290226433336025007c88"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da290826433336025007c8b"
+  }
+  index: 28
+  text: "Our parents think we\342\200\231re on holiday in Berlin. About once a week I\342\200\231ll buy clothes or makeup using my corp SIN through a VPN. I give them to my personal assistant, Julie.\n\nI told her to keep what she likes and closet the rest, or Goodwill it. She\342\200\231s probably the only person who knows. What we\342\200\231re really up to, I mean."
+  branches {
+    responseText: "You\'ve got a personal assistant?"
+    nextNodeIndex: 29
+    idRef {
+      id: "5d8ac409643333640b006d70:5da290d46433336025007c8d"
+    }
+  }
+  branches {
+    responseText: "How long of a \'holiday\' have you been on, exactly?"
+    nextNodeIndex: 34
+    idRef {
+      id: "5d8ac409643333640b006d70:5da290d46433336025007c8f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da290df6433336025007c92"
+  }
+  index: 29
+  text: "It comes with the territory; it\'s not like I wanted one.\n\nAnd Julie\'s a good friend of mine."
+  branches {
+    responseText: "Keep telling yourself that. Corpies will never be able to relate to ordinary folk."
+    nextNodeIndex: 30
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2914f6433336025007c94"
+    }
+  }
+  branches {
+    responseText: "It\'s good that you\'re trying to broaden your horizons."
+    nextNodeIndex: 39
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2914f6433336025007c96"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da291b16433336025007c99"
+  }
+  index: 30
+  text: "{{GM}}Erika\'s eyes lower.{{/GM}}\n\nYeah. Maybe you\'re right. But maybe I just wanted one last hurrah before I vanish into a corp arcology to live out my days by a script that was written before I was born.\n\nMaybe I *am* an adrenaline junkie, and this is me getting my one last chance to feel alive before I give up life all together."
+  branches {
+    responseText: "Your life will never truly be in danger when you can be an executive\'s daughter at the push of a button."
+    nextNodeIndex: 31
+    idRef {
+      id: "5d8ac409643333640b006d70:5da292356433336025007c9b"
+    }
+  }
+  branches {
+    responseText: "Well, I hope you find whatever happiness it is that you\'re looking for."
+    nextNodeIndex: 33
+    idRef {
+      id: "5d8ac409643333640b006d70:5da293266433336025007ca0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da296816433336025007ca3"
+  }
+  index: 31
+  text: "You\'re probably right. But who would I be if I didn\'t try?\n\nI\'d never be able to live with myself. I\'d go crazy."
+  branches {
+    responseText: ""
+    nextNodeIndex: 32
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2972d6433336025007ca7"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2972d6433336025007caa"
+  }
+  index: 32
+  text: "Anyways...let\'s talk about something else."
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2973b6433336025007cac"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29a9d6433336025007f92"
+  }
+  index: 33
+  text: "Would that we all could be so lucky.\n\nAnyways, let\'s talk about something else, shall we?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29ab86433336025007f94"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da297836433336025007d99"
+  }
+  index: 34
+  text: "This week makes it...two months?\n\nIt sounds crazy, but it\'s not odd in our world. It\'s a modern-day rumpsringa. In fact, if anyone else suspects, it\'s probably our mother."
+  branches {
+    responseText: "Why her?"
+    nextNodeIndex: 35
+    idRef {
+      id: "5d8ac409643333640b006d70:5da297bd6433336025007d9b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da298046433336025007da1"
+  }
+  index: 35
+  text: "Other than being sharp as a laser-edged knife, the longer JP and I are out here, the more I see...\n\nThere\'s a way she stands, a way she folds her arms. It\'d be easy to say \'she knows more than she lets on\' but it\'s more than that."
+  branches {
+    responseText: ""
+    nextNodeIndex: 36
+    idRef {
+      id: "5d8ac409643333640b006d70:5da298626433336025007da3"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da298626433336025007da6"
+  }
+  index: 36
+  text: "She\'s not your average mom. Or your average executive."
+  branches {
+    responseText: "You see yourself in her."
+    nextNodeIndex: 37
+    idRef {
+      id: "5d8ac409643333640b006d70:5da299486433336025007dcf"
+    }
+  }
+  branches {
+    responseText: "She sounds like an amazing woman. Who\'s raised some amazing kids."
+    nextNodeIndex: 39
+    idRef {
+      id: "5d8ac409643333640b006d70:5da299e16433336025007dd9"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da299606433336025007dd2"
+  }
+  index: 37
+  text: "{{GM}}Erika smiles. Is that...pride?{{/GM}}\n\nMaybe someday. But if that\'s the case, then it only highlights how young and idiotic I am still. How far I\'ve left to go. How far we *all* have left to go."
+  branches {
+    responseText: ""
+    nextNodeIndex: 38
+    idRef {
+      id: "5d8ac409643333640b006d70:5da299b76433336025007dd4"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da299b76433336025007dd7"
+  }
+  index: 38
+  text: "People are people, and stories are the same."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da299fa6433336025007ddc"
+  }
+  index: 39
+  text: "Don\'t flatter me too hard. I break.\n\n{{GM}}She winks at you.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 40
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29a276433336025007dde"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29a276433336025007de1"
+  }
+  index: 40
+  text: "Let\'s talk about something else, shall we?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29a316433336025007de3"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3ce176433337c2e007acb"
+  }
+  index: 41
+  text: "{{GM}}Erika puts a finger to her chin.{{/GM}}\n\nMaybe? I don\'t think so, though. Plenty of ways to get that kick that don\'t involve crime."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3cfa66433337c2e007ee7"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3cfb76433337c2e008015"
+  }
+  index: 42
+  text: "{{GM}}Erika smiles at you.{{/GM}}\n\nPicked up on that, did you? You\'re closer to the truth than you might think."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3cfe56433337c2e008017"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29b706433336025008233"
+  }
+  index: 43
+  text: "Of course. When you trespass with people it\'s one thing. Suddenly flash drives get involved and everything changes!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29ba06433336025008235"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29ace64333360250080bd"
+  }
+  index: 44
+  text: "Oh, you don\'t want to let him know that then.\n\nHe doesn\'t do well. Romantically, I mean. And I\'m not just saying that because I\'m his sister and ew, gross."
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29b4a643333602500813d"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da288e46433336025007a67"
+  }
+  index: 45
+  text: "All right. No skin off my back."
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da288f56433336025007a69"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da288fa6433336025007a6d"
+  }
+  index: 46
+  text: "All right. No skin off my back."
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da289036433336025007a6f"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29c4964333360250083be"
+  }
+  index: 47
+  text: "Mr. Big Time? What do you mean?"
+  branches {
+    responseText: "Is he really a good leader for this team?"
+    nextNodeIndex: 48
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29c5564333360250083c0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29c6064333360250083c3"
+  }
+  index: 48
+  text: "No, but I don\'t see anyone else stepping up to take the mantle on."
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d1156433337c2e0082ca"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29c7d64333360250083c6"
+  }
+  index: 49
+  text: "It started about fifteen...twenty years ago, maybe?\n\nThe list is named for the Wuqing Group, who published the original list, and continues to maintain it to this day."
+  branches {
+    responseText: ""
+    nextNodeIndex: 50
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29d0d6433336025008458"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29d0d643333602500845b"
+  }
+  index: 50
+  text: "The short version is that it\'s a list of the 50 most-influential individuals tied to Shanghai\'s shadow community. These can be shadowrunners, but also fixers, Johnsons, persons-of-interest."
+  branches {
+    responseText: ""
+    nextNodeIndex: 51
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a2376433336025008533"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a2376433336025008536"
+  }
+  index: 51
+  text: ""
+  branches {
+    responseText: "Who or what is the Wuqing Group?"
+    nextNodeIndex: 52
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29d71643333602500845d"
+    }
+  }
+  branches {
+    responseText: "What benefits does one gain from being on the List?"
+    nextNodeIndex: 55
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29f866433336025008508"
+    }
+  }
+  branches {
+    responseText: "How is it decided who gets put on the List?"
+    nextNodeIndex: 60
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a31d6433336025008829"
+    }
+  }
+  branches {
+    responseText: "Why would anyone in their right mind want to sacrifice their anonymity for it?"
+    nextNodeIndex: 64
+    hideIfUnavailable: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d1526433337c2e0084c6"
+    }
+  }
+  branches {
+    responseText: "Let\'s talk about something else."
+    nextNodeIndex: 80
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a3936433336025008a1d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub 2"
+}
+nodes {
+  idRef {
+    id: "5da29d806433336025008460"
+  }
+  index: 52
+  text: "No one knows, exactly. He, or she, or they are pseudo-anonymous Matrix lurker person...or community."
+  branches {
+    responseText: ""
+    nextNodeIndex: 53
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29dc06433336025008462"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29dc06433336025008465"
+  }
+  index: 53
+  text: "Some folks say they\'re just one guy in his mom\'s basement somewhere who tapped into a cultural zeitgeist. Others say it\'s just a bunch of people running an algorithm through a computer checking for metadata.\n\nRegardless, what they are is legitimate, in the eyes of the Shanghai community at large."
+  branches {
+    responseText: ""
+    nextNodeIndex: 54
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29e296433336025008467"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29e29643333602500846a"
+  }
+  index: 54
+  text: "All I can tell you for certain is that...being on the List grants...special privileges.\n\n{{GM}}She looks at you intently as she says it.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 51
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a2446433336025008609"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29fcc643333602500850b"
+  }
+  index: 55
+  text: "I don\'t know the full extent. Probably no one does unless you\'re actually on the List.\n\nBut my guess is that you\'re treated with a different level of respect than anyone is used to. Certainly in the West."
+  branches {
+    responseText: ""
+    nextNodeIndex: 56
+    idRef {
+      id: "5d8ac409643333640b006d70:5da29ff0643333602500850d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29ff06433336025008510"
+  }
+  index: 56
+  text: "Remember: Shanghai is a city that\'s still governed by the idea of \'face\'. Your reputation is more important than your immediate bottom line."
+  branches {
+    responseText: ""
+    nextNodeIndex: 57
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a02f6433336025008512"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a02f6433336025008515"
+  }
+  index: 57
+  text: "Being on the List opens certain doors that might otherwise be closed. Gun runners who sell to Listers have a pride about them. The bartender who serves a Lister will brag about it for years, and tell their children the stories of the person who drank a beer at their bar."
+  branches {
+    responseText: "That\'s silly. A gun runner should sell to whoever has the nuyen to pay for their goods."
+    nextNodeIndex: 58
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a0d66433336025008517"
+    }
+  }
+  branches {
+    responseText: "It makes a certain kind of sense. It\'s pride, but stretched out to an incredible level."
+    nextNodeIndex: 59
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a2a2643333602500874e"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a0fa643333602500851c"
+  }
+  index: 58
+  text: "And a person should sleep with whoever flatters them, right?\n\nBut that\'s not how it works. Capitalism isn\'t the end-all be-all here...for better or worse."
+  branches {
+    responseText: ""
+    nextNodeIndex: 59
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a192643333602500851e"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a1926433336025008521"
+  }
+  index: 59
+  text: "You can look at it this way if you want: the Wuqing List is a formalization of a process that has been running through Shanghai since before Christ walked the planet.\n\nIt is, in a way, the essence of the city."
+  branches {
+    responseText: ""
+    nextNodeIndex: 51
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a2d56433336025008750"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a3a76433336025008a20"
+  }
+  index: 60
+  text: "That\'s an interesting question.\n\nThe Wuqing Group has never answered it directly, but it seems to be tied to what they call \'impact\'."
+  branches {
+    responseText: ""
+    nextNodeIndex: 61
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a3cf6433336025008a22"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a3cf6433336025008a25"
+  }
+  index: 61
+  text: "Raw impact is easily measured; every time a runner is marked as being present on a run against a corporation, if that run has an effect on the stock markets, that is raw impact.\n\nBut then you have metadata, and that muddies the waters significantly."
+  branches {
+    responseText: ""
+    nextNodeIndex: 62
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a40a6433336025008a27"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a40a6433336025008a2a"
+  }
+  index: 62
+  text: "Any time a runner, a fixer, a Johnson gets mentioned by name or by association, all of that data is recorded on the Matrix. All of it can be archived, tracked, every click on every article measured.\n\nGod forbid someone makes a movie based on a real-life run, as has happened in Shanghai before."
+  branches {
+    responseText: ""
+    nextNodeIndex: 63
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a4636433336025008a2c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a4636433336025008a2f"
+  }
+  index: 63
+  text: "What the Wuqing Group claims to do is measure all of this data out by some kind of point system, weighing raw impact versus metadata, Matrix articles, and all the rest, and from there, publish a list of the fifty most influential members of the shadow community. Once every year.\n\nThe Wuqing List."
+  branches {
+    responseText: ""
+    nextNodeIndex: 51
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a4cc6433336025008adf"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d1736433337c2e0084c9"
+  }
+  index: 64
+  text: "I can see why you might ask that question. From a Western perspective, it sure as hell makes a lot of sense.\n\nBut a few things you\'ve got to remember:"
+  branches {
+    responseText: ""
+    nextNodeIndex: 65
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d18d6433337c2e0084cb"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d18d6433337c2e0084ce"
+  }
+  index: 65
+  text: "First, if you\'re a runner or a shadow-someone and you want to vanish for a while, there are a hundred cities for that.\n\nThe City of Lights is not that city."
+  branches {
+    responseText: ""
+    nextNodeIndex: 66
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d1b76433337c2e0084d0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d1b76433337c2e0084d3"
+  }
+  index: 66
+  text: "Secondly, Shanghai is wrapped up in the idea of \'Face.\'\n\nSo...what do you know about Face?"
+  branches {
+    responseText: "Not enough to say I understand it, I suppose."
+    nextNodeIndex: 67
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d1f06433337c2e0084d5"
+    }
+  }
+  branches {
+    responseText: "Isn\'t it, like, how important you are in the eyes of society?"
+    nextNodeIndex: 67
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d27d6433337c2e0084da"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{CC}}Academic{{/CC}}It\'s a predominantly Eastern value system that, in brief, gives weight to a person\'s social standing based on their social prestige and honor."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 18
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 77
+    hideIfUnavailable: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d27d6433337c2e0084dc"
+    }
+    comment: "academic"
+  }
+  branches {
+    responseText: "{{CC}}Shadowrunner{{/CC}}Well, the Face of a shadowrunning group is the one who deals with Mr. Johnson."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 17
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 79
+    hideIfUnavailable: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d2866433337c2e0084de"
+    }
+    comment: "shadowrunner"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d4dd6433337c2e008756"
+  }
+  index: 67
+  text: "In Western society, late-stage capitalism means selling as much of your product as you can to as many people. In the eyes of such a society, McDonalds won the burger wars back during the meat subsidy era, because they sold more burgers than anyone else.\n\nBut would anyone back then dare to argue that McDonalds made the best hamburger, when anyone could make them better in their back yard?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 68
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d5ff6433337c2e008764"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d5ff6433337c2e008767"
+  }
+  index: 68
+  text: "Face is the inverse of that concept. \"The best\" isn\'t defined by a bottom line, but by reputation."
+  branches {
+    responseText: "You mean gossip."
+    nextNodeIndex: 69
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d5c26433337c2e00875d"
+    }
+  }
+  branches {
+    responseText: "I see."
+    nextNodeIndex: 70
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d7986433337c2e00876b"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d7a36433337c2e00876e"
+  }
+  index: 69
+  text: "I mean reputation. Someone has to vouch for you.\n\nBut the producer, be they burgermeisters or artists or shadowrunners or whoever, also has to stick up for their own product."
+  branches {
+    responseText: ""
+    nextNodeIndex: 70
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d8696433337c2e008770"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d8696433337c2e008773"
+  }
+  index: 70
+  text: "And so, there\'s an element of pride and even braggadociousness to Face.\n\nIn Western markets, exclusivity is a death sentence. In Face markets, exclusivity is part of what determines value."
+  branches {
+    responseText: "I think I get it."
+    nextNodeIndex: 74
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d8df6433337c2e008775"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I still don\'t think I get it."
+    nextNodeIndex: 74
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d8e76433337c2e008777"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{CC}}Socialite{{/CC}}It sounds almost like the art market."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 16
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 71
+    hideIfUnavailable: true
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d8fd6433337c2e008779"
+    }
+    comment: "socialite"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d9296433337c2e00877c"
+  }
+  index: 71
+  text: "But even in art, there\'s a difference between the artists who put their work over PDA covers and coffee mugs..."
+  branches {
+    responseText: "...and the Mona Lisa."
+    nextNodeIndex: 72
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d9516433337c2e00877e"
+    }
+  }
+  branches {
+    responseText: "...and the Statue of David."
+    nextNodeIndex: 72
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d9646433337c2e008783"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "...and Rothko."
+    nextNodeIndex: 72
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d9656433337c2e008785"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "...and Gallagher."
+    nextNodeIndex: 76
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d9946433337c2e008787"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d9576433337c2e008781"
+  }
+  index: 72
+  text: "Exactly! In Western Capitalism, the definition of success is getting your art stamped on as many things and in as many homes as possible.\n\nBut can you see how, in a Face-based market, that\'s actually the opposite of what you want?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 73
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3da0b6433337c2e00878e"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3da0b6433337c2e008791"
+  }
+  index: 73
+  text: "You *want* the exclusivity. That means prestige, if that\'s what people believe about your product.\n\nThat means having your name out there."
+  branches {
+    responseText: ""
+    nextNodeIndex: 74
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3da506433337c2e008793"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3da506433337c2e008796"
+  }
+  index: 74
+  text: "In shadowrunning terms, the \'no one\' gets no work, while the runner on everyone\'s lips, you know can get the job done. Everyone knows they can get the job done.\n\nAnd all of the community is built around this."
+  branches {
+    responseText: ""
+    nextNodeIndex: 75
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3db0f6433337c2e0087b0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3db0f6433337c2e0087b3"
+  }
+  index: 75
+  text: " If a shadowrunner buys their stuff from a gun runner and that shadowrunner is on the Wuqing List, that gun runner\'s prestige just went up.\n\nIf that same gun runner just sells to whoever walks in demanding to buy from them, his Face goes down."
+  branches {
+    responseText: ""
+    nextNodeIndex: 51
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3dc9d6433337c2e008a81"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d9de6433337c2e00878a"
+  }
+  index: 76
+  text: "Yes! Well...maybe? I\'ll be honest, I don\'t know about Gallagher."
+  branches {
+    responseText: ""
+    nextNodeIndex: 73
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3dad56433337c2e0087a5"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d4996433337c2e008753"
+  }
+  index: 77
+  text: "\"--as dictated by the eyes of that society.\" A very key component. You can\'t just kick in a door and say, \"Look upon me and tremble, ye mortals!\"\n\nI mean, you *could*. But it wouldn\'t have the desired effect of giving you more Face."
+  branches {
+    responseText: ""
+    nextNodeIndex: 78
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3d4e66433337c2e008758"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3d4e66433337c2e00875b"
+  }
+  index: 78
+  text: "Someone has to vouch for you, and everyone just has to accept that that person, or those people, are authorities on the subject.\n\nAnd so there is an element of pride and braggadociousness to Face."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3dbab6433337c2e00894b"
+  }
+  index: 79
+  text: "Not the kind of Face we\'re talking about, but the idea can sort of be carried over."
+  branches {
+    responseText: ""
+    nextNodeIndex: 67
+    idRef {
+      id: "5d8ac409643333640b006d70:5da3dc6b6433337c2e008a7e"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da2a5336433336025008b25"
+  }
+  index: 80
+  text: "Okay. What do you want to know?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a5426433336025008b27"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da29c9464333360250083cb"
+  }
+  index: 81
+  text: "All right. Don\'t let me stop you!\n\n{{GM}}She long-presses on her headset, and the too-blue lenses flare back to life.{{/GM}}"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da285f464333360250079af"
+  }
+  index: 82
+  text: "No problem!\n\n{{GM}}Erika\'s focus vanishes back into the Matrix.{{/GM}}"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bad376433334429003d2c"
+  }
+  index: 83
+  text: "{{GM}}Erika long-presses on her headset, and the blue glow on her AR goggles dies once more.{{/GM}}\n\nYeah?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+    idRef {
+      id: "5d8ac409643333640b006d70:5da2a58f6433336025008e07"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5d3e81b066313608040028d5"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "54d13cee3063643c63004253"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5d8ac409643333640b006d70:5d8ac433643333640b006d78"
+  }
+  comment: "in cargo ship"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 10
+  idRef {
+    id: "5d8ac409643333640b006d70:5d9ba91f6433334429003c32"
+  }
+  comment: "in lobby"
+}

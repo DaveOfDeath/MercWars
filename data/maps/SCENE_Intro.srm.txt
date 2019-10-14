@@ -1,6 +1,6 @@
-minX: -105
+minX: -107
 minZ: -120
-numX: 160
+numX: 162
 numZ: 165
 props {
   name: "factory_floor_steelPlain"
@@ -1779,9 +1779,9 @@ props {
 props {
   name: "factory_wall_angledDoor01Mid"
   gridPoint {
-    x: -91
+    x: -107
     y: 0
-    z: 18
+    z: 13
   }
   orientation: ORIENTATION_E
   displayName: "obj_ConvoRoomDoor[EXIT]"
