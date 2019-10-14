@@ -1277,6 +1277,17 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "eWarpToMall"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -3647,8 +3658,8 @@ regions {
 regions {
   name: "MoveTarget_BelowDecks_BigTimeRunTo"
   position {
-    x: -89
-    y: 25
+    x: -90
+    y: 26
     width: 1
     height: 1
   }

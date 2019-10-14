@@ -38,7 +38,7 @@ nodes {
     }
   }
   branches {
-    responseText: "{{CC}}Shake his hand.{{/CC}}"
+    responseText: "{{GM}}Shake his hand.{{/GM}}"
     nextNodeIndex: 4
     idRef {
       id: "5d75a654663136c410005a0b:5d75a719663136c410005a20"

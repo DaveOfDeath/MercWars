@@ -221,9 +221,9 @@ nodes {
     id: "5d69e96b643333c41800128e"
   }
   index: 9
-  text: "{{GM}}He holds up the little data stick to the light, as if inspecting it for the first time.{{/GM}}\n\nI been keepin\' it quiet, but boys and girls, this wasn\'t just a job.\n\n...It was an audtition."
+  text: "{{GM}}He holds up the little data stick to the light, as if inspecting it for the first time.{{/GM}}\n\nBoys and girls, this wasn\'t just a job.\n\n...It was an audtition."
   branches {
-    responseText: "I take it we passed?"
+    responseText: "I take it we...passed?"
     nextNodeIndex: 10
     idRef {
       id: "5d4656816631360410000c33:5d69e98e643333c418001290"
@@ -252,7 +252,7 @@ nodes {
     id: "5d69ea31643333c418001297"
   }
   index: 10
-  text: "This, my friends, means we\342\200\231re headed for the BIG TIME now! I\'m talkn\' bigcorp smash n\342\200\231 grabs. I\'m talkin\' a real fixer. Shady-type! Johnsons n\342\200\231 drek! I\342\200\231m talkin\342\200\231 meetings in the back rooms of the club! I\342\200\231m talkin\342\200\231 *top shelf*! I\342\200\231m talkin\342\200\231 the Wuqing List, know what I mean?"
+  text: "This, my friends, means we\342\200\231re headed for the BIG TIME now! I\'m talkn\' bigcorp smash n\342\200\231 grabs. I\'m talkin\' a real fixer. Shady-type! Johnsons n\342\200\231 drek!\n\nI\342\200\231m talkin\342\200\231 meetings in the back rooms of the club! I\342\200\231m talkin\342\200\231 *top shelf*! I\342\200\231m talkin\342\200\231 the Wuqing List, know what I mean?"
   branches {
     responseText: ""
     nextNodeIndex: 11
@@ -758,10 +758,109 @@ nodes {
   }
   nodeType: ConversationNodeType_GM_Voice
 }
+nodes {
+  idRef {
+    id: "5da3303064333304180083ff"
+  }
+  index: 28
+  text: "All right. You ready to head out and make some nuyen?"
+  branches {
+    responseText: "Just a second. I want to talk to the others."
+    nextNodeIndex: 29
+    idRef {
+      id: "5d4656816631360410000c33:5da3303f6433330418008401"
+    }
+  }
+  branches {
+    responseText: "Let\'s do this."
+    nextNodeIndex: 30
+    idRef {
+      id: "5d4656816631360410000c33:5da3303f6433330418008403"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da33065643333041800845b"
+  }
+  index: 29
+  text: "All right, but make it quick. Night\'s burning."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da3307e643333041800845e"
+  }
+  index: 30
+  text: "The ship\'s PA system announces the completion of the docking procedures, first in Mandarin, then in English, and would you please depart in an orderly fashion and have a nice day."
+  branches {
+    responseText: ""
+    nextNodeIndex: 31
+    idRef {
+      id: "5d4656816631360410000c33:5da3313a6433330418008460"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  actions {
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ambient_subway"
+          }
+          args {
+            string_value: "SubwayArrive"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5da3313a6433330418008463"
+  }
+  index: 31
+  text: "This is gonna be the start of something great, my friend!\n\nI can feel it."
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "No Effect"
+    }
+  }
+}
 roots {
   responseText: ""
   nextNodeIndex: 0
+  hideIfUnavailable: true
+  onlyOnce: true
   idRef {
     id: "5d4656816631360410000c33:5d69df6e643333c418001222"
   }
+  comment: "intro conversation"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 28
+  idRef {
+    id: "5d4656816631360410000c33:5da3301b64333304180083fc"
+  }
+  comment: "BigTime Below Decks -- leave belowship"
 }

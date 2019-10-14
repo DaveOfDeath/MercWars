@@ -51081,9 +51081,9 @@ props {
 props {
   name: "system_gizmo_audio"
   gridPoint {
-    x: -81
+    x: -91
     y: 0
-    z: -27
+    z: 15
   }
   orientation: ORIENTATION_S
   idRef {
@@ -51097,7 +51097,7 @@ props {
     min_volume: 0
     max_volume: 1
     min_radius: 1
-    max_radius: 15
+    max_radius: 8
     crossfade_in_time: 1
     crossfade_out_time: 1
     music_fade_volume: 1

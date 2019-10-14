@@ -7,10 +7,28 @@ nodes {
     id: "5d75bccd66313680160059aa"
   }
   index: 0
-  text: "{{GM}}Surrender, Or Die.{{/GM}}"
+  text: "ATTENTION: THIS IS A SANCTIONED ACTION UNDER CORPORATION CODE SIXTEEN TWENTY-ONE, SUBSECTION D: AUTHORIZATION OF HIGH-THREAT RESPONSE.\n\nALL CIVILIANS ARE TO STAND DOWN. SHADOWRUNNERS: LAY DOWN YOUR WEAPONS."
   branches {
     responseText: ""
     nextNodeIndex: 1
+    idRef {
+      id: "5d75bcc266313680160059a2:5da325db64333304180079aa"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b9506631368016005994"
+  }
+}
+nodes {
+  idRef {
+    id: "5da325db64333304180079ad"
+  }
+  index: 1
+  text: "...OR DON\'T.\n\nIT\'S MORE FUN THAT WAY."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
     idRef {
       id: "5d75bcc266313680160059a2:5d75bce066313680160059ac"
     }
@@ -24,16 +42,16 @@ nodes {
   idRef {
     id: "5d75bce066313680160059af"
   }
-  index: 1
-  text: "{{GM}}From clear across the plaza, you can see him trembling, completely frozen in place.{{/GM}}"
+  index: 2
+  text: "From clear across the plaza, you can see Tommy, Big Time, frozen in place and surrounded by very large weapons and a lot of moving body armor."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     idRef {
       id: "5d75bcc266313680160059a2:5d75bd0d66313680160059b1"
     }
   }
-  nodeType: ConversationNodeType_Simple
+  nodeType: ConversationNodeType_GM_Voice
   sourceInSceneRef {
     id: "5d3e80a666313608040028d4"
   }
@@ -42,11 +60,11 @@ nodes {
   idRef {
     id: "5d75bd0d66313680160059b4"
   }
-  index: 2
-  text: "{{GM}}The jackpoint Erika is plugged into sparks, and begins smoking.   Erika\'s eye roll up into her head, and she collapses{{/GM}}"
+  index: 3
+  text: "{{GM}}The jackpoint Erika is plugged into sparks, and begins smoking. She looks up--at you, perhaps--but just then, the blue glow of her AR lenses flickers, and dies.\n\nYou watch her eyes roll up into her head, and she collapses.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 3
+    nextNodeIndex: 4
     idRef {
       id: "5d75bcc266313680160059a2:5d75bd4566313680160059b8"
     }
@@ -173,11 +191,11 @@ nodes {
   idRef {
     id: "5d75bd4566313680160059bb"
   }
-  index: 3
-  text: "ERIKA!\n\n{{GM}}Jean-Paul takes a half a step towards Erika, and the drone opens fire on him.{{/GM}}"
+  index: 4
+  text: "ERIKA! Wait, we\'re--\n\n{{GM}}Jean-Paul takes a half a step towards Erika, and the drone immediately opens fire on him.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 4
+    nextNodeIndex: 5
     idRef {
       id: "5d75bcc266313680160059a2:5d75bd7d66313680160059bd"
     }
@@ -191,11 +209,11 @@ nodes {
   idRef {
     id: "5d75bd7d66313680160059c0"
   }
-  index: 4
+  index: 5
   text: ""
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 6
     idRef {
       id: "5d75bcc266313680160059a2:5d75be7f66313680160059dc"
     }
@@ -285,11 +303,11 @@ nodes {
   idRef {
     id: "5d75be7f66313680160059df"
   }
-  index: 5
-  text: "{{GM}}Big Time throws up his hands.{{/GM}}\n\nFor fuck sake, that\'s his siste..."
+  index: 6
+  text: "{{GM}}Big Time throws up his hands.{{/GM}}\n\nOh god, oh god, wait wait wait w-"
   branches {
     responseText: ""
-    nextNodeIndex: 6
+    nextNodeIndex: 7
     idRef {
       id: "5d75bcc266313680160059a2:5d75beac66313680160059e1"
     }
@@ -303,11 +321,11 @@ nodes {
   idRef {
     id: "5d75beac66313680160059e4"
   }
-  index: 6
-  text: "{{GM}}She fires here taser into Big Time{{/GM}}"
+  index: 7
+  text: "{{GM}}She fires her taser into Big Time. Tommy the Ork, Big Time, the team leader, goes down.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 7
+    nextNodeIndex: 8
     idRef {
       id: "5d75bcc266313680160059a2:5d75bed366313680160059e6"
     }
@@ -400,13 +418,49 @@ nodes {
   idRef {
     id: "5d75bed366313680160059e9"
   }
-  index: 7
-  text: "Spread out.  There was one more on the travel bulletin."
+  index: 8
+  text: "Lieutenant, I only count three perps."
   branches {
     responseText: ""
-    nextNodeIndex: 8
+    nextNodeIndex: 9
     idRef {
-      id: "5d75bcc266313680160059a2:5d75beff66313680160059eb"
+      id: "5d75bcc266313680160059a2:5da3278664333304180079c1"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b9506631368016005994"
+  }
+}
+nodes {
+  idRef {
+    id: "5da3278664333304180079c4"
+  }
+  index: 9
+  text: "Tracking...\n\n{{GM}}He puts two fingers to the side of his helmet.{{/GM}}\n\n...Cameras show the fourth one leaving a few minutes ago. Probably rabbiting, ma\'am."
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5d75bcc266313680160059a2:5da327cc64333304180079ca"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b8bd6631368016005992"
+  }
+}
+nodes {
+  idRef {
+    id: "5da327cc64333304180079cd"
+  }
+  index: 10
+  text: "If you find them, you find them. If not, corporate will be happy with these. I\'m not interested in a lengthy and costly pursuit.\n\nFan out, secure the area, load the bodies in the basket. And take pictures of anything the drone might\'ve hit; gonna be paperwork involved."
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    idRef {
+      id: "5d75bcc266313680160059a2:5da3294c64333304180079d3"
     }
   }
   nodeType: ConversationNodeType_Simple
@@ -418,8 +472,8 @@ nodes {
   idRef {
     id: "5d75beff66313680160059ee"
   }
-  index: 8
-  text: "Within seconds, your team is dead or captured.\n\nIt\'s time to get out of here."
+  index: 11
+  text: "I want us ready to go in five minutes, tops. MOVE IT."
   nodeType: ConversationNodeType_GM_Voice
   actions {
     ops {
