@@ -437,10 +437,46 @@ nodes {
     id: "5d75bed366313680160059e9"
   }
   index: 9
-  text: "Lieutenant, I only count three perps."
+  text: "{{GM}}The captain surveys the scene, numb to the smell of charred flesh and gore.{{/GM}}\n\n...Lieutenant?"
   branches {
     responseText: ""
     nextNodeIndex: 10
+    idRef {
+      id: "5d75bcc266313680160059a2:5da67dd4643333f42c0079a8"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b9506631368016005994"
+  }
+}
+nodes {
+  idRef {
+    id: "5da67dd4643333f42c0079ab"
+  }
+  index: 10
+  text: "Ma\'am?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    idRef {
+      id: "5d75bcc266313680160059a2:5da67e06643333f42c0079d8"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b8bd6631368016005992"
+  }
+}
+nodes {
+  idRef {
+    id: "5da67e06643333f42c0079db"
+  }
+  index: 11
+  text: "I only count three perps. There should be a fourth, yes?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
     idRef {
       id: "5d75bcc266313680160059a2:5da3278664333304180079c1"
     }
@@ -454,11 +490,11 @@ nodes {
   idRef {
     id: "5da3278664333304180079c4"
   }
-  index: 10
+  index: 12
   text: "Tracking...\n\n{{GM}}He puts two fingers to the side of his helmet.{{/GM}}\n\n...Cameras show the fourth one leaving a few minutes ago. Probably rabbiting, ma\'am."
   branches {
     responseText: ""
-    nextNodeIndex: 11
+    nextNodeIndex: 13
     idRef {
       id: "5d75bcc266313680160059a2:5da327cc64333304180079ca"
     }
@@ -472,11 +508,11 @@ nodes {
   idRef {
     id: "5da327cc64333304180079cd"
   }
-  index: 11
+  index: 13
   text: "If you find them, you find them. If not, corporate will be happy with these. I\'m not interested in a lengthy and costly pursuit.\n\nFan out, secure the area, load the bodies in the basket. And take pictures of anything the drone might\'ve hit; gonna be paperwork involved."
   branches {
     responseText: ""
-    nextNodeIndex: 12
+    nextNodeIndex: 14
     idRef {
       id: "5d75bcc266313680160059a2:5da3294c64333304180079d3"
     }
@@ -490,9 +526,30 @@ nodes {
   idRef {
     id: "5d75beff66313680160059ee"
   }
-  index: 12
-  text: "I want us ready to go in five minutes, tops. MOVE IT."
+  index: 14
+  text: "I want us ready to go in five minutes, tops.\n\nMOVE IT."
+  branches {
+    responseText: ""
+    nextNodeIndex: 15
+    idRef {
+      id: "5d75bcc266313680160059a2:5da67e61643333f42c007a25"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5d75b9506631368016005994"
+  }
+}
+nodes {
+  idRef {
+    id: "5d75bcc266313680160059a2:5da67e69643333f42c007a2a"
+  }
+  index: 15
+  text: "The security begins to shuffle off in various directions. They appear to not have noticed you yet."
   nodeType: ConversationNodeType_GM_Voice
+  sourceInSceneRef {
+    id: "5d75b9506631368016005994"
+  }
   actions {
     ops {
       functionName: "Set Goal Status"
