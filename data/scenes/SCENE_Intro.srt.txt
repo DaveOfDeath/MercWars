@@ -4046,11 +4046,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -61
+    x: -66
     y: 1.4901161e-009
-    z: -63
+    z: -59
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   displayName: "Contact"
   idRef {
     id: "5d759124663136a80c0048d8"
@@ -4420,7 +4420,7 @@ characters {
   }
   lod: 0
   character_instance {
-    prefab_name: "Seattle:Lonestar/HumanFemaleLonestarCaptain"
+    prefab_name: "Berlin:KnightErrants/ElfFemaleKnightErrant"
     character_sheet_id: "Errant_Lv5_Captain"
     character_mod {
       stats {
@@ -4492,7 +4492,7 @@ characters {
     GeneralTags: "isGuard"
     pc_spawn_number: -1
     portrait {
-      filename: "npc_elffemale_absinthe"
+      filename: "generic_humanmale_knighterrant"
     }
     karma: 207
   }

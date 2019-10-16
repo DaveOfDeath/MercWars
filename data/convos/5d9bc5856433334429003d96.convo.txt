@@ -20,7 +20,7 @@ nodes {
   }
   branches {
     responseText: ""
-    nextNodeIndex: 50
+    nextNodeIndex: 54
     idRef {
       id: "5d9bc5856433334429003d96:5d9bc5ce6433334429003da8"
     }
@@ -60,14 +60,14 @@ nodes {
   }
   branches {
     responseText: "Can I ask you about something?"
-    nextNodeIndex: 27
+    nextNodeIndex: 30
     idRef {
       id: "5d9bc5856433334429003d96:5da5ea8c643333601a007bfb"
     }
   }
   branches {
     responseText: "I\'ll leave you alone."
-    nextNodeIndex: 49
+    nextNodeIndex: 53
     idRef {
       id: "5d9bc5856433334429003d96:5da5ea91643333601a007bfd"
     }
@@ -97,7 +97,7 @@ nodes {
   }
   branches {
     responseText: "You seem pretty shook for a practiced criminal."
-    nextNodeIndex: 16
+    nextNodeIndex: 19
     idRef {
       id: "5d9bc5856433334429003d96:5da5e511643333601a007a48"
     }
@@ -134,7 +134,7 @@ nodes {
   text: "Would it make the story any less relevant if I wasn\'t?\n\n...Let\'s talk about something else."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da668c8643333601a008ac4"
     }
@@ -150,7 +150,7 @@ nodes {
   text: "Sure. Shoot."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da6689c643333601a00898b"
     }
@@ -208,7 +208,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 14
+    nextNodeIndex: 17
     hideIfUnavailable: true
     idRef {
       id: "5d9bc5856433334429003d96:5da5e24f643333601a0079f6"
@@ -297,11 +297,61 @@ nodes {
   }
   index: 13
   text: "Don\'t you get it? This isn\'t a team.\n\nWe\'re a walking disaster waiting to happen."
+  branches {
+    responseText: "Don\'t sell yourself short."
+    conditions {
+      ops {
+        functionName: "Compare Actor Race"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Race"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 14
+    hideIfUnavailable: true
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d31643333601a009147"
+    }
+  }
+  branches {
+    responseText: "I want to ask you about something else."
+    nextNodeIndex: 16
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d39643333601a009165"
+    }
+  }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5da5e283643333601a0079fc"
+    id: "5d9bc5856433334429003d96:5da66d31643333601a009149"
   }
   index: 14
   text: "Har, har. \'Short\'. Aren\'t you just a barrel of laughs."
@@ -309,12 +359,75 @@ nodes {
     responseText: "Oh god, I\'m sorry! I didn\'t even think about that phrase."
     nextNodeIndex: 15
     idRef {
-      id: "5d9bc5856433334429003d96:5da5e30f643333601a007a39"
+      id: "5d9bc5856433334429003d96:5da66d31643333601a00914b"
     }
   }
   branches {
     responseText: "I\'m just trying to lighten the mood."
     nextNodeIndex: 15
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d31643333601a009153"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I was joking, but I mean it. You\'re a valuable member of the team."
+    nextNodeIndex: 8
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d31643333601a009157"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5d9bc5856433334429003d96:5da66d31643333601a00914d"
+  }
+  index: 15
+  text: "Yeah, whatever.\n\nAssuming you didn\'t come here to make bad puns, was there something you wanted to talk about?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 31
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d31643333601a00914f"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da66d49643333601a009168"
+  }
+  index: 16
+  text: "Sure. Shoot."
+  branches {
+    responseText: ""
+    nextNodeIndex: 31
+    idRef {
+      id: "5d9bc5856433334429003d96:5da66d56643333601a0091e4"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da5e283643333601a0079fc"
+  }
+  index: 17
+  text: "Har, har. \'Short\'. Aren\'t you just a barrel of laughs."
+  branches {
+    responseText: "Oh god, I\'m sorry! I didn\'t even think about that phrase."
+    nextNodeIndex: 18
+    idRef {
+      id: "5d9bc5856433334429003d96:5da5e30f643333601a007a39"
+    }
+  }
+  branches {
+    responseText: "I\'m just trying to lighten the mood."
+    nextNodeIndex: 18
     idRef {
       id: "5d9bc5856433334429003d96:5da5e310643333601a007a3b"
     }
@@ -334,11 +447,11 @@ nodes {
   idRef {
     id: "5da668f0643333601a008cbb"
   }
-  index: 15
+  index: 18
   text: "Yeah, whatever.\n\nAssuming you didn\'t come here to make bad puns, was there something you wanted to talk about?"
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da66920643333601a008cbd"
     }
@@ -350,25 +463,25 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a56"
   }
-  index: 16
+  index: 19
   text: "{{GM}}He jabs a stubby finger at you, eyes wide.{{/GM}}\n\nYou\'re damn right, I\'m \'shook\'! You should be, too!\n\nThis run was a MISTAKE!"
   branches {
     responseText: "Think about the pay. We\'re getting good nuyen for this run!"
-    nextNodeIndex: 17
+    nextNodeIndex: 20
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a58"
     }
   }
   branches {
     responseText: "Jobs like this always lead to more work. That\'s what we need right now!"
-    nextNodeIndex: 18
+    nextNodeIndex: 21
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a60"
     }
   }
   branches {
     responseText: "I thought you were all about hurting the megas. This is a strong step in that direction."
-    nextNodeIndex: 19
+    nextNodeIndex: 22
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a68"
     }
@@ -379,11 +492,11 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a5a"
   }
-  index: 17
+  index: 20
   text: "And how much is it worth, huh? How much is a good night\'s sleep worth to you? A hundred nuyen? Five hundred?"
   branches {
     responseText: ""
-    nextNodeIndex: 19
+    nextNodeIndex: 22
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a5c"
     }
@@ -395,11 +508,11 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a62"
   }
-  index: 18
+  index: 21
   text: "What we need right now is to lay low and hope we can get out of this mess."
   branches {
     responseText: ""
-    nextNodeIndex: 19
+    nextNodeIndex: 22
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a64"
     }
@@ -411,11 +524,11 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a6a"
   }
-  index: 19
+  index: 22
   text: "Don\'t get me wrong; I\'m all about giving all the biggest middle fingers to the megas that I can. They are nothing but a blight on society. Trust me, I know!\n\nBut there\'s a line that gets crossed, and people get stupid. People get hurt. People get disappeared."
   branches {
     responseText: ""
-    nextNodeIndex: 20
+    nextNodeIndex: 23
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a6c"
     }
@@ -426,25 +539,25 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a6e"
   }
-  index: 20
+  index: 23
   text: "If you think there is a way of winning that game once you\'ve started playing it, you\'re deluding yourself.\n\nYou\'re playing against people who have teams of people on call so they can win it, and on the off-chance you happen to get a leg up on them, they decide it\'s time they can ignore the rules, bribe the refs, and then they break all those middle fingers for the fun of it."
   branches {
     responseText: "I didn\'t know you were so defeatist."
-    nextNodeIndex: 21
+    nextNodeIndex: 24
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a70"
     }
   }
   branches {
     responseText: "You sound like you know more about this than you let on."
-    nextNodeIndex: 25
+    nextNodeIndex: 28
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a84"
     }
   }
   branches {
     responseText: "I\'d like to ask you about something else."
-    nextNodeIndex: 26
+    nextNodeIndex: 29
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a8c"
     }
@@ -455,11 +568,11 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a72"
   }
-  index: 21
+  index: 24
   text: "I prefer \'realistic\'. I\'ve been there. I\'ve seen what happens to those people.\n\nAs long as we\'re the kids throwing spitballs from the back of the class, everyone has a good laugh, and then everyone moves on."
   branches {
     responseText: ""
-    nextNodeIndex: 22
+    nextNodeIndex: 25
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a74"
     }
@@ -470,18 +583,18 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a76"
   }
-  index: 22
+  index: 25
   text: "But what we just did--or rather, what \"Big Time\" over there just did, painted a big giant target on our backs.\n\nTargets that don\'t wash off in the shower."
   branches {
     responseText: "You really think HTs might get involved?"
-    nextNodeIndex: 23
+    nextNodeIndex: 26
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a78"
     }
   }
   branches {
     responseText: "Let\'s talk about something else."
-    nextNodeIndex: 24
+    nextNodeIndex: 27
     idRef {
       id: "5d9bc5856433334429003d96:5da6671f643333601a0088ab"
     }
@@ -492,7 +605,7 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a7a"
   }
-  index: 23
+  index: 26
   text: "That\'s the scary part: I don\'t know.\n\nWhat did we take, for instance. How much was it worth? Was it something the corp decides is worth calling heat to keep from dropping?"
   nodeType: ConversationNodeType_Simple
 }
@@ -500,11 +613,11 @@ nodes {
   idRef {
     id: "5da6672a643333601a0088ae"
   }
-  index: 24
+  index: 27
   text: "Sure. Shoot."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da66731643333601a0088b0"
     }
@@ -516,11 +629,11 @@ nodes {
   idRef {
     id: "5d9bc5856433334429003d96:5da5e613643333601a007a86"
   }
-  index: 25
+  index: 28
   text: "{{GM}}He looks you dead in the eye.{{/GM}}\n\nI\'ve been a lot closer to those places than most who run the shadows. I\'m intimately acquainted with what it takes to \'beat\' the corps."
   branches {
     responseText: ""
-    nextNodeIndex: 22
+    nextNodeIndex: 25
     idRef {
       id: "5d9bc5856433334429003d96:5da5e613643333601a007a88"
     }
@@ -532,11 +645,11 @@ nodes {
   idRef {
     id: "5da6674c643333601a0088b4"
   }
-  index: 26
+  index: 29
   text: "Sure. Shoot."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da66752643333601a0088b6"
     }
@@ -548,11 +661,11 @@ nodes {
   idRef {
     id: "5da5ec90643333601a007d6a"
   }
-  index: 27
+  index: 30
   text: "Sure. Shoot."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5ec99643333601a007d6c"
     }
@@ -563,11 +676,11 @@ nodes {
   idRef {
     id: "5da5ec99643333601a007d6f"
   }
-  index: 28
+  index: 31
   text: ""
   branches {
     responseText: "What do you know about High-Threat Response Teams?"
-    nextNodeIndex: 29
+    nextNodeIndex: 32
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -576,7 +689,7 @@ nodes {
   }
   branches {
     responseText: "What got you into this? Why crime?"
-    nextNodeIndex: 34
+    nextNodeIndex: 37
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -585,7 +698,7 @@ nodes {
   }
   branches {
     responseText: "What do you do when you\'re not, uh...doing crime?"
-    nextNodeIndex: 40
+    nextNodeIndex: 43
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -594,7 +707,7 @@ nodes {
   }
   branches {
     responseText: "What exactly would you say your spot is in this crew?"
-    nextNodeIndex: 45
+    nextNodeIndex: 48
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -603,7 +716,7 @@ nodes {
   }
   branches {
     responseText: "I\'ll leave you alone."
-    nextNodeIndex: 49
+    nextNodeIndex: 53
     idRef {
       id: "5d9bc5856433334429003d96:5da5ede4643333601a007e60"
     }
@@ -616,18 +729,18 @@ nodes {
   idRef {
     id: "5da5f12f643333601a007f4b"
   }
-  index: 29
+  index: 32
   text: "I know you don\'t want to fuck with them.\n\n...More than that, I\'ve actually seen them."
   branches {
     responseText: "If they\'re as strong as you say, how are you still standing here?"
-    nextNodeIndex: 30
+    nextNodeIndex: 33
     idRef {
       id: "5d9bc5856433334429003d96:5da5f142643333601a007f4d"
     }
   }
   branches {
     responseText: "Really? When?"
-    nextNodeIndex: 33
+    nextNodeIndex: 36
     idRef {
       id: "5d9bc5856433334429003d96:5da5f145643333601a007f4f"
     }
@@ -638,11 +751,11 @@ nodes {
   idRef {
     id: "5da5f165643333601a007f52"
   }
-  index: 30
+  index: 33
   text: "{{GM}}Jean-Paul rolls his eyes.{{/GM}}\n\nBecause I wasn\'t in the process of stealing corporate data at the time."
   branches {
     responseText: ""
-    nextNodeIndex: 31
+    nextNodeIndex: 34
     idRef {
       id: "5d9bc5856433334429003d96:5da5f205643333601a007f5b"
     }
@@ -653,11 +766,11 @@ nodes {
   idRef {
     id: "5da5f205643333601a007f5e"
   }
-  index: 31
+  index: 34
   text: "Contrary to popular belief, HTRTs don\'t jump straight to the \"shoot everyone, let God sort it out\" mentality that\'s been attributed to them.\n\nThey\'re not the riot police, nor the Gestapo. They\'re not the mob\'s enforcers."
   branches {
     responseText: ""
-    nextNodeIndex: 32
+    nextNodeIndex: 35
     idRef {
       id: "5d9bc5856433334429003d96:5da5f1b4643333601a007f54"
     }
@@ -668,11 +781,11 @@ nodes {
   idRef {
     id: "5da5f1b4643333601a007f57"
   }
-  index: 32
+  index: 35
   text: "They are a targeted measure, meant to deal with the kind of criminals that get sent to hit their clients: small teams of experienced individuals."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5f2d8643333601a008089"
     }
@@ -684,11 +797,11 @@ nodes {
   idRef {
     id: "5da5f285643333601a008087"
   }
-  index: 33
+  index: 36
   text: "Not something I like to talk about. All you need to know is that they are as efficient as the trids say."
   branches {
     responseText: ""
-    nextNodeIndex: 31
+    nextNodeIndex: 34
     idRef {
       id: "5d9bc5856433334429003d96:5da5f2ec643333601a0080d0"
     }
@@ -700,11 +813,11 @@ nodes {
   idRef {
     id: "5da5ee1b643333601a007e63"
   }
-  index: 34
+  index: 37
   text: "The same thing that\'s driven me most of my life:\n\nAnger."
   branches {
     responseText: ""
-    nextNodeIndex: 35
+    nextNodeIndex: 38
     idRef {
       id: "5d9bc5856433334429003d96:5da5ee60643333601a007e65"
     }
@@ -715,18 +828,18 @@ nodes {
   idRef {
     id: "5da5ee60643333601a007e68"
   }
-  index: 35
-  text: "Oh, I tried to deal with it, get rid of it, bury it. Some things worked better than others...yoga, meditation, therapy, vacations.\n\nLet me tell you this: you can run from your demons, but you will run from them all your life if that\'s the choice you make."
+  index: 38
+  text: "I tried to deal with it, get rid of it, bury it. Some things worked better than others...yoga, meditation, therapy, vacations.\n\nLet me tell you this: you can run from your demons, but you will run from them all your life if that\'s the choice you make."
   branches {
     responseText: "So what did you do?"
-    nextNodeIndex: 36
+    nextNodeIndex: 39
     idRef {
       id: "5d9bc5856433334429003d96:5da5eec5643333601a007e6a"
     }
   }
   branches {
     responseText: "You still seem...pretty angry."
-    nextNodeIndex: 36
+    nextNodeIndex: 39
     idRef {
       id: "5d9bc5856433334429003d96:5da5eec6643333601a007e6c"
     }
@@ -734,14 +847,14 @@ nodes {
   }
   branches {
     responseText: "Why this crew then? Why Tommy?"
-    nextNodeIndex: 39
+    nextNodeIndex: 42
     idRef {
       id: "5d9bc5856433334429003d96:5da5ef6a643333601a007e72"
     }
   }
   branches {
     responseText: "{{GM}}Say nothing.{{/GM}}"
-    nextNodeIndex: 36
+    nextNodeIndex: 39
     idRef {
       id: "5d9bc5856433334429003d96:5da5ef22643333601a007e70"
     }
@@ -753,11 +866,11 @@ nodes {
   idRef {
     id: "5da5efaa643333601a007e7a"
   }
-  index: 36
-  text: "I only truly found peace with myself when I learned to accept my anger. Rather than snuff it out, I learned how to direct it.\n\nRather than break mirrors, put holes in walls, and rip apart pillows, I chose this: breaking into buildings and fucking with their drek."
+  index: 39
+  text: "I only truly found peace with myself when I learned to accept my anger. Rather than snuff it out, I learned how to direct it.\n\nRather than break mirrors, put holes in walls, and rip apart pillows, I chose this: breaking into corpo buildings and mucking with their drek."
   branches {
     responseText: ""
-    nextNodeIndex: 37
+    nextNodeIndex: 40
     idRef {
       id: "5d9bc5856433334429003d96:5da5f044643333601a007e85"
     }
@@ -768,11 +881,11 @@ nodes {
   idRef {
     id: "5da5f047643333601a007e88"
   }
-  index: 37
-  text: "Of course I know it\'s all an illusion. I\'m not hurting anyone. Erika would stop me if it looked like that was the case.\n\nShe\'s my moral compass in all of this."
+  index: 40
+  text: "Of course I know it\'s all an illusion. I\'m not hurting anyone. Erika would stop me if that was the case.\n\nShe\'s the moral compass in all of this."
   branches {
     responseText: ""
-    nextNodeIndex: 38
+    nextNodeIndex: 41
     idRef {
       id: "5d9bc5856433334429003d96:5da5f0e0643333601a007eb9"
     }
@@ -783,11 +896,11 @@ nodes {
   idRef {
     id: "5da5f0e0643333601a007ebc"
   }
-  index: 38
-  text: "I get my feelings of smug superiority, the corps have their hair ruffled but ultimately nothing changes, and everyone walks away happier at the end of the day.\n\nThat\'s the way the game is played...if you want to stay alive. You can\'t do that if you do stuff to get the HTs called on you."
+  index: 41
+  text: "I get my feelings of smug superiority, the corps have their hair mussed, but ultimately nothing changes, and everyone walks away happier at the end of the day.\n\nThat\'s the way the game is played...if you want to stay alive. You can\'t do that if you do stuff to get the HTs called on you."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5f0c2643333601a007e8a"
     }
@@ -799,11 +912,11 @@ nodes {
   idRef {
     id: "5da5ef8c643333601a007e77"
   }
-  index: 39
+  index: 42
   text: "Because he let me have the illusion that I was making a difference without hurting anyone."
   branches {
     responseText: ""
-    nextNodeIndex: 36
+    nextNodeIndex: 39
     idRef {
       id: "5d9bc5856433334429003d96:5da5f01e643333601a007e7e"
     }
@@ -815,18 +928,18 @@ nodes {
   idRef {
     id: "5da5f425643333601a00820f"
   }
-  index: 40
-  text: "I\'m thinking about doing crime. Or watch trids about other people doing crime. Or reading about how people did crime.\n\nAnd when I\'m not doing those, I\'m reminding myself why what we do is important."
+  index: 43
+  text: "I\'m thinking about doing crime. Or watch trids about other people doing crime! Or reading about how people did crime!\n\nAnd when I\'m not doing those, I\'m reminding myself why what we do is important."
   branches {
     responseText: "And why is it important, exactly?"
-    nextNodeIndex: 41
+    nextNodeIndex: 44
     idRef {
       id: "5d9bc5856433334429003d96:5da5f466643333601a008211"
     }
   }
   branches {
     responseText: "Interesting...but let\'s talk about something else."
-    nextNodeIndex: 44
+    nextNodeIndex: 47
     idRef {
       id: "5d9bc5856433334429003d96:5da5f466643333601a008213"
     }
@@ -837,11 +950,11 @@ nodes {
   idRef {
     id: "5da5f49c643333601a008310"
   }
-  index: 41
+  index: 44
   text: "To remind ourselves, and other people, that the corps aren\'t invulnerable. Billboards can be scrambled, doors can be opened, people can be duped.\n\nEven dragons are not infallible."
   branches {
     responseText: ""
-    nextNodeIndex: 42
+    nextNodeIndex: 45
     idRef {
       id: "5d9bc5856433334429003d96:5da5f724643333601a008318"
     }
@@ -852,11 +965,11 @@ nodes {
   idRef {
     id: "5da5f9aa643333601a0083fa"
   }
-  index: 42
-  text: "To the ordinary folks in the Matrix, we\'re that kind of catharsis, offering a view from the city that most will never see, like the urban explorers used to.\n\nWe go where they can\'t, do what they won\'t, and let them have that experience themselves, and for the rare few crazies out there, remind them that they can, too."
+  index: 45
+  text: "To the ordinary folks in the Matrix, we\'re that kind of catharsis, offering a view from the city that most will never see, like the urban explorers used to.\n\nWe go where they can\'t, do what they won\'t, and let them have that experience themselves, and for the rare few crazies out there, remind them that they can, too!"
   branches {
     responseText: ""
-    nextNodeIndex: 43
+    nextNodeIndex: 46
     idRef {
       id: "5d9bc5856433334429003d96:5da5fa2c643333601a0083fc"
     }
@@ -867,11 +980,11 @@ nodes {
   idRef {
     id: "5da5fa2c643333601a0083ff"
   }
-  index: 43
-  text: "That\'s why Erika\'s drone footage is so important! It\'s not enough to just DO this kind of breaking and entering and corporate trespassing, but to do it visibly.\n\nIn that way, you\'re not just laughing at the corps; you\'re an integral part of a movement."
+  index: 46
+  text: "That\'s why Erika\'s drone footage is so important! It\'s not enough to just DO this kind of breaking and entering and corporate trespassing, but to do it visibly!\n\nIn that way, you\'re not just laughing at the corps; you\'re an integral part of a movement!"
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5fab7643333601a008401"
     }
@@ -883,11 +996,11 @@ nodes {
   idRef {
     id: "5da5f485643333601a008218"
   }
-  index: 44
+  index: 47
   text: "All right. My ears are yours."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5f492643333601a00826e"
     }
@@ -899,11 +1012,11 @@ nodes {
   idRef {
     id: "5da5f8ea643333601a0083ed"
   }
-  index: 45
+  index: 48
   text: "I\'m the insurance policy. If Erika\'s decking was to somehow fail, and Tommy couldn\'t sweet talk us out, I\'m the last resort.\n\nI\'m the part of a team you never want, but always need. And we\'ve been lucky enough to not need me."
   branches {
     responseText: ""
-    nextNodeIndex: 46
+    nextNodeIndex: 49
     idRef {
       id: "5d9bc5856433334429003d96:5da5f8ed643333601a0083ef"
     }
@@ -914,11 +1027,11 @@ nodes {
   idRef {
     id: "5da5f789643333601a008325"
   }
-  index: 46
+  index: 49
   text: "Because I\'m also the guy on this...\'team\', who scouts out the next target. And that\'s 90% of crime.\n\nI can walk into a corp\'s public lobby and tell you the weakest spots of security in about five minutes. Give me an hour, and I\'ll tell you how high or how deep I think we can get in any given arcology."
   branches {
     responseText: ""
-    nextNodeIndex: 47
+    nextNodeIndex: 50
     idRef {
       id: "5d9bc5856433334429003d96:5da5f7dc643333601a008327"
     }
@@ -929,11 +1042,11 @@ nodes {
   idRef {
     id: "5da5f7dc643333601a00832a"
   }
-  index: 47
+  index: 50
   text: "Give me someone like Erika on the grid and about a week of research and legwork, I can plan out a run; in, out, and gone before anyone\'s the wiser. I know corporate structure and security inside and out. I\'ve lived with it all my life."
   branches {
     responseText: ""
-    nextNodeIndex: 48
+    nextNodeIndex: 51
     idRef {
       id: "5d9bc5856433334429003d96:5da5f875643333601a008332"
     }
@@ -944,11 +1057,26 @@ nodes {
   idRef {
     id: "5da5f875643333601a008335"
   }
-  index: 48
-  text: "However, what I can\'t do is account for surprises sprung on me by my own team, like, hey, we downloaded a bunch of files while we were on the isolated grid for some payer we have no idea who he is, and now we\'ve got a flash drive of sensitive corporate information, and we\'re in a boat with no way to go to ground.\n\nWhich reminds me...I didn\'t select this target. Tommy gave it to me, and I did the legwork for him."
+  index: 51
+  text: "However, what I can\'t do is account for surprises sprung on me by my own team, like, hey, we downloaded a bunch of files while we were on the isolated grid for some payer we have no idea who he is...\n\nAnd now we\'ve got a flash drive of sensitive corporate information, and we\'re in a boat with no way to go to ground."
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 52
+    idRef {
+      id: "5d9bc5856433334429003d96:5da67727643333601a009a66"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da67727643333601a009a69"
+  }
+  index: 52
+  text: "Which reminds me...I didn\'t select this target. Tommy did. I just did the legwork for it.\n\n{{GM}}He glances over towards the ork.{{/GM}}\n\nI should\'ve known. I should\'ve guessed it. And now we\'re all fragged."
+  branches {
+    responseText: ""
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5fbc5643333601a008525"
     }
@@ -960,19 +1088,19 @@ nodes {
   idRef {
     id: "5da5ecb5643333601a007d72"
   }
-  index: 49
-  text: "{{GM}}He nods.{{/GM}}\n\nJust hope we get out of this all right."
+  index: 53
+  text: "{{GM}}He nods.{{/GM}}\n\nI\'ll be here if you need me."
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
     id: "5da5fd8a643333601a008650"
   }
-  index: 50
+  index: 54
   text: "Yeah?\n\nYou got something else you wanna ask?"
   branches {
     responseText: ""
-    nextNodeIndex: 28
+    nextNodeIndex: 31
     idRef {
       id: "5d9bc5856433334429003d96:5da5fd8f643333601a008652"
     }
@@ -984,11 +1112,11 @@ nodes {
   idRef {
     id: "5d9bc5e66433334429003dab"
   }
-  index: 51
+  index: 55
   text: ""
   branches {
     responseText: ""
-    nextNodeIndex: 52
+    nextNodeIndex: 56
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -998,7 +1126,7 @@ nodes {
   }
   branches {
     responseText: ""
-    nextNodeIndex: 56
+    nextNodeIndex: 60
     idRef {
       id: "5d9bc5856433334429003d96:5d9bc5e86433334429003daf"
     }
@@ -1010,18 +1138,18 @@ nodes {
   idRef {
     id: "5da3dd836433337c2e009030"
   }
-  index: 52
+  index: 56
   text: "Yeah? What is it?"
   branches {
     responseText: "I just want to ask you a question or two while we\'ve got a second."
-    nextNodeIndex: 53
+    nextNodeIndex: 57
     idRef {
       id: "5d9bc5856433334429003d96:5da3ddf76433337c2e009032"
     }
   }
   branches {
     responseText: "I should get going."
-    nextNodeIndex: 55
+    nextNodeIndex: 59
     idRef {
       id: "5d9bc5856433334429003d96:5da3ddf86433337c2e009036"
     }
@@ -1032,11 +1160,11 @@ nodes {
   idRef {
     id: "5da3deee6433337c2e0090be"
   }
-  index: 53
+  index: 57
   text: "Sorry, but it\'s my turn to keep an eye out.\n\nErika\'s was back in the boat, and now I\'m up."
   branches {
     responseText: ""
-    nextNodeIndex: 54
+    nextNodeIndex: 58
     idRef {
       id: "5d9bc5856433334429003d96:5da3df396433337c2e0090c0"
     }
@@ -1047,7 +1175,7 @@ nodes {
   idRef {
     id: "5da3df396433337c2e0090c3"
   }
-  index: 54
+  index: 58
   text: "{{GM}}Jean-Paul shakes his head slowly, but you hear him mutter to himself as he looks around the lobby.{{/GM}}\n\n...whole fraggin\' thing was a mistake..."
   nodeType: ConversationNodeType_Simple
 }
@@ -1055,7 +1183,7 @@ nodes {
   idRef {
     id: "5da3de086433337c2e009039"
   }
-  index: 55
+  index: 59
   text: "Yeah, probably not a bad idea.\n\nI got a bad feeling about this."
   nodeType: ConversationNodeType_Simple
 }
@@ -1063,7 +1191,7 @@ nodes {
   idRef {
     id: "5da3de136433337c2e00903c"
   }
-  index: 56
+  index: 60
   text: "Look, come talk to me when all this is done. I\'ve gotta keep a lookout, so I\'m not really in a good place for a friendly chat right now."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -1136,7 +1264,7 @@ roots {
 }
 roots {
   responseText: ""
-  nextNodeIndex: 51
+  nextNodeIndex: 55
   idRef {
     id: "5d9bc5856433334429003d96:5d9bc5a26433334429003da1"
   }

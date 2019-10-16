@@ -1,7 +1,7 @@
 idRef {
   id: "5d8ac409643333640b006d70"
 }
-ui_name: "INTRO_ErikaV1"
+ui_name: "INTRO_Erika"
 nodes {
   idRef {
     id: "5d8ac433643333640b006d7b"
@@ -259,6 +259,8 @@ nodes {
   branches {
     responseText: "What do you think about Tommy?"
     nextNodeIndex: 47
+    hideIfUnavailable: true
+    onlyOnce: true
     idRef {
       id: "5d8ac409643333640b006d70:5da286a364333360250079bb"
     }
@@ -1070,6 +1072,7 @@ nodes {
     responseText: "Why would anyone in their right mind want to sacrifice their anonymity for it?"
     nextNodeIndex: 64
     hideIfUnavailable: true
+    onlyOnce: true
     idRef {
       id: "5d8ac409643333640b006d70:5da3d1526433337c2e0084c6"
     }
@@ -1321,6 +1324,8 @@ nodes {
   branches {
     responseText: "Isn\'t it, like, how important you are in the eyes of society?"
     nextNodeIndex: 67
+    hideIfUnavailable: true
+    onlyOnce: true
     idRef {
       id: "5d8ac409643333640b006d70:5da3d27d6433337c2e0084da"
     }
@@ -1667,7 +1672,7 @@ nodes {
     id: "5da3db0f6433337c2e0087b3"
   }
   index: 75
-  text: " If a shadowrunner buys their stuff from a gun runner and that shadowrunner is on the Wuqing List, that gun runner\'s prestige just went up.\n\nIf that same gun runner just sells to whoever walks in demanding to buy from them, his Face goes down."
+  text: "If a shadowrunner buys their stuff from a gun runner and that shadowrunner is on the Wuqing List, that gun runner\'s prestige just went up.\n\nIf that same gun runner just sells to whoever walks in demanding to buy from them, his Face goes down."
   branches {
     responseText: ""
     nextNodeIndex: 51

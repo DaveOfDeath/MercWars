@@ -1,7 +1,7 @@
 idRef {
   id: "5d9b644f64333344290036f5"
 }
-ui_name: "INTRO_CrewBelowDecksV2"
+ui_name: "INTRO_BigTime"
 nodes {
   idRef {
     id: "5d9b645e64333344290036fd"
@@ -268,7 +268,7 @@ nodes {
     id: "5d9b73fb643333442900373f"
   }
   index: 4
-  text: "I\'m talking Big...TIME!\n\nSee, this wasn\'t just a joyride like Hong Kong. While Erika was mucking around in their Matrix systems and mucking up the digital billboard, I had her download a file or two."
+  text: "I\'m talking Big TIME!\n\nSee, this wasn\'t just a joyride like Hong Kong. While Erika was mucking around in their Matrix systems and mucking up the digital billboard, I had her download a file or two."
   branches {
     responseText: ""
     nextNodeIndex: 5
@@ -304,7 +304,7 @@ nodes {
     id: "5d9b74a66433334429003746"
   }
   index: 6
-  text: "Don\'t know. Didn\'t ask.\n\nCheck this: guy saw our Hong Kong blast on the Matrix, and he contacted me; said we do this for him, he\'d get us in with the real shadows of Shanghai.\n\nI\'m talkin\' meetings at the club, back room. I\'m talkin\' top shelf. I\'m talkin\' Wuqing List. I\'m talkin\' Big. TIME! Fixer. And big time pay! Real work! Profesh, know what I\'m saying?"
+  text: "Don\'t know. Didn\'t ask.\n\nCheck this: guy saw our Hong Kong blast on the Matrix, and he contacted me; said we do this for him, he\'d get us in with the real shadows of Shanghai.\n\nI\'m talkin\' meetings at the club, back room. I\'m talkin\' top shelf. I\'m talkin\' Wuqing List. I\'m talkin\' Big Time Fixer. And big time pay! Real work! Profesh, know what I\'m saying?"
   branches {
     responseText: "About time! Fun runs don\'t feed the belly."
     nextNodeIndex: 7
@@ -764,7 +764,7 @@ nodes {
     id: "5d9b9dab6433334429003aa5"
   }
   index: 23
-  text: "Now that\'s what I\'m talking about!\n\nBig! Time!"
+  text: "Now that\'s what I\'m talking about!\n\nBig! TIME!"
   branches {
     responseText: ""
     nextNodeIndex: 24
@@ -1004,7 +1004,7 @@ nodes {
     id: "5d9b9dd76433334429003aaf"
   }
   index: 29
-  text: "Aw c\'mon. Think about it! This is how the game works! This is where we want to be!\n\nBig! Time!"
+  text: "Aw c\'mon. Think about it! This is how the game works! This is where we want to be!\n\nBig! TIME!"
   branches {
     responseText: ""
     nextNodeIndex: 24
@@ -1301,7 +1301,7 @@ nodes {
     id: "5d4656816631360410000c33:5da332006433330418008636"
   }
   index: 39
-  text: "The ship\'s PA system announces the completion of the docking procedures in English and Mandarin Chinese, and if you would please depart in an orderly fashion, and have a nice day."
+  text: "The ship\'s PA system announces the completion of the docking procedures in English and Mandarin Chinese, and if you would please depart in an orderly fashion, and have a nice day!"
   branches {
     responseText: ""
     nextNodeIndex: 40
@@ -1349,6 +1349,14 @@ nodes {
   text: "Ah man, here we go!\n\nThis is gonna be the start of something great, my friend! I can feel it."
   nodeType: ConversationNodeType_Simple
 }
+nodes {
+  idRef {
+    id: "5da67881643333601a009ef5"
+  }
+  index: 41
+  text: "Thanks again for doing this.\n\nWe\'re gonna go far, you and me...just you wait and see!"
+  nodeType: ConversationNodeType_Simple
+}
 roots {
   nextNodeIndex: 0
   hideIfUnavailable: true
@@ -1360,9 +1368,56 @@ roots {
 }
 roots {
   responseText: ""
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5d3e80a666313608040028d4"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "54d13cee3063643c63004253"
+          }
+        }
+      }
+    }
+  }
   nextNodeIndex: 37
   idRef {
     id: "5d4656816631360410000c33:5da33200643333041800862c"
   }
   comment: "BigTime Below Decks -- leave belowship"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 41
+  idRef {
+    id: "5d9b644f64333344290036f5:5da6780c643333601a009d58"
+  }
+  comment: "in lobby"
 }

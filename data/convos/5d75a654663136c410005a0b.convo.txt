@@ -171,10 +171,22 @@ nodes {
     }
   }
   nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "No Effect"
+}
+nodes {
+  idRef {
+    id: "5d75ad62663136c410005a6b"
+  }
+  index: 7
+  text: "{{GM}}He hands you a credstick wrapped in paper.{{/GM}}\n\nYour...point of contact is there. Destroy it when you\'re finished."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5d75a654663136c410005a0b:5d75b582663136c410005c68"
     }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
     ops {
       functionName: "Add Item to Actor"
       args {
@@ -230,21 +242,6 @@ nodes {
       }
     }
   }
-}
-nodes {
-  idRef {
-    id: "5d75ad62663136c410005a6b"
-  }
-  index: 7
-  text: "{{GM}}The credstick in your hand is wrapped in paper.{{/GM}}\n\nYour...point of contact is there. Destroy it when you\'re finished."
-  branches {
-    responseText: ""
-    nextNodeIndex: 8
-    idRef {
-      id: "5d75a654663136c410005a0b:5d75b582663136c410005c68"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
@@ -307,7 +304,22 @@ nodes {
     id: "5d75acbe663136c410005a56"
   }
   index: 11
-  text: "{{GM}}He rolls his eyes, and opens his other hand, revealing a certified credstick.{{/GM}}\n\nHow predictable.  Now... My drive, if you please?"
+  text: "Of course.\n\n{{GM}}He rolls his eyes, and opens his other hand, revealing a certified credstick.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+    idRef {
+      id: "5d75a654663136c410005a0b:5da67ae5643333601a00a38e"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da67ae5643333601a00a391"
+  }
+  index: 12
+  text: " Now...The drive, if you please?"
   branches {
     responseText: ""
     nextNodeIndex: 5
