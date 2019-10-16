@@ -83,7 +83,7 @@ nodes {
     id: "5d75abfc663136c410005a48"
   }
   index: 4
-  text: "{{GM}}He recoils, once he feels the handshake.{{/GM}}\n\nI do not fraternize with the help.   I just want the drive."
+  text: "{{GM}}He recoils, once he feels the handshake.{{/GM}}\n\nJust the drive.\n\nPlease."
   branches {
     responseText: ""
     nextNodeIndex: 5
@@ -147,7 +147,7 @@ nodes {
   }
   branches {
     responseText: "Let\'s see the cred-stick first."
-    nextNodeIndex: 9
+    nextNodeIndex: 11
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -162,7 +162,7 @@ nodes {
     id: "5d75ad01663136c410005a66"
   }
   index: 6
-  text: "Thank you.  \n\n{{GM}}He hands you the credstick from his other hand, and plugs the drive into a small nearly featureless box. After a moment, a single LED glows green.{{/GM}}\n\nData is complete, and intact.   Well done."
+  text: "Thank you.  \n\n{{GM}}He hands you the credstick from his other hand, and plugs the drive into a small nearly featureless box. After a moment, a single LED glows green.{{/GM}}\n\nData is complete, and intact."
   branches {
     responseText: ""
     nextNodeIndex: 7
@@ -236,7 +236,7 @@ nodes {
     id: "5d75ad62663136c410005a6b"
   }
   index: 7
-  text: "{{GM}}He gestures to the credstick in your hand.{{/GM}}\n\nYour contact point for all future communications are on the credstick.\n\nThank you."
+  text: "{{GM}}The credstick in your hand is wrapped in paper.{{/GM}}\n\nYour...point of contact is there. Destroy it when you\'re finished."
   branches {
     responseText: ""
     nextNodeIndex: 8
@@ -251,14 +251,62 @@ nodes {
     id: "5d75b582663136c410005c6b"
   }
   index: 8
-  text: "{{GM}}He pockets the drive.{{/GM}}\n\nNow, if you will excuse me... I have business elsewhere.  Good Day."
+  text: "{{GM}}He pockets the drive and conspicuously raises his voice.{{/GM}}\n\nNow, if you will excuse me...I have business elsewhere. Good Day."
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+    idRef {
+      id: "5d75a654663136c410005a0b:5da66b73643333601a009051"
+    }
+  }
   nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5da66b73643333601a009054"
+  }
+  index: 9
+  text: ""
+  branches {
+    responseText: "{{GM}}Unwrap the credstick.{{/GM}}"
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5d75a654663136c410005a0b:5da66ae0643333601a009047"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Pocket the credstick, paper and all, and walk away.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "5d75a654663136c410005a0b:5da66ae0643333601a009049"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "loopback"
+}
+nodes {
+  idRef {
+    id: "5da66b02643333601a00904c"
+  }
+  index: 10
+  text: "The paper is slightly crumpled, and has written in pencil graphite a vidphone number and three letters:\n\n\"MFI\"\n\nThe number has a Seattle area code."
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+    idRef {
+      id: "5d75a654663136c410005a0b:5da66b7e643333601a009059"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_GM_Voice
 }
 nodes {
   idRef {
     id: "5d75acbe663136c410005a56"
   }
-  index: 9
+  index: 11
   text: "{{GM}}He rolls his eyes, and opens his other hand, revealing a certified credstick.{{/GM}}\n\nHow predictable.  Now... My drive, if you please?"
   branches {
     responseText: ""
