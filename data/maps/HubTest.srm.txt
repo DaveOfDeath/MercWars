@@ -81699,7 +81699,7 @@ props {
   gridPoint {
     x: 61
     y: 0
-    z: 180
+    z: 178
   }
   orientation: ORIENTATION_S
   idRef {

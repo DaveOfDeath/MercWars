@@ -107,12 +107,36 @@ variables {
     }
   }
 }
+variables {
+  name: "sSceneCaption"
+  typeName: "string"
+  defaultValue {
+    string_value: "Extra Bits Here?"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "sSceneCaption"
+      typeName: "string"
+    }
+  }
+}
+variables {
+  name: "sSceneDetails"
+  typeName: "string"
+  defaultValue {
+    string_value: "Blerb-y Bits about detail-y stuffs?"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "sSceneDetails"
+      typeName: "string"
+    }
+  }
+}
 description: "[BLERB]\n\nStuff about the mod?"
 startScene: "MarketPlace-YuyuGarden"
 allowCharacterImport: false
 allowImportedEquipment: false
 allowCharacterGen: true
-storyKarmaLevel: 50
+storyKarmaLevel: 45
 resalePercent: 40
 upgradeToThreeApLevel: 117
 upgradeToFourApLevel: -1

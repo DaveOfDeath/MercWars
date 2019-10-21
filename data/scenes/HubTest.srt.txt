@@ -896,6 +896,64 @@ regions {
   combat_outro_stinger: ""
   vfx_fill_prefab_name: ""
 }
+regions {
+  name: "cExterior"
+  position {
+    x: -46
+    y: 139
+    width: 118
+    height: 106
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5dad2665663136b4160009d9"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
@@ -906,6 +964,28 @@ characters {
   orientation: ORIENTATION_E
   idRef {
     id: "5c9aa0ae3666321c12002cd0"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 0
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: 31
+    y: 0
+    z: 202
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5dad265a663136b4160009d8"
   }
   lod: 0
   character_instance {
@@ -937,9 +1017,9 @@ worldMapLocation {
 }
 mapName: "HubTest"
 parentStory: ""
-scene_title: "New Scene"
+scene_title: "HUB - $(story.sSceneCaption)"
 scene_subtitle: ""
-scene_synopsis: ""
+scene_synopsis: "$(story.sSceneDetails)"
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -990,8 +1070,6 @@ team_affiliations {
 scene_dimensions {
   dimension_name: "Default"
 }
-character_roster {
-}
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
   prereq_description: ""
@@ -1000,7 +1078,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 25
+hiring_maximum_karma: 0
 roster_overrides {
 }
 use_hiring_cost_warning: false
@@ -1009,6 +1087,6 @@ override_hiring_average_cost: false
 show_equip_screen_on_scene_load: false
 is_persistant: false
 is_persistant_has_value: false
-can_move_outside_camera_regions: true
+can_move_outside_camera_regions: false
 can_start_before_triggers: true
 can_use_team_advancement: false
