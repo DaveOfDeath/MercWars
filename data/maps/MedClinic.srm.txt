@@ -4594,7 +4594,7 @@ props {
 props {
   name: "sushibar_furniture_foodcounter03"
   gridPoint {
-    x: -2
+    x: -3
     y: 0
     z: -66.9
   }
@@ -4604,22 +4604,9 @@ props {
 props {
   name: "sushibar_furniture_foodcounter03"
   gridPoint {
-    x: -2.1
-    y: 0
-    z: -69.9
-  }
-  orientation: ORIENTATION_W
-  idRef {
-    id: "5cea1810643366282c001405"
-  }
-  lod: 0
-}
-props {
-  name: "sushibar_furniture_foodcounter03"
-  gridPoint {
-    x: -2.1
-    y: 0
-    z: -68.700005
+    x: -2.8999999
+    y: 0.3
+    z: -68.4
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4630,7 +4617,7 @@ props {
 props {
   name: "sushibar_furniture_foodcounter03"
   gridPoint {
-    x: 0
+    x: -1
     y: 0
     z: -66.9
   }
@@ -4686,9 +4673,9 @@ props {
 props {
   name: "secretLab_furniture_officeChair"
   gridPoint {
-    x: -1
+    x: -2
     y: 0
-    z: -68.4
+    z: -67.700005
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -4896,19 +4883,6 @@ props {
   lod: 0
 }
 props {
-  name: "museum_wall_bookcase02"
-  gridPoint {
-    x: -0.90000027
-    y: 0.1
-    z: -70.1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5cecbe0f6433660818001de2"
-  }
-  lod: 0
-}
-props {
   name: "secretLab_magic_bookPedestal"
   gridPoint {
     x: -4.2
@@ -5014,7 +4988,7 @@ props {
 props {
   name: "office_decor_flowerVase02"
   gridPoint {
-    x: -2.1999998
+    x: -3.1999998
     y: 1
     z: -66.7
   }
@@ -5598,7 +5572,7 @@ props {
 props {
   name: "sleekOffice_tech_terminal01"
   gridPoint {
-    x: -2.1
+    x: -3.1
     y: 1
     z: -68.1
   }
@@ -5608,7 +5582,7 @@ props {
 props {
   name: "sleekOffice_tech_terminal01_light"
   gridPoint {
-    x: -2.1
+    x: -3.1
     y: 1
     z: -68.1
   }
@@ -5648,9 +5622,9 @@ props {
 props {
   name: "sleekOffice_lighting_deskLamp01"
   gridPoint {
-    x: -1.6999998
-    y: 1
-    z: -68.799995
+    x: -2.6999998
+    y: 1.3
+    z: -68.6
   }
   orientation: ORIENTATION_N
   idRef {
@@ -5661,7 +5635,7 @@ props {
 props {
   name: "sleekOffice_lighting_deskLamp01"
   gridPoint {
-    x: 1.3000002
+    x: 0.30000019
     y: 1
     z: -66.799995
   }
@@ -14804,6 +14778,91 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5d12b33f663136501b005f4e"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_storage_polyCabinet01"
+  gridPoint {
+    x: -0.7
+    y: 0.2
+    z: -69.5
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "sleekOffice_storage_polyCabinet02"
+  gridPoint {
+    x: -2.2
+    y: 0.2
+    z: -69.5
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "sushibar_furniture_foodcounter03"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -66.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dad2bd66631361416001af7"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_furniture_officeChair"
+  gridPoint {
+    x: 0.3
+    y: 0
+    z: -68
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dad2bdb6631361416001af8"
+  }
+  lod: 0
+}
+props {
+  name: "office_tech_computer01"
+  gridPoint {
+    x: 1.1999998
+    y: 1
+    z: -66.9
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dad2bf16631361416001afa"
+  }
+  lod: 0
+}
+props {
+  name: "office_tech_computer01"
+  gridPoint {
+    x: -1.3000002
+    y: 1.1
+    z: -66.8
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dad2bf36631361416001afb"
+  }
+  lod: 0
+}
+props {
+  name: "sushibar_furniture_foodcounter03"
+  gridPoint {
+    x: -2.8999999
+    y: 0.3
+    z: -69.500008
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dad2c106631361416001afc"
   }
   lod: 0
 }
