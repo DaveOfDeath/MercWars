@@ -39778,3 +39778,16 @@ props {
   }
   lod: 0
 }
+props {
+  name: "hub_ground_dockPlate01"
+  gridPoint {
+    x: -119
+    y: 0
+    z: 208
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dba1853643333a82e003cfc"
+  }
+  lod: 0
+}

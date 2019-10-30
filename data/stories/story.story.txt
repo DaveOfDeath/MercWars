@@ -51,7 +51,7 @@ variables {
   name: "sHUBDescription"
   typeName: "string"
   defaultValue {
-    string_value: "The air around the market place pratically buzzes with the electricty coursing through the multitude of neon lights.  The smells of the fish market, mixed with the stenches of overcrowding are dampened, but not eliminated by the heavy rains."
+    string_value: "The number were given didn\342\200\231t answer when you called. And so you step out of the Riverwalk and into Shanghai proper.\n\nShanghai. The enemy of sleep. Even at this hour, you can see people milling around in dark rain jackets, trying to eke out an existence between the ocean of yellowed lights and the city\342\200\231s rain-slicked streets. Muffled megaphones blast instructions and announcements to the throng from every corner and every passing bus, punctuated by the fading wail of an ambulance siren somewhere in the distance\342\200\246\n"
     variableref_value {
       scope: TsVariableScope_Story
       name: "sHUBDescription"
@@ -131,7 +131,7 @@ variables {
     }
   }
 }
-description: "[BLERB]\n\nStuff about the mod?"
+description: "SHANGHAI - 2059. Dubbed \342\200\234the Enemy of Sleep\342\200\235, the city\342\200\231s wash of bright lights cast deep and dark shadows, within which networks and communities form, creating their own hierarchies, rules, and history. Here, a name can have as much power as cred, and a whisper can carry farther than a shout, but what rises must fall, and everything has a cost."
 startScene: "MarketPlace-YuyuGarden"
 allowCharacterImport: false
 allowImportedEquipment: false

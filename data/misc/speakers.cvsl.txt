@@ -38,3 +38,13 @@ speakers {
   last_name: "Hendrickson"
   id: "5a80c7ca3438318c050079c6"
 }
+speakers {
+  description: "MFI"
+  speaker_name: "Mr. Fix-It"
+  speaker_portrait: "backer_elfmale_matthendrickson"
+  race: Race_None
+  gender: Gender_Male
+  first_name: ""
+  last_name: ""
+  id: "5db9db0b6433339424005297"
+}

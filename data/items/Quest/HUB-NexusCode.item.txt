@@ -1,0 +1,8 @@
+id: "HUB-NexusCode"
+type: ItemType_QuestItem
+uirep {
+  name: "Nexus Login Code"
+  description: "A gibberish string of numbers and letters that will let you set up an account with Shanghai\'s digital board, Nexus.\n"
+}
+credentials: 0
+sorting_group: "Quest"

@@ -1,0 +1,354 @@
+idRef {
+  id: "5db9d8ba643333942400523c"
+}
+ui_name: "HUB_MFI.intro"
+nodes {
+  idRef {
+    id: "5db9d8e86433339424005248"
+  }
+  index: 0
+  text: "Staring--no, glaring at you through the screen of your PDA is one haggard elf, eyes bloodshot and groggy. He coughs the sleep phlegm from his throat and instantly launches into a roar of frustration."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5db9d8ba643333942400523c:5db9e21c643333942400530b"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5db9e21c643333942400530e"
+  }
+  index: 1
+  text: "Do you have ANY idea what FRAGGIN\' time it is here?\n\nJust who the HELL do you think YOU ARE?"
+  branches {
+    responseText: "My name\'s Tommy. My friends call me Big Time, and-"
+    nextNodeIndex: 2
+    idRef {
+      id: "5db9d8ba643333942400523c:5db9e22f6433339424005310"
+    }
+  }
+  branches {
+    responseText: "I go by $(s.name). I hear you\'re the guy to go to for work."
+    nextNodeIndex: 17
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba0f386433339424005345"
+    }
+  }
+  branches {
+    responseText: "I\'m the answer to all your problems, baby."
+    nextNodeIndex: 18
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba0f396433339424005347"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
+}
+nodes {
+  idRef {
+    id: "5dba0fea643333942400534c"
+  }
+  index: 2
+  text: "Don\'t care. Your infernal buzzing woke my ass up, and so YOUR ass now OWES mine!\n\nAnd I am going to CLAIM that debt. You hear me?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba10896433339424005357"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
+}
+nodes {
+  idRef {
+    id: "5dba1089643333942400535a"
+  }
+  index: 3
+  text: ""
+  branches {
+    responseText: "I\'m sorry. I think we got off to a bad start here. Let\'s try this again."
+    nextNodeIndex: 4
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba104f643333942400534e"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I might have the wrong number."
+    nextNodeIndex: 4
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba104f6433339424005350"
+    }
+  }
+  branches {
+    responseText: "Loud and clear, chief."
+    nextNodeIndex: 4
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba104f6433339424005352"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "defork"
+}
+nodes {
+  idRef {
+    id: "5dba11276433339424005393"
+  }
+  index: 4
+  text: "Can it, drekstain! Because you\'ve got some work to do, and a lot of money to make me.\n\nSo, where are you operating out of?"
+  branches {
+    responseText: "Right now, I\'m in Shanghai."
+    nextNodeIndex: 5
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba12196433339424005395"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba122e643333942400539f"
+  }
+  index: 5
+  text: "Ugh. Of all the places..!\n\n...All right. Here\'s how this works. Shanghai\'s got a digital board called Nexus. You can access it off the Shanghai LTG, right next to the Shadowlands BBS gateway. Log in to Nexus with the code I push to your PDA after we hang up here, and it\'ll get you set up with an account."
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba143b64333394240053a1"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba143b64333394240053a4"
+  }
+  index: 6
+  text: "When I got work for you, you\'ll see the message pinned to the board. It\'ll have all the deets: who, what, where, how much pay, all that.\n\nYou see a job you can handle, you call me, and we\'ll set up the run."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1c93643333a82e003d94"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1c93643333a82e003d97"
+  }
+  index: 7
+  text: "Work is first-come, first-serve, so if you don\'t take a job fast enough, don\'t expect it to stick around forever. Plenty of warm bodies in that city eager to make some nuyen."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba14be64333394240053b3"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba14be64333394240053b6"
+  }
+  index: 8
+  text: ""
+  branches {
+    responseText: "How much of a cut am I getting?"
+    nextNodeIndex: 9
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba14a964333394240053a6"
+    }
+  }
+  branches {
+    responseText: "Where am I supposed to get Matrix access?"
+    nextNodeIndex: 11
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba14aa64333394240053a8"
+    }
+  }
+  branches {
+    responseText: "I\'m used to talking to the Johnson myself. I want to know who I\'m working for."
+    nextNodeIndex: 13
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba14aa64333394240053aa"
+    }
+  }
+  branches {
+    responseText: "Well, I guess I\'ll look for someplace to hunker up and log in."
+    nextNodeIndex: 15
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1b6a643333a82e003d70"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "convo loopback"
+}
+nodes {
+  idRef {
+    id: "5dba14b264333394240053ad"
+  }
+  index: 9
+  text: "{{GM}}Mr. Fix-It scoffs indignantly.{{/GM}}\n\nAs much as I feel like giving you!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1a41643333a82e003d4b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1a41643333a82e003d4e"
+  }
+  index: 10
+  text: "If you wanna \'negotiate your salary\' or whatever, go apply at an arcology.\n\nYou wanna work the shadows, you deal with me."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1a77643333a82e003d50"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba15a864333394240053bd"
+  }
+  index: 11
+  text: "Do I LOOK like a TOUR GUIDE to you?\n\nI don\'t care where you get your access from. Ice a bum for some cred, hit up a cybercafe, makes no difference to me."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba161764333394240053bf"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba161764333394240053c2"
+  }
+  index: 12
+  text: "You want work, it\'ll be on the board."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1a7c643333a82e003d69"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1b22643333a82e003d6e"
+  }
+  index: 13
+  text: "What do you think this is, some kinda meet n\' greet? Some kinda \'hey everybody, let\'s meet at the shady-ass bar\' kinda deal?\n\nI handle all that stuff. That\'s why they pay me the BIG bucks."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1bba643333a82e003d72"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1bba643333a82e003d75"
+  }
+  index: 14
+  text: "You just worry about getting the job done!\n\nJob gets done. I get paid. Then YOU get paid. And everbody\'s happy."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1bf6643333a82e003d77"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1c1a643333a82e003d7c"
+  }
+  index: 15
+  text: "Good, cuz I don\'t have time to play 20 Questions with every $(l.race) that comes calling for handouts.\n\nEspecially when they call in the MIDDLE of the NIGHT!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 16
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba1ce0643333a82e003daf"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba1ce0643333a82e003db2"
+  }
+  index: 16
+  text: "Incoming login code.\n\nDon\'t call me again until you\'re ready to actually do some FRAGGIN\' work."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba10986433339424005368"
+  }
+  index: 17
+  text: "Somebody\'s got a big fraggin\' mouth then, sounds like they need my FOOT in it. Because your buzzing woke my ass up, and so YOUR ass now OWES mine!\n\nAnd I am going to CLAIM that debt. You hear me?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba10d56433339424005372"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dba10e06433339424005376"
+  }
+  index: 18
+  text: "Are you? Because the only problem I have is that I was in the middle of a nice, relaxing sleep when your BUZZING me woke my ass up! So as far as I\'m concerned, YOUR ass now OWES mine!\n\nAnd I am going to CLAIM that debt. You hear me?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5db9d8ba643333942400523c:5dba111a6433339424005378"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5db9d8ba643333942400523c:5db9d8ba6433339424005240"
+  }
+}
