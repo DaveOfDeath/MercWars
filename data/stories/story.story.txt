@@ -1,5 +1,17 @@
 id: "Shanghai"
 variables {
+  name: "bHUB_PlayerHasNexusAccount"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "bHUB_PlayerHasNexusAccount"
+      typeName: "bool"
+    }
+  }
+}
+variables {
   name: "CharacterScaleAmount"
   typeName: "int"
   defaultValue {
@@ -36,6 +48,30 @@ variables {
   }
 }
 variables {
+  name: "numMissionsComplete"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "numMissionsComplete"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "RunState_BoshanWeapons"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "RunState_BoshanWeapons"
+      typeName: "int"
+    }
+  }
+}
+variables {
   name: "sComputerName"
   typeName: "string"
   defaultValue {
@@ -48,10 +84,22 @@ variables {
   }
 }
 variables {
+  name: "sHUB_StoryState"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "sHUB_StoryState"
+      typeName: "int"
+    }
+  }
+}
+variables {
   name: "sHUBDescription"
   typeName: "string"
   defaultValue {
-    string_value: "The number were given didn\342\200\231t answer when you called. And so you step out of the Riverwalk and into Shanghai proper.\n\nShanghai. The enemy of sleep. Even at this hour, you can see people milling around in dark rain jackets, trying to eke out an existence between the ocean of yellowed lights and the city\342\200\231s rain-slicked streets. Muffled megaphones blast instructions and announcements to the throng from every corner and every passing bus, punctuated by the fading wail of an ambulance siren somewhere in the distance\342\200\246\n"
+    string_value: "The number were given didn\342\200\231t answer when you called, responding only with the line, \"Please use a secured hardline connection.\" And so you step out of the Riverwalk and into Shanghai proper.\n\nShanghai. The enemy of sleep. Even at this hour, you can see people milling around in dark rain jackets, trying to eke out an existence between the ocean of yellowed lights and the city\342\200\231s rain-slicked streets. Muffled megaphones blast instructions and announcements to the throng from every corner and every passing bus, punctuated by the fading wail of an ambulance siren somewhere in the distance.\n"
     variableref_value {
       scope: TsVariableScope_Story
       name: "sHUBDescription"

@@ -93,6 +93,7 @@ nodes {
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
   comment: "defork"
 }
 nodes {
@@ -109,6 +110,7 @@ nodes {
     }
   }
   nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
 }
 nodes {
   idRef {
@@ -124,6 +126,7 @@ nodes {
     }
   }
   nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
 }
 nodes {
   idRef {
@@ -352,3 +355,4 @@ roots {
     id: "5db9d8ba643333942400523c:5db9d8ba6433339424005240"
   }
 }
+speaker_override_id: "5db9db0b6433339424005297"

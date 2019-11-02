@@ -1,0 +1,570 @@
+idRef {
+  id: "5dbcbc386433331c060015d2"
+}
+ui_name: "HUB_MessageBoard"
+nodes {
+  idRef {
+    id: "5dbcda396433331c060015de"
+  }
+  index: 0
+  text: "The computer boots to life, waiting for your input."
+  branches {
+    responseText: "{{GM}}Connect to the Nexus.{{/GM}}"
+    conditions {
+      ops {
+        functionName: "Evaluate If Actor Has Item"
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "HasOrHasNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Item)"
+            args {
+              string_value: "HUB-NexusCode"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 1
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcdb156433331c06001631"
+    }
+  }
+  branches {
+    responseText: "{{CC}}Nexus Login Code{{/CC}}{{GM}}Use the login code.{{/GM}}"
+    conditions {
+      ops {
+        functionName: "Evaluate If Actor Has Item"
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "HasOrHasNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Item)"
+            args {
+              string_value: "HUB-NexusCode"
+            }
+          }
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Remove Item from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (Item)"
+            args {
+              string_value: "HUB-NexusCode"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (bool)"
+            args {
+              string_value: "5a7b6c68343831ac070037e7"
+            }
+            args {
+              string_value: "bHUB_PlayerHasNexusAccount"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 2
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbce1cc6433331c06002977"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Access the Shadowlands BBS.{{/GM}}"
+    nextNodeIndex: 3
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcdb976433331c0600163a"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Log out.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcdb9e6433331c0600163c"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Speaker_Voice
+}
+nodes {
+  idRef {
+    id: "5dbcdb686433331c06001638"
+  }
+  index: 1
+  text: "Following the intro animation, a female voice chimes out, first in Mandarin Chinese, then in English:\n\n\"Welcome to the Nexus, your #1 connection to Shanghai\'s news, sports, and entertainment! Through grid or trid, the Nexus is there for you!\""
+  nodeType: ConversationNodeType_GM_Speaker_Voice
+  speaker_override_id: "5dbcda4c6433331c0600162a"
+}
+nodes {
+  idRef {
+    id: "5dbce2126433331c0600297a"
+  }
+  index: 2
+  text: ""
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54dcfec1303031bc0a006c6f:5dbcdcd36433331c06001d0f"
+  }
+  index: 3
+  text: "Shadowland connection... established successfully.\n\nlink_Str 100%\nspoofing = 1\ngroup_info = null, anon\n\n>>>>>[ WELCOME TO SHADOWLAND ]<<<<<\n"
+  branches {
+    responseText: "{{GM}}Search BBS for relevant keywords.{{/GM}}"
+    nextNodeIndex: 4
+    idRef {
+      id: "54dcfec1303031bc0a006c6f:5dbcdcd36433331c06001d11"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Post paydata for sale.{{/GM}}"
+    nextNodeIndex: 5
+    idRef {
+      id: "54dcfec1303031bc0a006c6f:5dbcdcd46433331c0600242d"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Claim payment for sold paydata.{{/GM}}"
+    conditions {
+      ops {
+        functionName: "OR"
+        args {
+          call_value {
+            functionName: "Comparison (int)"
+            args {
+              call_value {
+                functionName: "Get Story Variable (int)"
+                args {
+                  string_value: "54469bed32343784240005f9"
+                }
+                args {
+                  string_value: "Global_HK_Hub_MissionComputer-AresPaydata"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              int_value: 2
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "OR"
+            args {
+              call_value {
+                functionName: "Comparison (int)"
+                args {
+                  call_value {
+                    functionName: "Get Story Variable (int)"
+                    args {
+                      string_value: "54469bed32343784240005f9"
+                    }
+                    args {
+                      string_value: "Global_HK_Hub_MissionComputer-BadQiPaydata"
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Preset Value (int)"
+                    args {
+                      string_value: "Comparison Ops"
+                    }
+                    args {
+                      int_value: 0
+                    }
+                  }
+                }
+                args {
+                  int_value: 2
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "OR"
+                args {
+                  call_value {
+                    functionName: "Comparison (int)"
+                    args {
+                      call_value {
+                        functionName: "Get Story Variable (int)"
+                        args {
+                          string_value: "54469bed32343784240005f9"
+                        }
+                        args {
+                          string_value: "Global_HK_Hub_MissionComputer-GaichuTrustPaydata"
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "Get Preset Value (int)"
+                        args {
+                          string_value: "Comparison Ops"
+                        }
+                        args {
+                          int_value: 0
+                        }
+                      }
+                    }
+                    args {
+                      int_value: 2
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "OR"
+                    args {
+                      call_value {
+                        functionName: "Comparison (int)"
+                        args {
+                          call_value {
+                            functionName: "Get Story Variable (int)"
+                            args {
+                              string_value: "54469bed32343784240005f9"
+                            }
+                            args {
+                              string_value: "Global_HK_Hub_MissionComputer-MuseumPaydata"
+                            }
+                          }
+                        }
+                        args {
+                          call_value {
+                            functionName: "Get Preset Value (int)"
+                            args {
+                              string_value: "Comparison Ops"
+                            }
+                            args {
+                              int_value: 0
+                            }
+                          }
+                        }
+                        args {
+                          int_value: 2
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "OR"
+                        args {
+                          call_value {
+                            functionName: "Comparison (int)"
+                            args {
+                              call_value {
+                                functionName: "Get Story Variable (int)"
+                                args {
+                                  string_value: "54469bed32343784240005f9"
+                                }
+                                args {
+                                  string_value: "Global_HK_Hub_MissionComputer-RepulseBayPaydata"
+                                }
+                              }
+                            }
+                            args {
+                              call_value {
+                                functionName: "Get Preset Value (int)"
+                                args {
+                                  string_value: "Comparison Ops"
+                                }
+                                args {
+                                  int_value: 0
+                                }
+                              }
+                            }
+                            args {
+                              int_value: 2
+                            }
+                          }
+                        }
+                        args {
+                          call_value {
+                            functionName: "OR"
+                            args {
+                              call_value {
+                                functionName: "Comparison (int)"
+                                args {
+                                  call_value {
+                                    functionName: "Get Story Variable (int)"
+                                    args {
+                                      string_value: "54469bed32343784240005f9"
+                                    }
+                                    args {
+                                      string_value: "Global_HK_Hub_MissionComputer-WalledCityPaydata"
+                                    }
+                                  }
+                                }
+                                args {
+                                  call_value {
+                                    functionName: "Get Preset Value (int)"
+                                    args {
+                                      string_value: "Comparison Ops"
+                                    }
+                                    args {
+                                      int_value: 0
+                                    }
+                                  }
+                                }
+                                args {
+                                  int_value: 2
+                                }
+                              }
+                            }
+                            args {
+                              call_value {
+                                functionName: "Comparison (int)"
+                                args {
+                                  call_value {
+                                    functionName: "Get Story Variable (int)"
+                                    args {
+                                      string_value: "54469bed32343784240005f9"
+                                    }
+                                    args {
+                                      string_value: "Global_HK_Hub_MissionComputer-Is0belTrustPaydata"
+                                    }
+                                  }
+                                }
+                                args {
+                                  call_value {
+                                    functionName: "Get Preset Value (int)"
+                                    args {
+                                      string_value: "Comparison Ops"
+                                    }
+                                    args {
+                                      int_value: 0
+                                    }
+                                  }
+                                }
+                                args {
+                                  int_value: 2
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 6
+    hideIfUnavailable: true
+    idRef {
+      id: "54dcfec1303031bc0a006c6f:5dbcdcd46433331c06002475"
+    }
+    comment: "dead variables from HK"
+  }
+  branches {
+    responseText: "{{GM}}Go back.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "54dcfec1303031bc0a006c6f:5dbcdcd46433331c060024c5"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:props"
+          }
+          args {
+            string_value: "BBS_Typing"
+          }
+        }
+      }
+      args {
+        float_value: 2
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "54dcfec1303031bc0a006c6f:5dbcdcd36433331c06001d13"
+  }
+  index: 4
+  text: ">>[TOPIC(S) MATCHING LOCAL KEYWORDS...]<<"
+  branches {
+    responseText: "{{GM}}Go back.{{/GM}}"
+    nextNodeIndex: 3
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcddda6433331c060028b0"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbcde286433331c06002916"
+  }
+  index: 5
+  text: ">> ATTACH DATA TO ESCROW ACCOUNT...\n\n>>> DATA WILL BE AUTOMATICALLY SOLD TO THE HIGHEST BIDDER. \n\n> BOTH PARTIES WILL REMAIN ANONYMOUS THROUGHOUT TRANSACTION."
+  branches {
+    responseText: "{{GM}}Go back.{{/GM}}"
+    nextNodeIndex: 3
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcde116433331c06002911"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54dcfec1303031bc0a006c6f:5dbcdcd46433331c06002477"
+  }
+  index: 6
+  text: ">> PENDING TRANSACTIONS..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "54dcfec1303031bc0a006c6f:5dbcdcd46433331c06002479"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbcde5f6433331c0600295a"
+  }
+  index: 7
+  text: ""
+  branches {
+    responseText: "{{GM}}Go back.{{/GM}}"
+    nextNodeIndex: 3
+    idRef {
+      id: "5dbcbc386433331c060015d2:5dbcde556433331c06002955"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5dbcbc386433331c060015d2:5dbcbc386433331c060015d6"
+  }
+}
+speaker_override_id: "5dbcda4c6433331c0600162a"

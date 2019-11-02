@@ -1,0 +1,205 @@
+idRef {
+  id: "5dbcb4de6433331c060013ec"
+}
+ui_name: "HUB_MFI_Vidphone"
+nodes {
+  idRef {
+    id: "5dbcb5106433331c060013f4"
+  }
+  index: 0
+  text: "You pick up the phone, and the screen beside its input panel comes to life.\n\nThe line awaits your input."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb6c66433331c060014ba"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5dbcb6c66433331c060014bd"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: "{{GM}}Call Mr. Fix-It.{{/GM}}"
+    nextNodeIndex: 2
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb53a6433331c060013f6"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Call Nell.{{/GM}}"
+    nextNodeIndex: 7
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb53e6433331c060013f8"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Hang up for now.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb5416433331c060013fa"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub?"
+}
+nodes {
+  idRef {
+    id: "5dbcb5d46433331c06001405"
+  }
+  index: 2
+  text: "The phone rings a few times before your elvish fixer appears, glowering at you through the screen."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb60b6433331c06001407"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5dbcb60b6433331c0600140a"
+  }
+  index: 3
+  text: "Yeah? You ready to make me some nuyen?"
+  branches {
+    responseText: "I want to accept the run on the Boshan Weapons Factory."
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "5a7b6c68343831ac070037e7"
+            }
+            args {
+              string_value: "BoshanRunState"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 2
+        }
+      }
+    }
+    nextNodeIndex: 4
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb7126433331c060014ef"
+    }
+    comment: "ADD PREREQUISITE"
+  }
+  nodeType: ConversationNodeType_Simple
+  speaker_override_id: "5db9db0b6433339424005297"
+}
+nodes {
+  idRef {
+    id: "5dbcb7b46433331c060014f2"
+  }
+  index: 4
+  text: "Good. Should be a piece of cake, even for a nobody like yourself."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb7bd6433331c060014f4"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbcb7bd6433331c060014f7"
+  }
+  index: 5
+  text: "Here\342\200\231s a hundo ahead. Use it to hire some meat. These folks signed their death warrants when they stood up against an Ares corp.\n\nIf they\342\200\231re not total morons, they\342\200\231ll probably know this, too."
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb9576433331c06001580"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add Nuyen"
+      args {
+        int_value: 100
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5dbcb96e6433331c06001586"
+  }
+  index: 6
+  text: "{{GM}}He glances at another screen for a moment.{{/GM}}\n\nAll right. Autocab\'s on its way. Call me when the job\'s done."
+  branches {
+    responseText: "{{GM}}Hang up and gather your things for the Boshan run.{{/GM}}"
+    actions {
+      ops {
+        functionName: "Open Hiring Screen and Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "A1_RUN_BWF_Placeholder"
+            }
+          }
+        }
+        args {
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb9a46433331c06001588"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbcb6a26433331c060014b1"
+  }
+  index: 7
+  text: "Nell doesn\'t exist right now. She\'ll be the player\'s second Fixer and upgrade to MFI.\n\nBut when she does, she\'ll be reachable for missions here!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5dbcb4de6433331c060013ec:5dbcb6dd6433331c060014c6"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5dbcb4de6433331c060013ec:5dbcb4de6433331c060013f0"
+  }
+}
+speaker_override_id: "5dbcb65f6433331c0600145c"

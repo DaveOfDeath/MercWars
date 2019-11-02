@@ -1,0 +1,619 @@
+idRef {
+  id: "5dbc9978643333c82500003c"
+}
+ui_name: "HUB_TeahouseBouncerINCOMPLETE"
+nodes {
+  idRef {
+    id: "5dbc9b6b643333bc2a0013f1"
+  }
+  index: 0
+  text: "{{GM}}The wall of flesh contained by an immaculate suit looks to be mildly annoyed at your approach.{{/GM}}\n\nYeah?"
+  branches {
+    responseText: "Can I use your store\'s vidphone?"
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "5a7b6c68343831ac070037e7"
+            }
+            args {
+              string_value: "sHUB_StoryState"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 0
+        }
+      }
+    }
+    nextNodeIndex: 1
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9b86643333bc2a0013f3"
+    }
+    comment: "StoryState=0"
+  }
+  branches {
+    responseText: "Nevermind. I\'ll be going now."
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9b87643333bc2a0013f5"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbc9bc3643333bc2a0013fa"
+  }
+  index: 1
+  text: "No.\n\nFacilities are for paying customers only. And we\'re closed for renovations."
+  branches {
+    responseText: "Well then, can you point me to a vidphone I can use? Something with a hardline?"
+    nextNodeIndex: 2
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9bf2643333bc2a0013fc"
+    }
+  }
+  branches {
+    responseText: "All right. Sorry to be a bother."
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9bf5643333bc2a0013fe"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Walk away.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9c03643333bc2a001400"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbc9c24643333bc2a001403"
+  }
+  index: 2
+  text: "Sure.\n\n{{GM}}He nods his head down the docks.{{/GM}}\n\nOne right there."
+  branches {
+    responseText: "I checked already. It\'s out of order."
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "bCheckedVidphone"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9c5e643333bc2a001405"
+    }
+  }
+  branches {
+    responseText: "That looks like an \"Out of Order\" sign on it."
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "bCheckedVidphone"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9c62643333bc2a001407"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbc9ca5643333bc2a00140a"
+  }
+  index: 3
+  text: "{{GM}}He shrugs.{{/GM}}\n\nWell, then I can\'t help you. I\'m not the local tourist board."
+  branches {
+    responseText: "Could I interest you in playing the part of the local tourist board for...a little nuyen?"
+    nextNodeIndex: 4
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9d0f643333bc2a00143f"
+    }
+    comment: "bribe"
+  }
+  branches {
+    responseText: "{{CC}}Charisma{{/CC}} You don\'t look like a bad guy. I\'m not a bad guy either. I\'m just a little lost and shook up, and I could use a hand."
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Compare Actor Gender"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Gender"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9d10643333bc2a001441"
+    }
+    comment: "CHA Male, CHA >=4"
+  }
+  branches {
+    responseText: "{{CC}}Charisma{{/CC}} {{GM}}Touch his arm{{/GM}} I\'d be real thankful if you helped me out. It just takes a second to be nice."
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Compare Actor Gender"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Gender"
+                }
+                args {
+                  int_value: 2
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9d16643333bc2a001443"
+    }
+    auxiliaryLink: true
+    comment: "CHA Female, CHA >=3"
+  }
+  branches {
+    responseText: "All right, fine. I\'ll find one on my own."
+    nextNodeIndex: 11
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9e1e643333bc2a00144c"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbc9d6f643333bc2a001446"
+  }
+  index: 4
+  text: "Sure.\n\n20\302\245 sounds pretty good."
+  branches {
+    responseText: "{{CC}}20\302\245{{/CC}} Here you go!"
+    nextNodeIndex: 5
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a001448"
+    }
+  }
+  branches {
+    responseText: "Eh, forget it. I don\'t need the info that badly."
+    nextNodeIndex: 9
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a00144a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbc9fdb643333bc2a0014ab"
+  }
+  index: 5
+  text: "All right. You\'ve got a few options.\n\n{{GM}}He pulls out his PDA and begins tapping at it, astoundingly gingerly for someone with fingers as big as his.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbca09a643333bc2a0014fa"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbca0ae643333bc2a001503"
+  }
+  index: 6
+  text: "Firstly, there\'s the coffin motel. You can get there just off the bazaar. It\'s dingy as hell, smells like drek and old people. But if a hardline vidphone\'s all you need, they\'ll probably let you use theirs.\n\nOtherwise, there\'s the cybercafe. Cleaner, but you might need to buy a soykaf to get them to let you use it."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbca172643333bc2a001505"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbca172643333bc2a001508"
+  }
+  index: 7
+  text: "Here, tagged \'em. I\'ll push the pins to you.\n\n{{GM}}He swipes in your direction on his PDA. A second later, there is a chirp from your device, and two new map pins have been highlighted.{{/GM}}"
+  branches {
+    responseText: "You\'re the best. Thanks, big man!"
+    nextNodeIndex: 8
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbca610643333bc2a001623"
+    }
+  }
+  branches {
+    responseText: "Great! Don\'t work too hard!"
+    nextNodeIndex: 8
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbca611643333bc2a001625"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:ui"
+          }
+          args {
+            string_value: "BeepGeneric_Good"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Waypoint on Prop"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PrimaryOrSecondary"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5dbca57d643333bc2a0015fe"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Waypoint on Prop"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PrimaryOrSecondary"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5dbca582643333bc2a0015ff"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5dbc98a9643333c82500003b"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5dbca6c0643333bc2a001674"
+  }
+  index: 8
+  text: "{{GM}}The troll tucks his PDA away and returns to being a massive wall of flesh in a well-tailored suit, mildly annoyed at all around him.{{/GM}}\n\nYep."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbca04c643333bc2a0014c6"
+  }
+  index: 9
+  text: "The troll shrugs his shoulders and returns to his normal, silent, menacing appearance."
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5dbca3f6643333bc2a001562"
+  }
+  index: 10
+  text: "{{GM}}He sighs.{{/GM}}\n\nAll right. You\'ve got a few options.\n\n{{GM}}He pulls out his PDA and begins tapping at it, astoundingly gingerly for someone with fingers as big as his.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbca401643333bc2a001564"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dbca432643333bc2a001596"
+  }
+  index: 11
+  text: "{{GM}}He shrugs.{{/GM}}\n\nNo skin off my back."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5dbc9978643333c82500003c:5dbc9978643333c825000040"
+  }
+}
