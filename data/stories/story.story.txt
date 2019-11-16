@@ -108,6 +108,18 @@ variables {
   }
 }
 variables {
+  name: "sHUBTitle"
+  typeName: "string"
+  defaultValue {
+    string_value: "Hitting the Streets"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "sHUBTitle"
+      typeName: "string"
+    }
+  }
+}
+variables {
   name: "SKILL_HIGH"
   typeName: "int"
   defaultValue {

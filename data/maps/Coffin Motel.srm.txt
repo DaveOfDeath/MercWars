@@ -1,0 +1,3622 @@
+minX: -5
+minZ: -15
+numX: 21
+numZ: 28
+props {
+  name: "factory_clutter_magnifikerAmulet"
+  gridPoint {
+    x: 5.9000015
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  displayName: "BTL Chip"
+  idRef {
+    id: "5dcf454e663136dc130050aa"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Inspect
+    interaction_info_text: "Look through the trash?"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -15.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ab"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_graffiti10"
+  gridPoint {
+    x: 14.199997
+    y: 0.90000004
+    z: -11.600006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ac"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 11.999996
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ad"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_stairwell01"
+  gridPoint {
+    x: -3.8999996
+    y: -0.2
+    z: -11.900002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ae"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050af"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 6.2999954
+    y: -0.099999987
+    z: -1.7999954
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050b0"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge01"
+  gridPoint {
+    x: 6.5999985
+    y: 0
+    z: 6.5999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -0.5
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050b2"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_appliance_cagedTVBack"
+  gridPoint {
+    x: 5
+    y: -0.70000005
+    z: 5.8000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b3"
+  }
+  lod: 0
+}
+props {
+  name: "Lonestar_wall_halfwall"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 5.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b4"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_ancientsA"
+  gridPoint {
+    x: -3.6000004
+    y: -1
+    z: -6.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b5"
+  }
+  lod: 0
+}
+props {
+  name: "haven_wallDecoration_graffiti28"
+  gridPoint {
+    x: -3.1000023
+    y: 1.5
+    z: -7.5999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b6"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b7"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 5.6999969
+    y: 0
+    z: -3.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050b8"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 1.6999969
+    y: 0.7
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ba"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 6.0400009
+    y: 1.1920929e-008
+    z: -13.599998
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050bb"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050bc"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 8
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050bd"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050be"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_dirtyPlate"
+  gridPoint {
+    x: 6.2999992
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050bf"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 1
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c0"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wall_bathroom01"
+  gridPoint {
+    x: 10.5
+    y: -0.1
+    z: -12.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 0.19999695
+    y: -0.1
+    z: -13.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c2"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_wallDecor_slimDoor01"
+  gridPoint {
+    x: -3.5999966
+    y: 0.4
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c3"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    inspectInteraction {
+      dispalyTime: 10
+      fadeTime: 0
+      inspectText: "This heavily reinforced door is for the cowering manager to hide in while the someone is being killed outside."
+      disableAfterInteracting: true
+    }
+    interaction_info_text: "Examine Door"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050c4"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c5"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_wallDecoration_dunkelzahnPoster"
+  gridPoint {
+    x: 13.5
+    y: 0.70000005
+    z: -11.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050c6"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_wallDecoration_dunkelzahnPoster"
+  gridPoint {
+    x: 13.800003
+    y: 1
+    z: -10.800003
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050c7"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050c8"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_graffiti15"
+  gridPoint {
+    x: -0.40000153
+    y: 2.1
+    z: -9.0999985
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050c9"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ca"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.2000046
+    y: -0.1
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050cb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_mattressFloor"
+  gridPoint {
+    x: 4.7000008
+    y: 0.2
+    z: 6.8000031
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050cc"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge03"
+  gridPoint {
+    x: 6.7999954
+    y: 1.5
+    z: -10.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050cd"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ce"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_door_stripCurtain01"
+  gridPoint {
+    x: 5.3000031
+    y: 0
+    z: -6.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050cf"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050d0"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d1"
+  }
+  lod: 0
+}
+props {
+  name: "museum_floor_purpleCarpet01"
+  gridPoint {
+    x: 5.2000008
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d2"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_washerDryer01"
+  gridPoint {
+    x: 8.7000008
+    y: 0.4
+    z: -12.400002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050d4"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_graffiti11"
+  gridPoint {
+    x: 11.900005
+    y: 0.3
+    z: -7.5999985
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dcf454e663136dc130050d5"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -1
+    y: 1
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash02"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d7"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassDoor01Back"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -2.0699997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050d8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_showerStanding"
+  gridPoint {
+    x: 6.2999992
+    y: 0
+    z: -12.400002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050d9"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 11.999996
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050da"
+  }
+  lod: 0
+}
+props {
+  name: "museum_floor_purpleCarpet01"
+  gridPoint {
+    x: 4.5999985
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050db"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 0
+    z: -6.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050dc"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 1
+    y: 0.4
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050dd"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -12.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050de"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 4.4000015
+    y: 0
+    z: -10.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050df"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e0"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassDoor01Front"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.1000023
+    y: 0
+    z: -9.5999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e2"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 5.3000031
+    y: 0
+    z: -12.300003
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e3"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050e4"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge03"
+  gridPoint {
+    x: 8.8999977
+    y: 1
+    z: -12.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e5"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 0.49999619
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e6"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050e7"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050e8"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050e9"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 11.299995
+    y: -0.29999998
+    z: -13.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050ea"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 7.8999977
+    y: 1.1920929e-008
+    z: -13.599998
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050ec"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: 7.5
+    y: 0.9
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  displayName: "DEV_CoffinMotel"
+  idRef {
+    id: "5dcf454e663136dc130050ed"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Get Commentary Enabled"
+      }
+      ops {
+        functionName: "Evaluate Turn Mode in Dimension"
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "TurnBasedOrFreeMove"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    interactionIcon: InteractionIcon_AudioCommentary
+    interaction_info_text: "{{00AAFF}}DEV:{{-}} Coffin Motel"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ee"
+  }
+  lod: 0
+}
+props {
+  name: "Lonestar_wall_halfwall"
+  gridPoint {
+    x: 4.0999985
+    y: 0
+    z: 5.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050ef"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge01"
+  gridPoint {
+    x: -3
+    y: 1.6
+    z: -7.8999939
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050f0"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -2.5
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050f1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge01"
+  gridPoint {
+    x: 6.1999969
+    y: -0.29999998
+    z: -13.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f2"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 11.899998
+    y: -0.099999987
+    z: -1.7999954
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050f3"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f4"
+  }
+  lod: 0
+}
+props {
+  name: "museum_floor_purpleCarpet01"
+  gridPoint {
+    x: 4.5999985
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f5"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -4.3999996
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050f6"
+  }
+  lod: 0
+}
+props {
+  name: "school_floorDecoration_grunge03"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f7"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassEdge05"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f8"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050f9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash06"
+  gridPoint {
+    x: 5.5
+    y: 0
+    z: 9.0999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050fa"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 6.5999985
+    y: 0
+    z: -8.6399994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050fb"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 12.800003
+    y: 0
+    z: -9.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050fc"
+  }
+  lod: 0
+}
+props {
+  name: "factory_sign_hotelBathroom"
+  gridPoint {
+    x: 9.2999992
+    y: 2.3999999
+    z: -8.1000061
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130050fd"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: 5.0999985
+    y: 0.6
+    z: 7.5
+  }
+  orientation: ORIENTATION_S
+  displayName: "ExamineBed"
+  idRef {
+    id: "5dcf454e663136dc130050fe"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 2
+    inspectInteraction {
+      dispalyTime: 12
+      fadeTime: 0
+      inspectText: "The smell eminating off this mattress is enough to turn your stomach.   Unwashed flesh, and who knows what else... You feel a pang of guilt knowing this was your \'friends\' crashpad."
+      disableAfterInteracting: true
+    }
+    interaction_info_text: "Examine Bed?"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130050ff"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassEnd01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -7.4000015
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5dcf454e663136dc13005100"
+  }
+  lod: 0
+}
+props {
+  name: "museum_floor_purpleCarpet01"
+  gridPoint {
+    x: 5.1999969
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005101"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 2.6999969
+    y: 0.7
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005102"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005103"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -13.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005104"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005105"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -3.8700008
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005106"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005107"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005108"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005109"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300510a"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.2000065
+    y: -0.1
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300510b"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 12.800003
+    y: 0
+    z: -10.900002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300510c"
+  }
+  lod: 0
+}
+props {
+  name: "office_tech_computer01"
+  gridPoint {
+    x: 11.900002
+    y: 0.6
+    z: -5.8000031
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dcf454e663136dc1300510d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_blockSight"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300510e"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_magazineStack01"
+  gridPoint {
+    x: 5.2000008
+    y: 0.4
+    z: 9.5
+  }
+  orientation: ORIENTATION_E
+  displayName: "Coffin_Porno"
+  idRef {
+    id: "5dcf454e663136dc1300510f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    inspectInteraction {
+      dispalyTime: 0
+      fadeTime: 0
+      inspectText: "The less time you spend pawing through Sam\'s old porn, the better."
+      disableAfterInteracting: true
+    }
+    interaction_info_text: "Look at pile of digital media?"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_modernShower"
+  gridPoint {
+    x: 6.4000015
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005110"
+  }
+  lod: 0
+}
+props {
+  name: "school_floorDecoration_grunge04"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005111"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -3.9000034
+    y: -0.1
+    z: -13.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005112"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 3.9000015
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005113"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005114"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -14.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005115"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge02"
+  gridPoint {
+    x: -0.79999924
+    y: 1.7
+    z: -8.7999954
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005116"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 4.9000015
+    y: -0.4
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005117"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_cigarettePile"
+  gridPoint {
+    x: 5.0999985
+    y: 0.4
+    z: 6.0999985
+  }
+  orientation: ORIENTATION_S
+  displayName: "Coffin_Habits"
+  idRef {
+    id: "5dcf454e663136dc13005118"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    inspectInteraction {
+      dispalyTime: 0
+      fadeTime: 0
+      inspectText: "Evidence of Sam\'s bad habits litters the tiny coffin. Porn, smoggers in many flavors, every bit of alcohol he could find, and even a few BTL chips."
+      disableAfterInteracting: true
+    }
+    interaction_info_text: "Examine Rubbish"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005119"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 2.1999969
+    y: -0.1
+    z: -13.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300511a"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 11.299995
+    y: -0.099999987
+    z: -1.7999954
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300511b"
+  }
+  lod: 0
+}
+props {
+  name: "barrens_wallDecoration_dunkelzahnPoster"
+  gridPoint {
+    x: 13.900002
+    y: 0.70000005
+    z: -10.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300511c"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300511d"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -3.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300511e"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_tech_terminal01"
+  gridPoint {
+    x: 10.799999
+    y: 1
+    z: -5.5
+  }
+  orientation: ORIENTATION_E
+  displayName: "Coffin_Terminal"
+  idRef {
+    id: "5dcf454e663136dc1300511f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Inspect
+    interaction_info_text: "Coffin Motel Terminal"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 0.69999695
+    y: -0.3
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005120"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.1000023
+    y: 0
+    z: -7.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005121"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005122"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 3.6999969
+    y: -0.3
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005123"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "LightScript"
+    string_value: "loop; cubic:12:FFFF7F; bounce:2:00FFFF;"
+  }
+  idRef {
+    id: "5dcf454e663136dc13005124"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 0.49803922
+      a: 1
+    }
+    intensity: 2.25
+  }
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -1.8000031
+    y: -0.1
+    z: -13.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005125"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 9.2999954
+    y: -0.099999987
+    z: -1.7999954
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005126"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -14.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005127"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_poster01"
+  gridPoint {
+    x: 9
+    y: 0.6
+    z: -13.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005128"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005129"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300512a"
+  }
+  lod: 0
+}
+props {
+  name: "Lonestar_wall_halfwall"
+  gridPoint {
+    x: 5.2999992
+    y: 0
+    z: 5.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300512c"
+  }
+  lod: 0
+}
+props {
+  name: "sleekOffice_furniture_largeCornerDesk01"
+  gridPoint {
+    x: 10.299999
+    y: 0
+    z: -7.5
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dcf454e663136dc1300512d"
+  }
+  lod: 0
+}
+props {
+  name: "museum_floor_purpleCarpet01"
+  gridPoint {
+    x: 5.1999969
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300512e"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -2.7000027
+    y: -1.4901161e-009
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300512f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_washerDryer01"
+  gridPoint {
+    x: 9.5299988
+    y: 0.38
+    z: -12.400002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005130"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005131"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005132"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005133"
+  }
+  lod: 0
+}
+props {
+  name: "Lonestar_wall_halfwall"
+  gridPoint {
+    x: 5.0999985
+    y: 0
+    z: 5.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005134"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash02"
+  gridPoint {
+    x: 6.2000008
+    y: 0
+    z: 6.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005135"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 4.1999969
+    y: 0.3
+    z: -10.919998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005136"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_ExitCrashpad"
+  idRef {
+    id: "5dcf454e663136dc13005137"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Warp
+    interaction_info_text: "Leave the crashpad?"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -12.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005138"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: -1.5000038
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005139"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash03"
+  gridPoint {
+    x: 5.7999992
+    y: 0
+    z: 6.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513b"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge02"
+  gridPoint {
+    x: 0.69999695
+    y: 1.1
+    z: -9.3999939
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513c"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 0.69999695
+    y: 0.7
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513d"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.2000046
+    y: -0.1
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300513f"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005140"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005141"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 12.800003
+    y: 0
+    z: -12.900002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005142"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 1.9000015
+    y: -0.4
+    z: -11.300003
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005143"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 2.6999969
+    y: -0.3
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005144"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -0.70000458
+    y: -1.4901161e-009
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005145"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 11.999996
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005146"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005148"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_signs_CoffinMotel"
+  gridPoint {
+    x: 11.999996
+    y: 1.9000001
+    z: -6.9000015
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5dcf454e663136dc13005149"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 5
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300514a"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_appliance_tallFridge"
+  gridPoint {
+    x: 6.5999985
+    y: 0
+    z: -7.3000031
+  }
+  orientation: ORIENTATION_E
+  displayName: "Vending Machine"
+  idRef {
+    id: "5dcf454e663136dc1300514b"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300514c"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -11.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300514d"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_furniture_steelCounterSink01"
+  gridPoint {
+    x: 7.8999977
+    y: 0.4
+    z: -12.200005
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300514e"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005150"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_clutter_wallSpeaker"
+  gridPoint {
+    x: 4.2000008
+    y: -0.1
+    z: 8.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005151"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005152"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 4.6999969
+    y: 0.7
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005153"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005154"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 4.9000015
+    y: -5.9604646e-009
+    z: -3.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005155"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -8.6399994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005156"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.1000023
+    y: 0
+    z: -5.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005157"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -13.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005158"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 7.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005159"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -15.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300515a"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 3.2999954
+    y: -1.4901161e-009
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300515b"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300515c"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 5.1999969
+    y: 0.3
+    z: -10.919998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300515d"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_sinlessAreFree"
+  gridPoint {
+    x: 3.3000031
+    y: -0.099999994
+    z: -9.0999985
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300515e"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 5.6999969
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300515f"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 5.2999954
+    y: 1.3411045e-008
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005160"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005161"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005162"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005163"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_showerStanding"
+  gridPoint {
+    x: 6.3000031
+    y: 0
+    z: -11.400002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005164"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005165"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -13.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005166"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 1.2999954
+    y: -1.4901161e-009
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005167"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005168"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 1
+    z: -6.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005169"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -3.7999992
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300516a"
+  }
+  lod: 0
+}
+props {
+  name: "brotherhood_furniture_hexagonChair"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -7.2000046
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300516b"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 1.5
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300516c"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -14.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300516d"
+  }
+  lod: 0
+}
+props {
+  name: "haven_wallDecoration_graffiti05"
+  gridPoint {
+    x: 13.5
+    y: 0.1
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300516e"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 11.999996
+    y: 0
+    z: -3.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300516f"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassDoor01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_CoffinExit"
+  idRef {
+    id: "5dcf454e663136dc13005170"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Warp
+    interaction_info_text: "Exit Coffin Motel?"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005171"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 1.1999969
+    y: 0.3
+    z: -10.919998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005172"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -11.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005173"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005174"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005175"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005176"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_fragTheKeebs"
+  gridPoint {
+    x: 0.69999695
+    y: -0.099999994
+    z: -9.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005177"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 3.6999969
+    y: 0.7
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005178"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -2.5000038
+    y: -0.1
+    z: -12.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005179"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517a"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 2.4999962
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517b"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517c"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 0.29999542
+    y: 0.3
+    z: -10.919998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517d"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517e"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300517f"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 12.049999
+    y: 0
+    z: -8.6399994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005180"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 3.0999985
+    y: 0.3
+    z: -10.919998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005181"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -4.4000034
+    y: -1.4901161e-009
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005182"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 10.699997
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005183"
+  }
+  lod: 0
+}
+props {
+  name: "divebar_door_door02"
+  gridPoint {
+    x: 8.2999992
+    y: -0.3
+    z: -9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005184"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_ceiling_pipe02"
+  gridPoint {
+    x: 9
+    y: -0.1
+    z: -8.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005185"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -12.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005186"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_kitchenTrashcan01"
+  gridPoint {
+    x: 7.5
+    y: 0
+    z: -7.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005187"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 6.6999969
+    y: 0
+    z: -3.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005188"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005189"
+  }
+  lod: 0
+}
+props {
+  name: "school_floorDecoration_grunge01"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300518a"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300518b"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -1.7000027
+    y: 0
+    z: -10.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300518c"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300518d"
+  }
+  lod: 0
+}
+props {
+  name: "factory_wall_workLight01"
+  gridPoint {
+    x: 4.4000015
+    y: 1.1
+    z: 8.4000015
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "Light"
+  displayName: "CoffinLight"
+  idRef {
+    id: "5dcf454e663136dc1300518e"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge03"
+  gridPoint {
+    x: 6.7999954
+    y: 1.5
+    z: -11.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300518f"
+  }
+  lod: 0
+}
+props {
+  name: "haven_graffiti_fState"
+  gridPoint {
+    x: 1.5
+    y: 1.6
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005190"
+  }
+  lod: 0
+}
+props {
+  name: "haven_wallDecoration_graffiti13"
+  gridPoint {
+    x: 6.2999992
+    y: 1
+    z: -5.0999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005191"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005192"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -11.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005193"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_appliance_cagedTVFront"
+  gridPoint {
+    x: 5.7999954
+    y: -0.1
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005195"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 8.2999954
+    y: -0.099999987
+    z: -1.7999954
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005196"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc13005197"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_appliance_smallFridge"
+  gridPoint {
+    x: 6.2000008
+    y: 0
+    z: 5.8000031
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005198"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 1
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc13005199"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile01"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300519a"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300519b"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: -2.4000034
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300519c"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 0.69999695
+    y: -0.3
+    z: -9.2000046
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc1300519d"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 4.1999969
+    y: -0.099999987
+    z: -13.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc1300519e"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wall_bathroom02"
+  gridPoint {
+    x: 10.099998
+    y: -0.5
+    z: -10.599998
+  }
+  orientation: ORIENTATION_E
+  displayName: "bathroom"
+  idRef {
+    id: "5dcf454e663136dc1300519f"
+  }
+  lod: 0
+}
+props {
+  name: "brotherhood_wallDecoration_universalBrotherhoodPoster01"
+  gridPoint {
+    x: 11.300003
+    y: 1.6
+    z: -12.800003
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a0"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 5.6999969
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a1"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge01"
+  gridPoint {
+    x: 6.4000015
+    y: 0
+    z: 7.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051a2"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wallDecoration_grunge03"
+  gridPoint {
+    x: 7.2999954
+    y: 0.9
+    z: -12.599998
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a3"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: -3.3000031
+    y: 0
+    z: -5.1999969
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051a4"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 2
+    y: 0.4
+    z: -8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051a5"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 5.6999969
+    y: 0
+    z: -9.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a6"
+  }
+  lod: 0
+}
+props {
+  name: "Lonestar_wall_halfwall"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a7"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051a8"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_floor_tile03"
+  gridPoint {
+    x: 8.6999969
+    y: 0
+    z: -3.1999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051a9"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 9.4999962
+    y: 1.1920929e-008
+    z: -13.599998
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051aa"
+  }
+  lod: 0
+}
+props {
+  name: "kowloon_prop_dustPile01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 6.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051ab"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 4.9000015
+    y: -5.9604646e-009
+    z: -2.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051ac"
+  }
+  lod: 0
+}
+props {
+  name: "school_floorDecoration_grunge04"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051ad"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge03"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051ae"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_modernShower"
+  gridPoint {
+    x: 6.4000015
+    y: 0
+    z: -10.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051af"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 8
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b0"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 3.5
+    y: 2.7755576e-017
+    z: -4.4000015
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051b1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: -5.1000061
+    y: 0
+    z: -3.0999985
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b2"
+  }
+  lod: 0
+}
+props {
+  name: "office_wall_glassDoor01Back"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b3"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b4"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b5"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_clutter_wineGlass01"
+  gridPoint {
+    x: 5.5
+    y: -1
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051b6"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 0
+    y: 1
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b7"
+  }
+  lod: 0
+}
+props {
+  name: "morgue_appliance_mediumBodyLocker01"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -8.9000015
+  }
+  orientation: ORIENTATION_S
+  displayName: "obj_SamsCoffin"
+  idRef {
+    id: "5dcf454e663136dc130051b8"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Warp
+    interaction_info_text: "Examine Sam\'s Crashpad?"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 5.3000031
+    y: 0
+    z: -10.400002
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051b9"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_wall_plaster01"
+  gridPoint {
+    x: 0.29999542
+    y: 0
+    z: -10.900002
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5dcf454e663136dc130051ba"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_wall_2x2fill"
+  gridPoint {
+    x: 4.4999962
+    y: 0.4
+    z: -1.6999969
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5dcf454e663136dc130051bb"
+  }
+  lod: 0
+}
