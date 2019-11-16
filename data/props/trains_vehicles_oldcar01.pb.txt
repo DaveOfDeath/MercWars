@@ -65,7 +65,7 @@ views {
     flagmap: 11
     flagmap: 11
     flagmap: 21
-    flagmap: 19
+    flagmap: 21
   }
   normals_preset: NORMALS_PRESET_BOX
 }

@@ -38,7 +38,7 @@ views {
   grid_data {
     width: 1
     depth: 1
-    flagmap: 21
+    flagmap: 11
   }
 }
 views {
@@ -76,6 +76,6 @@ views {
   grid_data {
     width: 1
     depth: 1
-    flagmap: 21
+    flagmap: 11
   }
 }

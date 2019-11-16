@@ -1,0 +1,164 @@
+regions {
+  name: "camera platform"
+  position {
+    x: -221
+    y: -65
+    width: 82
+    height: 69
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5d910a75373361d80a0054e3"
+  }
+  highlight_color {
+    r: 0.66666669
+    g: 0.33333334
+    b: 0.14117648
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.60392159
+    g: 0.40392157
+    b: 0
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.4
+    g: 0
+    b: 0
+    a: 1
+  }
+  ambience_template: "graveyard-night"
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -201
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5d910b4e373361d80a0054e4"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "New Actor"
+    enabled_at_start: true
+    pc_spawn_number: 0
+  }
+}
+worldMapLocation {
+  filename: ""
+  location {
+    x: 0
+    y: 0
+  }
+}
+mapName: "shanghai BEGIN"
+parentStory: ""
+scene_title: "New Scene"
+scene_subtitle: ""
+scene_synopsis: ""
+scene_image: ""
+scene_continue_button_skip: false
+scene_restore_runner_health: false
+directional_light_dir {
+  x: -0.5
+  y: -1
+  z: -0.75
+}
+directional_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+ambient_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+allow_drawn_weapons: false
+team_affiliations {
+  team_name: "Shadowrunners"
+  affiliation: 0
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Gangers"
+  affiliation: 1
+  affiliation: 0
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "LoneStar"
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Civilians"
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+}
+scene_dimensions {
+  dimension_name: "Default"
+}
+character_roster {
+}
+show_hiring_screen_on_scene_load: false
+scene_hiring_prerequisites {
+  prereq_description: ""
+  prereq_conditions {
+  }
+}
+hiring_slot_count: 0
+hiring_minimum_karma: 0
+hiring_maximum_karma: 25
+roster_overrides {
+}
+use_hiring_cost_warning: false
+hiring_average_cost: 0
+override_hiring_average_cost: false
+show_equip_screen_on_scene_load: false
+is_persistant: false
+is_persistant_has_value: false
+can_move_outside_camera_regions: true
+can_start_before_triggers: true
+can_use_team_advancement: false

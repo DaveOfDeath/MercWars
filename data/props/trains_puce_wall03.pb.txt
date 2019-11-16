@@ -24,7 +24,7 @@ views {
     offset {
       x: 0
       y: 0
-      z: 0.2
+      z: 0.1
     }
   }
   mesh {
@@ -41,8 +41,8 @@ views {
   grid_data {
     width: 2
     depth: 1
-    flagmap: 21
-    flagmap: 21
+    flagmap: 11
+    flagmap: 11
   }
 }
 views {
@@ -64,7 +64,7 @@ views {
       depth: 2.2
     }
     offset {
-      x: 0.2
+      x: 0.1
       y: 0
       z: 0
     }
@@ -83,7 +83,7 @@ views {
   grid_data {
     width: 1
     depth: 2
-    flagmap: 21
-    flagmap: 21
+    flagmap: 11
+    flagmap: 11
   }
 }

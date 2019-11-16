@@ -39,7 +39,7 @@ views {
     width: 1
     depth: 3
     flagmap: 21
-    flagmap: 21
+    flagmap: 11
     flagmap: 21
   }
 }
@@ -79,7 +79,7 @@ views {
     width: 3
     depth: 1
     flagmap: 21
-    flagmap: 21
+    flagmap: 11
     flagmap: 21
   }
 }
