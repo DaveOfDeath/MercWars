@@ -112,7 +112,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Actor)"
           args {
-            string_value: "5ce3079c66313684080054d7"
+            string_value: "5dbc98a9643333c82500003b"
           }
         }
       }
@@ -120,7 +120,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Animation)"
           args {
-            string_value: "HongKong:General/standing_idle_lookaround"
+            string_value: "HongKong:Ork/standing_idle_bouncer"
           }
         }
       }
@@ -630,7 +630,7 @@ triggers {
   }
   actions {
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "5dcf502d663136601a007410"
   }
@@ -694,6 +694,34 @@ triggers {
       functionName: "Trigger: Wait Until Triggered Again"
     }
     ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:props"
+          }
+          args {
+            string_value: "LadderClimb"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Teleport Actor to Area Around Point"
       args {
         call_value {
@@ -750,6 +778,23 @@ triggers {
             int_value: 0
           }
         }
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 0
       }
     }
     ops {
@@ -838,6 +883,34 @@ triggers {
       functionName: "Trigger: Wait Until Triggered Again"
     }
     ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:props"
+          }
+          args {
+            string_value: "LadderClimb"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Teleport Actor to Area Around Point"
       args {
         call_value {
@@ -892,6 +965,28 @@ triggers {
           }
           args {
             int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iRain_Strength"
           }
         }
       }
@@ -1018,6 +1113,481 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: ""
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: true
+  idRef {
+    id: "5dcf7d59663136081a0073e0"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Travel.Goto_MedClinic_ENTER"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "e.MedClinic_Enter"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Fade Camera Out"
+      args {
+        float_value: 0.75
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Enter"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Trigger: Wait Until Triggered Again"
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+    }
+    ops {
+      functionName: "Teleport Actor to Area Around Point"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+      args {
+        int_value: 0
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5dcf498c663136c406000859"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 7
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:props"
+          }
+          args {
+            string_value: "CellBlock_Unlock"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Enter"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Trigger: Wait Until Triggered Again"
+    }
+    ops {
+      functionName: "Fade Camera In"
+      args {
+        float_value: 0.75
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5dcf7d56663136081a0073dc"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Travel.Goto_MedClinic_EXIT"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "e.MedClinic_Exit"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Fade Camera Out"
+      args {
+        float_value: 0.75
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Exit"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Trigger: Wait Until Triggered Again"
+    }
+    ops {
+      functionName: "Teleport Actor to Area Around Point"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+      args {
+        int_value: 0
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5dcf4764663136c4060006d5"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "HongKong:props"
+          }
+          args {
+            string_value: "CellBlock_Unlock"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iRain_Strength"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Exit"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Trigger: Wait Until Triggered Again"
+    }
+    ops {
+      functionName: "Fade Camera In"
+      args {
+        float_value: 0.75
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5dcf7d56663136081a0073dd"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "MedClinic.Enter"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5dcf4764663136c406000689"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Enter"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5dcf7d56663136081a0073de"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "MedClinic.Exit"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5dcf7e6b663136081a0073e2"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "e.MedClinic_Exit"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5dcf7d56663136081a0073df"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
 regions {
   name: "r_vfx_Water"
   position {
@@ -1135,7 +1705,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "rAlleyTarget"
+  name: "rMedClinicAlley"
   position {
     x: -198
     y: 256
@@ -1222,9 +1792,9 @@ regions {
     z: -0.75
   }
   directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
+    r: 0.37254903
+    g: 0.37254903
+    b: 0.37254903
     a: 1
   }
   ambient_light_color {
@@ -1309,7 +1879,7 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "floor 1"
+  name: "cMedClinic"
   position {
     x: -241
     y: 109
@@ -1349,11 +1919,11 @@ regions {
     b: 0.3019608
     a: 1
   }
-  ambience_template: ""
+  ambience_template: "morgue-quiet"
   combat_music: ""
-  default_music: ""
+  default_music: "HongKong-Hub-TeaHouse"
   loop_combat_music: true
-  loop_default_music: false
+  loop_default_music: true
   no_fow_in_region: false
   combat_intense_music: ""
   combat_wrapup_music: ""
@@ -1825,6 +2395,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "DaveOfDeath"
+    enabled_at_start: false
     pc_spawn_number: -1
     portrait {
       filename: "npc_orkmale_wu_03"
@@ -1939,9 +2510,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -256
-    y: 0
-    z: 120
+    x: -254.7
+    y: 0.1
+    z: 120.2
   }
   orientation: ORIENTATION_E
   displayName: "Coffin_Employee"
@@ -1956,7 +2527,7 @@ characters {
   }
   lod: 0
   character_instance {
-    prefab_name: "HongKong:Triads/HumanFemaleTriad1"
+    prefab_name: "Seattle:Homeless/HumanFemaleHomelessKerchief"
     character_sheet_id: "BaseCivilian"
     character_mod {
       stats {
@@ -2026,6 +2597,7 @@ characters {
       filename: "backer_humanfemale_alisonmcgregor"
     }
     karma: 6
+    is_prop_character: true
     first_name: "Lilly"
     last_name: "Topanga"
   }
@@ -2139,6 +2711,8 @@ mapEvents: "e.FadeOutCamera"
 mapEvents: "e.FadeInCamera"
 mapEvents: "e.CoffinMotel_Enter"
 mapEvents: "e.CoffinMotel_Exit"
+mapEvents: "e.MedClinic_Enter"
+mapEvents: "e.MedClinic_Exit"
 worldMapLocation {
   filename: ""
   location {
