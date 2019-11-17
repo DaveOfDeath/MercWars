@@ -7,7 +7,7 @@ nodes {
     id: "5dbc9b6b643333bc2a0013f1"
   }
   index: 0
-  text: "{{GM}}The wall of flesh contained by an immaculate suit looks to be mildly annoyed at your approach.{{/GM}}\n\nYeah?"
+  text: "{{GM}}The bouncer stands in front of the building wearing an military grade armored suit, $(scene.sRainReaction).  He looks to be mildly annoyed at your approach.{{/GM}}\n\nYeah?  You can see that the place is closed, right?  Private party.  Move along."
   branches {
     responseText: "Can I use your store\'s vidphone?"
     conditions {
@@ -61,7 +61,7 @@ nodes {
     id: "5dbc9bc3643333bc2a0013fa"
   }
   index: 1
-  text: "No.\n\nFacilities are for paying customers only. And we\'re closed for renovations."
+  text: "No.\n\n{{GM}}He looks you over quickly.{{/GM}}\n\nWe\'re hosting a private party tonight, and I can clearly see that you\'re not here for that.  Move along."
   branches {
     responseText: "Well then, can you point me to a vidphone I can use? Something with a hardline?"
     nextNodeIndex: 2
@@ -285,7 +285,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 10
+    nextNodeIndex: 13
     hideIfUnavailable: true
     idRef {
       id: "5dbc9978643333c82500003c:5dbc9d10643333bc2a001441"
@@ -383,7 +383,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 10
+    nextNodeIndex: 13
     hideIfUnavailable: true
     idRef {
       id: "5dbc9978643333c82500003c:5dbc9d16643333bc2a001443"
@@ -393,7 +393,7 @@ nodes {
   }
   branches {
     responseText: "All right, fine. I\'ll find one on my own."
-    nextNodeIndex: 11
+    nextNodeIndex: 14
     idRef {
       id: "5dbc9978643333c82500003c:5dbc9e1e643333bc2a00144c"
     }
@@ -405,32 +405,249 @@ nodes {
     id: "5dbc9d6f643333bc2a001446"
   }
   index: 4
-  text: "Sure.\n\n20\302\245 sounds pretty good."
+  text: "{{GM}}He rolls his eyes.{{/GM}}\n\nSure. Call it 20\302\245 and I\'ll point another one out for you."
   branches {
-    responseText: "{{CC}}20\302\245{{/CC}} Here you go!"
+    responseText: ""
     nextNodeIndex: 5
     idRef {
-      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a001448"
-    }
-  }
-  branches {
-    responseText: "Eh, forget it. I don\'t need the info that badly."
-    nextNodeIndex: 9
-    idRef {
-      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a00144a"
+      id: "5dbc9978643333c82500003c:5dd085cb663136b011000a99"
     }
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5dbc9fdb643333bc2a0014ab"
+    id: "5dd085cb663136b011000a9c"
   }
   index: 5
+  text: ""
+  branches {
+    responseText: "{{CC}}20\302\245{{/CC}} Here you go!"
+    conditions {
+      ops {
+        functionName: "Evaluate Nuyen"
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          int_value: 20
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Remove Nuyen"
+        args {
+          int_value: 20
+        }
+      }
+    }
+    nextNodeIndex: 6
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a001448"
+    }
+  }
+  branches {
+    responseText: "That\'s a bit steep for a simple tip.  How about 10\302\245?"
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Evaluate Nuyen"
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 10
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Remove Nuyen"
+        args {
+          int_value: 10
+        }
+      }
+    }
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dd08369663136b011000a64"
+    }
+    comment: "Charisma >= 4"
+  }
+  branches {
+    responseText: "That\'s a bit steep for a simple tip.  How about 10\302\245?"
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Evaluate Nuyen"
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              int_value: 10
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Compare Actor Attribute"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorAttributes"
+                }
+                args {
+                  int_value: 3
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 4
+                }
+              }
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 11
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5dbc9978643333c82500003c:5dd083bd663136b011000a6b"
+    }
+    comment: "Charisma < 4"
+  }
+  branches {
+    responseText: "Eh, forget it. I don\'t need the info that badly."
+    nextNodeIndex: 12
+    idRef {
+      id: "5dbc9978643333c82500003c:5dbc9dad643333bc2a00144a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "BriberyLoop"
+}
+nodes {
+  idRef {
+    id: "5dbc9fdb643333bc2a0014ab"
+  }
+  index: 6
   text: "All right. You\'ve got a few options.\n\n{{GM}}He pulls out his PDA and begins tapping at it, astoundingly gingerly for someone with fingers as big as his.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 6
+    nextNodeIndex: 7
     idRef {
       id: "5dbc9978643333c82500003c:5dbca09a643333bc2a0014fa"
     }
@@ -441,11 +658,11 @@ nodes {
   idRef {
     id: "5dbca0ae643333bc2a001503"
   }
-  index: 6
+  index: 7
   text: "Firstly, there\'s the coffin motel. You can get there just off the bazaar. It\'s dingy as hell, smells like drek and old people. But if a hardline vidphone\'s all you need, they\'ll probably let you use theirs.\n\nOtherwise, there\'s the cybercafe. Cleaner, but you might need to buy a soykaf to get them to let you use it."
   branches {
     responseText: ""
-    nextNodeIndex: 7
+    nextNodeIndex: 8
     idRef {
       id: "5dbc9978643333c82500003c:5dbca172643333bc2a001505"
     }
@@ -456,18 +673,18 @@ nodes {
   idRef {
     id: "5dbca172643333bc2a001508"
   }
-  index: 7
+  index: 8
   text: "Here, tagged \'em. I\'ll push the pins to you.\n\n{{GM}}He swipes in your direction on his PDA. A second later, there is a chirp from your device, and two new map pins have been highlighted.{{/GM}}"
   branches {
     responseText: "You\'re the best. Thanks, big man!"
-    nextNodeIndex: 8
+    nextNodeIndex: 9
     idRef {
       id: "5dbc9978643333c82500003c:5dbca610643333bc2a001623"
     }
   }
   branches {
     responseText: "Great! Don\'t work too hard!"
-    nextNodeIndex: 8
+    nextNodeIndex: 9
     idRef {
       id: "5dbc9978643333c82500003c:5dbca611643333bc2a001625"
     }
@@ -575,27 +792,59 @@ nodes {
   idRef {
     id: "5dbca6c0643333bc2a001674"
   }
-  index: 8
+  index: 9
   text: "{{GM}}The troll tucks his PDA away and returns to being a massive wall of flesh in a well-tailored suit, mildly annoyed at all around him.{{/GM}}\n\nYep."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dd08475663136b011000a71"
+  }
+  index: 10
+  text: "Alright.  That\'s fair...\n\n{{GM}}He pulls out his PDA and begins tapping at it, astoundingly gingerly for someone with fingers as big as his.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "5dbc9978643333c82500003c:5dd084c9663136b011000a73"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5dd08581663136b011000a85"
+  }
+  index: 11
+  text: "{{GM}}He smirks.{{/GM}}\n\nWelcome to  Shangahi.  Nothing here is free.   Come back when you\'ve got some funds."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    idRef {
+      id: "5dbc9978643333c82500003c:5dd085eb663136b011000ab0"
+    }
+    auxiliaryLink: true
+  }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
     id: "5dbca04c643333bc2a0014c6"
   }
-  index: 9
-  text: "The troll shrugs his shoulders and returns to his normal, silent, menacing appearance."
+  index: 12
+  text: "The ork shrugs his shoulders and returns to his normal, silent, menacing appearance."
   nodeType: ConversationNodeType_GM_Voice
 }
 nodes {
   idRef {
     id: "5dbca3f6643333bc2a001562"
   }
-  index: 10
+  index: 13
   text: "{{GM}}He sighs.{{/GM}}\n\nAll right. You\'ve got a few options.\n\n{{GM}}He pulls out his PDA and begins tapping at it, astoundingly gingerly for someone with fingers as big as his.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 6
+    nextNodeIndex: 7
     idRef {
       id: "5dbc9978643333c82500003c:5dbca401643333bc2a001564"
     }
@@ -607,7 +856,7 @@ nodes {
   idRef {
     id: "5dbca432643333bc2a001596"
   }
-  index: 11
+  index: 14
   text: "{{GM}}He shrugs.{{/GM}}\n\nNo skin off my back."
   nodeType: ConversationNodeType_Simple
 }
