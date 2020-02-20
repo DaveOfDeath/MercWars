@@ -1,0 +1,107 @@
+idRef {
+  id: "5e4e09c8643333fc2b009534"
+}
+ui_name: "a1-weaponsfact-Fixer"
+nodes {
+  idRef {
+    id: "5e4e09e0643333fc2b00953c"
+  }
+  index: 0
+  text: "A hiss of static fills your ears as you flip your comm over to the incoming call. The voice on the other end is your Fixer\'s, a dwarf of no particular note."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0acc643333fc2b00953e"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5e4e0acc643333fc2b009541"
+  }
+  index: 1
+  text: "Did you make it through the barricades?"
+  branches {
+    responseText: "Yeah. Temp ID got me through fine."
+    nextNodeIndex: 2
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0af1643333fc2b009543"
+    }
+  }
+  branches {
+    responseText: "You could have warned me. Can\'t take a piss without hitting a K-E on the calf here."
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0af6643333fc2b009545"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4e0b8a643333fc2b00954b"
+  }
+  index: 2
+  text: "Good. The J you\'re looking for should be in that area. He\'s Ares.\n\nThis part of town\'s usually too small for him. Doesn\'t work with newer runners. Sticks with folks on \"the List.\"\n\nThis\'ll be a good opportunity for you to get your feet wet."
+  branches {
+    responseText: "How am I supposed to find him?"
+    nextNodeIndex: 3
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0c21643333fc2b00954d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4e0c43643333fc2b009552"
+  }
+  index: 3
+  text: "Look for an elf. I\'d give you an approximate age, but to be honest, they all look the same to me.\n\nHe won\'t be in uniform; might be disguised as a bum, but if he is, the pigs won\'t be giving him the same trouble as other folks in the area.\n\nSo look for someone successfully keeping to himself."
+  branches {
+    responseText: "Sounds just lovely."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0cd3643333fc2b009557"
+    }
+  }
+  branches {
+    responseText: "Might as well get started."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0cdd643333fc2b009559"
+    }
+  }
+  branches {
+    responseText: "Drek needle in a drek haystack."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0ce6643333fc2b00955b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4e0b1a643333fc2b009548"
+  }
+  index: 4
+  text: "Uh, yeah. The J you\'re working with...he\'s Ares.\n\nBut this part of town\'s usually too small for him. Doesn\'t work with newer runners. Sticks with folks on \"the List.\"\n\nThis\'ll be a good opportunity for you to get your feet wet."
+  branches {
+    responseText: "How am I supposed to find him?"
+    nextNodeIndex: 3
+    idRef {
+      id: "5e4e09c8643333fc2b009534:5e4e0c3f643333fc2b00954f"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "5e4e09c8643333fc2b009534:5e4e09c8643333fc2b009538"
+  }
+}

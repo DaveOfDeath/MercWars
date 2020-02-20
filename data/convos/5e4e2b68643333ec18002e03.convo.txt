@@ -1,0 +1,132 @@
+idRef {
+  id: "5e4e2b68643333ec18002e03"
+}
+ui_name: "a1-weaponsfact-Companion"
+nodes {
+  idRef {
+    id: "5e4e2c9d643333ec18002ef3"
+  }
+  index: 0
+  text: "[PLACEHOLDER FOR RAVE\'S INTRO]"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4e2cb0643333ec18002ef6"
+  }
+  index: 1
+  text: "[PLACEHOLDER FOR V3NOM\'S INTRO]"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4e2cb3643333ec18002ef9"
+  }
+  index: 2
+  text: "[PLACEHOLDER FOR TOMBOY\'S INTRO]"
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "CompanionVariable"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5e4e2b68643333ec18002e03:5e4e2b68643333ec18002e07"
+  }
+  comment: "CompanionVariable = 1; Rave"
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "CompanionVariable"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 2
+      }
+    }
+  }
+  nextNodeIndex: 1
+  idRef {
+    id: "5e4e2b68643333ec18002e03:5e4e2b8f643333ec18002e0a"
+  }
+  comment: "CompanionVariable = 2; V3nom"
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "CompanionVariable"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
+    }
+  }
+  nextNodeIndex: 2
+  idRef {
+    id: "5e4e2b68643333ec18002e03:5e4e2b8f643333ec18002e0c"
+  }
+  comment: "CompanionVariable = 3; Tomboy"
+}

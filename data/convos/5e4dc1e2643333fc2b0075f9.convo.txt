@@ -1,0 +1,1804 @@
+idRef {
+  id: "5e4dc1e2643333fc2b0075f9"
+}
+ui_name: "a1-weaponsfact-MrJ"
+nodes {
+  idRef {
+    id: "5e4df73c643333fc2b00868b"
+  }
+  index: 0
+  text: "The elf busily mutters into a comm unit sewn into his collar, and pays you no heed."
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "5e4dc202643333fc2b007601"
+  }
+  index: 1
+  text: "{{GM}}An oddly nondescript elf looks you up and down.{{/GM}}\n\nI once heard of a story of a queen with three handmaidens..."
+  branches {
+    responseText: "Just me today, pal."
+    nextNodeIndex: 2
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc40a643333fc2b007603"
+    }
+  }
+  branches {
+    responseText: "Seriously? Am I in a spy trid?"
+    nextNodeIndex: 2
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc40b643333fc2b007605"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "\"The youngest wore green.\""
+    nextNodeIndex: 9
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc40b643333fc2b007607"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc447643333fc2b00760a"
+  }
+  index: 2
+  text: "{{GM}}His expression remains unchanged. If anything, his shoulders sink with what might pass for a sigh.{{/GM}}\n\n...They were bold and beautiful, young and restless."
+  branches {
+    responseText: "Those weren\'t handmaidens. You\'re thinking of old American soap operas."
+    nextNodeIndex: 3
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc478643333fc2b00760c"
+    }
+  }
+  branches {
+    responseText: "I just want to see what happens if I don\'t answer you appropriately."
+    nextNodeIndex: 5
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc478643333fc2b00760e"
+    }
+  }
+  branches {
+    responseText: "Fine. \"The youngest wore green.\""
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc48c643333fc2b007610"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc61a643333fc2b007643"
+  }
+  index: 3
+  text: "{{GM}}If your dragging him on is annoying him, he is either expertly hiding it, or using a facial mod that prevents expression.{{/GM}}\n\nAnd utterly devoted to their mistress."
+  branches {
+    responseText: "I just want to see what happens if I keep not playing along."
+    nextNodeIndex: 5
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc675643333fc2b007645"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "All right, all right. \"The youngest wore green.\""
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc676643333fc2b007647"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de403643333fc2b007afb"
+  }
+  index: 4
+  text: "There we are. I was beginning to worry for a moment.\n\n{{GM}}The elf drops his chin slightly in greeting.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de41f643333fc2b007afd"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc4f2643333fc2b007613"
+  }
+  index: 5
+  text: "I admire your honesty, but I also balk at how easily you forget who\'s holding the credstick."
+  branches {
+    responseText: "Nah. I\'m gonna do your job, and you\'re gonna pay me."
+    nextNodeIndex: 6
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc532643333fc2b007615"
+    }
+  }
+  branches {
+    responseText: "Fine. \"The youngest wore green.\""
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc535643333fc2b007617"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc54c643333fc2b00761a"
+  }
+  index: 6
+  text: "And as you were surely informed by your Fixer, who loves the finders\' fee we continue to give him for finding us the help we desire without complication, the job begins with the exchange of sign and countersign.\n\nNow let\'s try this again:"
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc5b7643333fc2b007622"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc5b7643333fc2b007625"
+  }
+  index: 7
+  text: "I once heard a story of a queen with three handmaidens..."
+  branches {
+    responseText: "They were old and crusty."
+    nextNodeIndex: 8
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc577643333fc2b00761c"
+    }
+  }
+  branches {
+    responseText: "Fine. \"The youngest wore green.\""
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc579643333fc2b00761e"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc6d0643333fc2b00765b"
+  }
+  index: 8
+  text: "{{GM}}The elf\'s head tilts slightly.{{/GM}}\n\nI\'m sorry. I must have the wrong person. Have a nice day."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcd12643333fc2b007712"
+  }
+  index: 9
+  text: "Excellent.\n\n{{GM}}The elf nods his head in greeting.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dcea5643333fc2b007714"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcea5643333fc2b007717"
+  }
+  index: 10
+  text: "Welcome to the Boshan Industrial Facility, recently purchased by Pale Moon Enterprises under the umbrella of what is all but in name Ares\' Pacific Rim wing."
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd025643333fc2b007719"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "SceneState"
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  comment: "Set SceneState to 1"
+}
+nodes {
+  idRef {
+    id: "5e4dd025643333fc2b00771c"
+  }
+  index: 11
+  text: "Two months ago, the workers attempted to unionize in response to the change in ownership, which of course brought with it new elements to their contracts, which they found...\n\n...disagreeable."
+  branches {
+    responseText: "Can\'t imagine why they\'d want to do that."
+    nextNodeIndex: 12
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd02a643333fc2b00771e"
+    }
+  }
+  branches {
+    responseText: "Unionize? Under a mega? Yeah, that\'s not gonna end well."
+    nextNodeIndex: 12
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd02a643333fc2b007720"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd055643333fc2b007723"
+  }
+  index: 12
+  text: "Contrary to how the trids portray us, we were willing to meet them at the negotiating table, as we always are for these talks. We believe in a healthy, happy working environment."
+  branches {
+    responseText: "Spare me the pitch, Johnson. I\'m here to work."
+    nextNodeIndex: 13
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd098643333fc2b007725"
+    }
+  }
+  branches {
+    responseText: "Ah, a resounding success! One can feel the health and happiness overflowing in this place."
+    nextNodeIndex: 51
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd098643333fc2b007727"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd0b1643333fc2b00772a"
+  }
+  index: 13
+  text: "Sorry. Bad habit, truly."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd151643333fc2b007738"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd151643333fc2b00773b"
+  }
+  index: 14
+  text: "Six days ago, talks broke down. Workers turned violent, physically removing their supervisors and company representatives from the factory, barricading the doors.\n\nThey\'ve rigged the working drones with makeshift weapons, and have threatened harm to any who try to cross the line without meeting their terms."
+  branches {
+    responseText: "Oh good. This sounds like the part where I come in."
+    nextNodeIndex: 15
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd1c8643333fc2b007742"
+    }
+  }
+  branches {
+    responseText: "I like these guys."
+    nextNodeIndex: 15
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dfdd9643333fc2b008c96"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Go on."
+    nextNodeIndex: 15
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dfdf2643333fc2b008c98"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd1c8643333fc2b007745"
+  }
+  index: 15
+  text: "So here\'s where we stand:\n\nAccording to our intelligence, the insurgents are being led by one \'Morty Yanluo\', whom we, the client, would like taken alive for questioning."
+  branches {
+    responseText: ""
+    nextNodeIndex: 16
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd228643333fc2b007747"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd228643333fc2b00774a"
+  }
+  index: 16
+  text: "You\'re looking for an ork, approximately 6-and-a-half feet tall. 22 years in age...so compared to a human, that\'s looking to be pushing 40 or 50.\n\nI doubt they\'re a combatant, and if you can isolate them from any guards or zealots, you can most likely expect them to surrender."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd2d2643333fc2b007753"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd2db643333fc2b007756"
+  }
+  index: 17
+  text: ""
+  branches {
+    responseText: "What makes you think Morty won\'t just kill himself when he\'s cornered?"
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint1"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 18
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd2fd643333fc2b007758"
+    }
+    comment: "Set JConvoPoint1 to TRUE"
+  }
+  branches {
+    responseText: "What about other workers? Do you care if they live or die?"
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint2"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 20
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd364643333fc2b007771"
+    }
+    comment: "Set JConvoPoint2 to TRUE"
+  }
+  branches {
+    responseText: "What if Morty Yanluo dies in the fighting?"
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint3"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 21
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd3b6643333fc2b00777a"
+    }
+    comment: "Set JConvoPoint3 to TRUE"
+  }
+  branches {
+    responseText: "How do I know you won\'t just kill me when I give you Morty Yanluo?"
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint3"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint4"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 23
+    hideIfUnavailable: true
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd4d0643333fc2b007838"
+    }
+    comment: "If JConvoPoint3=TRUE, set JConvoPoint4 to TRUE"
+  }
+  branches {
+    responseText: "I have some other questions about the job."
+    nextNodeIndex: 27
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd79a643333fc2b007a6c"
+    }
+    comment: "to hub B"
+  }
+  branches {
+    responseText: "Why is this guy so important? Why not just order me to ice him?"
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint5"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 43
+    hideIfUnavailable: true
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de676643333fc2b007cba"
+    }
+    comment: "if JConvoPoint5=TRUE"
+  }
+  branches {
+    responseText: "I know enough. I\'m ready to go."
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Comparison (bool)"
+            args {
+              call_value {
+                functionName: "Get Variable (bool)"
+                args {
+                  string_value: "JConvoPoint1"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "bool"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "AND"
+            args {
+              call_value {
+                functionName: "Comparison (bool)"
+                args {
+                  call_value {
+                    functionName: "Get Variable (bool)"
+                    args {
+                      string_value: "JConvoPoint2"
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Preset Value (int)"
+                    args {
+                      string_value: "IsOrIsNot"
+                    }
+                    args {
+                      int_value: 1
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Get Preset Value (int)"
+                    args {
+                      string_value: "bool"
+                    }
+                    args {
+                      int_value: 1
+                    }
+                  }
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "AND"
+                args {
+                  call_value {
+                    functionName: "Comparison (bool)"
+                    args {
+                      call_value {
+                        functionName: "Get Variable (bool)"
+                        args {
+                          string_value: "JConvoPoint3"
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "Get Preset Value (int)"
+                        args {
+                          string_value: "IsOrIsNot"
+                        }
+                        args {
+                          int_value: 1
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "Get Preset Value (int)"
+                        args {
+                          string_value: "bool"
+                        }
+                        args {
+                          int_value: 1
+                        }
+                      }
+                    }
+                  }
+                }
+                args {
+                  call_value {
+                    functionName: "Comparison (bool)"
+                    args {
+                      call_value {
+                        functionName: "Get Variable (bool)"
+                        args {
+                          string_value: "JConvoPoint4"
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "Get Preset Value (int)"
+                        args {
+                          string_value: "IsOrIsNot"
+                        }
+                        args {
+                          int_value: 1
+                        }
+                      }
+                    }
+                    args {
+                      call_value {
+                        functionName: "Get Preset Value (int)"
+                        args {
+                          string_value: "bool"
+                        }
+                        args {
+                          int_value: 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 46
+    hideIfUnavailable: true
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df223643333fc2b0082bd"
+    }
+    comment: "If JConvoPoint 1, 2, 3, and 4 = TRUE"
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub A"
+}
+nodes {
+  idRef {
+    id: "5e4dd318643333fc2b00775b"
+  }
+  index: 18
+  text: "Our psychological profile on Yanluo suggests that he\342\200\231s a martyr-type.\n\nHe\342\200\231d certainly prefer to live, but if death was the only option, killing himself isn\342\200\231t in his interest."
+  branches {
+    responseText: ""
+    nextNodeIndex: 19
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd339643333fc2b00775d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd339643333fc2b007760"
+  }
+  index: 19
+  text: "He would want his death to be at the hands of the state, or the corps, or whoever he opposes, and he\'d want it to be as visible as possible."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd35c643333fc2b007762"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd38a643333fc2b007774"
+  }
+  index: 20
+  text: "Everyone else is expendable. Only Yanluo matters.\n\nWe are unconcerned with collateral damage."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd3af643333fc2b007776"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd3d9643333fc2b00777d"
+  }
+  index: 21
+  text: "Then you\342\200\231ll have done us the favor of giving the media a name and face to the leaders of the militant, radical arm of the insurgency, and you can expect to be treated as one of them.\n\nAt that point, to the eyes in the sky, of course, you will be."
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd409643333fc2b00777f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd409643333fc2b007782"
+  }
+  index: 22
+  text: "That is our little insurance policy."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dfd47643333fc2b008a45"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd575643333fc2b0079a7"
+  }
+  index: 23
+  text: "{{GM}}The elf glances skyward, towards one of the camera drones puttering about overhead.{{/GM}}\n\nDo you know the difference between the Triple-As and the Triads?"
+  branches {
+    responseText: "As far as I\'m concerned, there isn\'t a difference. You both scrabble for land and power, unconcerned for the people outside of your circles."
+    nextNodeIndex: 24
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd5c2643333fc2b0079a9"
+    }
+  }
+  branches {
+    responseText: "I have the sneaky suspicion you\'re about to tell me."
+    nextNodeIndex: 24
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd5c2643333fc2b0079ab"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I have a few ideas, but sure, tell me yours."
+    nextNodeIndex: 24
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd5ec643333fc2b0079ad"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd612643333fc2b0079b0"
+  }
+  index: 24
+  text: "Triads bury their assets. We buy them.\n\nSo many of the Triads\342\200\231 best soldiers, operatives, and options are feeding fish at the bottom of the Yangtze and other rivers; it\342\200\231s their way of keeping the more meek and foolish of their numbers in line, professing their loyalty by inking up their bodies and kissing their leaders\342\200\231 rings. Why pay someone when it\342\200\231s cheaper to kill them after a contract?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 25
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd662643333fc2b0079b4"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd662643333fc2b0079b7"
+  }
+  index: 25
+  text: "Yet all that does is lose them a potential option somewhere down the line. Or maybe they truly don\342\200\231t have the money in the first place, and so the only option is to kill their assets once they\'ve been exhausted.\n\nWe, however, do not kill those who might prove useful tomorrow, or the next day."
+  branches {
+    responseText: ""
+    nextNodeIndex: 26
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd696643333fc2b0079b9"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd696643333fc2b0079bc"
+  }
+  index: 26
+  text: "Good shadowrunners, ones who execute contracts to the letter, even ones who sometimes work against us, are better for our bottom lines than our river bottoms.\n\nThat\'s why the Triads measure their influence in blocks and streets, while between Wuxing and Ares, we own most of the Pacific Rim."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd6c5643333fc2b007a01"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd7f2643333fc2b007a6f"
+  }
+  index: 27
+  text: "Ask."
+  branches {
+    responseText: ""
+    nextNodeIndex: 28
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd7ff643333fc2b007a71"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd7ff643333fc2b007a74"
+  }
+  index: 28
+  text: ""
+  branches {
+    responseText: "Why couldn\'t you handle this internally? Tell the media it\'s Shadowrunners, send in a High-Threat Response Team, bury the whole thing?"
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "JConvoPoint5"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 29
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd818643333fc2b007a76"
+    }
+    comment: "set JConvoPoint5 to TRUE"
+  }
+  branches {
+    responseText: "Let\'s talk about my pay."
+    nextNodeIndex: 32
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de73c643333fc2b007dd9"
+    }
+  }
+  branches {
+    responseText: "What kind of hostility should I expect to meet?"
+    nextNodeIndex: 33
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de7dd643333fc2b007df9"
+    }
+  }
+  branches {
+    responseText: "What can you tell me about the building itself? Doors, hazards, so on..."
+    nextNodeIndex: 35
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de8a4643333fc2b007e2a"
+    }
+  }
+  branches {
+    responseText: "Let\'s talk about Morty."
+    nextNodeIndex: 42
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4debf5643333fc2b008171"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub B"
+}
+nodes {
+  idRef {
+    id: "5e4dd9d6643333fc2b007a79"
+  }
+  index: 29
+  text: "Well, for one, it\'s not my call.\n\nBut to answer the question you\'re actually trying to ask...in a word, optics. At this point, we don\'t control them, and the more we try to cover, the worse it looks in the long run."
+  branches {
+    responseText: ""
+    nextNodeIndex: 30
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dda58643333fc2b007a7b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dda58643333fc2b007a7e"
+  }
+  index: 30
+  text: "Killing a popular persona like Yanluo will galvanize the unionization movement in other workplaces around the Pacific Rim.\n\nUnless, of course, he was to die in the process of a violent insurgent internal breakdown."
+  branches {
+    responseText: "So you\'re sending me in as a deniable asset."
+    nextNodeIndex: 31
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4ddb1e643333fc2b007a84"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de50b643333fc2b007c8c"
+  }
+  index: 31
+  text: "Indeed. It\'s a \"win-win\" for us. You succeed, we get Yanluo and the strike falls apart.\n\nYou fail, Yanluo dies, the media sees no instigation on our end...and the strike loses steam naturally."
+  branches {
+    responseText: ""
+    nextNodeIndex: 28
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de6e0643333fc2b007dc6"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de749643333fc2b007ddc"
+  }
+  index: 32
+  text: "As we agreed upon. 500 nuyen up front, another 500 upon the delivery of Morty Yanluo alive.\n\nWe\'ve never had any trouble paying your fixer up until this point; a point which he will verify the next time you speak to him."
+  branches {
+    responseText: ""
+    nextNodeIndex: 28
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de7cc643333fc2b007dde"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de7ea643333fc2b007dfc"
+  }
+  index: 33
+  text: "Nothing you can\'t handle. These are disgruntled factory workers, not paramilitary operatives.\n\nThey\'ve jerry-rigged some of the utility drones with makeshift combat attachments that will prove hazardous, but there were no military-grade armaments on base."
+  branches {
+    responseText: ""
+    nextNodeIndex: 34
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de868643333fc2b007dfe"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de868643333fc2b007e01"
+  }
+  index: 34
+  text: "However, one thing I feel I should point out is that these people...are convinced they are fighting for their lives.\n\nI would not expect them to go quietly into the night."
+  branches {
+    responseText: ""
+    nextNodeIndex: 28
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de899643333fc2b007e03"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dec22643333fc2b008174"
+  }
+  index: 35
+  text: "It\'s hard to say what hazards you\'ll face. The factory does have materials that could\'ve been implemented to become improvised explosives, so it wouldn\'t be unreasonable to see any. All of the toxic waste is stored off-site however."
+  branches {
+    responseText: ""
+    nextNodeIndex: 36
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4defb0643333fc2b008176"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4defb0643333fc2b008179"
+  }
+  index: 36
+  text: "As for doors, there are three I know of. First, there is of course the front door, then the loading area, and a third door mostly used by employees for smoke breaks, or quick evacuation in case of emergency.\n\nWhich would you like to know about?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 37
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4deffd643333fc2b00817b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4deffd643333fc2b00817e"
+  }
+  index: 37
+  text: ""
+  branches {
+    responseText: "Tell me about the front door."
+    nextNodeIndex: 38
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df003643333fc2b008180"
+    }
+  }
+  branches {
+    responseText: "Tell me about the loading area."
+    nextNodeIndex: 40
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df003643333fc2b008182"
+    }
+  }
+  branches {
+    responseText: "Tell me about the emergency exit."
+    nextNodeIndex: 41
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df004643333fc2b008184"
+    }
+  }
+  branches {
+    responseText: "I think I\'ll be fine."
+    nextNodeIndex: 28
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df022643333fc2b008186"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  comment: "hub c"
+}
+nodes {
+  idRef {
+    id: "5e4df030643333fc2b008189"
+  }
+  index: 38
+  text: "The front door is barricaded, and we assume tripwired, though for explosives or an alarm, we cannot reasonably say.\n\nObviously, you can expect to meet the heaviest resistance if you try to gain ingress here."
+  branches {
+    responseText: ""
+    nextNodeIndex: 39
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df068643333fc2b00818b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df068643333fc2b00818e"
+  }
+  index: 39
+  text: "Should you actually have the strength (or explosives) to breach the front door, you\'ll gain access to the front lobby and foyer area, a few meeting rooms and the executive offices, before heading out into the main factory floor."
+  branches {
+    responseText: ""
+    nextNodeIndex: 37
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df0d0643333fc2b008190"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df0f4643333fc2b008203"
+  }
+  index: 40
+  text: "This will get you direct access to the factory floor. It has the weakest barricades, but if anywhere had explosive tripwires, you could expect it to be there.\n\nIt\'s where we would send a High-Threat Response Team in first."
+  branches {
+    responseText: ""
+    nextNodeIndex: 37
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df147643333fc2b008205"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df14c643333fc2b008209"
+  }
+  index: 41
+  text: "This would get you into the employees\' break room, and as such, it\'s the least likely area to be trapped, other than perhaps the door itself.\n\nBut it\'s also the area you should most likely expect to stumble into people."
+  branches {
+    responseText: ""
+    nextNodeIndex: 37
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df1a4643333fc2b00820b"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df1d7643333fc2b008210"
+  }
+  index: 42
+  text: "What more would you like to know?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df1e2643333fc2b008212"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de8ce643333fc2b007e2d"
+  }
+  index: 43
+  text: "That\'s not your concern. Or mine, I suppose. I was told to bring him in alive, and deniable assets are the best way to do it, or fail trying."
+  branches {
+    responseText: "{{CC}}Charisma{{/CC}} You\'re a smart elf. I\'m not asking for company secrets. Sate my curiosity."
+    conditions {
+      ops {
+        functionName: "Compare Actor Attribute"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorAttributes"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          int_value: 4
+        }
+      }
+    }
+    nextNodeIndex: 44
+    hideIfUnavailable: true
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de92b643333fc2b007e2f"
+    }
+    comment: "Cha 4+"
+  }
+  branches {
+    responseText: "All right, I guess."
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de92d643333fc2b007e31"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de9c5643333fc2b007ec4"
+  }
+  index: 44
+  text: "{{GM}}The elf stares back at you, silent for a few long seconds.{{/GM}}\n\n...Morty Yanluo doesn\'t have an Ares SIN. Yet here he is leading a strike in an Ares factory.\n\nEverything we know about him, we\'ve gained from Shanghai municipal records. "
+  branches {
+    responseText: ""
+    nextNodeIndex: 45
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4deab4643333fc2b007ec6"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4deab4643333fc2b007ec9"
+  }
+  index: 45
+  text: "He\'s clearly important to this worker\'s rights movement. Important enough that people will die for him. If I was to guess my bosses\' intentions, it would be that they want to know who he really is, and if he was sent by someone, whom.\n\nBut that information cannot be gleaned from his corpse."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dff20643333fc2b00914c"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df350643333fc2b00836e"
+  }
+  index: 46
+  text: "Excellent. I\'ll need to let the guards know how many to allow through.\n\nIs anyone going with you?"
+  branches {
+    responseText: "Yes. I\'ll be taking an elven mage with me."
+    actions {
+      ops {
+        functionName: "Set Variable (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "CompanionVariable"
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+      ops {
+        functionName: "Add Tag to Prop"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Tagalong"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Prop)"
+            args {
+              string_value: "5e4e1312643333ec18002c71"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 47
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df376643333fc2b008370"
+    }
+    comment: "set CompanionVariable to 1; tag Rave"
+  }
+  branches {
+    responseText: "Yes. I\'ll be taking a human Decker with me."
+    actions {
+      ops {
+        functionName: "Set Variable (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "CompanionVariable"
+            }
+          }
+        }
+        args {
+          int_value: 2
+        }
+      }
+      ops {
+        functionName: "Add Tag to Prop"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Tagalong"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Prop)"
+            args {
+              string_value: "5e4e1314643333ec18002c72"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 49
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008372"
+    }
+    comment: "set CompanionVariable to 2; tag V3nom"
+  }
+  branches {
+    responseText: "Yes. I\'ll be taking a razorgirl with me."
+    actions {
+      ops {
+        functionName: "Set Variable (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "CompanionVariable"
+            }
+          }
+        }
+        args {
+          int_value: 3
+        }
+      }
+      ops {
+        functionName: "Add Tag to Prop"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Tagalong"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Prop)"
+            args {
+              string_value: "5e4e1310643333ec18002c70"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 50
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008374"
+    }
+    comment: "set CompanionVariable to 3; tag Tomboy"
+  }
+  branches {
+    responseText: "No. I work alone."
+    nextNodeIndex: 48
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df380643333fc2b008376"
+    }
+    auxiliaryLink: true
+    comment: "CompanionVariable = 0 = player is solo"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df543643333fc2b008379"
+  }
+  index: 47
+  text: "Ah. Do try to keep your destruction to a minimum.\n\nThough like I said, collateral damage is not a concern."
+  branches {
+    responseText: ""
+    nextNodeIndex: 48
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df5dc643333fc2b008381"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df5dc643333fc2b008384"
+  }
+  index: 48
+  text: "Well, best of luck then, and I hope we have more fruitful endeavors in the future."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df57d643333fc2b00837c"
+  }
+  index: 49
+  text: "A wise decision. You may find some Matrix access ports if you look hard enough."
+  branches {
+    responseText: ""
+    nextNodeIndex: 48
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df5f5643333fc2b008388"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df5a6643333fc2b00837f"
+  }
+  index: 50
+  text: "Hm. A curious decision, but I suppose you know what you\'re doing.\n\nI\'ll wire the clean-up crew now in that case, and let them know to prepare for a long night..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 48
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4df5fd643333fc2b00838b"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dd12f643333fc2b007736"
+  }
+  index: 51
+  text: "Clearly, the talks did not go well."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dd1bf643333fc2b00773f"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc751643333fc2b007660"
+  }
+  index: 52
+  text: "{{GM}}The elf glances at you. Perhaps surprisingly, there is no ire in his gaze. There\'s hardly anything that might pass for an emotion.{{/GM}}\n\nAh. You again. Are you lost?"
+  branches {
+    responseText: "You\'re seriously going to just brush me off that easily?"
+    nextNodeIndex: 53
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc7c6643333fc2b00769a"
+    }
+  }
+  branches {
+    responseText: "\"The youngest wore green.\""
+    nextNodeIndex: 59
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc7d8643333fc2b00769c"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc7f4643333fc2b00769f"
+  }
+  index: 53
+  text: "I have a story to tell, but it needs another to finish it."
+  branches {
+    responseText: "Find someone else to be your jester. I\'m here to do a job."
+    nextNodeIndex: 54
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc83b643333fc2b0076a1"
+    }
+  }
+  branches {
+    responseText: "Fine, I\'ll play along. \"The youngest wore green.\""
+    nextNodeIndex: 59
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc83c643333fc2b0076a3"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc890643333fc2b0076a6"
+  }
+  index: 54
+  text: "And I\'m here to define the parameters of that job. If you cannot handle simple requests, why ever would I trust you with a complex one?"
+  branches {
+    responseText: "If you can\'t be straight with me here, how can I trust you when I\'m the one out there sticking my neck on the line?"
+    nextNodeIndex: 55
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc8c7643333fc2b0076a8"
+    }
+  }
+  branches {
+    responseText: "Okay, you win. \"The youngest wore green.\""
+    nextNodeIndex: 59
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc8c8643333fc2b0076aa"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc91a643333fc2b0076ad"
+  }
+  index: 55
+  text: "Oh my, is this your first shadowrun?\n\n{{GM}}For the first time, a spark of emotion lights up the elf\'s eyes. Surprise. Genuine surprise.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 56
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc941643333fc2b0076af"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dc941643333fc2b0076b2"
+  }
+  index: 56
+  text: "You can\'t fully trust me, and I don\'t expect you to.\n\nBut the difference is that I am the one with a task needs completing, and all I need to find is the right person to do it; someone who surely exists somewhere in this city. You, waiting for the right jobs that are safe and secure and pay well, might as well put in an application at one of our warehouses"
+  branches {
+    responseText: ""
+    nextNodeIndex: 57
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dca75643333fc2b0076be"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dca75643333fc2b0076c1"
+  }
+  index: 57
+  text: "Because this job...is clearly something that you are not cut out for."
+  branches {
+    responseText: "Yeah, well. When you wanna grow up and not play your silly spy games, you know how to find me."
+    nextNodeIndex: 58
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc9e3643333fc2b0076b4"
+    }
+  }
+  branches {
+    responseText: "Y\'know what, fine. \"The youngest wore green.\""
+    nextNodeIndex: 59
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dc9e3643333fc2b0076b6"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dca14643333fc2b0076b9"
+  }
+  index: 58
+  text: "I do, but sadly...I cannot imagine what I would ever need you for."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4de471643333fc2b007b82"
+  }
+  index: 59
+  text: "I\'m glad you finally came around.\n\n{{GM}}The elf clears his throat.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4de492643333fc2b007b86"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcad0643333fc2b0076c9"
+  }
+  index: 60
+  text: "{{GM}}The elf glances at you.{{/GM}}\n\nCan I help you?"
+  branches {
+    responseText: "You ready to grow up now?"
+    nextNodeIndex: 61
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dcae8643333fc2b0076cb"
+    }
+  }
+  branches {
+    responseText: "Say it again."
+    nextNodeIndex: 62
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dcb07643333fc2b0076d0"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcaf5643333fc2b0076ce"
+  }
+  index: 61
+  text: "Does one ever tire of good stories?\n\n{{GM}}He shrugs and turns away.{{/GM}}"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcb11643333fc2b0076d3"
+  }
+  index: 62
+  text: "{{GM}}The elf nods, staring at you impassively.{{/GM}}\n\nI once heard of a story of a queen with three handmaidens..."
+  branches {
+    responseText: "I just wanted to hear it again. I don\'t actually plan on answering."
+    nextNodeIndex: 63
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dcb38643333fc2b0076d5"
+    }
+  }
+  branches {
+    responseText: "\"The youngest wore green.\""
+    nextNodeIndex: 59
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e4dcb38643333fc2b0076d7"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4dcb4d643333fc2b0076da"
+  }
+  index: 63
+  text: "We can do this all day, my friend."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "SceneState"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5e4dc1e2643333fc2b0075f9:5e4df71b643333fc2b008688"
+  }
+  comment: "SceneState=1"
+}
+roots {
+  nextNodeIndex: 1
+  onlyOnce: true
+  idRef {
+    id: "5e4dc1e2643333fc2b0075f9:5e4dc1e2643333fc2b0075fd"
+  }
+  comment: "Intro, available once"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 52
+  onlyOnce: true
+  idRef {
+    id: "5e4dc1e2643333fc2b0075f9:5e4dc704643333fc2b00765d"
+  }
+  comment: "SceneState=0, player has not given countersign, available once"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 60
+  idRef {
+    id: "5e4dc1e2643333fc2b0075f9:5e4dcab2643333fc2b0076c6"
+  }
+  comment: "SceneState=0, last loopback"
+}
