@@ -1,0 +1,149 @@
+idRef {
+  id: "5e4ec41a64333388040063b0"
+}
+ui_name: "a1-weaponsfact-KEGuard"
+nodes {
+  idRef {
+    id: "5e4ec42464333388040063b8"
+  }
+  index: 0
+  text: "{{GM}}The guard has two fingers placed just by their ear.{{/GM}}\n\nYes, I see them both.\n\n...Yes, understood."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    idRef {
+      id: "5e4ec41a64333388040063b0:5e4ec48a64333388040063bc"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5e4ec81c6433338010002c48"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5e4ec48a64333388040063bf"
+  }
+  index: 1
+  text: "{{GM}}The guard returns his hand to his weapon.{{/GM}}\n\nYou two are allowed to pass. From here, expect hostilities."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063db"
+  }
+  index: 2
+  text: "{{GM}}The guard has two fingers placed just by their ear.{{/GM}}\n\nYes, I see $(l.him).\n\n...Yes, understood."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+    idRef {
+      id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063dd"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5e4ec81c6433338010002c48"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063df"
+  }
+  index: 3
+  text: "{{GM}}The guard returns his hand to his weapon.{{/GM}}\n\nYou are allowed to pass. From here, expect hostilities."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "HasCompanion"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  onlyOnce: true
+  idRef {
+    id: "5e4ec41a64333388040063b0:5e4ec41a64333388040063b4"
+  }
+  comment: "HasCompanion=TRUE"
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 2
+  idRef {
+    id: "5e4ec41a64333388040063b0:5e4ec62464333388040063d1"
+  }
+  comment: "else"
+}

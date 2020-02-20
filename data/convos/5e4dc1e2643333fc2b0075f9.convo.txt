@@ -222,6 +222,20 @@ nodes {
         int_value: 1
       }
     }
+    ops {
+      functionName: "Set Variable (string)"
+      args {
+        call_value {
+          functionName: "Get Variable (string)"
+          args {
+            string_value: "JohnsonName"
+          }
+        }
+      }
+      args {
+        string_value: "Mr. Johnson"
+      }
+    }
   }
   comment: "Set SceneState to 1"
 }
@@ -1329,34 +1343,23 @@ nodes {
     responseText: "Yes. I\'ll be taking an elven mage with me."
     actions {
       ops {
-        functionName: "Set Variable (int)"
+        functionName: "Activate Actor Spawner"
         args {
           call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "CompanionVariable"
-            }
-          }
-        }
-        args {
-          int_value: 1
-        }
-      }
-      ops {
-        functionName: "Add Tag to Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "Tagalong"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
+            functionName: "Get Map Item (Actor Reference)"
             args {
               string_value: "5e4e1312643333ec18002c71"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
             }
           }
         }
@@ -1366,40 +1369,29 @@ nodes {
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df376643333fc2b008370"
     }
-    comment: "set CompanionVariable to 1; tag Rave"
+    comment: "spawn Rave"
   }
   branches {
     responseText: "Yes. I\'ll be taking a human Decker with me."
     actions {
       ops {
-        functionName: "Set Variable (int)"
+        functionName: "Activate Actor Spawner"
         args {
           call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "CompanionVariable"
-            }
-          }
-        }
-        args {
-          int_value: 2
-        }
-      }
-      ops {
-        functionName: "Add Tag to Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "Tagalong"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
+            functionName: "Get Map Item (Actor Reference)"
             args {
               string_value: "5e4e1314643333ec18002c72"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
             }
           }
         }
@@ -1409,40 +1401,29 @@ nodes {
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008372"
     }
-    comment: "set CompanionVariable to 2; tag V3nom"
+    comment: "spawn V3nom"
   }
   branches {
     responseText: "Yes. I\'ll be taking a razorgirl with me."
     actions {
       ops {
-        functionName: "Set Variable (int)"
+        functionName: "Activate Actor Spawner"
         args {
           call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "CompanionVariable"
-            }
-          }
-        }
-        args {
-          int_value: 3
-        }
-      }
-      ops {
-        functionName: "Add Tag to Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "Tagalong"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
+            functionName: "Get Map Item (Actor Reference)"
             args {
               string_value: "5e4e1310643333ec18002c70"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
             }
           }
         }
@@ -1452,7 +1433,7 @@ nodes {
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008374"
     }
-    comment: "set CompanionVariable to 3; tag Tomboy"
+    comment: "spawn Tomboy"
   }
   branches {
     responseText: "No. I work alone."

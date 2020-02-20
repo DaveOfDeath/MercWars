@@ -1,0 +1,110 @@
+idRef {
+  id: "5e4ebdfa6433338804006350"
+}
+ui_name: "a1-weaponsfact-Companion"
+nodes {
+  idRef {
+    id: "5e4ebe086433338804006358"
+  }
+  index: 0
+  text: "Oiy, boss. What\'s the news?\n\nMeet with the J?"
+  branches {
+    responseText: "I did."
+    nextNodeIndex: 1
+    idRef {
+      id: "5e4ebdfa6433338804006350:5e4ec0086433338804006363"
+    }
+  }
+  branches {
+    responseText: "Good news. We have crime to do."
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4ebdfa6433338804006350:5e4ec0116433338804006365"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec0326433338804006368"
+  }
+  index: 1
+  text: "...And?"
+  branches {
+    responseText: "Our job is to take the factory. Johnson was intentionally vague as to \"how\"."
+    nextNodeIndex: 2
+    idRef {
+      id: "5e4ebdfa6433338804006350:5e4ec03a643333880400636a"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec062643333880400636d"
+  }
+  index: 2
+  text: "I\'m guessing there\'s a catch. Right?\n\nThere\'s always a catch."
+  branches {
+    responseText: "Leader of the strikers, an older ork named \"Morty Yanluo\", is to be taken alive, or we don\'t get paid."
+    nextNodeIndex: 3
+    idRef {
+      id: "5e4ebdfa6433338804006350:5e4ec073643333880400636f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec0ea643333880400637c"
+  }
+  index: 3
+  text: "Well, that complicates things. Not-killing is always harder than killing.\n\nBut in any case, lead the way, boss."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec0b96433338804006372"
+  }
+  index: 4
+  text: "Oh good, crime. My favorite.\n\nSo what\'s the job?"
+  branches {
+    responseText: "We\'re to take the factory however we can."
+    nextNodeIndex: 2
+    idRef {
+      id: "5e4ebdfa6433338804006350:5e4ec0c86433338804006374"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  actions {
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5e4ec137643333880400638c"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  idRef {
+    id: "5e4ebdfa6433338804006350:5e4ebdfa6433338804006354"
+  }
+}
