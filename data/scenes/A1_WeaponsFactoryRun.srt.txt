@@ -9621,24 +9621,70 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: "NewTrigger"
+  name: "Warp-Ext_Streets-Ext_Factory"
   events {
     ops {
-      functionName: "On Actor Movement Finished"
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5e4f40e364333378150015c4"
+          }
+        }
+      }
     }
   }
   conditions {
+  }
+  actions {
     ops {
-      functionName: "Evaluate Tag for Actor"
+      functionName: "Teleport Actor"
       args {
         call_value {
-          functionName: "Specific Actor"
+          functionName: "All Actors on Team"
           args {
             call_value {
-              functionName: "Triggering Actor"
+              functionName: "Get Preset Value (string)"
+              args {
+                string_value: "FactionList"
+              }
+              args {
+                int_value: 0
+              }
             }
           }
           args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Map Item (SceneDimension)"
+              args {
+                string_value: "Default"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5e4f0dd964333320020056b3"
+              }
+            }
           }
         }
       }
@@ -9646,32 +9692,33 @@ triggers {
         call_value {
           functionName: "Get Preset Value (int)"
           args {
-            string_value: "HasOrHasNot"
+            string_value: "FacingDirection"
           }
           args {
-            int_value: 1
+            int_value: 7
           }
         }
       }
       args {
         call_value {
-          functionName: "Get Map Item (SenseTagList)"
+          functionName: "Get Preset Value (int)"
           args {
-            string_value: "isTagalong"
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
           }
         }
       }
     }
   }
-  actions {
-  }
   isActive: true
   idRef {
-    id: "5e4ef47b64333320020055c0"
+    id: "5e4f413d64333378150015c6"
   }
   elseActions {
   }
-  is_oneshot: true
+  is_oneshot: false
 }
 regions {
   name: "CAM_REGION1"
@@ -9861,6 +9908,180 @@ regions {
   is_vfx_fill_region: false
   idRef {
     id: "5e4eda8f6433338010002e18"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "FactoryEXT_RunnersWarpTo"
+  position {
+    x: -5
+    y: -79
+    width: 2
+    height: 2
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5e4f0dd964333320020056b3"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "CAM_Ext_Factory"
+  position {
+    x: -59
+    y: -139
+    width: 58
+    height: 66
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5e4f406a64333378150015c3"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "CAM_Int_Factory"
+  position {
+    x: -130
+    y: -143
+    width: 58
+    height: 66
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5e4f453d643333c81d001220"
   }
   highlight_color {
     r: 0
