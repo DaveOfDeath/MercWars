@@ -1,0 +1,8 @@
+id: "a1-weaponsfact_ElevatorKey"
+type: ItemType_QuestItem
+uirep {
+  name: "Elevator Key"
+  description: "A keycard that allows access to the second sub-basement of the Boshan Factory."
+}
+credentials: 0
+sorting_group: "Quest"

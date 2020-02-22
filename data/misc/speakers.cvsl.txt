@@ -42,7 +42,7 @@ speakers {
   description: "MFI"
   speaker_name: "Mr. Fix-It"
   speaker_portrait: "backer_elfmale_matthendrickson"
-  race: Race_None
+  race: Race_Drone
   gender: Gender_Male
   first_name: ""
   last_name: ""
@@ -52,7 +52,7 @@ speakers {
   description: ""
   speaker_name: "Vidphone"
   speaker_portrait: ""
-  race: Race_None
+  race: Race_Dragon
   gender: Gender_None
   first_name: ""
   last_name: ""
@@ -67,4 +67,14 @@ speakers {
   first_name: ""
   last_name: ""
   id: "5dbcda4c6433331c0600162a"
+}
+speakers {
+  description: "Ice Driver for Factory Run"
+  speaker_name: "Unknown Elf"
+  speaker_portrait: "Archangel"
+  race: Race_None
+  gender: Gender_None
+  first_name: ""
+  last_name: ""
+  id: "5e505ff8643333742200175c"
 }
