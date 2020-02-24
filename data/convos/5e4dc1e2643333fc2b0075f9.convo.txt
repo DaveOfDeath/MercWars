@@ -277,7 +277,7 @@ nodes {
   }
   branches {
     responseText: "Ah, a resounding success! One can feel the health and happiness overflowing in this place."
-    nextNodeIndex: 51
+    nextNodeIndex: 53
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dd098643333fc2b007727"
     }
@@ -289,7 +289,7 @@ nodes {
     id: "5e4dd0b1643333fc2b00772a"
   }
   index: 13
-  text: "Sorry. Bad habit, truly."
+  text: "{{GM}}He nods.{{/GM}}\n\nThe \'cold and professional\' version. I understand."
   branches {
     responseText: ""
     nextNodeIndex: 14
@@ -304,9 +304,9 @@ nodes {
     id: "5e4dd151643333fc2b00773b"
   }
   index: 14
-  text: "Six days ago, talks broke down. Workers turned violent, physically removing their supervisors and company representatives from the factory, barricading the doors.\n\nThey\'ve rigged the working drones with makeshift weapons, and have threatened harm to any who try to cross the line without meeting their terms."
+  text: "Six days ago, talks broke down. Workers turned violent, physically removing their supervisors and company representatives from the factory, and then barricading the doors.\n\nThey\'ve rigged the working drones with makeshift weapons, and have threatened harm to any who try to cross the line without meeting their terms."
   branches {
-    responseText: "Oh good. This sounds like the part where I come in."
+    responseText: "This sounds like the part where I come in."
     nextNodeIndex: 15
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dd1c8643333fc2b007742"
@@ -335,7 +335,7 @@ nodes {
     id: "5e4dd1c8643333fc2b007745"
   }
   index: 15
-  text: "So here\'s where we stand:\n\nAccording to our intelligence, the insurgents are being led by one \'Morty Yanluo\', whom we, the client, would like taken alive for questioning."
+  text: "So here\'s where we stand:\n\nAccording to our intelligence, the insurgents are being led by one \'Morty Yanluo\', whom we would like taken alive for questioning."
   branches {
     responseText: ""
     nextNodeIndex: 16
@@ -350,7 +350,7 @@ nodes {
     id: "5e4dd228643333fc2b00774a"
   }
   index: 16
-  text: "You\'re looking for an ork, approximately 6-and-a-half feet tall. 22 years in age...so compared to a human, that\'s looking to be pushing 40 or 50.\n\nI doubt they\'re a combatant, and if you can isolate them from any guards or zealots, you can most likely expect them to surrender."
+  text: "You\'re looking for an ork, male, approximately 6-and-a-half feet tall. 22 years in age...so compared to a human, that\'s looking to be pushing 40 or 50.\n\nI doubt they\'re a combatant, and if you can isolate them from any guards or zealots, you can most likely expect them to surrender."
   branches {
     responseText: ""
     nextNodeIndex: 17
@@ -539,7 +539,7 @@ nodes {
     comment: "to hub B"
   }
   branches {
-    responseText: "Why is this guy so important? Why not just order me to ice him?"
+    responseText: "Why is this guy so important? Why not just let me ice him?"
     conditions {
       ops {
         functionName: "Comparison (bool)"
@@ -581,6 +581,125 @@ nodes {
       id: "5e4dc1e2643333fc2b0075f9:5e4de676643333fc2b007cba"
     }
     comment: "if JConvoPoint5=TRUE"
+  }
+  branches {
+    responseText: "{{CC}}Security{{/CC}} You want a non-fatal takedown, I need non-fatal options."
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Compare Actor Skill"
+            args {
+              call_value {
+                functionName: "Triggering Actor"
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "BaseOrCurrent"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "ActorSkills"
+                }
+                args {
+                  int_value: 14
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "Comparison Ops"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Comparison (bool)"
+            args {
+              call_value {
+                functionName: "Get Variable (bool)"
+                args {
+                  string_value: "JConvoPoint5"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "bool"
+                }
+                args {
+                  int_value: 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "PlayerGetsHandcuffs"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 46
+    hideIfUnavailable: true
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e53640c643333240c005a5a"
+    }
+    comment: "If JConvoPoint 5 = True AND PC0 has E:Security"
   }
   branches {
     responseText: "I know enough. I\'m ready to go."
@@ -739,7 +858,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 46
+    nextNodeIndex: 48
     hideIfUnavailable: true
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df223643333fc2b0082bd"
@@ -972,7 +1091,7 @@ nodes {
     }
   }
   branches {
-    responseText: "What can you tell me about the building itself? Doors, hazards, so on..."
+    responseText: "What can you tell me about the building itself? Points of entry, hazards, so on..."
     nextNodeIndex: 35
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4de8a4643333fc2b007e2a"
@@ -1023,7 +1142,7 @@ nodes {
     id: "5e4de50b643333fc2b007c8c"
   }
   index: 31
-  text: "Indeed. It\'s a \"win-win\" for us. You succeed, we get Yanluo and the strike falls apart.\n\nYou fail, Yanluo dies, the media sees no instigation on our end...and the strike loses steam naturally."
+  text: "Indeed. That is why one calls for a Shadowrunner. It\'s a \"win-win\" for us. You succeed, we get Yanluo and the strike assuredly falls apart.\n\nYou fail, Yanluo dies, the media sees no instigation on our end...and the strike loses steam naturally."
   branches {
     responseText: ""
     nextNodeIndex: 28
@@ -1086,7 +1205,7 @@ nodes {
     id: "5e4dec22643333fc2b008174"
   }
   index: 35
-  text: "It\'s hard to say what hazards you\'ll face. The factory does have materials that could\'ve been implemented to become improvised explosives, so it wouldn\'t be unreasonable to see any. All of the toxic waste is stored off-site however."
+  text: "It\'s hard to say what hazards you\'ll face, other than some hostile drones. The factory does have materials that could\'ve been implemented to become improvised explosives, so it wouldn\'t be unreasonable to see any. All of the toxic waste is stored off-site however."
   branches {
     responseText: ""
     nextNodeIndex: 36
@@ -1235,7 +1354,7 @@ nodes {
   index: 43
   text: "That\'s not your concern. Or mine, I suppose. I was told to bring him in alive, and deniable assets are the best way to do it, or fail trying."
   branches {
-    responseText: "{{CC}}Charisma{{/CC}} You\'re a smart elf. I\'m not asking for company secrets. Sate my curiosity."
+    responseText: "{{CC}}Charisma{{/CC}} You\'re a smart elf. I\'m not asking for company secrets. You want a win here, so give me something I can use."
     conditions {
       ops {
         functionName: "Compare Actor Attribute"
@@ -1307,7 +1426,7 @@ nodes {
     id: "5e4de9c5643333fc2b007ec4"
   }
   index: 44
-  text: "{{GM}}The elf stares back at you, silent for a few long seconds.{{/GM}}\n\n...Morty Yanluo doesn\'t have an Ares SIN. Yet here he is leading a strike in an Ares factory.\n\nEverything we know about him, we\'ve gained from Shanghai municipal records. "
+  text: "{{GM}}The elf stares at you, silent for a few long seconds.{{/GM}}\n\n...Morty Yanluo doesn\'t have an Ares SIN. Yet here he is leading a strike in an Ares factory. Curious, isn\'t it?\n\nEverything we know about him, we\'ve gained from Shanghai municipal records. "
   branches {
     responseText: ""
     nextNodeIndex: 45
@@ -1335,9 +1454,40 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e4df350643333fc2b00836e"
+    id: "5e5364a4643333240c005a5d"
   }
   index: 46
+  text: "{{GM}}The elf\'s head tilts slightly.{{/GM}}\n\nWhat exactly do you need from me?"
+  branches {
+    responseText: "K-E standard issue binder-cuffs. Every captain carries a few sets, so you can spare me a few."
+    nextNodeIndex: 47
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e5364b2643333240c005a5f"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e536647643333240c005a62"
+  }
+  index: 47
+  text: "{{GM}}He nods.{{/GM}}\n\nOf course. I\'ll have the guard captain give you his when he lets you pass."
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+    idRef {
+      id: "5e4dc1e2643333fc2b0075f9:5e5366e9643333240c005cd4"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4df350643333fc2b00836e"
+  }
+  index: 48
   text: "Excellent. I\'ll need to let the guards know how many to allow through.\n\nIs anyone going with you?"
   branches {
     responseText: "Yes. I\'ll be taking an elven mage with me."
@@ -1365,7 +1515,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 47
+    nextNodeIndex: 49
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df376643333fc2b008370"
     }
@@ -1397,7 +1547,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 49
+    nextNodeIndex: 51
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008372"
     }
@@ -1429,7 +1579,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 50
+    nextNodeIndex: 52
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df377643333fc2b008374"
     }
@@ -1437,7 +1587,7 @@ nodes {
   }
   branches {
     responseText: "No. I work alone."
-    nextNodeIndex: 48
+    nextNodeIndex: 50
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df380643333fc2b008376"
     }
@@ -1450,11 +1600,11 @@ nodes {
   idRef {
     id: "5e4df543643333fc2b008379"
   }
-  index: 47
+  index: 49
   text: "Ah. Do try to keep your destruction to a minimum.\n\nThough like I said, collateral damage is not a concern."
   branches {
     responseText: ""
-    nextNodeIndex: 48
+    nextNodeIndex: 50
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df5dc643333fc2b008381"
     }
@@ -1465,7 +1615,7 @@ nodes {
   idRef {
     id: "5e4df5dc643333fc2b008384"
   }
-  index: 48
+  index: 50
   text: "Well, best of luck then, and I hope we have more fruitful endeavors in the future."
   nodeType: ConversationNodeType_Simple
 }
@@ -1473,11 +1623,11 @@ nodes {
   idRef {
     id: "5e4df57d643333fc2b00837c"
   }
-  index: 49
+  index: 51
   text: "A wise decision. You may find some Matrix access ports if you look hard enough."
   branches {
     responseText: ""
-    nextNodeIndex: 48
+    nextNodeIndex: 50
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df5f5643333fc2b008388"
     }
@@ -1489,11 +1639,11 @@ nodes {
   idRef {
     id: "5e4df5a6643333fc2b00837f"
   }
-  index: 50
+  index: 52
   text: "Hm. A curious decision, but I suppose you know what you\'re doing.\n\nI\'ll wire the clean-up crew now in that case, and let them know to prepare for a long night..."
   branches {
     responseText: ""
-    nextNodeIndex: 48
+    nextNodeIndex: 50
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4df5fd643333fc2b00838b"
     }
@@ -1505,7 +1655,7 @@ nodes {
   idRef {
     id: "5e4dd12f643333fc2b007736"
   }
-  index: 51
+  index: 53
   text: "Clearly, the talks did not go well."
   branches {
     responseText: ""
@@ -1521,18 +1671,18 @@ nodes {
   idRef {
     id: "5e4dc751643333fc2b007660"
   }
-  index: 52
+  index: 54
   text: "{{GM}}The elf glances at you. Perhaps surprisingly, there is no ire in his gaze. There\'s hardly anything that might pass for an emotion.{{/GM}}\n\nAh. You again. Are you lost?"
   branches {
     responseText: "You\'re seriously going to just brush me off that easily?"
-    nextNodeIndex: 53
+    nextNodeIndex: 55
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc7c6643333fc2b00769a"
     }
   }
   branches {
     responseText: "\"The youngest wore green.\""
-    nextNodeIndex: 59
+    nextNodeIndex: 61
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc7d8643333fc2b00769c"
     }
@@ -1544,18 +1694,18 @@ nodes {
   idRef {
     id: "5e4dc7f4643333fc2b00769f"
   }
-  index: 53
+  index: 55
   text: "I have a story to tell, but it needs another to finish it."
   branches {
     responseText: "Find someone else to be your jester. I\'m here to do a job."
-    nextNodeIndex: 54
+    nextNodeIndex: 56
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc83b643333fc2b0076a1"
     }
   }
   branches {
     responseText: "Fine, I\'ll play along. \"The youngest wore green.\""
-    nextNodeIndex: 59
+    nextNodeIndex: 61
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc83c643333fc2b0076a3"
     }
@@ -1567,18 +1717,18 @@ nodes {
   idRef {
     id: "5e4dc890643333fc2b0076a6"
   }
-  index: 54
+  index: 56
   text: "And I\'m here to define the parameters of that job. If you cannot handle simple requests, why ever would I trust you with a complex one?"
   branches {
     responseText: "If you can\'t be straight with me here, how can I trust you when I\'m the one out there sticking my neck on the line?"
-    nextNodeIndex: 55
+    nextNodeIndex: 57
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc8c7643333fc2b0076a8"
     }
   }
   branches {
     responseText: "Okay, you win. \"The youngest wore green.\""
-    nextNodeIndex: 59
+    nextNodeIndex: 61
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc8c8643333fc2b0076aa"
     }
@@ -1590,11 +1740,11 @@ nodes {
   idRef {
     id: "5e4dc91a643333fc2b0076ad"
   }
-  index: 55
+  index: 57
   text: "Oh my, is this your first shadowrun?\n\n{{GM}}For the first time, a spark of emotion lights up the elf\'s eyes. Surprise. Genuine surprise.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 56
+    nextNodeIndex: 58
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc941643333fc2b0076af"
     }
@@ -1605,11 +1755,11 @@ nodes {
   idRef {
     id: "5e4dc941643333fc2b0076b2"
   }
-  index: 56
+  index: 58
   text: "You can\'t fully trust me, and I don\'t expect you to.\n\nBut the difference is that I am the one with a task needs completing, and all I need to find is the right person to do it; someone who surely exists somewhere in this city. You, waiting for the right jobs that are safe and secure and pay well, might as well put in an application at one of our warehouses"
   branches {
     responseText: ""
-    nextNodeIndex: 57
+    nextNodeIndex: 59
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dca75643333fc2b0076be"
     }
@@ -1620,18 +1770,18 @@ nodes {
   idRef {
     id: "5e4dca75643333fc2b0076c1"
   }
-  index: 57
+  index: 59
   text: "Because this job...is clearly something that you are not cut out for."
   branches {
     responseText: "Yeah, well. When you wanna grow up and not play your silly spy games, you know how to find me."
-    nextNodeIndex: 58
+    nextNodeIndex: 60
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc9e3643333fc2b0076b4"
     }
   }
   branches {
     responseText: "Y\'know what, fine. \"The youngest wore green.\""
-    nextNodeIndex: 59
+    nextNodeIndex: 61
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dc9e3643333fc2b0076b6"
     }
@@ -1642,7 +1792,7 @@ nodes {
   idRef {
     id: "5e4dca14643333fc2b0076b9"
   }
-  index: 58
+  index: 60
   text: "I do, but sadly...I cannot imagine what I would ever need you for."
   nodeType: ConversationNodeType_Simple
 }
@@ -1650,7 +1800,7 @@ nodes {
   idRef {
     id: "5e4de471643333fc2b007b82"
   }
-  index: 59
+  index: 61
   text: "I\'m glad you finally came around.\n\n{{GM}}The elf clears his throat.{{/GM}}"
   branches {
     responseText: ""
@@ -1666,18 +1816,18 @@ nodes {
   idRef {
     id: "5e4dcad0643333fc2b0076c9"
   }
-  index: 60
+  index: 62
   text: "{{GM}}The elf glances at you.{{/GM}}\n\nCan I help you?"
   branches {
     responseText: "You ready to grow up now?"
-    nextNodeIndex: 61
+    nextNodeIndex: 63
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dcae8643333fc2b0076cb"
     }
   }
   branches {
     responseText: "Say it again."
-    nextNodeIndex: 62
+    nextNodeIndex: 64
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dcb07643333fc2b0076d0"
     }
@@ -1688,7 +1838,7 @@ nodes {
   idRef {
     id: "5e4dcaf5643333fc2b0076ce"
   }
-  index: 61
+  index: 63
   text: "Does one ever tire of good stories?\n\n{{GM}}He shrugs and turns away.{{/GM}}"
   nodeType: ConversationNodeType_Simple
 }
@@ -1696,18 +1846,18 @@ nodes {
   idRef {
     id: "5e4dcb11643333fc2b0076d3"
   }
-  index: 62
+  index: 64
   text: "{{GM}}The elf nods, staring at you impassively.{{/GM}}\n\nI once heard of a story of a queen with three handmaidens..."
   branches {
     responseText: "I just wanted to hear it again. I don\'t actually plan on answering."
-    nextNodeIndex: 63
+    nextNodeIndex: 65
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dcb38643333fc2b0076d5"
     }
   }
   branches {
     responseText: "\"The youngest wore green.\""
-    nextNodeIndex: 59
+    nextNodeIndex: 61
     idRef {
       id: "5e4dc1e2643333fc2b0075f9:5e4dcb38643333fc2b0076d7"
     }
@@ -1719,7 +1869,7 @@ nodes {
   idRef {
     id: "5e4dcb4d643333fc2b0076da"
   }
-  index: 63
+  index: 65
   text: "We can do this all day, my friend."
   nodeType: ConversationNodeType_Simple
 }
@@ -1768,7 +1918,7 @@ roots {
 }
 roots {
   responseText: ""
-  nextNodeIndex: 52
+  nextNodeIndex: 54
   onlyOnce: true
   idRef {
     id: "5e4dc1e2643333fc2b0075f9:5e4dc704643333fc2b00765d"
@@ -1777,7 +1927,7 @@ roots {
 }
 roots {
   responseText: ""
-  nextNodeIndex: 60
+  nextNodeIndex: 62
   idRef {
     id: "5e4dc1e2643333fc2b0075f9:5e4dcab2643333fc2b0076c6"
   }

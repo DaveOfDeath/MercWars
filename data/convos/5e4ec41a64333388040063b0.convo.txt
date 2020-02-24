@@ -10,10 +10,54 @@ nodes {
   text: "{{GM}}The guard has two fingers placed just by their ear.{{/GM}}\n\nYes, I see them both.\n\n...Yes, understood."
   branches {
     responseText: ""
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "PlayerGetsHandcuffs"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
     nextNodeIndex: 1
+    idRef {
+      id: "5e4ec41a64333388040063b0:5e536795643333240c005dcf"
+    }
+    comment: "PlayerGetsHandcuffs = TRUE; MUST ADD DUNCAN\'S \"SUBDUE\" ABILITY"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
     idRef {
       id: "5e4ec41a64333388040063b0:5e4ec48a64333388040063bc"
     }
+    comment: "else"
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -43,9 +87,17 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e4ec48a64333388040063bf"
+    id: "5e5367bb643333240c005dd2"
   }
   index: 1
+  text: "{{GM}}The guard hands you a few wraps of bindings.{{/GM}}\n\nI was ordered to pass these along to you. I trust you\'ll know what to do with them.\n\nGood luck on your path."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e4ec48a64333388040063bf"
+  }
+  index: 2
   text: "{{GM}}The guard returns his hand to his weapon.{{/GM}}\n\nYou two are allowed to pass. From here, expect hostilities."
   nodeType: ConversationNodeType_Simple
 }
@@ -53,14 +105,58 @@ nodes {
   idRef {
     id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063db"
   }
-  index: 2
+  index: 3
   text: "{{GM}}The guard has two fingers placed just by their ear.{{/GM}}\n\nYes, I see $(l.him).\n\n...Yes, understood."
   branches {
     responseText: ""
-    nextNodeIndex: 3
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "PlayerGetsHandcuffs"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 4
+    idRef {
+      id: "5e4ec41a64333388040063b0:5e536818643333240c005de5"
+    }
+    comment: "PlayerGetsHandcuffs = TRUE; MUST ADD DUNCAN\'S \"SUBDUE\" ABILITY"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
     idRef {
       id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063dd"
     }
+    comment: "else"
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -90,9 +186,17 @@ nodes {
 }
 nodes {
   idRef {
+    id: "5e4ec41a64333388040063b0:5e536818643333240c005de7"
+  }
+  index: 4
+  text: "{{GM}}The guard hands you a few wraps of bindings.{{/GM}}\n\nI was ordered to pass these along to you. I trust you\'ll know what to do with them.\n\nGood luck on your path."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
     id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063df"
   }
-  index: 3
+  index: 5
   text: "{{GM}}The guard returns his hand to his weapon.{{/GM}}\n\nYou are allowed to pass. From here, expect hostilities."
   nodeType: ConversationNodeType_Simple
 }
@@ -141,7 +245,7 @@ roots {
 }
 roots {
   responseText: ""
-  nextNodeIndex: 2
+  nextNodeIndex: 3
   idRef {
     id: "5e4ec41a64333388040063b0:5e4ec62464333388040063d1"
   }
