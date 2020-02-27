@@ -1,0 +1,8 @@
+id: "a1-weaponsfact-bindercuffs"
+type: ItemType_QuestItem
+uirep {
+  name: "Knight-Errant Binder-Cuffs"
+  description: "High-tech handcuffs, capable of binding limbs together, or to some stationary objects."
+}
+credentials: 0
+sorting_group: "Quest"

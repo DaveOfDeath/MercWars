@@ -49,7 +49,7 @@ nodes {
     idRef {
       id: "5e4ec41a64333388040063b0:5e536795643333240c005dcf"
     }
-    comment: "PlayerGetsHandcuffs = TRUE; MUST ADD DUNCAN\'S \"SUBDUE\" ABILITY"
+    comment: "PlayerGetsHandcuffs = TRUE"
   }
   branches {
     responseText: ""
@@ -92,6 +92,57 @@ nodes {
   index: 1
   text: "{{GM}}The guard hands you a few wraps of bindings.{{/GM}}\n\nI was ordered to pass these along to you. I trust you\'ll know what to do with them.\n\nGood luck on your path."
   nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "a1-weaponsfact-bindercuffs"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  comment: "add bindercuffs; MUST ADD DUNCAN\'S \"SUBDUE\" ABILITY"
 }
 nodes {
   idRef {
@@ -144,15 +195,16 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 4
+    nextNodeIndex: 1
     idRef {
       id: "5e4ec41a64333388040063b0:5e536818643333240c005de5"
     }
-    comment: "PlayerGetsHandcuffs = TRUE; MUST ADD DUNCAN\'S \"SUBDUE\" ABILITY"
+    auxiliaryLink: true
+    comment: "PlayerGetsHandcuffs = TRUE"
   }
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 4
     idRef {
       id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063dd"
     }
@@ -186,17 +238,9 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e4ec41a64333388040063b0:5e536818643333240c005de7"
-  }
-  index: 4
-  text: "{{GM}}The guard hands you a few wraps of bindings.{{/GM}}\n\nI was ordered to pass these along to you. I trust you\'ll know what to do with them.\n\nGood luck on your path."
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
     id: "5e4ec41a64333388040063b0:5e4ec6ad64333388040063df"
   }
-  index: 5
+  index: 4
   text: "{{GM}}The guard returns his hand to his weapon.{{/GM}}\n\nYou are allowed to pass. From here, expect hostilities."
   nodeType: ConversationNodeType_Simple
 }

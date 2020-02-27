@@ -17,7 +17,7 @@ nodes {
   }
   branches {
     responseText: "Hands where I can see them! No sudden movements! I don\'t want to kill you, but I will if I have to."
-    nextNodeIndex: 43
+    nextNodeIndex: 32
     idRef {
       id: "5e5067f6643333742200176b:5e509f3864333374220024a4"
     }
@@ -67,7 +67,7 @@ nodes {
   }
   branches {
     responseText: ""
-    nextNodeIndex: 42
+    nextNodeIndex: 31
     idRef {
       id: "5e5067f6643333742200176b:5e5068f5643333742200179a"
     }
@@ -90,7 +90,7 @@ nodes {
   }
   branches {
     responseText: " Those people came at me. I didn\'t want to kill them. They didn\'t give me a choice."
-    nextNodeIndex: 41
+    nextNodeIndex: 30
     idRef {
       id: "5e5067f6643333742200176b:5e50692364333374220017a4"
     }
@@ -129,56 +129,12 @@ nodes {
   }
   branches {
     responseText: "Who are you, and what are you doing here?"
-    nextNodeIndex: 21
+    nextNodeIndex: 24
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
       id: "5e5067f6643333742200176b:5e50868a6433337422001c17"
     }
-  }
-  branches {
-    responseText: "You\'re not a worker, that much is clear. So why are you doing this?"
-    conditions {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Variable (bool)"
-            args {
-              string_value: "IceDriverQuestionsUnlocked"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: 27
-    hideIfUnavailable: true
-    idRef {
-      id: "5e5067f6643333742200176b:5e508ea764333374220020f4"
-    }
-    comment: "QuestionsUnlocked=TRUE"
   }
   nodeType: ConversationNodeType_Simple
   comment: "hub"
@@ -190,7 +146,7 @@ nodes {
   index: 5
   text: "{{GM}}She hesitates a moment.{{/GM}}\n\n...You\'re talking to him."
   branches {
-    responseText: "Bulldrek. Morty\'s an Ork, middle-aged. You\'re clearly not that."
+    responseText: "Bulldrek. Morty\'s an Ork, male, middle-aged. You\'re clearly...not any of that."
     nextNodeIndex: 6
     idRef {
       id: "5e5067f6643333742200176b:5e506b4d64333374220017db"
@@ -198,7 +154,7 @@ nodes {
   }
   branches {
     responseText: "Let\'s say I believe you. You willing to come with me?"
-    nextNodeIndex: 12
+    nextNodeIndex: 18
     idRef {
       id: "5e5067f6643333742200176b:5e5081016433337422001b43"
     }
@@ -211,17 +167,17 @@ nodes {
     id: "5e506b7364333374220017de"
   }
   index: 6
-  text: "\"Morty\" is an entry in a database. He\'s rumors and speculation. He\'s what enough people said he was that everyone who\'s heard of him now believes that that what he is.\n\nTruth be told, you\'re as much Morty Yanluo as I am."
+  text: "\"Morty\" is an entry in a database. He\'s rumors and speculation. He is what enough people said he was.\n\nTruth be told, you\'re as much Morty Yanluo as I am."
   branches {
-    responseText: "I don\'t believe you. You\'re hiding Morty Yanluo. Stalling for time maybe. Where is he?"
+    responseText: "I don\'t believe you. You\'re clearly hiding Morty Yanluo. Stalling for time maybe. Where is he?"
     nextNodeIndex: 7
     idRef {
       id: "5e5067f6643333742200176b:5e506c0a64333374220017f7"
     }
   }
   branches {
-    responseText: "Let\'s say I believe you. You willing to come with me?"
-    nextNodeIndex: 12
+    responseText: "Let\'s say I believe you. Will you come with me?"
+    nextNodeIndex: 18
     idRef {
       id: "5e5067f6643333742200176b:5e506c0c64333374220017f9"
     }
@@ -258,6 +214,231 @@ nodes {
     idRef {
       id: "5e5067f6643333742200176b:5e506c5c64333374220017fe"
     }
+  }
+  branches {
+    responseText: "I have exactly zero time to deal with you. My life is on the line here too, sister, so I\'m going to give you one last chance to tell me where Morty is, or I swear here and now that I will end you where you stand."
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "5e4e1312643333ec18002c71"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 12
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e549dc4643333881c007c7d"
+    }
+    comment: "Rave"
+  }
+  branches {
+    responseText: "I have exactly zero time to deal with you. My life is on the line here too, sister, so I\'m going to give you one last chance to tell me where Morty is, or I swear here and now that I will end you where you stand."
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "5e4e1310643333ec18002c70"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 16
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e549e29643333881c007c7f"
+    }
+    comment: "Tomboy"
+  }
+  branches {
+    responseText: "I have exactly zero time to deal with you. My life is on the line here too, sister, so I\'m going to give you one last chance to tell me where Morty is, or I swear here and now that I will end you where you stand."
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "5e4e1314643333ec18002c72"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 17
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e549e3f643333881c007c82"
+    }
+    comment: "V3nom"
+  }
+  branches {
+    responseText: "I have exactly zero time to deal with you. My life is on the line here too, sister, so I\'m going to give you one last chance to tell me where Morty is, or I swear here and now that I will end you where you stand."
+    conditions {
+      ops {
+        functionName: "Evaluate Tag for Actor"
+        args {
+          call_value {
+            functionName: "All Actors on Team"
+            args {
+              call_value {
+                functionName: "Get Preset Value (string)"
+                args {
+                  string_value: "FactionList"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "AllOrAny"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Map Item (SceneDimension)"
+                args {
+                  string_value: "Default"
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "HasOrHasNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Tag From String"
+            args {
+              string_value: "isTagalong"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 13
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e549e52643333881c007c84"
+    }
+    auxiliaryLink: true
+    comment: "Solo -- if no actors on Team Shadowrunner have Tag: \"isTagalong\""
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -369,7 +550,7 @@ nodes {
   }
   branches {
     responseText: "That\'s a trap. You\'re coming with me, \'Morty Yanluo\', and we\'re going to have a nice, long conversation with Mr. Johnson."
-    nextNodeIndex: 13
+    nextNodeIndex: 19
     idRef {
       id: "5e5067f6643333742200176b:5e50961c6433337422002321"
     }
@@ -411,231 +592,22 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e507649643333742200187d"
+    id: "5e549eda643333881c007c87"
   }
   index: 12
-  text: "Are you saying I have a choice?"
+  text: "Wait a minute, what if--"
   branches {
-    responseText: "No. Not really."
+    responseText: "Shut your mouth. I got this."
     nextNodeIndex: 13
     idRef {
-      id: "5e5067f6643333742200176b:5e507654643333742200187f"
+      id: "5e5067f6643333742200176b:5e549f02643333881c007c89"
     }
   }
   branches {
-    responseText: "Sure you do. Resist, and I kill you."
-    conditions {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Variable (bool)"
-            args {
-              string_value: "HasCompanion"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: -1
-    hideIfUnavailable: true
+    responseText: "{{GM}}} Ignore your teammate{{/GM}}} Don\'t make me repeat myself."
+    nextNodeIndex: 13
     idRef {
-      id: "5e5067f6643333742200176b:5e5076556433337422001881"
-    }
-    comment: "HasCompanion = FALSE"
-  }
-  branches {
-    responseText: "Sure you do. Resist, and I kill you."
-    conditions {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Variable (bool)"
-            args {
-              string_value: "HasCompanion"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: 14
-    hideIfUnavailable: true
-    idRef {
-      id: "5e5067f6643333742200176b:5e5076da6433337422001883"
-    }
-    comment: "HasCompanion = TRUE"
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e507f716433337422001af9"
-  }
-  index: 13
-  text: "All right. Then lead the way."
-  branches {
-    responseText: "All right. Keep your hands where I can see them. {{GM}}Take the elf to Mr. Johnson.{{/GM}}"
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e507fb56433337422001afb"
-    }
-  }
-  branches {
-    responseText: "Not so fast. I have questions, first."
-    actions {
-      ops {
-        functionName: "Set Variable (bool)"
-        args {
-          call_value {
-            functionName: "Get Variable (bool)"
-            args {
-              string_value: "IceDriverQuestionsUnlocked"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: 4
-    idRef {
-      id: "5e5067f6643333742200176b:5e507fb56433337422001afd"
-    }
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e5076fa6433337422001887"
-  }
-  index: 14
-  text: ""
-  branches {
-    responseText: ""
-    conditions {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "CompanionTracker"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          int_value: 1
-        }
-      }
-    }
-    nextNodeIndex: 15
-    idRef {
-      id: "5e5067f6643333742200176b:5e50770e6433337422001889"
-    }
-    comment: "if CompanionTracker = 1, Rave"
-  }
-  branches {
-    responseText: ""
-    nextNodeIndex: 19
-    idRef {
-      id: "5e5067f6643333742200176b:5e5077c264333374220018dd"
-    }
-    comment: "if CompanionTracker = 2, V3nom"
-  }
-  branches {
-    responseText: ""
-    nextNodeIndex: 20
-    idRef {
-      id: "5e5067f6643333742200176b:5e5077c264333374220018df"
-    }
-    comment: "if CompanionTracker = 3, Tomboy"
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e5078a36433337422001939"
-  }
-  index: 15
-  text: "Wait, but we told--"
-  branches {
-    responseText: "Shut your mouth."
-    nextNodeIndex: 16
-    idRef {
-      id: "5e5067f6643333742200176b:5e5078bb643333742200193b"
-    }
-  }
-  branches {
-    responseText: "I know what they said."
-    nextNodeIndex: 16
-    idRef {
-      id: "5e5067f6643333742200176b:5e507a10643333742200197d"
+      id: "5e5067f6643333742200176b:5e549f03643333881c007c8b"
     }
     auxiliaryLink: true
   }
@@ -646,24 +618,24 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e507a2a6433337422001980"
+    id: "5e5067f6643333742200176b:5e54a579643333881c007e11"
   }
-  index: 16
-  text: "Ah...you wouldn\'t happen to have met an elf on your way here, would you have?\n\nLikes to tell stories about fantasy characters...handsome princes in shining armor and beautiful princesses and such?"
+  index: 13
+  text: "Ah, now I see...you wouldn\'t happen to have met an elf on your way here, would you have?\n\nLikes to tell stories about fantasy characters...handsome princes in shining armor and beautiful princesses and such?"
   branches {
     responseText: "Yeah. And if you know him too, that means I know what you are."
-    nextNodeIndex: 17
+    nextNodeIndex: 14
     idRef {
-      id: "5e5067f6643333742200176b:5e507b51643333742200198b"
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e13"
     }
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5e507b746433337422001990"
+    id: "5e5067f6643333742200176b:5e54a579643333881c007e15"
   }
-  index: 17
+  index: 14
   text: "Oh? And what am I?"
   branches {
     responseText: "A Shadowrunner. Morty Yanluo is a fake SIN. Probably one of many."
@@ -713,18 +685,18 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 18
+    nextNodeIndex: 15
     hideIfUnavailable: true
     idRef {
-      id: "5e5067f6643333742200176b:5e507bd26433337422001992"
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e17"
     }
     comment: "Etiquette: Shadowrunner"
   }
   branches {
     responseText: "Doesn\'t matter. You\'re clearly the one Mr. Johnson is after, and so you\'re coming with me."
-    nextNodeIndex: 13
+    nextNodeIndex: 19
     idRef {
-      id: "5e5067f6643333742200176b:5e507bd26433337422001994"
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e1f"
     }
     auxiliaryLink: true
   }
@@ -755,63 +727,82 @@ nodes {
           }
         }
       }
-      ops {
-        functionName: "Set Waypoint on Prop"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "PrimaryOrSecondary"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-      }
     }
     nextNodeIndex: -1
     idRef {
-      id: "5e5067f6643333742200176b:5e507c686433337422001996"
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e23"
     }
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5e507cf76433337422001999"
+    id: "5e5067f6643333742200176b:5e54a579643333881c007e19"
   }
-  index: 18
-  text: "{{GM}}The elf turns her head enough that you can see the corners of her lips curled up in a smile.{{/GM}}\n\nMy, my. Head of the class."
+  index: 15
+  text: "{{GM}}The elf turns her head enough that you can see the corners of her lips curled up in a smile.{{/GM}}\n\nWell, well. Head of the class."
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e1b"
+    }
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e54a579643333881c007e1d"
+    }
+  }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5e5078d6643333742200193e"
+    id: "5e549f8c643333881c007ca1"
   }
-  index: 19
-  text: "Are you sure that\'s--"
+  index: 16
+  text: "Wait a minute. What if..."
   branches {
-    responseText: "Shut your mouth."
-    nextNodeIndex: 16
+    responseText: "Shut your mouth. I got this."
+    nextNodeIndex: 13
     idRef {
-      id: "5e5067f6643333742200176b:5e5078e36433337422001940"
+      id: "5e5067f6643333742200176b:5e549fa7643333881c007ca3"
     }
     auxiliaryLink: true
   }
   branches {
-    responseText: "I\'ve got this, don\'t worry."
-    nextNodeIndex: 16
+    responseText: "{{GM}}} Ignore your teammate{{/GM}}} Don\'t make me repeat myself."
+    nextNodeIndex: 13
     idRef {
-      id: "5e5067f6643333742200176b:5e507a07643333742200197b"
+      id: "5e5067f6643333742200176b:5e549faa643333881c007ca9"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5e4e1310643333ec18002c70"
+  }
+}
+nodes {
+  idRef {
+    id: "5e5067f6643333742200176b:5e549fb7643333881c007caf"
+  }
+  index: 17
+  text: "Wait a minute. What if..."
+  branches {
+    responseText: "Shut your mouth. I got this."
+    nextNodeIndex: 13
+    idRef {
+      id: "5e5067f6643333742200176b:5e549fb7643333881c007cb1"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{GM}}} Ignore your teammate{{/GM}}} Don\'t make me repeat myself."
+    nextNodeIndex: 13
+    idRef {
+      id: "5e5067f6643333742200176b:5e549fb7643333881c007cb5"
     }
     auxiliaryLink: true
   }
@@ -822,17 +813,240 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e5078ea6433337422001943"
+    id: "5e507649643333742200187d"
+  }
+  index: 18
+  text: "Are you saying I have a choice?"
+  branches {
+    responseText: "No. Not really."
+    nextNodeIndex: 19
+    idRef {
+      id: "5e5067f6643333742200176b:5e507654643333742200187f"
+    }
+  }
+  branches {
+    responseText: "Sure you do. Resist, and I kill you."
+    nextNodeIndex: -1
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e5076556433337422001881"
+    }
+    comment: "HasCompanion = FALSE"
+  }
+  branches {
+    responseText: "Sure you do. Resist, and I kill you."
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "HasCompanion"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 20
+    hideIfUnavailable: true
+    idRef {
+      id: "5e5067f6643333742200176b:5e5076da6433337422001883"
+    }
+    comment: "HasCompanion = TRUE"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e507f716433337422001af9"
+  }
+  index: 19
+  text: "All right. Then lead the way."
+  branches {
+    responseText: "All right. Keep your hands where I can see them. {{GM}}Take the elf to Mr. Johnson.{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e507fb56433337422001afb"
+    }
+  }
+  branches {
+    responseText: "Not so fast. I have questions, first."
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "IceDriverQuestionsUnlocked"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 4
+    idRef {
+      id: "5e5067f6643333742200176b:5e507fb56433337422001afd"
+    }
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e5076fa6433337422001887"
   }
   index: 20
+  text: ""
+  branches {
+    responseText: ""
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "CompanionTracker"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 21
+    idRef {
+      id: "5e5067f6643333742200176b:5e50770e6433337422001889"
+    }
+    comment: "if CompanionTracker = 1, Rave"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+    idRef {
+      id: "5e5067f6643333742200176b:5e5077c264333374220018dd"
+    }
+    comment: "if CompanionTracker = 2, V3nom"
+  }
+  branches {
+    responseText: ""
+    nextNodeIndex: 23
+    idRef {
+      id: "5e5067f6643333742200176b:5e5077c264333374220018df"
+    }
+    comment: "if CompanionTracker = 3, Tomboy"
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5e5078a36433337422001939"
+  }
+  index: 21
+  text: "Wait, but we told--"
+  branches {
+    responseText: "Shut your mouth."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e5078bb643333742200193b"
+    }
+  }
+  branches {
+    responseText: "I know what they said."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e507a10643333742200197d"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5e4e1312643333ec18002c71"
+  }
+}
+nodes {
+  idRef {
+    id: "5e5078d6643333742200193e"
+  }
+  index: 22
+  text: "Are you sure that\'s--"
+  branches {
+    responseText: "Shut your mouth."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e5078e36433337422001940"
+    }
+  }
+  branches {
+    responseText: "I\'ve got this, don\'t worry."
+    nextNodeIndex: -1
+    idRef {
+      id: "5e5067f6643333742200176b:5e507a07643333742200197b"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5e4e1314643333ec18002c72"
+  }
+}
+nodes {
+  idRef {
+    id: "5e5078ea6433337422001943"
+  }
+  index: 23
   text: "You sense Tomboy behind you moving, as if to hold you back, but she stops herself."
   branches {
     responseText: ""
-    nextNodeIndex: 16
+    nextNodeIndex: -1
     idRef {
       id: "5e5067f6643333742200176b:5e50791f6433337422001945"
     }
-    auxiliaryLink: true
   }
   nodeType: ConversationNodeType_GM_Voice
 }
@@ -840,25 +1054,25 @@ nodes {
   idRef {
     id: "5e50869f6433337422001c1a"
   }
-  index: 21
+  index: 24
   text: "I\'m helping the strikers to organize. To fight against the megacorps, and to take their future into their own hands."
   branches {
     responseText: "But you\'re not one of the workers yourself?"
-    nextNodeIndex: 22
+    nextNodeIndex: 25
     idRef {
       id: "5e5067f6643333742200176b:5e5086cc6433337422001c1c"
     }
   }
   branches {
     responseText: "You\'re sentencing them to die. You know that, right?"
-    nextNodeIndex: 23
+    nextNodeIndex: 26
     idRef {
       id: "5e5067f6643333742200176b:5e5086cd6433337422001c1e"
     }
   }
   branches {
     responseText: "No evasions. No bulldrek. Name."
-    nextNodeIndex: 26
+    nextNodeIndex: 29
     idRef {
       id: "5e5067f6643333742200176b:5e5089e66433337422001cc7"
     }
@@ -869,7 +1083,7 @@ nodes {
   idRef {
     id: "5e5086e56433337422001c21"
   }
-  index: 22
+  index: 25
   text: "Sadly, no. I had other callings in life.\n\nBut these are a proud people, bottom rungs on the ladder, standing up to declare to an uncaring system that they exist, and they have needs which must be met, and are not being met."
   branches {
     responseText: ""
@@ -885,18 +1099,18 @@ nodes {
   idRef {
     id: "5e5087456433337422001c6f"
   }
-  index: 23
+  index: 26
   text: "No one chooses to die. Death may very well be a consequence of the choice they made, and they knew this when they made it. But on the Scantron, that would not be bubble they filled."
   branches {
     responseText: "Does it make a difference? Choose death, or something that leads to death...I don\'t see the distinction."
-    nextNodeIndex: 24
+    nextNodeIndex: 27
     idRef {
       id: "5e5067f6643333742200176b:5e5087b26433337422001c71"
     }
   }
   branches {
     responseText: "Maybe there\'s still a way out of this."
-    nextNodeIndex: 25
+    nextNodeIndex: 28
     idRef {
       id: "5e5067f6643333742200176b:5e508d3a6433337422001ec4"
     }
@@ -907,7 +1121,7 @@ nodes {
   idRef {
     id: "5e5088046433337422001c76"
   }
-  index: 24
+  index: 27
   text: "Perhaps because they have found something you and I may spend our whole lives looking for; something that seems to get more and more difficult to find with each passing day:\n\nPurpose."
   branches {
     responseText: ""
@@ -923,7 +1137,7 @@ nodes {
   idRef {
     id: "5e508d546433337422001ec7"
   }
-  index: 25
+  index: 28
   text: "I suppose that all depends on what you choose to do."
   branches {
     responseText: ""
@@ -939,8 +1153,8 @@ nodes {
   idRef {
     id: "5e508a046433337422001cca"
   }
-  index: 26
-  text: "Lorelai Tanser. SHPRC-0457-645-dash-9.\n\nYou\'re not K-E, though, so I don\'t know what you plan to do with this information, if you can do anything with it at all."
+  index: 29
+  text: "Lorelai Tanser. SHPRC-0457645-dash-9.\n\nYou\'re not K-E, though, so I don\'t know what you plan to do with this information, if you can do anything with it at all."
   branches {
     responseText: ""
     nextNodeIndex: 4
@@ -953,473 +1167,9 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5e50b7746433337422002667"
-  }
-  index: 27
-  text: "You would do the same, if you knew what I did, and have seen what I have seen."
-  branches {
-    responseText: "Yeah, yeah. Evil megacorps. Little men fighting big battles. That\'s all it is, isn\'t it?"
-    nextNodeIndex: 28
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b7b06433337422002669"
-    }
-  }
-  branches {
-    responseText: "Mr. Johnson can wait a few minutes for you to sell me your story."
-    nextNodeIndex: 34
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b7b0643333742200266b"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50b81a6433337422002671"
-  }
-  index: 28
-  text: "Tale as old as time, right?\n\nOnly this one\'s a little more complicated. It involves an elf, a bunch of powers the likes of which neither of us can fathom...\n\n...And you."
-  branches {
-    responseText: "Sister. I ain\'t special."
-    nextNodeIndex: 29
-    idRef {
-      id: "5e5067f6643333742200176b:5e50bcc7643333742200275c"
-    }
-  }
-  branches {
-    responseText: "Let\'s say it is. My part in all this:"
-    nextNodeIndex: 31
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d3266433337422002972"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50bcd36433337422002761"
-  }
-  index: 29
-  text: "Neither is a sword, but knights used them to slaughter millions during the Crusades. It became a suit of tarot."
-  branches {
-    responseText: ""
-    nextNodeIndex: 30
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d200643333742200296a"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50d200643333742200296d"
-  }
-  index: 30
-  text: "Like it or not, you--YOU!--command the power of life or death. So, \"special\"? Spell it for me, and see if it still makes sense.\n\nYou\'re well past the walls of wonderland, Alice. \'Special\' has no power here."
-  branches {
-    responseText: "You\'re clearly hiding Morty Yanluo, and I know he\'s in the basement. I\'ll be taking that key from you now."
-    actions {
-      ops {
-        functionName: "Move Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Current Location of Actor"
-            args {
-              call_value {
-                functionName: "Get Map Item (Actor)"
-                args {
-                  string_value: "5e505f156433337422001714"
-                }
-              }
-            }
-          }
-        }
-      }
-      ops {
-        functionName: "Set Waypoint on Prop"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "PrimaryOrSecondary"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d5766433337422002a8e"
-    }
-  }
-  branches {
-    responseText: "You\'re clearly Morty Yanluo, and I\'m taking you to Mr. Johnson. {{GM}}Take the elf to Mr. Johnson.{{/GM}}"
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d5856433337422002a93"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50d40164333374220029f3"
-  }
-  index: 31
-  text: "Chasing the easy answers, are we? {{GM}}The elf scoffs.{{/GM}}\n\nThere is no easy answer, my love. There is no path through this forest."
-  branches {
-    responseText: ""
-    nextNodeIndex: 32
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d4ba64333374220029f5"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50d4ba64333374220029f8"
-  }
-  index: 32
-  text: "An alarm, like an air raid siren, begins to sound overhead."
-  branches {
-    responseText: ""
-    nextNodeIndex: 33
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d4d264333374220029fa"
-    }
-  }
-  nodeType: ConversationNodeType_GM_Voice
-}
-nodes {
-  idRef {
-    id: "5e50d4d264333374220029fd"
-  }
-  index: 33
-  text: "We\'re out of time. Later, you\'ll have choices to make. But this one, now:"
-  branches {
-    responseText: "You\'re clearly Morty Yanluo, and I\'m taking you to Mr. Johnson. {{GM}}Take the elf to Mr. Johnson.{{/GM}}"
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d54f6433337422002a03"
-    }
-  }
-  branches {
-    responseText: "You\'re clearly hiding Morty Yanluo, and I know he\'s in the basement. I\'ll be taking that key from you now."
-    actions {
-      ops {
-        functionName: "Move Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Current Location of Actor"
-            args {
-              call_value {
-                functionName: "Get Map Item (Actor)"
-                args {
-                  string_value: "5e505f156433337422001714"
-                }
-              }
-            }
-          }
-        }
-      }
-      ops {
-        functionName: "Set Waypoint on Prop"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "PrimaryOrSecondary"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50d55e6433337422002a06"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50b7e0643333742200266e"
-  }
-  index: 34
-  text: "You think a few minutes will change you?"
-  branches {
-    responseText: "No. I just like the look on people like your\'s face when I tell them it might."
-    nextNodeIndex: 35
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b8936433337422002673"
-    }
-  }
-  branches {
-    responseText: "Maybe. Try me."
-    nextNodeIndex: 36
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b8936433337422002675"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50b8af6433337422002678"
-  }
-  index: 35
-  text: "Then I have nothing more to say. You have a decision to make, and it\'s time you make it."
-  branches {
-    responseText: "You\'re clearly Morty Yanluo, and I\'m taking you to Mr. Johnson. {{GM}}Take the elf to Mr. Johnson.{{/GM}}"
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b8c5643333742200267a"
-    }
-  }
-  branches {
-    responseText: "You\'re clearly hiding Morty Yanluo, and I know he\'s in the basement. I\'ll be taking that key from you now."
-    actions {
-      ops {
-        functionName: "Move Prop"
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Current Location of Actor"
-            args {
-              call_value {
-                functionName: "Get Map Item (Actor)"
-                args {
-                  string_value: "5e505f156433337422001714"
-                }
-              }
-            }
-          }
-        }
-      }
-      ops {
-        functionName: "Set Waypoint on Prop"
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "PrimaryOrSecondary"
-            }
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Map Item (Prop)"
-            args {
-              string_value: "5e508fd564333374220021af"
-            }
-          }
-        }
-      }
-    }
-    nextNodeIndex: -1
-    idRef {
-      id: "5e5067f6643333742200176b:5e50b92e643333742200267e"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50bd536433337422002766"
-  }
-  index: 36
-  text: "What could I say to make you believe? That the people here are righteous, given only a few minutes?"
-  branches {
-    responseText: "What is Ares doing here? Why buy out a factory in the dung-heap of nowhere on the outskirts of Shanghai?"
-    nextNodeIndex: 37
-    idRef {
-      id: "5e5067f6643333742200176b:5e50bf636433337422002848"
-    }
-  }
-  branches {
-    responseText: "Probably not a lot, honestly."
-    nextNodeIndex: 35
-    idRef {
-      id: "5e5067f6643333742200176b:5e50bf63643333742200284a"
-    }
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50bf9d6433337422002854"
-  }
-  index: 37
-  text: "Less about the place, more about the people. The factory is where the factory will be. But these people had a better life before the Triple-A\'s came along.\n\nThe management had retirements and pensions. The workers had something that kept them here. This wasn\'t a sweatshop, but it could be easily turned into one. But you put a mega into that formula and everything goes away. Can you fault these people for being angry?"
-  branches {
-    responseText: "It\'s not my place to decide. Or yours, for that matter."
-    nextNodeIndex: 35
-    idRef {
-      id: "5e5067f6643333742200176b:5e50c0386433337422002856"
-    }
-    auxiliaryLink: true
-  }
-  branches {
-    responseText: "Megas don\'t think about people. Real estate is location, location, location, and here we are up the Yangtze. You expect me to believe that has nothing to do with it?"
-    nextNodeIndex: 38
-    idRef {
-      id: "5e5067f6643333742200176b:5e50c0386433337422002858"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50c0db6433337422002862"
-  }
-  index: 38
-  text: "I can\'t tell you what to believe. But you\'re clearly smarter than you put on--you must know that the Triple-As thrive on chaos, and nothing fosters chaos like a good buyout."
-  branches {
-    responseText: "{{CC}}Charisma{{/CC}} So why are *you* here?"
-    conditions {
-      ops {
-        functionName: "Compare Actor Attribute"
-        args {
-          call_value {
-            functionName: "Get Map Item (Player)"
-            args {
-              int_value: 0
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "BaseOrCurrent"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "ActorAttributes"
-            }
-            args {
-              int_value: 3
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 3
-            }
-          }
-        }
-        args {
-          int_value: 4
-        }
-      }
-    }
-    nextNodeIndex: 39
-    hideIfUnavailable: true
-    idRef {
-      id: "5e5067f6643333742200176b:5e50c1976433337422002864"
-    }
-    comment: "Charisma >=4"
-  }
-  branches {
-    responseText: "I think I understand now."
-    nextNodeIndex: 35
-    idRef {
-      id: "5e5067f6643333742200176b:5e50c1976433337422002866"
-    }
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50c2186433337422002869"
-  }
-  index: 39
-  text: "Because they need me! {{GM}}She cries.{{/GM}}\n\n...Him. They need him."
-  branches {
-    responseText: "So you ARE Morty Yanluo. But why, why create a personality that doesn\'t exist?"
-    nextNodeIndex: 40
-    idRef {
-      id: "5e5067f6643333742200176b:5e50dd886433337422002c2b"
-    }
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5e50ddc86433337422002c2e"
-  }
-  index: 40
-  text: "You should know all too well why. It\'s useful in examples much like this one.\n\nSomeone comes looking for an Ork in their 40s, it\'s all too easy to ignore an elf in agelessness."
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
     id: "5e50698764333374220017aa"
   }
-  index: 41
+  index: 30
   text: "What were they supposed to do? You came in, unannounced, in the middle of a standoff between people and megacorporations.\n\nI mourn their loss. But we might as well make their sacrifice worth something. You\'re here for a reason, what is it?"
   branches {
     responseText: ""
@@ -1435,7 +1185,7 @@ nodes {
   idRef {
     id: "5e5068fb643333742200179d"
   }
-  index: 42
+  index: 31
   text: "This is a curious place to show up, unannounced, if you have no want of violence.\n\nI don\'t know if you\'ve been watching the news, but it\'s a little tense around here right now."
   branches {
     responseText: ""
@@ -1451,7 +1201,7 @@ nodes {
   idRef {
     id: "5e509f5e64333374220024a7"
   }
-  index: 43
+  index: 32
   text: "Easy, tiger. You\'ve won. You\'ve beaten me.\n\nI am at your mercy."
   branches {
     responseText: ""

@@ -11026,7 +11026,6 @@ characters {
     z: -27
   }
   orientation: ORIENTATION_S
-  GeneralTags: "isTagalong"
   displayName: "Tomboy_Spawner"
   idRef {
     id: "5e4e1310643333ec18002c70"
@@ -11156,7 +11155,6 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Tomboy"
-    GeneralTags: "isTagalong"
     enabled_at_start: false
     pc_spawn_number: -1
     revivable_value: true
@@ -11178,7 +11176,6 @@ characters {
     z: -24
   }
   orientation: ORIENTATION_S
-  GeneralTags: "isTagalong"
   displayName: "Rave_Spawner"
   idRef {
     id: "5e4e1312643333ec18002c71"
@@ -11300,7 +11297,6 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Rave"
-    GeneralTags: "isTagalong"
     enabled_at_start: false
     pc_spawn_number: -1
     revivable_value: true
@@ -11320,7 +11316,6 @@ characters {
     z: -26
   }
   orientation: ORIENTATION_S
-  GeneralTags: "isTagalong"
   displayName: "V3nom_Spawner"
   idRef {
     id: "5e4e1314643333ec18002c72"
@@ -11442,7 +11437,6 @@ characters {
     }
     team_id: "Civilians"
     char_name: "V3nom"
-    GeneralTags: "isTagalong"
     enabled_at_start: false
     pc_spawn_number: -1
     revivable_value: true
