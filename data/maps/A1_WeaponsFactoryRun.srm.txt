@@ -4490,16 +4490,6 @@ props {
   lod: 0
 }
 props {
-  name: "oldtown_street_car06"
-  gridPoint {
-    x: -53
-    y: 0
-    z: -32
-  }
-  orientation: ORIENTATION_N
-  lod: 0
-}
-props {
   name: "barrens_ground_sidewalk02"
   gridPoint {
     x: -34
@@ -8528,11 +8518,11 @@ props {
 props {
   name: "hub_vehicle_horizonNewsVan01"
   gridPoint {
-    x: -53
+    x: -55
     y: 0
-    z: -29
+    z: -32
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   lod: 0
 }
 props {
@@ -14639,5 +14629,15 @@ props {
     interactionIcon: InteractionIcon_ItemPickup
     interaction_info_text: "Search pockets"
   }
+  lod: 0
+}
+props {
+  name: "kowloon_groundDecoration_filth03"
+  gridPoint {
+    x: -53
+    y: 0
+    z: -33
+  }
+  orientation: ORIENTATION_S
   lod: 0
 }
